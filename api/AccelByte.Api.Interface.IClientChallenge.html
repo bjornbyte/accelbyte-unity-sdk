@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IClientChallenge | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IClientChallenge | AccelByte Unity SDK | 17.12.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_Interface_IClientChallenge.md&amp;value=---%0Auid%3A%20AccelByte.Api.Interface.IClientChallenge%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.Interface.IClientChallenge">
+
+
+
+  <h1 id="AccelByte_Api_Interface_IClientChallenge" data-uid="AccelByte.Api.Interface.IClientChallenge" class="text-break">
+Interface IClientChallenge  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a>.<a class="xref" href="AccelByte.Api.Interface.html">Interface</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IClientChallenge</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_ClaimReward_" data-uid="AccelByte.Api.Interface.IClientChallenge.ClaimReward*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_ClaimReward_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_UserReward____" data-uid="AccelByte.Api.Interface.IClientChallenge.ClaimReward(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.UserReward[]})">
+  ClaimReward(string[], ResultCallback&lt;UserReward[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to claim a single reward</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ClaimReward(string[] rewardIDs, ResultCallback&lt;UserReward[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rewardIDs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>List of rewardID to be claimed</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserReward.html">UserReward</a>[]&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_EvaluateChallengeProgress_" data-uid="AccelByte.Api.Interface.IClientChallenge.EvaluateChallengeProgress*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_EvaluateChallengeProgress_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientChallenge.EvaluateChallengeProgress(AccelByte.Core.ResultCallback)">
+  EvaluateChallengeProgress(ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to attempt to evaluate the current user's challenge progress</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EvaluateChallengeProgress(ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>ResultCallback if operation is successful or not</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_EvaluateChallengeProgress_" data-uid="AccelByte.Api.Interface.IClientChallenge.EvaluateChallengeProgress*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_EvaluateChallengeProgress_AccelByte_Models_EvaluateChallengeProgressOptionalParameters_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientChallenge.EvaluateChallengeProgress(AccelByte.Models.EvaluateChallengeProgressOptionalParameters,AccelByte.Core.ResultCallback)">
+  EvaluateChallengeProgress(EvaluateChallengeProgressOptionalParameters, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to attempt to evaluate the current user's challenge progress</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EvaluateChallengeProgress(EvaluateChallengeProgressOptionalParameters optionalParam, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>optionalParam</code> <a class="xref" href="AccelByte.Models.EvaluateChallengeProgressOptionalParameters.html">EvaluateChallengeProgressOptionalParameters</a></dt>
+    <dd><p>optional parameter to evaluate challenge progress</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>ResultCallback if operation is successful or not</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_GetChallengeProgress_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetChallengeProgress*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_GetChallengeProgress_System_String_System_Int32_AccelByte_Core_ResultCallback_AccelByte_Models_GoalProgressionResponse__System_String_System_Int32_System_Int32_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetChallengeProgress(System.String,System.Int32,AccelByte.Core.ResultCallback{AccelByte.Models.GoalProgressionResponse},System.String,System.Int32,System.Int32)">
+  GetChallengeProgress(string, int, ResultCallback&lt;GoalProgressionResponse&gt;, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to get progress for a specific challenge in a previous rotation cycle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetChallengeProgress(string challengeCode, int rotationIndex, ResultCallback&lt;GoalProgressionResponse&gt; callback, string goalCode = &quot;&quot;, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>challengeCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String code for the challenge to check progress for</p>
+</dd>
+    <dt><code>rotationIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Index for rotation, treat rotation as an array sorted by the start time of a rotation in descending manner.
+0 indicates current or latest active rotation. Increment the value to refer to specific past rotation</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GoalProgressionResponse.html">GoalProgressionResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+    <dt><code>goalCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String code for the specific challenge goal to get progress for</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_GetChallengeProgress_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetChallengeProgress*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_GetChallengeProgress_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_GoalProgressionResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetChallengeProgress(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.GoalProgressionResponse},System.Int32,System.Int32)">
+  GetChallengeProgress(string, string, ResultCallback&lt;GoalProgressionResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to get current progress for a specific challenge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetChallengeProgress(string challengeCode, string goalCode, ResultCallback&lt;GoalProgressionResponse&gt; callback, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>challengeCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String code for the challenge to check progress for</p>
+</dd>
+    <dt><code>goalCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String code for the specific challenge goal to get progress for</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GoalProgressionResponse.html">GoalProgressionResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of scheduled goals to skip when returning goals list, defaults to 0</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of scheduled goals that should be included in the goals list, defaults to 20</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_GetChallenges_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetChallenges*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_GetChallenges_AccelByte_Core_ResultCallback_AccelByte_Models_ChallengeResponse__" data-uid="AccelByte.Api.Interface.IClientChallenge.GetChallenges(AccelByte.Core.ResultCallback{AccelByte.Models.ChallengeResponse})">
+  GetChallenges(ResultCallback&lt;ChallengeResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to get all challenges.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetChallenges(ResultCallback&lt;ChallengeResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ChallengeResponse.html">ChallengeResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_GetChallenges_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetChallenges*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_GetChallenges_AccelByte_Models_GetChallengesOptionalParamenters_AccelByte_Core_ResultCallback_AccelByte_Models_ChallengeResponse__" data-uid="AccelByte.Api.Interface.IClientChallenge.GetChallenges(AccelByte.Models.GetChallengesOptionalParamenters,AccelByte.Core.ResultCallback{AccelByte.Models.ChallengeResponse})">
+  GetChallenges(GetChallengesOptionalParamenters, ResultCallback&lt;ChallengeResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to get challenges.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetChallenges(GetChallengesOptionalParamenters optionalParameters, ResultCallback&lt;ChallengeResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.GetChallengesOptionalParamenters.html">GetChallengesOptionalParamenters</a></dt>
+    <dd><p>Optional parameter to get challenges list</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ChallengeResponse.html">ChallengeResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_GetRewards_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetRewards*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_GetRewards_AccelByte_Models_ChallengeRewardStatus_AccelByte_Core_ResultCallback_AccelByte_Models_UserRewards__AccelByte_Models_ChallengeSortBy_System_Int32_System_Int32_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetRewards(AccelByte.Models.ChallengeRewardStatus,AccelByte.Core.ResultCallback{AccelByte.Models.UserRewards},AccelByte.Models.ChallengeSortBy,System.Int32,System.Int32)">
+  GetRewards(ChallengeRewardStatus, ResultCallback&lt;UserRewards&gt;, ChallengeSortBy, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to get status of all challenge rewards</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetRewards(ChallengeRewardStatus status, ResultCallback&lt;UserRewards&gt; callback, ChallengeSortBy sortBy = ChallengeSortBy.UpdatedAtDesc, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>status</code> <a class="xref" href="AccelByte.Models.ChallengeRewardStatus.html">ChallengeRewardStatus</a></dt>
+    <dd><p>Determines what specific rewards should be included in the response</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserRewards.html">UserRewards</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.ChallengeSortBy.html">ChallengeSortBy</a></dt>
+    <dd><p>Determines the order in which the rewards in the response are returned</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of rewards to skip when returning reward list, defaults to 0</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of rewards to include when returning reward list, defaults to 20</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_GetScheduledChallengeGoals_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetScheduledChallengeGoals*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_GetScheduledChallengeGoals_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_GoalResponse__System_String___System_Int32_System_Int32_" data-uid="AccelByte.Api.Interface.IClientChallenge.GetScheduledChallengeGoals(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.GoalResponse},System.String[],System.Int32,System.Int32)">
+  GetScheduledChallengeGoals(string, ResultCallback&lt;GoalResponse&gt;, string[], int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to get all scheduled goals for a specific challenge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetScheduledChallengeGoals(string challengeCode, ResultCallback&lt;GoalResponse&gt; callback, string[] tags = null, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>challengeCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String code for the challenge to check scheduled goals for</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GoalResponse.html">GoalResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+    <dt><code>tags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Array of tag strings used to filter resulting goals list</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of scheduled goals to skip when returning goals list, defaults to 0</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of scheduled goals that should be included in the goals list, defaults to 20</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_ListScheduleByGoal_" data-uid="AccelByte.Api.Interface.IClientChallenge.ListScheduleByGoal*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_ListScheduleByGoal_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_ChallengeListScheduleByGoalResponse__" data-uid="AccelByte.Api.Interface.IClientChallenge.ListScheduleByGoal(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.ChallengeListScheduleByGoalResponse})">
+  ListScheduleByGoal(string, string, ResultCallback&lt;ChallengeListScheduleByGoalResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List schedules of given goal in a challenge for specific user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ListScheduleByGoal(string challengeCode, string goalCode, ResultCallback&lt;ChallengeListScheduleByGoalResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>challengeCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Challenge code</p>
+</dd>
+    <dt><code>goalCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Goal code</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ChallengeListScheduleByGoalResponse.html">ChallengeListScheduleByGoalResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_ListScheduleByGoal_" data-uid="AccelByte.Api.Interface.IClientChallenge.ListScheduleByGoal*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_ListScheduleByGoal_System_String_System_String_AccelByte_Models_ChallengeListScheduleByGoalOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_ChallengeListScheduleByGoalResponse__" data-uid="AccelByte.Api.Interface.IClientChallenge.ListScheduleByGoal(System.String,System.String,AccelByte.Models.ChallengeListScheduleByGoalOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.ChallengeListScheduleByGoalResponse})">
+  ListScheduleByGoal(string, string, ChallengeListScheduleByGoalOptionalParameters, ResultCallback&lt;ChallengeListScheduleByGoalResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List schedules of given goal in a challenge for specific user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ListScheduleByGoal(string challengeCode, string goalCode, ChallengeListScheduleByGoalOptionalParameters optionalParams, ResultCallback&lt;ChallengeListScheduleByGoalResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>challengeCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Challenge code</p>
+</dd>
+    <dt><code>goalCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Goal code</p>
+</dd>
+    <dt><code>optionalParams</code> <a class="xref" href="AccelByte.Models.ChallengeListScheduleByGoalOptionalParameters.html">ChallengeListScheduleByGoalOptionalParameters</a></dt>
+    <dd><p>Optional parameter to list challenge schedules</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ChallengeListScheduleByGoalResponse.html">ChallengeListScheduleByGoalResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_ListSchedules_" data-uid="AccelByte.Api.Interface.IClientChallenge.ListSchedules*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_ListSchedules_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_ChallengeListSchedulesResponse__" data-uid="AccelByte.Api.Interface.IClientChallenge.ListSchedules(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.ChallengeListSchedulesResponse})">
+  ListSchedules(string, ResultCallback&lt;ChallengeListSchedulesResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List schedules of given challenge for specific user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ListSchedules(string challengeCode, ResultCallback&lt;ChallengeListSchedulesResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>challengeCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Challenge code</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ChallengeListSchedulesResponse.html">ChallengeListSchedulesResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientChallenge_ListSchedules_" data-uid="AccelByte.Api.Interface.IClientChallenge.ListSchedules*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientChallenge_ListSchedules_System_String_AccelByte_Models_ChallengeListSchedulesOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_ChallengeListSchedulesResponse__" data-uid="AccelByte.Api.Interface.IClientChallenge.ListSchedules(System.String,AccelByte.Models.ChallengeListSchedulesOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.ChallengeListSchedulesResponse})">
+  ListSchedules(string, ChallengeListSchedulesOptionalParameters, ResultCallback&lt;ChallengeListSchedulesResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientChallenge.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List schedules of given challenge for specific user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ListSchedules(string challengeCode, ChallengeListSchedulesOptionalParameters optionalParams, ResultCallback&lt;ChallengeListSchedulesResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>challengeCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Challenge code</p>
+</dd>
+    <dt><code>optionalParams</code> <a class="xref" href="AccelByte.Models.ChallengeListSchedulesOptionalParameters.html">ChallengeListSchedulesOptionalParameters</a></dt>
+    <dd><p>Optional parameter to list challenge schedules.
+To query schedules prior to specific date time, use dateTime parameter.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ChallengeListSchedulesResponse.html">ChallengeListSchedulesResponse</a>&gt;</dt>
+    <dd><p>Api Result Callback</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

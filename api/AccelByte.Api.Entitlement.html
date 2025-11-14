@@ -1,0 +1,2218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Entitlement | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Entitlement | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Provide information of entitlements owned by the user">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_Entitlement.md&amp;value=---%0Auid%3A%20AccelByte.Api.Entitlement%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.Entitlement">
+
+
+
+  <h1 id="AccelByte_Api_Entitlement" data-uid="AccelByte.Api.Entitlement" class="text-break">
+Class Entitlement  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Provide information of entitlements owned by the user</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Entitlement : WrapperBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.WrapperBase.html">WrapperBase</a></div>
+      <div><span class="xref">Entitlement</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.WrapperBase.html#AccelByte_Core_WrapperBase_IdValidator">WrapperBase.IdValidator</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_Entitlement_ConsumeUserEntitlement_" data-uid="AccelByte.Api.Entitlement.ConsumeUserEntitlement*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_ConsumeUserEntitlement_System_String_System_Int32_AccelByte_Core_ResultCallback_AccelByte_Models_EntitlementInfo__System_String___System_String_" data-uid="AccelByte.Api.Entitlement.ConsumeUserEntitlement(System.String,System.Int32,AccelByte.Core.ResultCallback{AccelByte.Models.EntitlementInfo},System.String[],System.String)">
+  ConsumeUserEntitlement(string, int, ResultCallback&lt;EntitlementInfo&gt;, string[], string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L495"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Consume a user entitlement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ConsumeUserEntitlement(string entitlementId, int useCount, ResultCallback&lt;EntitlementInfo&gt; callback, string[] options = null, string requestId = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entitlementId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the user entitlement.</p>
+</dd>
+    <dt><code>useCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of consumed entitlement</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.EntitlementInfo.html">EntitlementInfo</a>&gt;</dt>
+    <dd><p>Returns a Result that contains EntitlementInfo via callback when completed</p>
+<param name="options">Options of consumed entitlement
+<param name="requestId">Request id(Optional), A unique tracking ID provided by the developer, can just left it empty if they don't want to track,
+When a request id is submitted, it will return original successful response
+</dd>
+    <dt><code>options</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>requestId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_ConvertActivePlatformToGetDlcDurableReward_" data-uid="AccelByte.Api.Entitlement.ConvertActivePlatformToGetDlcDurableReward*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_ConvertActivePlatformToGetDlcDurableReward_AccelByte_Models_PlatformType_" data-uid="AccelByte.Api.Entitlement.ConvertActivePlatformToGetDlcDurableReward(AccelByte.Models.PlatformType)">
+  ConvertActivePlatformToGetDlcDurableReward(PlatformType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConvertActivePlatformToGetDlcDurableReward(PlatformType platformType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>platformType</code> <a class="xref" href="AccelByte.Models.PlatformType.html">PlatformType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_CreateDistributionReceiver_" data-uid="AccelByte.Api.Entitlement.CreateDistributionReceiver*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_CreateDistributionReceiver_System_String_AccelByte_Models_Attributes_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.CreateDistributionReceiver(System.String,AccelByte.Models.Attributes,AccelByte.Core.ResultCallback)">
+  CreateDistributionReceiver(string, Attributes, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L588"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create distribution receiver for current user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Platform Service version 3.4.0 and above doesn&#39;t support this anymore, This feature already removed.&quot;)]
+public void CreateDistributionReceiver(string extUserId, Attributes attributes, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extUserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>External user id is a random string that can be generated by yourself for the receiver</p>
+</dd>
+    <dt><code>attributes</code> <a class="xref" href="AccelByte.Models.Attributes.html">Attributes</a></dt>
+    <dd><p>Attributes that contain of serverId, serverName, characterId, and characterName</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_DeleteDistributionReceiver_" data-uid="AccelByte.Api.Entitlement.DeleteDistributionReceiver*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_DeleteDistributionReceiver_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.DeleteDistributionReceiver(System.String,AccelByte.Core.ResultCallback)">
+  DeleteDistributionReceiver(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L614"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete distribution receiver from user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Platform Service version 3.4.0 and above doesn&#39;t support this anymore, This feature already removed.&quot;)]
+public void DeleteDistributionReceiver(string extUserId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extUserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>External User Id that want to be deleted in receiver</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetDistributionReceiver_" data-uid="AccelByte.Api.Entitlement.GetDistributionReceiver*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetDistributionReceiver_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_DistributionReceiver____" data-uid="AccelByte.Api.Entitlement.GetDistributionReceiver(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.DistributionReceiver[]})">
+  GetDistributionReceiver(string, string, ResultCallback&lt;DistributionReceiver[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L640"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get distribution receiver from user
+You can target Publisher Namespace and Publisher UserId or Game Namespace and Game UserId</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Platform Service version 3.4.0 and above doesn&#39;t support this anymore, This feature already removed.&quot;)]
+public void GetDistributionReceiver(string publisherNamespace, string publisherUserId, ResultCallback&lt;DistributionReceiver[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>publisherNamespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Publisher Namespace that used to find user</p>
+</dd>
+    <dt><code>publisherUserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Publisher UserId that want to be get</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.DistributionReceiver.html">DistributionReceiver</a>[]&gt;</dt>
+    <dd><p>Returns a Result of Distribution Receivers via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetDlcDurableRewardSimpleMap_" data-uid="AccelByte.Api.Entitlement.GetDlcDurableRewardSimpleMap*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetDlcDurableRewardSimpleMap_AccelByte_Models_PlatformType_AccelByte_Core_ResultCallback_AccelByte_Models_DlcConfigRewardShortInfo__" data-uid="AccelByte.Api.Entitlement.GetDlcDurableRewardSimpleMap(AccelByte.Models.PlatformType,AccelByte.Core.ResultCallback{AccelByte.Models.DlcConfigRewardShortInfo})">
+  GetDlcDurableRewardSimpleMap(PlatformType, ResultCallback&lt;DlcConfigRewardShortInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get any &quot;Durable&quot; DLC type from a specific namespace
+It will not get &quot;Consumables&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetDlcDurableRewardSimpleMap(PlatformType platformType, ResultCallback&lt;DlcConfigRewardShortInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>platformType</code> <a class="xref" href="AccelByte.Models.PlatformType.html">PlatformType</a></dt>
+    <dd><p>Target platform to be queried</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.DlcConfigRewardShortInfo.html">DlcConfigRewardShortInfo</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetDlcDurableRewardSimpleMap_" data-uid="AccelByte.Api.Entitlement.GetDlcDurableRewardSimpleMap*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetDlcDurableRewardSimpleMap_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_DlcConfigRewardShortInfo__" data-uid="AccelByte.Api.Entitlement.GetDlcDurableRewardSimpleMap(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.DlcConfigRewardShortInfo})">
+  GetDlcDurableRewardSimpleMap(string, ResultCallback&lt;DlcConfigRewardShortInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1403"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get any &quot;Durable&quot; DLC type from a specific namespace
+It will not get &quot;Consumables&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetDlcDurableRewardSimpleMap(string platformTypeId, ResultCallback&lt;DlcConfigRewardShortInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>platformTypeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Target platform to be queried</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.DlcConfigRewardShortInfo.html">DlcConfigRewardShortInfo</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementById_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementById*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementById_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_EntitlementInfo__" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementById(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.EntitlementInfo})">
+  GetUserEntitlementById(string, ResultCallback&lt;EntitlementInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user's entitlement by the entitlementId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementById(string entitlementId, ResultCallback&lt;EntitlementInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entitlementId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the entitlement</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.EntitlementInfo.html">EntitlementInfo</a>&gt;</dt>
+    <dd><p>Returns a Result that contains EntitlementInfo via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementHistory_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementHistory*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementHistory_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserEntitlementHistoryResponse__" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementHistory(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserEntitlementHistoryResponse})">
+  GetUserEntitlementHistory(string, ResultCallback&lt;UserEntitlementHistoryResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L529"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get target user's entitlement history.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementHistory(string userId, ResultCallback&lt;UserEntitlementHistoryResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>User Id of user to get entitlement history for.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserEntitlementHistoryResponse.html">UserEntitlementHistoryResponse</a>&gt;</dt>
+    <dd><p>Result callback containing user's entitlement history data</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementHistory_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementHistory*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementHistory_System_String_AccelByte_Models_GetUserEntitlementHistoryOptionalParams_AccelByte_Core_ResultCallback_AccelByte_Models_UserEntitlementHistoryResponse__" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementHistory(System.String,AccelByte.Models.GetUserEntitlementHistoryOptionalParams,AccelByte.Core.ResultCallback{AccelByte.Models.UserEntitlementHistoryResponse})">
+  GetUserEntitlementHistory(string, GetUserEntitlementHistoryOptionalParams, ResultCallback&lt;UserEntitlementHistoryResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L557"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get target user's entitlement history.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementHistory(string userId, GetUserEntitlementHistoryOptionalParams optionalParams, ResultCallback&lt;UserEntitlementHistoryResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>User Id of user to get entitlement history for.</p>
+</dd>
+    <dt><code>optionalParams</code> <a class="xref" href="AccelByte.Models.GetUserEntitlementHistoryOptionalParams.html">GetUserEntitlementHistoryOptionalParams</a></dt>
+    <dd><p>Query parameters</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserEntitlementHistoryResponse.html">UserEntitlementHistoryResponse</a>&gt;</dt>
+    <dd><p>Result callback containing user's entitlement history data</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipAny_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipAny*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipAny_System_String___System_String___System_String___AccelByte_Core_ResultCallback_AccelByte_Models_Ownership__" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipAny(System.String[],System.String[],System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.Ownership})">
+  GetUserEntitlementOwnershipAny(string[], string[], string[], ResultCallback&lt;Ownership&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user entitlement ownership if any of item IDs, app IDs, or SKUs are true</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementOwnershipAny(string[] itemIds, string[] appIds, string[] skus, ResultCallback&lt;Ownership&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the item Ids</p>
+</dd>
+    <dt><code>appIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the app Ids</p>
+</dd>
+    <dt><code>skus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the skus</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.Ownership.html">Ownership</a>&gt;</dt>
+    <dd><p>Returns user's entitlement ownership result if any parameters are true via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipByAppId_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipByAppId*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipByAppId_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_Ownership__" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipByAppId(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.Ownership})">
+  GetUserEntitlementOwnershipByAppId(string, ResultCallback&lt;Ownership&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user entitlement ownership by app id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementOwnershipByAppId(string appId, ResultCallback&lt;Ownership&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>appId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The game's app id</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.Ownership.html">Ownership</a>&gt;</dt>
+    <dd><p>Returns a result that contains user ownership info via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipByItemId_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipByItemId*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipByItemId_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_Ownership__" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipByItemId(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.Ownership})">
+  GetUserEntitlementOwnershipByItemId(string, ResultCallback&lt;Ownership&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user entitlement ownership by ItemId</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementOwnershipByItemId(string ItemId, ResultCallback&lt;Ownership&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the item's ItemId</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.Ownership.html">Ownership</a>&gt;</dt>
+    <dd><p>Returns user's entitlement ownership result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipByItemIds_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipByItemIds*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipByItemIds_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_EntitlementOwnershipItemIds____" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipByItemIds(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.EntitlementOwnershipItemIds[]})">
+  GetUserEntitlementOwnershipByItemIds(string[], ResultCallback&lt;EntitlementOwnershipItemIds[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user entitlement ownership by itemIds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementOwnershipByItemIds(string[] ids, ResultCallback&lt;EntitlementOwnershipItemIds[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ids</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Contains ids ItemIds</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.EntitlementOwnershipItemIds.html">EntitlementOwnershipItemIds</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipBySku_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipBySku*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipBySku_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_Ownership__" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipBySku(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.Ownership})">
+  GetUserEntitlementOwnershipBySku(string, ResultCallback&lt;Ownership&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user entitlement ownership by SKU</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementOwnershipBySku(string sku, ResultCallback&lt;Ownership&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sku</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the item's SKU</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.Ownership.html">Ownership</a>&gt;</dt>
+    <dd><p>Returns user's entitlement ownership result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipToken_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipToken*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipToken_System_String_System_String___System_String___System_String___AccelByte_Core_ResultCallback_AccelByte_Models_OwnershipEntitlement____System_Boolean_System_Boolean_System_Boolean_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipToken(System.String,System.String[],System.String[],System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.OwnershipEntitlement[]},System.Boolean,System.Boolean,System.Boolean)">
+  GetUserEntitlementOwnershipToken(string, string[], string[], string[], ResultCallback&lt;OwnershipEntitlement[]&gt;, bool, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user entitlement ownership if any of item IDs, app IDs, or SKUs are true</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementOwnershipToken(string key, string[] itemIds, string[] appIds, string[] skus, ResultCallback&lt;OwnershipEntitlement[]&gt; callback, bool verifyPublicKey = true, bool verifyExpiration = true, bool verifyUserId = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the public key</p>
+</dd>
+    <dt><code>itemIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the item Ids</p>
+</dd>
+    <dt><code>appIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the app Ids</p>
+</dd>
+    <dt><code>skus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the skus</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.OwnershipEntitlement.html">OwnershipEntitlement</a>[]&gt;</dt>
+    <dd><p>R
+eturns user's entitlement ownership result if any parameters are true via callback when completed</p>
+</dd>
+    <dt><code>verifyPublicKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Do verification on public key. Set False to skip</p>
+</dd>
+    <dt><code>verifyExpiration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Do verification on expiration. Set False to skip</p>
+</dd>
+    <dt><code>verifyUserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Do verification on current user id and sub. Set False to skip</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipTokenOnly_" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipTokenOnly*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_GetUserEntitlementOwnershipTokenOnly_System_String___System_String___System_String___AccelByte_Core_ResultCallback_AccelByte_Models_OwnershipToken__" data-uid="AccelByte.Api.Entitlement.GetUserEntitlementOwnershipTokenOnly(System.String[],System.String[],System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.OwnershipToken})">
+  GetUserEntitlementOwnershipTokenOnly(string[], string[], string[], ResultCallback&lt;OwnershipToken&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L453"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user entitlement ownership token if any of item IDs, app IDs, or SKUs are true</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEntitlementOwnershipTokenOnly(string[] itemIds, string[] appIds, string[] skus, ResultCallback&lt;OwnershipToken&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the item Ids</p>
+</dd>
+    <dt><code>appIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the app Ids</p>
+</dd>
+    <dt><code>skus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>the skus</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.OwnershipToken.html">OwnershipToken</a>&gt;</dt>
+    <dd><p>Returns user's entitlement ownership token if any parameters are true via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_QueryUserEntitlements_" data-uid="AccelByte.Api.Entitlement.QueryUserEntitlements*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_QueryUserEntitlements_AccelByte_Models_QueryUserEntitlementsOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_EntitlementPagingSlicedResult__" data-uid="AccelByte.Api.Entitlement.QueryUserEntitlements(AccelByte.Models.QueryUserEntitlementsOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.EntitlementPagingSlicedResult})">
+  QueryUserEntitlements(QueryUserEntitlementsOptionalParameters, ResultCallback&lt;EntitlementPagingSlicedResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query user entitlements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryUserEntitlements(QueryUserEntitlementsOptionalParameters optionalParameters, ResultCallback&lt;EntitlementPagingSlicedResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.QueryUserEntitlementsOptionalParameters.html">QueryUserEntitlementsOptionalParameters</a></dt>
+    <dd><p>List of optional parameter that can be set to narrow the query result</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.EntitlementPagingSlicedResult.html">EntitlementPagingSlicedResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contains EntitlementPagingSlicedResult via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_QueryUserEntitlements_" data-uid="AccelByte.Api.Entitlement.QueryUserEntitlements*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_QueryUserEntitlements_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_EntitlementPagingSlicedResult__" data-uid="AccelByte.Api.Entitlement.QueryUserEntitlements(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.EntitlementPagingSlicedResult})">
+  QueryUserEntitlements(string, ResultCallback&lt;EntitlementPagingSlicedResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query user entitlements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryUserEntitlements(string targetUserId, ResultCallback&lt;EntitlementPagingSlicedResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetUserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Target user to be queried</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.EntitlementPagingSlicedResult.html">EntitlementPagingSlicedResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contains EntitlementPagingSlicedResult via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_QueryUserEntitlements_" data-uid="AccelByte.Api.Entitlement.QueryUserEntitlements*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_QueryUserEntitlements_System_String_AccelByte_Models_QueryUserEntitlementsOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_EntitlementPagingSlicedResult__" data-uid="AccelByte.Api.Entitlement.QueryUserEntitlements(System.String,AccelByte.Models.QueryUserEntitlementsOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.EntitlementPagingSlicedResult})">
+  QueryUserEntitlements(string, QueryUserEntitlementsOptionalParameters, ResultCallback&lt;EntitlementPagingSlicedResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query user entitlements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryUserEntitlements(string targetUserId, QueryUserEntitlementsOptionalParameters optionalParameters, ResultCallback&lt;EntitlementPagingSlicedResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetUserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Target user to be queried</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.QueryUserEntitlementsOptionalParameters.html">QueryUserEntitlementsOptionalParameters</a></dt>
+    <dd><p>List of optional parameter that can be set to narrow the query result</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.EntitlementPagingSlicedResult.html">EntitlementPagingSlicedResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contains EntitlementPagingSlicedResult via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_QueryUserEntitlements_" data-uid="AccelByte.Api.Entitlement.QueryUserEntitlements*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_QueryUserEntitlements_System_String_System_String_System_Int32_System_Int32_AccelByte_Core_ResultCallback_AccelByte_Models_EntitlementPagingSlicedResult__AccelByte_Models_EntitlementClazz_AccelByte_Models_EntitlementAppType_System_String___" data-uid="AccelByte.Api.Entitlement.QueryUserEntitlements(System.String,System.String,System.Int32,System.Int32,AccelByte.Core.ResultCallback{AccelByte.Models.EntitlementPagingSlicedResult},AccelByte.Models.EntitlementClazz,AccelByte.Models.EntitlementAppType,System.String[])">
+  QueryUserEntitlements(string, string, int, int, ResultCallback&lt;EntitlementPagingSlicedResult&gt;, EntitlementClazz, EntitlementAppType, string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query user entitlements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryUserEntitlements(string entitlementName = null, string itemId = null, int offset = 0, int limit = 20, ResultCallback&lt;EntitlementPagingSlicedResult&gt; callback = null, EntitlementClazz entitlementClazz = EntitlementClazz.NONE, EntitlementAppType entitlementAppType = EntitlementAppType.NONE, string[] features = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entitlementName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the entitlement (optional)</p>
+</dd>
+    <dt><code>itemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Item's id (optional)</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Offset of the list that has been sliced based on Limit parameter (optional, default = 0)</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of item on page (optional)</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.EntitlementPagingSlicedResult.html">EntitlementPagingSlicedResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contains EntitlementPagingSlicedResult via callback when completed</p>
+</dd>
+    <dt><code>entitlementClazz</code> <a class="xref" href="AccelByte.Models.EntitlementClazz.html">EntitlementClazz</a></dt>
+    <dd><p>Class of the entitlement (optional)</p>
+</dd>
+    <dt><code>entitlementAppType</code> <a class="xref" href="AccelByte.Models.EntitlementAppType.html">EntitlementAppType</a></dt>
+    <dd><p>This is the type of application that entitled (optional)</p>
+</dd>
+    <dt><code>features</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>The feature array</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_QueryUserSubscription_" data-uid="AccelByte.Api.Entitlement.QueryUserSubscription*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_QueryUserSubscription_AccelByte_Models_PlatformStoreId_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SubscriptionPagingSlicedResult__" data-uid="AccelByte.Api.Entitlement.QueryUserSubscription(AccelByte.Models.PlatformStoreId,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SubscriptionPagingSlicedResult})">
+  QueryUserSubscription(PlatformStoreId, string, ResultCallback&lt;SubscriptionPagingSlicedResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query other user's thirdparty subscription</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryUserSubscription(PlatformStoreId platformStoreId, string userId, ResultCallback&lt;SubscriptionPagingSlicedResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>platformStoreId</code> <a class="xref" href="AccelByte.Models.PlatformStoreId.html">PlatformStoreId</a></dt>
+    <dd><p>A thirdparty platform id to be queried</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>user Id to be queried</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SubscriptionPagingSlicedResult.html">SubscriptionPagingSlicedResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contains SubscriptionPagingSlicedResult via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_QueryUserSubscription_" data-uid="AccelByte.Api.Entitlement.QueryUserSubscription*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_QueryUserSubscription_AccelByte_Models_PlatformStoreId_System_String_AccelByte_Models_QueryUserSubscriptionRequestOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_SubscriptionPagingSlicedResult__" data-uid="AccelByte.Api.Entitlement.QueryUserSubscription(AccelByte.Models.PlatformStoreId,System.String,AccelByte.Models.QueryUserSubscriptionRequestOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.SubscriptionPagingSlicedResult})">
+  QueryUserSubscription(PlatformStoreId, string, QueryUserSubscriptionRequestOptionalParameters, ResultCallback&lt;SubscriptionPagingSlicedResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query other user's thirdparty subscription</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryUserSubscription(PlatformStoreId platformStoreId, string userId, QueryUserSubscriptionRequestOptionalParameters optionalParameters, ResultCallback&lt;SubscriptionPagingSlicedResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>platformStoreId</code> <a class="xref" href="AccelByte.Models.PlatformStoreId.html">PlatformStoreId</a></dt>
+    <dd><p>A thirdparty platform id to be queried</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>user Id to be queried</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.QueryUserSubscriptionRequestOptionalParameters.html">QueryUserSubscriptionRequestOptionalParameters</a></dt>
+    <dd><p>optional parameter for query</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SubscriptionPagingSlicedResult.html">SubscriptionPagingSlicedResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contains SubscriptionPagingSlicedResult via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SellUserEntitlement_" data-uid="AccelByte.Api.Entitlement.SellUserEntitlement*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SellUserEntitlement_AccelByte_Models_UserEntitlementSoldParams_AccelByte_Models_EntitlementSoldRequest_AccelByte_Core_ResultCallback_AccelByte_Models_SellItemEntitlementInfo__" data-uid="AccelByte.Api.Entitlement.SellUserEntitlement(AccelByte.Models.UserEntitlementSoldParams,AccelByte.Models.EntitlementSoldRequest,AccelByte.Core.ResultCallback{AccelByte.Models.SellItemEntitlementInfo})">
+  SellUserEntitlement(UserEntitlementSoldParams, EntitlementSoldRequest, ResultCallback&lt;SellItemEntitlementInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sell User Entitlement back to the platform if the item is configured to be sellable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SellUserEntitlement(UserEntitlementSoldParams userEntitlementSoldParams, EntitlementSoldRequest entitlementSoldRequest, ResultCallback&lt;SellItemEntitlementInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userEntitlementSoldParams</code> <a class="xref" href="AccelByte.Models.UserEntitlementSoldParams.html">UserEntitlementSoldParams</a></dt>
+    <dd><p>The user entitlement parameters containing the user ID and entitlement ID to sell.</p>
+</dd>
+    <dt><code>entitlementSoldRequest</code> <a class="xref" href="AccelByte.Models.EntitlementSoldRequest.html">EntitlementSoldRequest</a></dt>
+    <dd><p>The entitlement sold request containing the use count and request ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SellItemEntitlementInfo.html">SellItemEntitlementInfo</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SellUserEntitlement_" data-uid="AccelByte.Api.Entitlement.SellUserEntitlement*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SellUserEntitlement_AccelByte_Models_UserEntitlementSoldParams_AccelByte_Models_EntitlementSoldRequest_AccelByte_Models_SellUserEntitlementOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_SellItemEntitlementInfo__" data-uid="AccelByte.Api.Entitlement.SellUserEntitlement(AccelByte.Models.UserEntitlementSoldParams,AccelByte.Models.EntitlementSoldRequest,AccelByte.Models.SellUserEntitlementOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.SellItemEntitlementInfo})">
+  SellUserEntitlement(UserEntitlementSoldParams, EntitlementSoldRequest, SellUserEntitlementOptionalParameters, ResultCallback&lt;SellItemEntitlementInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sell User Entitlement back to the platform if the item is configured to be sellable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SellUserEntitlement(UserEntitlementSoldParams userEntitlementSoldParams, EntitlementSoldRequest entitlementSoldRequest, SellUserEntitlementOptionalParameters optionalParameters, ResultCallback&lt;SellItemEntitlementInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userEntitlementSoldParams</code> <a class="xref" href="AccelByte.Models.UserEntitlementSoldParams.html">UserEntitlementSoldParams</a></dt>
+    <dd><p>The user entitlement parameters containing the user ID and entitlement ID to sell.</p>
+</dd>
+    <dt><code>entitlementSoldRequest</code> <a class="xref" href="AccelByte.Models.EntitlementSoldRequest.html">EntitlementSoldRequest</a></dt>
+    <dd><p>The entitlement sold request containing the use count and request ID.</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.SellUserEntitlementOptionalParameters.html">SellUserEntitlementOptionalParameters</a></dt>
+    <dd><p>The optional parameter that can be set.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SellItemEntitlementInfo.html">SellItemEntitlementInfo</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SellUserEntitlement_" data-uid="AccelByte.Api.Entitlement.SellUserEntitlement*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SellUserEntitlement_System_String_AccelByte_Models_EntitlementSoldRequest_AccelByte_Core_ResultCallback_AccelByte_Models_SellItemEntitlementInfo__" data-uid="AccelByte.Api.Entitlement.SellUserEntitlement(System.String,AccelByte.Models.EntitlementSoldRequest,AccelByte.Core.ResultCallback{AccelByte.Models.SellItemEntitlementInfo})">
+  SellUserEntitlement(string, EntitlementSoldRequest, ResultCallback&lt;SellItemEntitlementInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sell User Entitlement back to the platform if the item is configured to be sellable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SellUserEntitlement(string entitlementId, EntitlementSoldRequest entitlementSoldRequest, ResultCallback&lt;SellItemEntitlementInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entitlementId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The user entitlement ID to sell.</p>
+</dd>
+    <dt><code>entitlementSoldRequest</code> <a class="xref" href="AccelByte.Models.EntitlementSoldRequest.html">EntitlementSoldRequest</a></dt>
+    <dd><p>The entitlement sold request containing the use count and request ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SellItemEntitlementInfo.html">SellItemEntitlementInfo</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SellUserEntitlement_" data-uid="AccelByte.Api.Entitlement.SellUserEntitlement*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SellUserEntitlement_System_String_AccelByte_Models_EntitlementSoldRequest_AccelByte_Models_SellUserEntitlementOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_SellItemEntitlementInfo__" data-uid="AccelByte.Api.Entitlement.SellUserEntitlement(System.String,AccelByte.Models.EntitlementSoldRequest,AccelByte.Models.SellUserEntitlementOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.SellItemEntitlementInfo})">
+  SellUserEntitlement(string, EntitlementSoldRequest, SellUserEntitlementOptionalParameters, ResultCallback&lt;SellItemEntitlementInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sell User Entitlement back to the platform if the item is configured to be sellable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SellUserEntitlement(string entitlementId, EntitlementSoldRequest entitlementSoldRequest, SellUserEntitlementOptionalParameters optionalParameters, ResultCallback&lt;SellItemEntitlementInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entitlementId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The user entitlement ID to sell.</p>
+</dd>
+    <dt><code>entitlementSoldRequest</code> <a class="xref" href="AccelByte.Models.EntitlementSoldRequest.html">EntitlementSoldRequest</a></dt>
+    <dd><p>The entitlement sold request containing the use count and request ID.</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.SellUserEntitlementOptionalParameters.html">SellUserEntitlementOptionalParameters</a></dt>
+    <dd><p>The optional parameter that can be set.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SellItemEntitlementInfo.html">SellItemEntitlementInfo</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncEntitlementPSNMultipleService_" data-uid="AccelByte.Api.Entitlement.SyncEntitlementPSNMultipleService*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncEntitlementPSNMultipleService_AccelByte_Models_PlayStationMultipleServiceRequest_AccelByte_Core_ResultCallback_AccelByte_Models_PlayStationMultipleServiceResponse____" data-uid="AccelByte.Api.Entitlement.SyncEntitlementPSNMultipleService(AccelByte.Models.PlayStationMultipleServiceRequest,AccelByte.Core.ResultCallback{AccelByte.Models.PlayStationMultipleServiceResponse[]})">
+  SyncEntitlementPSNMultipleService(PlayStationMultipleServiceRequest, ResultCallback&lt;PlayStationMultipleServiceResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize with entitlements in PSN Store with multiple service labels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncEntitlementPSNMultipleService(PlayStationMultipleServiceRequest playStationMultipleServiceRequest, ResultCallback&lt;PlayStationMultipleServiceResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>playStationMultipleServiceRequest</code> <a class="xref" href="AccelByte.Models.PlayStationMultipleServiceRequest.html">PlayStationMultipleServiceRequest</a></dt>
+    <dd><p>Playstation's Multiple Service Labels Model Sync Request</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PlayStationMultipleServiceResponse.html">PlayStationMultipleServiceResponse</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncEntitlementPSNStore_" data-uid="AccelByte.Api.Entitlement.SyncEntitlementPSNStore*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncEntitlementPSNStore_AccelByte_Models_PlayStationDLCSync_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncEntitlementPSNStore(AccelByte.Models.PlayStationDLCSync,AccelByte.Core.ResultCallback)">
+  SyncEntitlementPSNStore(PlayStationDLCSync, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize with entitlements in PSN Store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncEntitlementPSNStore(PlayStationDLCSync psnModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>psnModel</code> <a class="xref" href="AccelByte.Models.PlayStationDLCSync.html">PlayStationDLCSync</a></dt>
+    <dd><p>Playstation's DLC Model Sync Request</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncEpicGameInventory_" data-uid="AccelByte.Api.Entitlement.SyncEpicGameInventory*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncEpicGameInventory_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SyncEpicGamesInventoryResponse____" data-uid="AccelByte.Api.Entitlement.SyncEpicGameInventory(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SyncEpicGamesInventoryResponse[]})">
+  SyncEpicGameInventory(string, ResultCallback&lt;SyncEpicGamesInventoryResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize Epic Games Inventory/IAP.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncEpicGameInventory(string epicGamesJwtToken, ResultCallback&lt;SyncEpicGamesInventoryResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>epicGamesJwtToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Epic Game Jwt Token.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SyncEpicGamesInventoryResponse.html">SyncEpicGamesInventoryResponse</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncEpicGamesDurableItems_" data-uid="AccelByte.Api.Entitlement.SyncEpicGamesDurableItems*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncEpicGamesDurableItems_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncEpicGamesDurableItems(System.String,AccelByte.Core.ResultCallback)">
+  SyncEpicGamesDurableItems(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1080"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize Epic Game Durable/dlc Items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncEpicGamesDurableItems(string epicGamesJwtToken, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>epicGamesJwtToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Contains epicGamesJwtToken needed for EpicGames Durable sync</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncMobilePlatformPurchaseApple_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformPurchaseApple*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncMobilePlatformPurchaseApple_System_String_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformPurchaseApple(System.String,System.String,System.String,AccelByte.Core.ResultCallback)">
+  SyncMobilePlatformPurchaseApple(string, string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L693"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync (Verify and fulfil) item entitlement from Apple Store platform purchase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncMobilePlatformPurchaseApple(string productId, string transactionId, string receiptData, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>productId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>purchased product id or entitlement's SKU</p>
+</dd>
+    <dt><code>transactionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>purchased transaction id</p>
+</dd>
+    <dt><code>receiptData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>purchased product Payload in form of encrypted Apple Receipt</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncMobilePlatformPurchaseApple_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformPurchaseApple*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncMobilePlatformPurchaseApple_System_String_System_String_System_String_AccelByte_Models_PlatformSyncMobileAppleOptionalParam_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformPurchaseApple(System.String,System.String,System.String,AccelByte.Models.PlatformSyncMobileAppleOptionalParam,AccelByte.Core.ResultCallback)">
+  SyncMobilePlatformPurchaseApple(string, string, string, PlatformSyncMobileAppleOptionalParam, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L709"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync (Verify and fulfil) item entitlement from Apple Store platform purchase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncMobilePlatformPurchaseApple(string productId, string transactionId, string receiptData, PlatformSyncMobileAppleOptionalParam optionalParameters, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>productId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>purchased product id or entitlement's SKU</p>
+</dd>
+    <dt><code>transactionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>purchased transaction id</p>
+</dd>
+    <dt><code>receiptData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>purchased product Payload in form of encrypted Apple Receipt</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.PlatformSyncMobileAppleOptionalParam.html">PlatformSyncMobileAppleOptionalParam</a></dt>
+    <dd><p>Optional parameters containing exclude old transaction, product region and language</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncMobilePlatformPurchaseGoogle_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformPurchaseGoogle*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncMobilePlatformPurchaseGoogle_System_String_System_String_System_String_System_Int64_System_String_System_Boolean_AccelByte_Core_ResultCallback_AccelByte_Models_GoogleReceiptResolveResult__" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformPurchaseGoogle(System.String,System.String,System.String,System.Int64,System.String,System.Boolean,AccelByte.Core.ResultCallback{AccelByte.Models.GoogleReceiptResolveResult})">
+  SyncMobilePlatformPurchaseGoogle(string, string, string, long, string, bool, ResultCallback&lt;GoogleReceiptResolveResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L798"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync (Verify and fulfil) item entitlement from Google Play platform purchase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncMobilePlatformPurchaseGoogle(string orderId, string packageName, string productId, long purchaseTime, string purchaseToken, bool autoAck, ResultCallback&lt;GoogleReceiptResolveResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>orderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's order id</p>
+</dd>
+    <dt><code>packageName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's package name</p>
+</dd>
+    <dt><code>productId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's product id</p>
+</dd>
+    <dt><code>purchaseTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Google receipt's purchase time</p>
+</dd>
+    <dt><code>purchaseToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's purchase token</p>
+</dd>
+    <dt><code>autoAck</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Set true if it is a durable item</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GoogleReceiptResolveResult.html">GoogleReceiptResolveResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contain whether client should confirm pending purchase or not</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncMobilePlatformPurchaseGoogle_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformPurchaseGoogle*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncMobilePlatformPurchaseGoogle_System_String_System_String_System_String_System_Int64_System_String_System_Boolean_AccelByte_Models_PlatformSyncMobileGoogleOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_GoogleReceiptResolveResult__" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformPurchaseGoogle(System.String,System.String,System.String,System.Int64,System.String,System.Boolean,AccelByte.Models.PlatformSyncMobileGoogleOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.GoogleReceiptResolveResult})">
+  SyncMobilePlatformPurchaseGoogle(string, string, string, long, string, bool, PlatformSyncMobileGoogleOptionalParameters, ResultCallback&lt;GoogleReceiptResolveResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L821"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync (Verify and fulfil) item entitlement from Google Play platform purchase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncMobilePlatformPurchaseGoogle(string orderId, string packageName, string productId, long purchaseTime, string purchaseToken, bool autoAck, PlatformSyncMobileGoogleOptionalParameters optionalParameters, ResultCallback&lt;GoogleReceiptResolveResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>orderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's order id</p>
+</dd>
+    <dt><code>packageName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's package name</p>
+</dd>
+    <dt><code>productId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's product id</p>
+</dd>
+    <dt><code>purchaseTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Google receipt's purchase time</p>
+</dd>
+    <dt><code>purchaseToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's purchase token</p>
+</dd>
+    <dt><code>autoAck</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Set true if it is a durable item</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.PlatformSyncMobileGoogleOptionalParameters.html">PlatformSyncMobileGoogleOptionalParameters</a></dt>
+    <dd><p>Optional parameters containing product region and language</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GoogleReceiptResolveResult.html">GoogleReceiptResolveResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contain whether client should confirm pending purchase or not</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncMobilePlatformSubscriptionApple_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformSubscriptionApple*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncMobilePlatformSubscriptionApple_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformSubscriptionApple(System.String,AccelByte.Core.ResultCallback)">
+  SyncMobilePlatformSubscriptionApple(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L755"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync (Verify and fulfil) subscription item entitlement from Apple Store platform purchase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncMobilePlatformSubscriptionApple(string transactionId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transactionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>purchased transaction id</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncMobilePlatformSubscriptionGoogle_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformSubscriptionGoogle*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncMobilePlatformSubscriptionGoogle_System_String_System_String_System_String_System_Int64_System_String_System_Boolean_AccelByte_Core_ResultCallback_AccelByte_Models_GoogleReceiptResolveResult__" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformSubscriptionGoogle(System.String,System.String,System.String,System.Int64,System.String,System.Boolean,AccelByte.Core.ResultCallback{AccelByte.Models.GoogleReceiptResolveResult})">
+  SyncMobilePlatformSubscriptionGoogle(string, string, string, long, string, bool, ResultCallback&lt;GoogleReceiptResolveResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L861"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync (Verify and fulfil) item subscription from Google Play platform purchase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncMobilePlatformSubscriptionGoogle(string orderId, string packageName, string productId, long purchaseTime, string purchaseToken, bool autoAck, ResultCallback&lt;GoogleReceiptResolveResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>orderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's order id</p>
+</dd>
+    <dt><code>packageName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's package name</p>
+</dd>
+    <dt><code>productId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's product id</p>
+</dd>
+    <dt><code>purchaseTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Google receipt's purchase time</p>
+</dd>
+    <dt><code>purchaseToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's purchase token</p>
+</dd>
+    <dt><code>autoAck</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Auto acknowledge the purchase.
+By setting it as false, Game client needs manualy acknowledge it, otherwise this transaction will be expired.
+By setting it as true, AGS will automatically acknowledged it</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GoogleReceiptResolveResult.html">GoogleReceiptResolveResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contain whether client should confirm pending purchase or not</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncMobilePlatformSubscriptionGoogle_" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformSubscriptionGoogle*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncMobilePlatformSubscriptionGoogle_System_String_System_String_System_String_System_Int64_System_String_System_Boolean_AccelByte_Models_PlatformSyncMobileGoogleOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_GoogleReceiptResolveResult__" data-uid="AccelByte.Api.Entitlement.SyncMobilePlatformSubscriptionGoogle(System.String,System.String,System.String,System.Int64,System.String,System.Boolean,AccelByte.Models.PlatformSyncMobileGoogleOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.GoogleReceiptResolveResult})">
+  SyncMobilePlatformSubscriptionGoogle(string, string, string, long, string, bool, PlatformSyncMobileGoogleOptionalParameters, ResultCallback&lt;GoogleReceiptResolveResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L892"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync (Verify and fulfil) item subscription from Google Play platform purchase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncMobilePlatformSubscriptionGoogle(string orderId, string packageName, string productId, long purchaseTime, string purchaseToken, bool autoAck, PlatformSyncMobileGoogleOptionalParameters optionalParameters, ResultCallback&lt;GoogleReceiptResolveResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>orderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's order id</p>
+</dd>
+    <dt><code>packageName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's package name</p>
+</dd>
+    <dt><code>productId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's product id</p>
+</dd>
+    <dt><code>purchaseTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>Google receipt's purchase time</p>
+</dd>
+    <dt><code>purchaseToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google receipt's purchase token</p>
+</dd>
+    <dt><code>autoAck</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Auto acknowledge the purchase.
+By setting it as false, Game client needs manualy acknowledge it, otherwise this transaction will be expired.
+By setting it as true, AGS will automatically acknowledged it</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.PlatformSyncMobileGoogleOptionalParameters.html">PlatformSyncMobileGoogleOptionalParameters</a></dt>
+    <dd><p>Optional parameters containing product region and language</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GoogleReceiptResolveResult.html">GoogleReceiptResolveResult</a>&gt;</dt>
+    <dd><p>Returns a Result that contain whether client should confirm pending purchase or not</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncOculusConsumableEntitlements_" data-uid="AccelByte.Api.Entitlement.SyncOculusConsumableEntitlements*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncOculusConsumableEntitlements_AccelByte_Core_ResultCallback_AccelByte_Models_SyncOculusConsumableEntitlementResponse____" data-uid="AccelByte.Api.Entitlement.SyncOculusConsumableEntitlements(AccelByte.Core.ResultCallback{AccelByte.Models.SyncOculusConsumableEntitlementResponse[]})">
+  SyncOculusConsumableEntitlements(ResultCallback&lt;SyncOculusConsumableEntitlementResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize Oculus Consumable Entitlement/IAP.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncOculusConsumableEntitlements(ResultCallback&lt;SyncOculusConsumableEntitlementResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SyncOculusConsumableEntitlementResponse.html">SyncOculusConsumableEntitlementResponse</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncOculusDLC_" data-uid="AccelByte.Api.Entitlement.SyncOculusDLC*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncOculusDLC_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncOculusDLC(AccelByte.Core.ResultCallback)">
+  SyncOculusDLC(ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize Oculus Downloadable Content/DLC.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncOculusDLC(ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncPSNDLC_" data-uid="AccelByte.Api.Entitlement.SyncPSNDLC*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncPSNDLC_AccelByte_Models_PlayStationDLCSync_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncPSNDLC(AccelByte.Models.PlayStationDLCSync,AccelByte.Core.ResultCallback)">
+  SyncPSNDLC(PlayStationDLCSync, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1033"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize with DLC entitlements in PSN Store.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncPSNDLC(PlayStationDLCSync PSSyncModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>PSSyncModel</code> <a class="xref" href="AccelByte.Models.PlayStationDLCSync.html">PlayStationDLCSync</a></dt>
+    <dd><p>Contains ServiceLabel needed for PlayStation DLC sync</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncPSNDLCMultipleService_" data-uid="AccelByte.Api.Entitlement.SyncPSNDLCMultipleService*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncPSNDLCMultipleService_AccelByte_Models_PlayStationDLCSyncMultipleService_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncPSNDLCMultipleService(AccelByte.Models.PlayStationDLCSyncMultipleService,AccelByte.Core.ResultCallback)">
+  SyncPSNDLCMultipleService(PlayStationDLCSyncMultipleService, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize with dlc entitlements in PSN Store with multiple service labels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncPSNDLCMultipleService(PlayStationDLCSyncMultipleService playStationDlcSyncMultipleService, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>playStationDlcSyncMultipleService</code> <a class="xref" href="AccelByte.Models.PlayStationDLCSyncMultipleService.html">PlayStationDLCSyncMultipleService</a></dt>
+    <dd><p>Contains ServiceLabel needed for PlayStation DLC Multiple Service sync</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncSteamDLC_" data-uid="AccelByte.Api.Entitlement.SyncSteamDLC*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncSteamDLC_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncSteamDLC(System.String,System.String,AccelByte.Core.ResultCallback)">
+  SyncSteamDLC(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L949"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize Steam DLC.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncSteamDLC(string userSteamId, string userAppId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userSteamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam ID of the user</p>
+</dd>
+    <dt><code>userAppId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam app id</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncSteamInventory_" data-uid="AccelByte.Api.Entitlement.SyncSteamInventory*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncSteamInventory_System_String_System_String_System_String_System_Double_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncSteamInventory(System.String,System.String,System.String,System.Double,System.String,AccelByte.Core.ResultCallback)">
+  SyncSteamInventory(string, string, string, double, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L978"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync steam inventory's items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncSteamInventory(string userSteamId, string appId, string productId, double price, string currencyCode, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userSteamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam user id</p>
+</dd>
+    <dt><code>appId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam application id</p>
+</dd>
+    <dt><code>productId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam item def id</p>
+</dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Steam item price</p>
+</dd>
+    <dt><code>currencyCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam item currency code</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncSteamInventory_" data-uid="AccelByte.Api.Entitlement.SyncSteamInventory*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncSteamInventory_System_String_System_String_System_String_System_Double_System_String_AccelByte_Models_SyncSteamInventoryOptionalParameters_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncSteamInventory(System.String,System.String,System.String,System.Double,System.String,AccelByte.Models.SyncSteamInventoryOptionalParameters,AccelByte.Core.ResultCallback)">
+  SyncSteamInventory(string, string, string, double, string, SyncSteamInventoryOptionalParameters, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1004"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sync steam inventory's items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncSteamInventory(string userSteamId, string appId, string productId, double price, string currencyCode, SyncSteamInventoryOptionalParameters optionalParameters = null, ResultCallback callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userSteamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam user id</p>
+</dd>
+    <dt><code>appId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam application id</p>
+</dd>
+    <dt><code>productId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam item def id</p>
+</dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Steam item price</p>
+</dd>
+    <dt><code>currencyCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Steam item currency code</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.SyncSteamInventoryOptionalParameters.html">SyncSteamInventoryOptionalParameters</a></dt>
+    <dd><p>Optional parameters containing product region and language</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncTwitchDropItem_" data-uid="AccelByte.Api.Entitlement.SyncTwitchDropItem*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncTwitchDropItem_AccelByte_Models_TwitchDropSync_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncTwitchDropItem(AccelByte.Models.TwitchDropSync,AccelByte.Core.ResultCallback)">
+  SyncTwitchDropItem(TwitchDropSync, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1056"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize with Twitch entitlements in Twitch Drop.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncTwitchDropItem(TwitchDropSync TwitchDropSyncReq, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TwitchDropSyncReq</code> <a class="xref" href="AccelByte.Models.TwitchDropSync.html">TwitchDropSync</a></dt>
+    <dd><p>Contains gameId, region, and language needed for Twitch Drop sync</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncXBoxDLC_" data-uid="AccelByte.Api.Entitlement.SyncXBoxDLC*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncXBoxDLC_AccelByte_Models_XBoxDLCSync_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.SyncXBoxDLC(AccelByte.Models.XBoxDLCSync,AccelByte.Core.ResultCallback)">
+  SyncXBoxDLC(XBoxDLCSync, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L925"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize Xbox inventory's DLC items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncXBoxDLC(XBoxDLCSync XboxDLCSync, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>XboxDLCSync</code> <a class="xref" href="AccelByte.Models.XBoxDLCSync.html">XBoxDLCSync</a></dt>
+    <dd><p>Contains XSTSToken needed for Xbox DLC sync</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_SyncXboxInventory_" data-uid="AccelByte.Api.Entitlement.SyncXboxInventory*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_SyncXboxInventory_AccelByte_Models_XboxInventoryRequest_AccelByte_Core_ResultCallback_AccelByte_Models_XboxInventoryResponse____" data-uid="AccelByte.Api.Entitlement.SyncXboxInventory(AccelByte.Models.XboxInventoryRequest,AccelByte.Core.ResultCallback{AccelByte.Models.XboxInventoryResponse[]})">
+  SyncXboxInventory(XboxInventoryRequest, ResultCallback&lt;XboxInventoryResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronize Comsumable Entitlement in XBOX Inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncXboxInventory(XboxInventoryRequest model, ResultCallback&lt;XboxInventoryResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>model</code> <a class="xref" href="AccelByte.Models.XboxInventoryRequest.html">XboxInventoryRequest</a></dt>
+    <dd><p>XBOX's Consumable Entitlement Model Sync Request</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.XboxInventoryResponse.html">XboxInventoryResponse</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_UpdateDistributionReceiver_" data-uid="AccelByte.Api.Entitlement.UpdateDistributionReceiver*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_UpdateDistributionReceiver_System_String_AccelByte_Models_Attributes_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Entitlement.UpdateDistributionReceiver(System.String,AccelByte.Models.Attributes,AccelByte.Core.ResultCallback)">
+  UpdateDistributionReceiver(string, Attributes, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L665"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update distribution receiver for current user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Platform Service version 3.4.0 and above doesn&#39;t support this anymore, This feature already removed.&quot;)]
+public void UpdateDistributionReceiver(string extUserId, Attributes attributes, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>extUserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>External User Id that has been created before for receiver</p>
+</dd>
+    <dt><code>attributes</code> <a class="xref" href="AccelByte.Models.Attributes.html">Attributes</a></dt>
+    <dd><p>Attributes that contain of serverId, serverName, characterId, and characterName</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Entitlement_ValidateUserItemPurchaseCondition_" data-uid="AccelByte.Api.Entitlement.ValidateUserItemPurchaseCondition*"></a>
+
+  <h3 id="AccelByte_Api_Entitlement_ValidateUserItemPurchaseCondition_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_PlatformValidateUserItemPurchaseResponse____" data-uid="AccelByte.Api.Entitlement.ValidateUserItemPurchaseCondition(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.PlatformValidateUserItemPurchaseResponse[]})">
+  ValidateUserItemPurchaseCondition(string[], ResultCallback&lt;PlatformValidateUserItemPurchaseResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Entitlement.cs/#L1127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Validate User Item Purchase Condition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ValidateUserItemPurchaseCondition(string[] items, ResultCallback&lt;PlatformValidateUserItemPurchaseResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Contains item that needed for Validate User Item Purchase Condition</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PlatformValidateUserItemPurchaseResponse.html">PlatformValidateUserItemPurchaseResponse</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

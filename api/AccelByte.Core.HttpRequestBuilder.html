@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class HttpRequestBuilder | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class HttpRequestBuilder | AccelByte Unity SDK | 17.12.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Core_HttpRequestBuilder.md&amp;value=---%0Auid%3A%20AccelByte.Core.HttpRequestBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Core.HttpRequestBuilder">
+
+
+
+  <h1 id="AccelByte_Core_HttpRequestBuilder" data-uid="AccelByte.Core.HttpRequestBuilder" class="text-break">
+Class HttpRequestBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Core.html">Core</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HttpRequestBuilder</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">HttpRequestBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_Accepts_" data-uid="AccelByte.Core.HttpRequestBuilder.Accepts*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_Accepts_AccelByte_Core_MediaType_" data-uid="AccelByte.Core.HttpRequestBuilder.Accepts(AccelByte.Core.MediaType)">
+  Accepts(MediaType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder Accepts(MediaType mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mediaType</code> <a class="xref" href="AccelByte.Core.MediaType.html">MediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_AddAdditionalData_" data-uid="AccelByte.Core.HttpRequestBuilder.AddAdditionalData*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_AddAdditionalData_System_String_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.AddAdditionalData(System.String,System.String)">
+  AddAdditionalData(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add/append to additionalData form field as to be included in the request. param key:val.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder AddAdditionalData(string key, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_CreateDelete_" data-uid="AccelByte.Core.HttpRequestBuilder.CreateDelete*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_CreateDelete_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.CreateDelete(System.String)">
+  CreateDelete(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HttpRequestBuilder CreateDelete(string url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_CreateGet_" data-uid="AccelByte.Core.HttpRequestBuilder.CreateGet*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_CreateGet_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.CreateGet(System.String)">
+  CreateGet(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HttpRequestBuilder CreateGet(string url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_CreatePatch_" data-uid="AccelByte.Core.HttpRequestBuilder.CreatePatch*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_CreatePatch_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.CreatePatch(System.String)">
+  CreatePatch(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HttpRequestBuilder CreatePatch(string url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_CreatePost_" data-uid="AccelByte.Core.HttpRequestBuilder.CreatePost*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_CreatePost_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.CreatePost(System.String)">
+  CreatePost(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HttpRequestBuilder CreatePost(string url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_CreatePut_" data-uid="AccelByte.Core.HttpRequestBuilder.CreatePut*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_CreatePut_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.CreatePut(System.String)">
+  CreatePut(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HttpRequestBuilder CreatePut(string url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_GetNamespace_" data-uid="AccelByte.Core.HttpRequestBuilder.GetNamespace*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_GetNamespace" data-uid="AccelByte.Core.HttpRequestBuilder.GetNamespace">
+  GetNamespace()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetNamespace()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_GetResult_" data-uid="AccelByte.Core.HttpRequestBuilder.GetResult*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_GetResult" data-uid="AccelByte.Core.HttpRequestBuilder.GetResult">
+  GetResult()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IHttpRequest GetResult()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.IHttpRequest.html">IHttpRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_SetGameClientVersion_" data-uid="AccelByte.Core.HttpRequestBuilder.SetGameClientVersion*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_SetGameClientVersion_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.SetGameClientVersion(System.String)">
+  SetGameClientVersion(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetGameClientVersion(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_SetNamespace_" data-uid="AccelByte.Core.HttpRequestBuilder.SetNamespace*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_SetNamespace_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.SetNamespace(System.String)">
+  SetNamespace(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetNamespace(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_SetSdkVersion_" data-uid="AccelByte.Core.HttpRequestBuilder.SetSdkVersion*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_SetSdkVersion_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.SetSdkVersion(System.String)">
+  SetSdkVersion(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetSdkVersion(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBasicAuth_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBasicAuth*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBasicAuth" data-uid="AccelByte.Core.HttpRequestBuilder.WithBasicAuth">
+  WithBasicAuth()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBasicAuth()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBasicAuth_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBasicAuth*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBasicAuth_System_String_System_String_System_Boolean_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBasicAuth(System.String,System.String,System.Boolean)">
+  WithBasicAuth(string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBasicAuth(string username, string password, bool passwordIsRequired = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>passwordIsRequired</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBasicAuthWithCookie_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBasicAuthWithCookie*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBasicAuthWithCookie_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBasicAuthWithCookie(System.String)">
+  WithBasicAuthWithCookie(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBasicAuthWithCookie(string encodeKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>encodeKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBasicAuthWithCookieAndAuthTrustId_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBasicAuthWithCookieAndAuthTrustId*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBasicAuthWithCookieAndAuthTrustId_System_String_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBasicAuthWithCookieAndAuthTrustId(System.String,System.String)">
+  WithBasicAuthWithCookieAndAuthTrustId(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBasicAuthWithCookieAndAuthTrustId(string encodeKey, string authTrustId = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>encodeKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>authTrustId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBearerAuth_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBearerAuth*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBearerAuth" data-uid="AccelByte.Core.HttpRequestBuilder.WithBearerAuth">
+  WithBearerAuth()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBearerAuth()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBearerAuth_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBearerAuth*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBearerAuth_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBearerAuth(System.String)">
+  WithBearerAuth(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBearerAuth(string token)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>token</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBody_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBody*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBody_AccelByte_Api_FormDataContent_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBody(AccelByte.Api.FormDataContent)">
+  WithBody(FormDataContent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBody(FormDataContent body)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>body</code> <a class="xref" href="AccelByte.Api.FormDataContent.html">FormDataContent</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBody_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBody*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBody_System_Byte___" data-uid="AccelByte.Core.HttpRequestBuilder.WithBody(System.Byte[])">
+  WithBody(byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBody(byte[] body)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithBody_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBody*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithBody_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithBody(System.String)">
+  WithBody(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithBody(string body)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithContentType_" data-uid="AccelByte.Core.HttpRequestBuilder.WithContentType*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithContentType_AccelByte_Core_MediaType_" data-uid="AccelByte.Core.HttpRequestBuilder.WithContentType(AccelByte.Core.MediaType)">
+  WithContentType(MediaType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithContentType(MediaType mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mediaType</code> <a class="xref" href="AccelByte.Core.MediaType.html">MediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithContentType_" data-uid="AccelByte.Core.HttpRequestBuilder.WithContentType*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithContentType_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithContentType(System.String)">
+  WithContentType(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithContentType(string rawMediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rawMediaType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithFormBody_" data-uid="AccelByte.Core.HttpRequestBuilder.WithFormBody*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithFormBody__1___0_" data-uid="AccelByte.Core.HttpRequestBuilder.WithFormBody``1(``0)">
+  WithFormBody&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithFormBody&lt;T&gt;(T body)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>body</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithFormParam_" data-uid="AccelByte.Core.HttpRequestBuilder.WithFormParam*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithFormParam_System_String_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithFormParam(System.String,System.String)">
+  WithFormParam(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L319"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add a FORM (POST-like) param key:val.</p>
+<ul>
+<li>Not to be confused with WithQueryParam (GET) || WithPathParam ({bracket} val swapping)</li>
+<li>TODO: Create plural version, WithFormParams(), like similar funcs.</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithFormParam(string key, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithJsonBody_" data-uid="AccelByte.Core.HttpRequestBuilder.WithJsonBody*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithJsonBody__1___0_" data-uid="AccelByte.Core.HttpRequestBuilder.WithJsonBody``1(``0)">
+  WithJsonBody&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L410"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithJsonBody&lt;T&gt;(T body)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>body</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithNamespace_" data-uid="AccelByte.Core.HttpRequestBuilder.WithNamespace*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithNamespace_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithNamespace(System.String)">
+  WithNamespace(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithNamespace(string requestNamespace)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestNamespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithPathParam_" data-uid="AccelByte.Core.HttpRequestBuilder.WithPathParam*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithPathParam_System_String_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithPathParam(System.String,System.String)">
+  WithPathParam(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For endpoint URLs, we'll replace &quot;{brackets}&quot; key with urlEncoded (Uri-escaped) val.</p>
+<ul>
+<li>Eg, &quot;some/url/path/{namespace}/foo&quot; will replace {namespace} key with val.</li>
+<li>Not to be confused with WithQueryParam (GET) || WithFormParam (POST).</li>
+<li>WithParamParams is the singular version of WithPathParams().</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithPathParam(string key, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithPathParams_" data-uid="AccelByte.Core.HttpRequestBuilder.WithPathParams*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithPathParams_System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="AccelByte.Core.HttpRequestBuilder.WithPathParams(System.Collections.Generic.IDictionary{System.String,System.String})">
+  WithPathParams(IDictionary&lt;string, string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For endpoint URLs, we'll replace &quot;{brackets}&quot; key with urlEncoded (Uri-escaped) val.</p>
+<ul>
+<li>Eg, &quot;some/url/path/{namespace}/foo&quot; will replace {namespace} key with val.</li>
+<li>Not to be confused with WithQueryParam(s) (GET) || WithFormParam (POST).</li>
+<li>WithParamParams() is the plural version of WithPathParam().</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithPathParams(IDictionary&lt;string, string&gt; pathParams)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pathParams</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithQueries_" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueries*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithQueries_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueries(System.Collections.Generic.Dictionary{System.String,System.String})">
+  WithQueries(Dictionary&lt;string, string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithQueries(Dictionary&lt;string, string&gt; queryMap)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queryMap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithQueries_" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueries*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithQueries__1___0_" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueries``1(``0)">
+  WithQueries&lt;T&gt;(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithQueries&lt;T&gt;(T queryObject)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queryObject</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithQueryParam_" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueryParam*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithQueryParam_System_String_System_Collections_Generic_ICollection_System_String__" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueryParam(System.String,System.Collections.Generic.ICollection{System.String})">
+  WithQueryParam(string, ICollection&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For GET-like HTTP calls only,  For POST</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithQueryParam(string key, ICollection&lt;string&gt; values)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithQueryParam_" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueryParam*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithQueryParam_System_String_System_String_" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueryParam(System.String,System.String)">
+  WithQueryParam(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For endpoint URLs, we'll replace &quot;{brackets}&quot; key with urlEncoded (Uri-escaped) val.</p>
+<ul>
+<li>Eg, &quot;some/url/path/{namespace}/foo&quot; will replace {namespace} key with val.</li>
+<li>Not to be confused with WithFormParam (POST) || WithPathParam ({bracket} val swapping)</li>
+<li>WithQueryParam() is the singular version of WithPathParam().</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithQueryParam(string key, string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_HttpRequestBuilder_WithQueryParams_" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueryParams*"></a>
+
+  <h3 id="AccelByte_Core_HttpRequestBuilder_WithQueryParams_System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="AccelByte.Core.HttpRequestBuilder.WithQueryParams(System.Collections.Generic.IDictionary{System.String,System.String})">
+  WithQueryParams(IDictionary&lt;string, string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Http/HttpRequestBuilder.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For endpoint URLs, we'll replace &quot;{brackets}&quot; key with urlEncoded (Uri-escaped) val.</p>
+<ul>
+<li>Eg, &quot;some/url/path/{namespace}/foo&quot; will replace {namespace} key with val.</li>
+<li>Not to be confused with WithFormParam (POST) || WithPathParam ({bracket} val swapping)</li>
+<li>WithQueryParam() is the singular version of WithPathParam().</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpRequestBuilder WithQueryParams(IDictionary&lt;string, string&gt; queriesDict)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queriesDict</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.HttpRequestBuilder.html">HttpRequestBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

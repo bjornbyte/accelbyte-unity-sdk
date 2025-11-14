@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BinaryCloudSaveApi | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BinaryCloudSaveApi | AccelByte Unity SDK | 17.12.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_BinaryCloudSaveApi.md&amp;value=---%0Auid%3A%20AccelByte.Api.BinaryCloudSaveApi%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.BinaryCloudSaveApi">
+
+
+
+  <h1 id="AccelByte_Api_BinaryCloudSaveApi" data-uid="AccelByte.Api.BinaryCloudSaveApi" class="text-break">
+Class BinaryCloudSaveApi  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BinaryCloudSaveApi : ApiBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.ApiBaseParent.html">ApiBaseParent</a></div>
+      <div><a class="xref" href="AccelByte.Core.ApiBase.html">ApiBase</a></div>
+      <div><span class="xref">BinaryCloudSaveApi</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBase.html#AccelByte_Core_ApiBase_Namespace_">ApiBase.Namespace_</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_Session">ApiBaseParent.Session</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_BaseUrl">ApiBaseParent.BaseUrl</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_HttpClient">ApiBaseParent.HttpClient</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_AuthToken">ApiBaseParent.AuthToken</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_BulkGetCurrentUserBinaryRecords_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkGetCurrentUserBinaryRecords*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_BulkGetCurrentUserBinaryRecords_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_ListUserBinaryRecords__" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkGetCurrentUserBinaryRecords(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.ListUserBinaryRecords})">
+  BulkGetCurrentUserBinaryRecords(string[], ResultCallback&lt;ListUserBinaryRecords&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetCurrentUserBinaryRecords(string[] keys, ResultCallback&lt;ListUserBinaryRecords&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ListUserBinaryRecords.html">ListUserBinaryRecords</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_BulkGetGameBinaryRecords_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkGetGameBinaryRecords*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_BulkGetGameBinaryRecords_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_ListGameBinaryRecords__" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkGetGameBinaryRecords(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.ListGameBinaryRecords})">
+  BulkGetGameBinaryRecords(string[], ResultCallback&lt;ListGameBinaryRecords&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetGameBinaryRecords(string[] keys, ResultCallback&lt;ListGameBinaryRecords&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ListGameBinaryRecords.html">ListGameBinaryRecords</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_BulkGetPublicUserBinaryRecords_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkGetPublicUserBinaryRecords*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_BulkGetPublicUserBinaryRecords_System_String_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_ListUserBinaryRecords__" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkGetPublicUserBinaryRecords(System.String,System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.ListUserBinaryRecords})">
+  BulkGetPublicUserBinaryRecords(string, string[], ResultCallback&lt;ListUserBinaryRecords&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetPublicUserBinaryRecords(string key, string[] userIds, ResultCallback&lt;ListUserBinaryRecords&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>userIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ListUserBinaryRecords.html">ListUserBinaryRecords</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_BulkGetPublicUserBinaryRecords_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkGetPublicUserBinaryRecords*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_BulkGetPublicUserBinaryRecords_System_String___System_String_AccelByte_Core_ResultCallback_AccelByte_Models_ListUserBinaryRecords__" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkGetPublicUserBinaryRecords(System.String[],System.String,AccelByte.Core.ResultCallback{AccelByte.Models.ListUserBinaryRecords})">
+  BulkGetPublicUserBinaryRecords(string[], string, ResultCallback&lt;ListUserBinaryRecords&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetPublicUserBinaryRecords(string[] keys, string userId, ResultCallback&lt;ListUserBinaryRecords&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ListUserBinaryRecords.html">ListUserBinaryRecords</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_BulkQueryCurrentUserBinaryRecords_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkQueryCurrentUserBinaryRecords*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_BulkQueryCurrentUserBinaryRecords_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedUserBinaryRecords__System_Int32_System_Int32_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkQueryCurrentUserBinaryRecords(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedUserBinaryRecords},System.Int32,System.Int32)">
+  BulkQueryCurrentUserBinaryRecords(string, ResultCallback&lt;PaginatedUserBinaryRecords&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkQueryCurrentUserBinaryRecords(string query, ResultCallback&lt;PaginatedUserBinaryRecords&gt; callback, int offset, int limit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedUserBinaryRecords.html">PaginatedUserBinaryRecords</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_BulkQueryGameBinaryRecords_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkQueryGameBinaryRecords*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_BulkQueryGameBinaryRecords_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedGameBinaryRecords__System_Int32_System_Int32_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkQueryGameBinaryRecords(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedGameBinaryRecords},System.Int32,System.Int32)">
+  BulkQueryGameBinaryRecords(string, ResultCallback&lt;PaginatedGameBinaryRecords&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L545"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkQueryGameBinaryRecords(string query, ResultCallback&lt;PaginatedGameBinaryRecords&gt; callback, int offset, int limit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedGameBinaryRecords.html">PaginatedGameBinaryRecords</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_BulkQueryPublicUserBinaryRecords_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkQueryPublicUserBinaryRecords*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_BulkQueryPublicUserBinaryRecords_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedUserBinaryRecords__System_Int32_System_Int32_" data-uid="AccelByte.Api.BinaryCloudSaveApi.BulkQueryPublicUserBinaryRecords(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedUserBinaryRecords},System.Int32,System.Int32)">
+  BulkQueryPublicUserBinaryRecords(string, ResultCallback&lt;PaginatedUserBinaryRecords&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkQueryPublicUserBinaryRecords(string userId, ResultCallback&lt;PaginatedUserBinaryRecords&gt; callback, int offset, int limit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedUserBinaryRecords.html">PaginatedUserBinaryRecords</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_DeleteUserBinaryRecord_" data-uid="AccelByte.Api.BinaryCloudSaveApi.DeleteUserBinaryRecord*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_DeleteUserBinaryRecord_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.BinaryCloudSaveApi.DeleteUserBinaryRecord(System.String,AccelByte.Core.ResultCallback)">
+  DeleteUserBinaryRecord(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L414"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteUserBinaryRecord(string key, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_GetCurrentUserBinaryRecord_" data-uid="AccelByte.Api.BinaryCloudSaveApi.GetCurrentUserBinaryRecord*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_GetCurrentUserBinaryRecord_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserBinaryRecord__" data-uid="AccelByte.Api.BinaryCloudSaveApi.GetCurrentUserBinaryRecord(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserBinaryRecord})">
+  GetCurrentUserBinaryRecord(string, ResultCallback&lt;UserBinaryRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetCurrentUserBinaryRecord(string key, ResultCallback&lt;UserBinaryRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserBinaryRecord.html">UserBinaryRecord</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_GetGameBinaryRecord_" data-uid="AccelByte.Api.BinaryCloudSaveApi.GetGameBinaryRecord*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_GetGameBinaryRecord_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_GameBinaryRecord__" data-uid="AccelByte.Api.BinaryCloudSaveApi.GetGameBinaryRecord(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.GameBinaryRecord})">
+  GetGameBinaryRecord(string, ResultCallback&lt;GameBinaryRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L486"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetGameBinaryRecord(string key, ResultCallback&lt;GameBinaryRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GameBinaryRecord.html">GameBinaryRecord</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_GetPublicUserBinaryRecord_" data-uid="AccelByte.Api.BinaryCloudSaveApi.GetPublicUserBinaryRecord*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_GetPublicUserBinaryRecord_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserBinaryRecord__System_Boolean_" data-uid="AccelByte.Api.BinaryCloudSaveApi.GetPublicUserBinaryRecord(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserBinaryRecord},System.Boolean)">
+  GetPublicUserBinaryRecord(string, string, ResultCallback&lt;UserBinaryRecord&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetPublicUserBinaryRecord(string key, string userId, ResultCallback&lt;UserBinaryRecord&gt; callback, bool isPublic = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserBinaryRecord.html">UserBinaryRecord</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_RequestUserBinaryRecordPresignedUrl_" data-uid="AccelByte.Api.BinaryCloudSaveApi.RequestUserBinaryRecordPresignedUrl*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_RequestUserBinaryRecordPresignedUrl_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_RequestUserBinaryRecordPresignedUrlResponse__" data-uid="AccelByte.Api.BinaryCloudSaveApi.RequestUserBinaryRecordPresignedUrl(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.RequestUserBinaryRecordPresignedUrlResponse})">
+  RequestUserBinaryRecordPresignedUrl(string, string, ResultCallback&lt;RequestUserBinaryRecordPresignedUrlResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L441"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RequestUserBinaryRecordPresignedUrl(string key, string fileType, ResultCallback&lt;RequestUserBinaryRecordPresignedUrlResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fileType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.RequestUserBinaryRecordPresignedUrlResponse.html">RequestUserBinaryRecordPresignedUrlResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_SaveUserBinaryRecord_" data-uid="AccelByte.Api.BinaryCloudSaveApi.SaveUserBinaryRecord*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_SaveUserBinaryRecord_System_String_System_String_System_Boolean_AccelByte_Core_ResultCallback_AccelByte_Models_SaveBinaryRecordResponse__" data-uid="AccelByte.Api.BinaryCloudSaveApi.SaveUserBinaryRecord(System.String,System.String,System.Boolean,AccelByte.Core.ResultCallback{AccelByte.Models.SaveBinaryRecordResponse})">
+  SaveUserBinaryRecord(string, string, bool, ResultCallback&lt;SaveBinaryRecordResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveUserBinaryRecord(string key, string fileType, bool isPublic, ResultCallback&lt;SaveBinaryRecordResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fileType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SaveBinaryRecordResponse.html">SaveBinaryRecordResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_UpdateUserBinaryRecordFile_" data-uid="AccelByte.Api.BinaryCloudSaveApi.UpdateUserBinaryRecordFile*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_UpdateUserBinaryRecordFile_System_String_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserBinaryRecord__" data-uid="AccelByte.Api.BinaryCloudSaveApi.UpdateUserBinaryRecordFile(System.String,System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserBinaryRecord})">
+  UpdateUserBinaryRecordFile(string, string, string, ResultCallback&lt;UserBinaryRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateUserBinaryRecordFile(string key, string contentType, string fileLocation, ResultCallback&lt;UserBinaryRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>contentType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fileLocation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserBinaryRecord.html">UserBinaryRecord</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_BinaryCloudSaveApi_UpdateUserBinaryRecordMetadata_" data-uid="AccelByte.Api.BinaryCloudSaveApi.UpdateUserBinaryRecordMetadata*"></a>
+
+  <h3 id="AccelByte_Api_BinaryCloudSaveApi_UpdateUserBinaryRecordMetadata_System_String_System_Boolean_AccelByte_Core_ResultCallback_AccelByte_Models_UserBinaryRecord__" data-uid="AccelByte.Api.BinaryCloudSaveApi.UpdateUserBinaryRecordMetadata(System.String,System.Boolean,AccelByte.Core.ResultCallback{AccelByte.Models.UserBinaryRecord})">
+  UpdateUserBinaryRecordMetadata(string, bool, ResultCallback&lt;UserBinaryRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/BinaryCloudSaveApi.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateUserBinaryRecordMetadata(string key, bool isPublic, ResultCallback&lt;UserBinaryRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserBinaryRecord.html">UserBinaryRecord</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

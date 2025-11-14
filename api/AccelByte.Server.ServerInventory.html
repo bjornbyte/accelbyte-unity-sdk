@@ -1,0 +1,1802 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ServerInventory | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ServerInventory | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Provide an API to access Inventory service.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Server_ServerInventory.md&amp;value=---%0Auid%3A%20AccelByte.Server.ServerInventory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Server.ServerInventory">
+
+
+
+  <h1 id="AccelByte_Server_ServerInventory" data-uid="AccelByte.Server.ServerInventory" class="text-break">
+Class ServerInventory  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Server.html">Server</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Provide an API to access Inventory service.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ServerInventory : WrapperBase, IServerInventory</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.WrapperBase.html">WrapperBase</a></div>
+      <div><span class="xref">ServerInventory</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="AccelByte.Server.Interface.IServerInventory.html">IServerInventory</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.WrapperBase.html#AccelByte_Core_WrapperBase_IdValidator">WrapperBase.IdValidator</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Server_ServerInventory_BulkDeleteUserInventoryItems_" data-uid="AccelByte.Server.ServerInventory.BulkDeleteUserInventoryItems*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_BulkDeleteUserInventoryItems_System_String_System_String_AccelByte_Models_BulkDeleteUserInventoryItemsPayload___AccelByte_Core_ResultCallback_AccelByte_Models_DeleteUserInventoryItemResponse____" data-uid="AccelByte.Server.ServerInventory.BulkDeleteUserInventoryItems(System.String,System.String,AccelByte.Models.BulkDeleteUserInventoryItemsPayload[],AccelByte.Core.ResultCallback{AccelByte.Models.DeleteUserInventoryItemResponse[]})">
+  BulkDeleteUserInventoryItems(string, string, BulkDeleteUserInventoryItemsPayload[], ResultCallback&lt;DeleteUserInventoryItemResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove items from player's inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkDeleteUserInventoryItems(string inventoryId, string userId, BulkDeleteUserInventoryItemsPayload[] payload, ResultCallback&lt;DeleteUserInventoryItemResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>InventoryId to be process</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>user to be process</p>
+</dd>
+    <dt><code>payload</code> <a class="xref" href="AccelByte.Models.BulkDeleteUserInventoryItemsPayload.html">BulkDeleteUserInventoryItemsPayload</a>[]</dt>
+    <dd><p>request body contains the item detail</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.DeleteUserInventoryItemResponse.html">DeleteUserInventoryItemResponse</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_BulkDeleteUserInventoryItems_" data-uid="AccelByte.Server.ServerInventory.BulkDeleteUserInventoryItems*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_BulkDeleteUserInventoryItems_System_String_System_String_AccelByte_Models_DeleteUserInventoryItemRequest___AccelByte_Core_ResultCallback_AccelByte_Models_DeleteUserInventoryItemResponse____" data-uid="AccelByte.Server.ServerInventory.BulkDeleteUserInventoryItems(System.String,System.String,AccelByte.Models.DeleteUserInventoryItemRequest[],AccelByte.Core.ResultCallback{AccelByte.Models.DeleteUserInventoryItemResponse[]})">
+  BulkDeleteUserInventoryItems(string, string, DeleteUserInventoryItemRequest[], ResultCallback&lt;DeleteUserInventoryItemResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkDeleteUserInventoryItems(string inventoryId, string userId, DeleteUserInventoryItemRequest[] request, ResultCallback&lt;DeleteUserInventoryItemResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.DeleteUserInventoryItemRequest.html">DeleteUserInventoryItemRequest</a>[]</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.DeleteUserInventoryItemResponse.html">DeleteUserInventoryItemResponse</a>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_BulkUpdateUserInventoryItems_" data-uid="AccelByte.Server.ServerInventory.BulkUpdateUserInventoryItems*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_BulkUpdateUserInventoryItems_System_String_System_String_AccelByte_Models_ServerUpdateUserInventoryItemPayload___AccelByte_Core_ResultCallback_AccelByte_Models_UpdateUserInventoryItemResponse____" data-uid="AccelByte.Server.ServerInventory.BulkUpdateUserInventoryItems(System.String,System.String,AccelByte.Models.ServerUpdateUserInventoryItemPayload[],AccelByte.Core.ResultCallback{AccelByte.Models.UpdateUserInventoryItemResponse[]})">
+  BulkUpdateUserInventoryItems(string, string, ServerUpdateUserInventoryItemPayload[], ResultCallback&lt;UpdateUserInventoryItemResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update item attributes and tags for a specidic user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkUpdateUserInventoryItems(string inventoryId, string userId, ServerUpdateUserInventoryItemPayload[] payload, ResultCallback&lt;UpdateUserInventoryItemResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>InventoryId to be process</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>User id to be processed</p>
+</dd>
+    <dt><code>payload</code> <a class="xref" href="AccelByte.Models.ServerUpdateUserInventoryItemPayload.html">ServerUpdateUserInventoryItemPayload</a>[]</dt>
+    <dd><p>Detailed data to be processed</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UpdateUserInventoryItemResponse.html">UpdateUserInventoryItemResponse</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_BulkUpdateUserInventoryItems_" data-uid="AccelByte.Server.ServerInventory.BulkUpdateUserInventoryItems*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_BulkUpdateUserInventoryItems_System_String_System_String_AccelByte_Models_ServerUpdateUserInventoryItemRequest___AccelByte_Core_ResultCallback_AccelByte_Models_UpdateUserInventoryItemResponse____" data-uid="AccelByte.Server.ServerInventory.BulkUpdateUserInventoryItems(System.String,System.String,AccelByte.Models.ServerUpdateUserInventoryItemRequest[],AccelByte.Core.ResultCallback{AccelByte.Models.UpdateUserInventoryItemResponse[]})">
+  BulkUpdateUserInventoryItems(string, string, ServerUpdateUserInventoryItemRequest[], ResultCallback&lt;UpdateUserInventoryItemResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkUpdateUserInventoryItems(string inventoryId, string userId, ServerUpdateUserInventoryItemRequest[] request, ResultCallback&lt;UpdateUserInventoryItemResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerUpdateUserInventoryItemRequest.html">ServerUpdateUserInventoryItemRequest</a>[]</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UpdateUserInventoryItemResponse.html">UpdateUserInventoryItemResponse</a>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_ConsumeUserInventoryItem_" data-uid="AccelByte.Server.ServerInventory.ConsumeUserInventoryItem*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_ConsumeUserInventoryItem_System_String_System_String_AccelByte_Models_ConsumeUserItemsRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UserItem__" data-uid="AccelByte.Server.ServerInventory.ConsumeUserInventoryItem(System.String,System.String,AccelByte.Models.ConsumeUserItemsRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UserItem})">
+  ConsumeUserInventoryItem(string, string, ConsumeUserItemsRequest, ResultCallback&lt;UserItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ConsumeUserInventoryItem(string inventoryId, string userId, ConsumeUserItemsRequest request, ResultCallback&lt;UserItem&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ConsumeUserItemsRequest.html">ConsumeUserItemsRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItem.html">UserItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_ConsumeUserInventoryItem_" data-uid="AccelByte.Server.ServerInventory.ConsumeUserInventoryItem*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_ConsumeUserInventoryItem_System_String_System_String_System_UInt32_System_String_AccelByte_Models_ConsumeUserInventoryItemOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_UserItem__" data-uid="AccelByte.Server.ServerInventory.ConsumeUserInventoryItem(System.String,System.String,System.UInt32,System.String,AccelByte.Models.ConsumeUserInventoryItemOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.UserItem})">
+  ConsumeUserInventoryItem(string, string, uint, string, ConsumeUserInventoryItemOptionalParameters, ResultCallback&lt;UserItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Make a user consume item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ConsumeUserInventoryItem(string inventoryId, string userId, uint qty, string sourceItemId, ConsumeUserInventoryItemOptionalParameters optionalParameters, ResultCallback&lt;UserItem&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>InventoryId to be process</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>User id to be processed</p>
+</dd>
+    <dt><code>qty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Amount of item to consume</p>
+</dd>
+    <dt><code>sourceItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Item id to consume</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.ConsumeUserInventoryItemOptionalParameters.html">ConsumeUserInventoryItemOptionalParameters</a></dt>
+    <dd><p>Optional parameters. Can be null.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItem.html">UserItem</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_CreateIntegrationConfiguration_" data-uid="AccelByte.Server.ServerInventory.CreateIntegrationConfiguration*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_CreateIntegrationConfiguration_AccelByte_Models_ServerCreateIntegrationConfigurationRequest_AccelByte_Core_ResultCallback_AccelByte_Models_ServerIntegrationConfiguration__" data-uid="AccelByte.Server.ServerInventory.CreateIntegrationConfiguration(AccelByte.Models.ServerCreateIntegrationConfigurationRequest,AccelByte.Core.ResultCallback{AccelByte.Models.ServerIntegrationConfiguration})">
+  CreateIntegrationConfiguration(ServerCreateIntegrationConfigurationRequest, ResultCallback&lt;ServerIntegrationConfiguration&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new integration configuration on the current namespace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateIntegrationConfiguration(ServerCreateIntegrationConfigurationRequest request, ResultCallback&lt;ServerIntegrationConfiguration&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerCreateIntegrationConfigurationRequest.html">ServerCreateIntegrationConfigurationRequest</a></dt>
+    <dd><p>Data of integration configuration to create</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ServerIntegrationConfiguration.html">ServerIntegrationConfiguration</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_CreateInventoryConfiguration_" data-uid="AccelByte.Server.ServerInventory.CreateInventoryConfiguration*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_CreateInventoryConfiguration_AccelByte_Models_ServerCreateInventoryConfigurationRequest_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryConfiguration__" data-uid="AccelByte.Server.ServerInventory.CreateInventoryConfiguration(AccelByte.Models.ServerCreateInventoryConfigurationRequest,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryConfiguration})">
+  CreateInventoryConfiguration(ServerCreateInventoryConfigurationRequest, ResultCallback&lt;InventoryConfiguration&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateInventoryConfiguration(ServerCreateInventoryConfigurationRequest request, ResultCallback&lt;InventoryConfiguration&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerCreateInventoryConfigurationRequest.html">ServerCreateInventoryConfigurationRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryConfiguration.html">InventoryConfiguration</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_CreateInventoryConfiguration_" data-uid="AccelByte.Server.ServerInventory.CreateInventoryConfiguration*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_CreateInventoryConfiguration_System_String_System_UInt32_System_UInt32_System_UInt32_AccelByte_Models_CreateInventoryConfigurationOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryConfiguration__" data-uid="AccelByte.Server.ServerInventory.CreateInventoryConfiguration(System.String,System.UInt32,System.UInt32,System.UInt32,AccelByte.Models.CreateInventoryConfigurationOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryConfiguration})">
+  CreateInventoryConfiguration(string, uint, uint, uint, CreateInventoryConfigurationOptionalParameters, ResultCallback&lt;InventoryConfiguration&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new inventory configuration for the current namespace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateInventoryConfiguration(string code, uint initialMaxSlots, uint maxInstancesPerUser, uint maxUpgradeSlots, CreateInventoryConfigurationOptionalParameters optionalParameters, ResultCallback&lt;InventoryConfiguration&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Configuration code for the new inventory configuration</p>
+</dd>
+    <dt><code>initialMaxSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Starting slots when an inventory is created using the configuration</p>
+</dd>
+    <dt><code>maxInstancesPerUser</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Maximum instances of the inventory type per user</p>
+</dd>
+    <dt><code>maxUpgradeSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Maximum slots of the inventory when fully upgraded</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.CreateInventoryConfigurationOptionalParameters.html">CreateInventoryConfigurationOptionalParameters</a></dt>
+    <dd><p>Optional parameters. Can be null.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryConfiguration.html">InventoryConfiguration</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_CreateInventoryTag_" data-uid="AccelByte.Server.ServerInventory.CreateInventoryTag*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_CreateInventoryTag_AccelByte_Models_ServerCreateInventoryTagRequest_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryTag__" data-uid="AccelByte.Server.ServerInventory.CreateInventoryTag(AccelByte.Models.ServerCreateInventoryTagRequest,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryTag})">
+  CreateInventoryTag(ServerCreateInventoryTagRequest, ResultCallback&lt;InventoryTag&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateInventoryTag(ServerCreateInventoryTagRequest request, ResultCallback&lt;InventoryTag&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerCreateInventoryTagRequest.html">ServerCreateInventoryTagRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryTag.html">InventoryTag</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_CreateInventoryTag_" data-uid="AccelByte.Server.ServerInventory.CreateInventoryTag*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_CreateInventoryTag_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryTag__" data-uid="AccelByte.Server.ServerInventory.CreateInventoryTag(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryTag})">
+  CreateInventoryTag(string, string, ResultCallback&lt;InventoryTag&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create an inventory tag on the current namespace</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateInventoryTag(string name, string inventoryOwner, ResultCallback&lt;InventoryTag&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the inventory tag to create</p>
+</dd>
+    <dt><code>inventoryOwner</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Owner of inventory tag to create</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryTag.html">InventoryTag</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_CreateItemTypes_" data-uid="AccelByte.Server.ServerInventory.CreateItemTypes*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_CreateItemTypes_AccelByte_Models_ServerCreateItemTypeRequest_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryItemType__" data-uid="AccelByte.Server.ServerInventory.CreateItemTypes(AccelByte.Models.ServerCreateItemTypeRequest,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryItemType})">
+  CreateItemTypes(ServerCreateItemTypeRequest, ResultCallback&lt;InventoryItemType&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateItemTypes(ServerCreateItemTypeRequest request, ResultCallback&lt;InventoryItemType&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerCreateItemTypeRequest.html">ServerCreateItemTypeRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryItemType.html">InventoryItemType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_CreateItemTypes_" data-uid="AccelByte.Server.ServerInventory.CreateItemTypes*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_CreateItemTypes_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryItemType__" data-uid="AccelByte.Server.ServerInventory.CreateItemTypes(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryItemType})">
+  CreateItemTypes(string, ResultCallback&lt;InventoryItemType&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a new item type on the current namespace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateItemTypes(string name, ResultCallback&lt;InventoryItemType&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of item type to create.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryItemType.html">InventoryItemType</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_CreateUserInventory_" data-uid="AccelByte.Server.ServerInventory.CreateUserInventory*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_CreateUserInventory_AccelByte_Models_ServerCreateInventoryRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UserInventory__" data-uid="AccelByte.Server.ServerInventory.CreateUserInventory(AccelByte.Models.ServerCreateInventoryRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UserInventory})">
+  CreateUserInventory(ServerCreateInventoryRequest, ResultCallback&lt;UserInventory&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Grant inventory to the player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateUserInventory(ServerCreateInventoryRequest request, ResultCallback&lt;UserInventory&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerCreateInventoryRequest.html">ServerCreateInventoryRequest</a></dt>
+    <dd><p>Detailed data to be processed</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserInventory.html">UserInventory</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_DeleteInventoryConfiguration_" data-uid="AccelByte.Server.ServerInventory.DeleteInventoryConfiguration*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_DeleteInventoryConfiguration_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerInventory.DeleteInventoryConfiguration(System.String,AccelByte.Core.ResultCallback)">
+  DeleteInventoryConfiguration(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L320"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes inventory configuration data via its configuration Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteInventoryConfiguration(string inventoryConfigurationId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryConfigurationId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Id of inventory configuration to delete</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_DeleteInventoryTag_" data-uid="AccelByte.Server.ServerInventory.DeleteInventoryTag*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_DeleteInventoryTag_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerInventory.DeleteInventoryTag(System.String,AccelByte.Core.ResultCallback)">
+  DeleteInventoryTag(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete an inventory tag on the current namespace via its name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteInventoryTag(string tagName, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tagName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Inventory tag name to delete</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_DeleteItemTypes_" data-uid="AccelByte.Server.ServerInventory.DeleteItemTypes*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_DeleteItemTypes_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerInventory.DeleteItemTypes(System.String,AccelByte.Core.ResultCallback)">
+  DeleteItemTypes(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete an item type on the current namespace via its name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteItemTypes(string itemTypeName, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemTypeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of item type to delete.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_DeleteUserInventory_" data-uid="AccelByte.Server.ServerInventory.DeleteUserInventory*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_DeleteUserInventory_System_String_AccelByte_Models_ServerDeleteInventoryRequest_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerInventory.DeleteUserInventory(System.String,AccelByte.Models.ServerDeleteInventoryRequest,AccelByte.Core.ResultCallback)">
+  DeleteUserInventory(string, ServerDeleteInventoryRequest, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete user inventory based on inventory id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteUserInventory(string inventoryId, ServerDeleteInventoryRequest request, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Inventory Id to be processed</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerDeleteInventoryRequest.html">ServerDeleteInventoryRequest</a></dt>
+    <dd><p>Detailed data to be processed</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetAllInventoryConfigurations_" data-uid="AccelByte.Server.ServerInventory.GetAllInventoryConfigurations*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetAllInventoryConfigurations_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryConfigurationsPagingResponse__AccelByte_Models_InventoryConfigurationSortBy_System_Int32_System_Int32_System_String_" data-uid="AccelByte.Server.ServerInventory.GetAllInventoryConfigurations(AccelByte.Core.ResultCallback{AccelByte.Models.InventoryConfigurationsPagingResponse},AccelByte.Models.InventoryConfigurationSortBy,System.Int32,System.Int32,System.String)">
+  GetAllInventoryConfigurations(ResultCallback&lt;InventoryConfigurationsPagingResponse&gt;, InventoryConfigurationSortBy, int, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves all inventory configurations on the namespace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetAllInventoryConfigurations(ResultCallback&lt;InventoryConfigurationsPagingResponse&gt; callback, InventoryConfigurationSortBy sortBy = InventoryConfigurationSortBy.CreatedAt, int limit = 25, int offset = 0, string inventoryConfigurationCode = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryConfigurationsPagingResponse.html">InventoryConfigurationsPagingResponse</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.InventoryConfigurationSortBy.html">InventoryConfigurationSortBy</a></dt>
+    <dd><p>Optional parameter to sort result items by</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to limit amount of items returned in a page</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to traverse pagination by amount of items</p>
+</dd>
+    <dt><code>inventoryConfigurationCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optional parameter to filter result items by inventory configuration code</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetIntegrationConfigurations_" data-uid="AccelByte.Server.ServerInventory.GetIntegrationConfigurations*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetIntegrationConfigurations_AccelByte_Core_ResultCallback_AccelByte_Models_ServerIntegrationConfigurationsPagingResponse__AccelByte_Models_ServerIntegrationConfigurationSortBy_System_Int32_System_Int32_" data-uid="AccelByte.Server.ServerInventory.GetIntegrationConfigurations(AccelByte.Core.ResultCallback{AccelByte.Models.ServerIntegrationConfigurationsPagingResponse},AccelByte.Models.ServerIntegrationConfigurationSortBy,System.Int32,System.Int32)">
+  GetIntegrationConfigurations(ResultCallback&lt;ServerIntegrationConfigurationsPagingResponse&gt;, ServerIntegrationConfigurationSortBy, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves all available integration configurations on the current namespace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetIntegrationConfigurations(ResultCallback&lt;ServerIntegrationConfigurationsPagingResponse&gt; callback, ServerIntegrationConfigurationSortBy sortBy = ServerIntegrationConfigurationSortBy.CreatedAt, int limit = 25, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ServerIntegrationConfigurationsPagingResponse.html">ServerIntegrationConfigurationsPagingResponse</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.ServerIntegrationConfigurationSortBy.html">ServerIntegrationConfigurationSortBy</a></dt>
+    <dd><p>Optional parameter to sort result data by</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to limit amount of items returned in a page</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to traverse pagination by amount of items</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetInventoryConfiguration_" data-uid="AccelByte.Server.ServerInventory.GetInventoryConfiguration*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetInventoryConfiguration_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryConfiguration__" data-uid="AccelByte.Server.ServerInventory.GetInventoryConfiguration(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryConfiguration})">
+  GetInventoryConfiguration(string, ResultCallback&lt;InventoryConfiguration&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves inventory configuration data via its configuration Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetInventoryConfiguration(string inventoryConfigurationId, ResultCallback&lt;InventoryConfiguration&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryConfigurationId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Id of inventory configuration to fetch data for</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryConfiguration.html">InventoryConfiguration</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetInventoryTags_" data-uid="AccelByte.Server.ServerInventory.GetInventoryTags*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetInventoryTags_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryTagsPagingResponse__AccelByte_Models_ItemTypeSortBy_System_Int32_System_Int32_" data-uid="AccelByte.Server.ServerInventory.GetInventoryTags(AccelByte.Core.ResultCallback{AccelByte.Models.InventoryTagsPagingResponse},AccelByte.Models.ItemTypeSortBy,System.Int32,System.Int32)">
+  GetInventoryTags(ResultCallback&lt;InventoryTagsPagingResponse&gt;, ItemTypeSortBy, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L411"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves all available inventory tags on the current namespace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetInventoryTags(ResultCallback&lt;InventoryTagsPagingResponse&gt; callback, ItemTypeSortBy sortBy = ItemTypeSortBy.CreatedAt, int limit = 25, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryTagsPagingResponse.html">InventoryTagsPagingResponse</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.ItemTypeSortBy.html">ItemTypeSortBy</a></dt>
+    <dd><p>Optional parameter to sort result items by</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to limit amount of items returned in a page</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to traverse pagination by amount of items</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetItemTypes_" data-uid="AccelByte.Server.ServerInventory.GetItemTypes*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetItemTypes_AccelByte_Core_ResultCallback_AccelByte_Models_ItemTypesPagingResponse__AccelByte_Models_ItemTypeSortBy_System_Int32_System_Int32_" data-uid="AccelByte.Server.ServerInventory.GetItemTypes(AccelByte.Core.ResultCallback{AccelByte.Models.ItemTypesPagingResponse},AccelByte.Models.ItemTypeSortBy,System.Int32,System.Int32)">
+  GetItemTypes(ResultCallback&lt;ItemTypesPagingResponse&gt;, ItemTypeSortBy, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L424"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves available item types on the current namespace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetItemTypes(ResultCallback&lt;ItemTypesPagingResponse&gt; callback, ItemTypeSortBy sortBy = ItemTypeSortBy.CreatedAt, int limit = 25, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ItemTypesPagingResponse.html">ItemTypesPagingResponse</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.ItemTypeSortBy.html">ItemTypeSortBy</a></dt>
+    <dd><p>Optional parameter to sort result items by</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to limit amount of items returned in a page</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to traverse pagination by amount of items</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetUserInventories_" data-uid="AccelByte.Server.ServerInventory.GetUserInventories*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetUserInventories_AccelByte_Core_ResultCallback_AccelByte_Models_UserInventoriesPagingResponse__AccelByte_Models_UserInventorySortBy_System_Int32_System_Int32_System_String_System_String_" data-uid="AccelByte.Server.ServerInventory.GetUserInventories(AccelByte.Core.ResultCallback{AccelByte.Models.UserInventoriesPagingResponse},AccelByte.Models.UserInventorySortBy,System.Int32,System.Int32,System.String,System.String)">
+  GetUserInventories(ResultCallback&lt;UserInventoriesPagingResponse&gt;, UserInventorySortBy, int, int, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve list of user inventories</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserInventories(ResultCallback&lt;UserInventoriesPagingResponse&gt; callback, UserInventorySortBy sortBy = UserInventorySortBy.CreatedAt, int limit = 25, int offset = 0, string inventoryConfigurationCode = &quot;&quot;, string userId = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserInventoriesPagingResponse.html">UserInventoriesPagingResponse</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.UserInventorySortBy.html">UserInventorySortBy</a></dt>
+    <dd><p>Optional parameter to set inventory list order</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to define limit for the result length</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Optional parameter to define offset for the result</p>
+</dd>
+    <dt><code>inventoryConfigurationCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optional parameter to query based on inventory configuration code</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optional parameter to query based on a specific userId</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetUserInventory_" data-uid="AccelByte.Server.ServerInventory.GetUserInventory*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetUserInventory_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserInventory__" data-uid="AccelByte.Server.ServerInventory.GetUserInventory(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserInventory})">
+  GetUserInventory(string, ResultCallback&lt;UserInventory&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserInventory(string inventoryId, ResultCallback&lt;UserInventory&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserInventory.html">UserInventory</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetUserInventoryAllItems_" data-uid="AccelByte.Server.ServerInventory.GetUserInventoryAllItems*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetUserInventoryAllItems_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserItemsPagingResponse__" data-uid="AccelByte.Server.ServerInventory.GetUserInventoryAllItems(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserItemsPagingResponse})">
+  GetUserInventoryAllItems(string, ResultCallback&lt;UserItemsPagingResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L463"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve a list of user inventories</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserInventoryAllItems(string inventoryId, ResultCallback&lt;UserItemsPagingResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Selected inventory Id</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItemsPagingResponse.html">UserItemsPagingResponse</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetUserInventoryAllItems_" data-uid="AccelByte.Server.ServerInventory.GetUserInventoryAllItems*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetUserInventoryAllItems_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserItemsPagingResponse__AccelByte_Models_UserItemSortBy_System_Int32_System_Int32_System_String_AccelByte_Core_TagQueryBuilder_System_Nullable_System_Int32__" data-uid="AccelByte.Server.ServerInventory.GetUserInventoryAllItems(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserItemsPagingResponse},AccelByte.Models.UserItemSortBy,System.Int32,System.Int32,System.String,AccelByte.Core.TagQueryBuilder,System.Nullable{System.Int32})">
+  GetUserInventoryAllItems(string, ResultCallback&lt;UserItemsPagingResponse&gt;, UserItemSortBy, int, int, string, TagQueryBuilder, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L481"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserInventoryAllItems(string inventoryId, ResultCallback&lt;UserItemsPagingResponse&gt; callback, UserItemSortBy sortBy = UserItemSortBy.CreatedAt, int limit = 25, int offset = 0, string sourceItemId = &quot;&quot;, TagQueryBuilder tagBuilder = null, int? quantity = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItemsPagingResponse.html">UserItemsPagingResponse</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.UserItemSortBy.html">UserItemSortBy</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>sourceItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>tagBuilder</code> <a class="xref" href="AccelByte.Core.TagQueryBuilder.html">TagQueryBuilder</a></dt>
+    <dd></dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetUserInventoryAllItems_" data-uid="AccelByte.Server.ServerInventory.GetUserInventoryAllItems*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetUserInventoryAllItems_System_String_AccelByte_Models_GetUserInventoryAllItemsOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_UserItemsPagingResponse__" data-uid="AccelByte.Server.ServerInventory.GetUserInventoryAllItems(System.String,AccelByte.Models.GetUserInventoryAllItemsOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.UserItemsPagingResponse})">
+  GetUserInventoryAllItems(string, GetUserInventoryAllItemsOptionalParameters, ResultCallback&lt;UserItemsPagingResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L468"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve a list of user inventories</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserInventoryAllItems(string inventoryId, GetUserInventoryAllItemsOptionalParameters optionalParam, ResultCallback&lt;UserItemsPagingResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Selected inventory Id</p>
+</dd>
+    <dt><code>optionalParam</code> <a class="xref" href="AccelByte.Models.GetUserInventoryAllItemsOptionalParameters.html">GetUserInventoryAllItemsOptionalParameters</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItemsPagingResponse.html">UserItemsPagingResponse</a>&gt;</dt>
+    <dd><p>Returns a Result that contains UserItemsPagingResponse via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_GetUserInventoryItem_" data-uid="AccelByte.Server.ServerInventory.GetUserInventoryItem*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_GetUserInventoryItem_System_String_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserItem__" data-uid="AccelByte.Server.ServerInventory.GetUserInventoryItem(System.String,System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserItem})">
+  GetUserInventoryItem(string, string, string, ResultCallback&lt;UserItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L495"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Listing all items in an inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserInventoryItem(string inventoryId, string slotId, string sourceItemId, ResultCallback&lt;UserItem&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Selected inventory Id</p>
+</dd>
+    <dt><code>slotId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>slot id to be fetch</p>
+</dd>
+    <dt><code>sourceItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>item id to fetch</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItem.html">UserItem</a>&gt;</dt>
+    <dd><p>Returns a Result that contains UserItem via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_RunChainingOperation_" data-uid="AccelByte.Server.ServerInventory.RunChainingOperation*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_RunChainingOperation_AccelByte_Models_ServerInventoryChainingOperationRequest_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryChainingOperationResponse__" data-uid="AccelByte.Server.ServerInventory.RunChainingOperation(AccelByte.Models.ServerInventoryChainingOperationRequest,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryChainingOperationResponse})">
+  RunChainingOperation(ServerInventoryChainingOperationRequest, ResultCallback&lt;InventoryChainingOperationResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L508"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Run a series of inventory operations as defined on request</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunChainingOperation(ServerInventoryChainingOperationRequest request, ResultCallback&lt;InventoryChainingOperationResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerInventoryChainingOperationRequest.html">ServerInventoryChainingOperationRequest</a></dt>
+    <dd><p>Operations to run, sequentially by index</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryChainingOperationResponse.html">InventoryChainingOperationResponse</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_SaveUserInventoryItem_" data-uid="AccelByte.Server.ServerInventory.SaveUserInventoryItem*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_SaveUserInventoryItem_System_String_System_String_System_String_System_String_System_String_System_UInt32_AccelByte_Core_ResultCallback_AccelByte_Models_UserItem__" data-uid="AccelByte.Server.ServerInventory.SaveUserInventoryItem(System.String,System.String,System.String,System.String,System.String,System.UInt32,AccelByte.Core.ResultCallback{AccelByte.Models.UserItem})">
+  SaveUserInventoryItem(string, string, string, string, string, uint, ResultCallback&lt;UserItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L521"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add item to player inventory using inventoryConfigurationCode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveUserInventoryItem(string userId, string inventoryConfigurationCode, string source, string sourceItemId, string type, uint quantity, ResultCallback&lt;UserItem&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>user to be process</p>
+</dd>
+    <dt><code>inventoryConfigurationCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>inventory config code to be processed</p>
+</dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>item source to be processed</p>
+</dd>
+    <dt><code>sourceItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>item source id to be processed</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>item type to be processed</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>item quantity to be processed</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItem.html">UserItem</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_SaveUserInventoryItem_" data-uid="AccelByte.Server.ServerInventory.SaveUserInventoryItem*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_SaveUserInventoryItem_System_String_System_String_System_String_System_String_System_String_System_UInt32_AccelByte_Models_SaveUserInventoryItemOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_UserItem__" data-uid="AccelByte.Server.ServerInventory.SaveUserInventoryItem(System.String,System.String,System.String,System.String,System.String,System.UInt32,AccelByte.Models.SaveUserInventoryItemOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.UserItem})">
+  SaveUserInventoryItem(string, string, string, string, string, uint, SaveUserInventoryItemOptionalParameters, ResultCallback&lt;UserItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L541"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add item to player inventory using inventoryConfigurationCode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveUserInventoryItem(string userId, string inventoryConfigurationCode, string source, string sourceItemId, string type, uint quantity, SaveUserInventoryItemOptionalParameters optionalParameters, ResultCallback&lt;UserItem&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>user to be process</p>
+</dd>
+    <dt><code>inventoryConfigurationCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>inventory config code to be processed</p>
+</dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>item source to be processed</p>
+</dd>
+    <dt><code>sourceItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>item source id to be processed</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>item type to be processed</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>item quantity to be processed</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.SaveUserInventoryItemOptionalParameters.html">SaveUserInventoryItemOptionalParameters</a></dt>
+    <dd><p>optional parameters to be processed</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItem.html">UserItem</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_SaveUserInventoryItemToInventory_" data-uid="AccelByte.Server.ServerInventory.SaveUserInventoryItemToInventory*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_SaveUserInventoryItemToInventory_System_String_System_String_AccelByte_Models_ServerSaveUserInventoryItemRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UserItem__" data-uid="AccelByte.Server.ServerInventory.SaveUserInventoryItemToInventory(System.String,System.String,AccelByte.Models.ServerSaveUserInventoryItemRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UserItem})">
+  SaveUserInventoryItemToInventory(string, string, ServerSaveUserInventoryItemRequest, ResultCallback&lt;UserItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L570"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveUserInventoryItemToInventory(string userId, string inventoryId, ServerSaveUserInventoryItemRequest request, ResultCallback&lt;UserItem&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerSaveUserInventoryItemRequest.html">ServerSaveUserInventoryItemRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItem.html">UserItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_SaveUserInventoryItemToInventory_" data-uid="AccelByte.Server.ServerInventory.SaveUserInventoryItemToInventory*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_SaveUserInventoryItemToInventory_System_String_System_String_System_String_System_String_System_String_System_UInt32_AccelByte_Models_SaveUserInventoryItemToInventoryOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_UserItem__" data-uid="AccelByte.Server.ServerInventory.SaveUserInventoryItemToInventory(System.String,System.String,System.String,System.String,System.String,System.UInt32,AccelByte.Models.SaveUserInventoryItemToInventoryOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.UserItem})">
+  SaveUserInventoryItemToInventory(string, string, string, string, string, uint, SaveUserInventoryItemToInventoryOptionalParameters, ResultCallback&lt;UserItem&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L608"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add item to player inventory using inventoryId</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveUserInventoryItemToInventory(string inventoryId, string userId, string source, string sourceItemId, string type, uint quantity, SaveUserInventoryItemToInventoryOptionalParameters optionalParameters, ResultCallback&lt;UserItem&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>InventoryId to be process</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>user to be process</p>
+</dd>
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Source of item to be added, can be ECOMMERCE or OTHER</p>
+</dd>
+    <dt><code>sourceItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Item id of item to be added</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Type of item to be added</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity of item to be added</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.SaveUserInventoryItemToInventoryOptionalParameters.html">SaveUserInventoryItemToInventoryOptionalParameters</a></dt>
+    <dd><p>Optional parameters. Can be null.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserItem.html">UserItem</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_SyncUserEntitlements_" data-uid="AccelByte.Server.ServerInventory.SyncUserEntitlements*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_SyncUserEntitlements_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerInventory.SyncUserEntitlements(System.String,AccelByte.Core.ResultCallback)">
+  SyncUserEntitlements(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L642"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Synchronizes user entitlement data to Inventory service</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncUserEntitlements(string userId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Id of user to sync data for</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_UpdateIntegrationConfiguration_" data-uid="AccelByte.Server.ServerInventory.UpdateIntegrationConfiguration*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_UpdateIntegrationConfiguration_System_String_AccelByte_Models_ServerUpdateIntegrationConfigurationRequest_AccelByte_Core_ResultCallback_AccelByte_Models_ServerIntegrationConfiguration__" data-uid="AccelByte.Server.ServerInventory.UpdateIntegrationConfiguration(System.String,AccelByte.Models.ServerUpdateIntegrationConfigurationRequest,AccelByte.Core.ResultCallback{AccelByte.Models.ServerIntegrationConfiguration})">
+  UpdateIntegrationConfiguration(string, ServerUpdateIntegrationConfigurationRequest, ResultCallback&lt;ServerIntegrationConfiguration&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L655"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates an integration configuration via its id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateIntegrationConfiguration(string integrationConfigurationId, ServerUpdateIntegrationConfigurationRequest request, ResultCallback&lt;ServerIntegrationConfiguration&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>integrationConfigurationId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Id of integration configuration to update</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerUpdateIntegrationConfigurationRequest.html">ServerUpdateIntegrationConfigurationRequest</a></dt>
+    <dd><p>Data of integration configuration to update</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ServerIntegrationConfiguration.html">ServerIntegrationConfiguration</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_UpdateIntegrationConfigurationStatus_" data-uid="AccelByte.Server.ServerInventory.UpdateIntegrationConfigurationStatus*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_UpdateIntegrationConfigurationStatus_System_String_AccelByte_Models_ServerUpdateIntegrationConfigurationStatusRequest_AccelByte_Core_ResultCallback_AccelByte_Models_ServerIntegrationConfiguration__" data-uid="AccelByte.Server.ServerInventory.UpdateIntegrationConfigurationStatus(System.String,AccelByte.Models.ServerUpdateIntegrationConfigurationStatusRequest,AccelByte.Core.ResultCallback{AccelByte.Models.ServerIntegrationConfiguration})">
+  UpdateIntegrationConfigurationStatus(string, ServerUpdateIntegrationConfigurationStatusRequest, ResultCallback&lt;ServerIntegrationConfiguration&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L668"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates an integration configuration's status via its id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateIntegrationConfigurationStatus(string integrationConfigurationId, ServerUpdateIntegrationConfigurationStatusRequest request, ResultCallback&lt;ServerIntegrationConfiguration&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>integrationConfigurationId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Id of integration configuration to update</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerUpdateIntegrationConfigurationStatusRequest.html">ServerUpdateIntegrationConfigurationStatusRequest</a></dt>
+    <dd><p>Data of integration configuration status to update</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ServerIntegrationConfiguration.html">ServerIntegrationConfiguration</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_UpdateInventoryConfiguration_" data-uid="AccelByte.Server.ServerInventory.UpdateInventoryConfiguration*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_UpdateInventoryConfiguration_System_String_AccelByte_Models_ServerUpdateInventoryConfigurationRequest_AccelByte_Core_ResultCallback_AccelByte_Models_InventoryConfiguration__" data-uid="AccelByte.Server.ServerInventory.UpdateInventoryConfiguration(System.String,AccelByte.Models.ServerUpdateInventoryConfigurationRequest,AccelByte.Core.ResultCallback{AccelByte.Models.InventoryConfiguration})">
+  UpdateInventoryConfiguration(string, ServerUpdateInventoryConfigurationRequest, ResultCallback&lt;InventoryConfiguration&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L681"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates inventory configuration data via its configuration Id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateInventoryConfiguration(string inventoryConfigurationId, ServerUpdateInventoryConfigurationRequest request, ResultCallback&lt;InventoryConfiguration&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryConfigurationId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Id of inventory configuration to update</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerUpdateInventoryConfigurationRequest.html">ServerUpdateInventoryConfigurationRequest</a></dt>
+    <dd><p>Inventory configuration data to update</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InventoryConfiguration.html">InventoryConfiguration</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_UpdateUserInventory_" data-uid="AccelByte.Server.ServerInventory.UpdateUserInventory*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_UpdateUserInventory_System_String_AccelByte_Models_ServerUpdateInventoryRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UserInventory__" data-uid="AccelByte.Server.ServerInventory.UpdateUserInventory(System.String,AccelByte.Models.ServerUpdateInventoryRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UserInventory})">
+  UpdateUserInventory(string, ServerUpdateInventoryRequest, ResultCallback&lt;UserInventory&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L694"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update user inventory slot limit</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateUserInventory(string inventoryId, ServerUpdateInventoryRequest request, ResultCallback&lt;UserInventory&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inventoryId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Inventory Id to be processed</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerUpdateInventoryRequest.html">ServerUpdateInventoryRequest</a></dt>
+    <dd><p>Detailed data to be processed</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserInventory.html">UserInventory</a>&gt;</dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerInventory_ValidateUserInventoryCapacity_" data-uid="AccelByte.Server.ServerInventory.ValidateUserInventoryCapacity*"></a>
+
+  <h3 id="AccelByte_Server_ServerInventory_ValidateUserInventoryCapacity_System_String_AccelByte_Models_ServerValidateUserInventoryCapacityRequest_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerInventory.ValidateUserInventoryCapacity(System.String,AccelByte.Models.ServerValidateUserInventoryCapacityRequest,AccelByte.Core.ResultCallback)">
+  ValidateUserInventoryCapacity(string, ServerValidateUserInventoryCapacityRequest, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerInventory.cs/#L707"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Validates the capacity of a user's inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ValidateUserInventoryCapacity(string userId, ServerValidateUserInventoryCapacityRequest request, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Id of user to validate inventory capacity for</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.ServerValidateUserInventoryCapacityRequest.html">ServerValidateUserInventoryCapacityRequest</a></dt>
+    <dd><p>Request data of inventory to validate</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

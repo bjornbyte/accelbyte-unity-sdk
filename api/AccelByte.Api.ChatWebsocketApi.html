@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ChatWebsocketApi | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ChatWebsocketApi | AccelByte Unity SDK | 17.12.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_ChatWebsocketApi.md&amp;value=---%0Auid%3A%20AccelByte.Api.ChatWebsocketApi%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.ChatWebsocketApi">
+
+
+
+  <h1 id="AccelByte_Api_ChatWebsocketApi" data-uid="AccelByte.Api.ChatWebsocketApi" class="text-break">
+Class ChatWebsocketApi  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ChatWebsocketApi : AccelByteWebsocketApi</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Core.AccelByteWebsocketApi.html">AccelByteWebsocketApi</a></div>
+      <div><span class="xref">ChatWebsocketApi</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_OnOpen">AccelByteWebsocketApi.OnOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_OnClose">AccelByteWebsocketApi.OnClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_OnMessage">AccelByteWebsocketApi.OnMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_OnError">AccelByteWebsocketApi.OnError</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_SessionId">AccelByteWebsocketApi.SessionId</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_websocketUrl">AccelByteWebsocketApi.websocketUrl</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_session">AccelByteWebsocketApi.session</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_coroutineRunner">AccelByteWebsocketApi.coroutineRunner</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_webSocket">AccelByteWebsocketApi.webSocket</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_namespace_">AccelByteWebsocketApi.namespace_</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_syncToken">AccelByteWebsocketApi.syncToken</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_OverrideWebsocket_AccelByte_Core_IWebSocket_System_Int32_System_Int32_System_Int32_System_Int32_">AccelByteWebsocketApi.OverrideWebsocket(IWebSocket, int, int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_Connect_System_Collections_Generic_Dictionary_System_String_System_String__">AccelByteWebsocketApi.Connect(Dictionary&lt;string, string&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_Disconnect">AccelByteWebsocketApi.Disconnect()</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_SendMessage_System_String_">AccelByteWebsocketApi.SendMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_SetOnMessageHandler_AccelByte_Core_OnMessageHandler_">AccelByteWebsocketApi.SetOnMessageHandler(OnMessageHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_HandleOnOpen">AccelByteWebsocketApi.HandleOnOpen()</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_HandleOnClose_System_UInt16_">AccelByteWebsocketApi.HandleOnClose(ushort)</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_HandleOnError_System_String_">AccelByteWebsocketApi.HandleOnError(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.AccelByteWebsocketApi.html#Core_AccelByteWebsocketApi_GenerateMessageId">AccelByteWebsocketApi.GenerateMessageId()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_IsConnected_" data-uid="AccelByte.Api.ChatWebsocketApi.IsConnected*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_IsConnected" data-uid="AccelByte.Api.ChatWebsocketApi.IsConnected">
+  IsConnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConnected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_BlockUser_" data-uid="AccelByte.Api.ChatWebsocketApi.BlockUser*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_BlockUser_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_BlockUnblockResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.BlockUser(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.BlockUnblockResponse})">
+  BlockUser(string, ResultCallback&lt;BlockUnblockResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BlockUser(string userId, ResultCallback&lt;BlockUnblockResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.BlockUnblockResponse.html">BlockUnblockResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_Connect_" data-uid="AccelByte.Api.ChatWebsocketApi.Connect*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_Connect" data-uid="AccelByte.Api.ChatWebsocketApi.Connect">
+  Connect()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Connect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_CreatePersonalTopic_" data-uid="AccelByte.Api.ChatWebsocketApi.CreatePersonalTopic*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_CreatePersonalTopic_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_ChatActionTopicResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.CreatePersonalTopic(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.ChatActionTopicResponse})">
+  CreatePersonalTopic(string, ResultCallback&lt;ChatActionTopicResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreatePersonalTopic(string otherUserId, ResultCallback&lt;ChatActionTopicResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>otherUserId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ChatActionTopicResponse.html">ChatActionTopicResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_DeleteSystemMessages_" data-uid="AccelByte.Api.ChatWebsocketApi.DeleteSystemMessages*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_DeleteSystemMessages_System_Collections_Generic_HashSet_System_String__AccelByte_Core_ResultCallback_AccelByte_Models_DeleteSystemMessagesResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.DeleteSystemMessages(System.Collections.Generic.HashSet{System.String},AccelByte.Core.ResultCallback{AccelByte.Models.DeleteSystemMessagesResponse})">
+  DeleteSystemMessages(HashSet&lt;string&gt;, ResultCallback&lt;DeleteSystemMessagesResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteSystemMessages(HashSet&lt;string&gt; messageIds, ResultCallback&lt;DeleteSystemMessagesResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>messageIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.DeleteSystemMessagesResponse.html">DeleteSystemMessagesResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_GetSystemMessagesStats_" data-uid="AccelByte.Api.ChatWebsocketApi.GetSystemMessagesStats*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_GetSystemMessagesStats_AccelByte_Models_GetSystemMessageStatsRequest_AccelByte_Core_ResultCallback_AccelByte_Models_GetSystemMessageStatsResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.GetSystemMessagesStats(AccelByte.Models.GetSystemMessageStatsRequest,AccelByte.Core.ResultCallback{AccelByte.Models.GetSystemMessageStatsResponse})">
+  GetSystemMessagesStats(GetSystemMessageStatsRequest, ResultCallback&lt;GetSystemMessageStatsResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetSystemMessagesStats(GetSystemMessageStatsRequest request, ResultCallback&lt;GetSystemMessageStatsResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.GetSystemMessageStatsRequest.html">GetSystemMessageStatsRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GetSystemMessageStatsResponse.html">GetSystemMessageStatsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_GetUserChatConfiguration_" data-uid="AccelByte.Api.ChatWebsocketApi.GetUserChatConfiguration*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_GetUserChatConfiguration_AccelByte_Core_ResultCallback_AccelByte_Models_GetUserChatConfigurationResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.GetUserChatConfiguration(AccelByte.Core.ResultCallback{AccelByte.Models.GetUserChatConfigurationResponse})">
+  GetUserChatConfiguration(ResultCallback&lt;GetUserChatConfigurationResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserChatConfiguration(ResultCallback&lt;GetUserChatConfigurationResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GetUserChatConfigurationResponse.html">GetUserChatConfigurationResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_HandleOnMessage_" data-uid="AccelByte.Api.ChatWebsocketApi.HandleOnMessage*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_HandleOnMessage_System_String_" data-uid="AccelByte.Api.ChatWebsocketApi.HandleOnMessage(System.String)">
+  HandleOnMessage(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void HandleOnMessage(string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_HandleResponse_" data-uid="AccelByte.Api.ChatWebsocketApi.HandleResponse*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_HandleResponse_System_String_AccelByte_Core_Error_System_String_" data-uid="AccelByte.Api.ChatWebsocketApi.HandleResponse(System.String,AccelByte.Core.Error,System.String)">
+  HandleResponse(string, Error, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HandleResponse(string messageId, Error error, string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>messageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>error</code> <a class="xref" href="AccelByte.Core.Error.html">Error</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_QueryChat_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryChat*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_QueryChat_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_QueryChatResponse__System_Int32_System_DateTime_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryChat(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.QueryChatResponse},System.Int32,System.DateTime)">
+  QueryChat(string, ResultCallback&lt;QueryChatResponse&gt;, int, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryChat(string topicId, ResultCallback&lt;QueryChatResponse&gt; callback, int limit, DateTime lastChatCreatedAt)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>topicId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.QueryChatResponse.html">QueryChatResponse</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>lastChatCreatedAt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_QueryGroupTopic_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryGroupTopic*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_QueryGroupTopic_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_QueryTopicResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryGroupTopic(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.QueryTopicResponse},System.Int32,System.Int32)">
+  QueryGroupTopic(string, ResultCallback&lt;QueryTopicResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryGroupTopic(string keyword, ResultCallback&lt;QueryTopicResponse&gt; callback, int offset, int limit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyword</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.QueryTopicResponse.html">QueryTopicResponse</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_QueryPersonalTopic_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryPersonalTopic*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_QueryPersonalTopic_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_QueryTopicResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryPersonalTopic(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.QueryTopicResponse},System.Int32,System.Int32)">
+  QueryPersonalTopic(string, ResultCallback&lt;QueryTopicResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryPersonalTopic(string keyword, ResultCallback&lt;QueryTopicResponse&gt; callback, int offset, int limit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyword</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.QueryTopicResponse.html">QueryTopicResponse</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_QuerySystemMessage_" data-uid="AccelByte.Api.ChatWebsocketApi.QuerySystemMessage*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_QuerySystemMessage_AccelByte_Core_ResultCallback_AccelByte_Models_QuerySystemMessagesResponse__AccelByte_Models_QuerySystemMessageRequest_" data-uid="AccelByte.Api.ChatWebsocketApi.QuerySystemMessage(AccelByte.Core.ResultCallback{AccelByte.Models.QuerySystemMessagesResponse},AccelByte.Models.QuerySystemMessageRequest)">
+  QuerySystemMessage(ResultCallback&lt;QuerySystemMessagesResponse&gt;, QuerySystemMessageRequest)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QuerySystemMessage(ResultCallback&lt;QuerySystemMessagesResponse&gt; callback, QuerySystemMessageRequest request)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.QuerySystemMessagesResponse.html">QuerySystemMessagesResponse</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.QuerySystemMessageRequest.html">QuerySystemMessageRequest</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_QueryTopic_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryTopic*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_QueryTopic_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_QueryTopicByIdResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.QueryTopic(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.QueryTopicByIdResponse})">
+  QueryTopic(string, ResultCallback&lt;QueryTopicByIdResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryTopic(string topicId, ResultCallback&lt;QueryTopicByIdResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>topicId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.QueryTopicByIdResponse.html">QueryTopicByIdResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_QueryTopic_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryTopic*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_QueryTopic_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_QueryTopicResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.ChatWebsocketApi.QueryTopic(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.QueryTopicResponse},System.Int32,System.Int32)">
+  QueryTopic(string, ResultCallback&lt;QueryTopicResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryTopic(string keyword, ResultCallback&lt;QueryTopicResponse&gt; callback, int offset, int limit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyword</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.QueryTopicResponse.html">QueryTopicResponse</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_RefreshToken_" data-uid="AccelByte.Api.ChatWebsocketApi.RefreshToken*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_RefreshToken_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.ChatWebsocketApi.RefreshToken(System.String,AccelByte.Core.ResultCallback)">
+  RefreshToken(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RefreshToken(string newToken, ResultCallback result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_SendChatMessage_" data-uid="AccelByte.Api.ChatWebsocketApi.SendChatMessage*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_SendChatMessage_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SendChatResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.SendChatMessage(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SendChatResponse})">
+  SendChatMessage(string, string, ResultCallback&lt;SendChatResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendChatMessage(string topicId, string message, ResultCallback&lt;SendChatResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>topicId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SendChatResponse.html">SendChatResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_SendRequest_" data-uid="AccelByte.Api.ChatWebsocketApi.SendRequest*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_SendRequest__2_AccelByte_Models_ChatMessageMethod___0_AccelByte_Core_ResultCallback___1__" data-uid="AccelByte.Api.ChatWebsocketApi.SendRequest``2(AccelByte.Models.ChatMessageMethod,``0,AccelByte.Core.ResultCallback{``1})">
+  SendRequest&lt;T, U&gt;(ChatMessageMethod, T, ResultCallback&lt;U&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SendRequest&lt;T, U&gt;(ChatMessageMethod method, T request, ResultCallback&lt;U&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <a class="xref" href="AccelByte.Models.ChatMessageMethod.html">ChatMessageMethod</a></dt>
+    <dd></dd>
+    <dt><code>request</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;U&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>U</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_SetUserChatConfiguration_" data-uid="AccelByte.Api.ChatWebsocketApi.SetUserChatConfiguration*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_SetUserChatConfiguration_AccelByte_Models_SetUserChatConfigurationRequest_AccelByte_Core_ResultCallback_AccelByte_Models_SetUserChatConfigurationResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.SetUserChatConfiguration(AccelByte.Models.SetUserChatConfigurationRequest,AccelByte.Core.ResultCallback{AccelByte.Models.SetUserChatConfigurationResponse})">
+  SetUserChatConfiguration(SetUserChatConfigurationRequest, ResultCallback&lt;SetUserChatConfigurationResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetUserChatConfiguration(SetUserChatConfigurationRequest request, ResultCallback&lt;SetUserChatConfigurationResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.SetUserChatConfigurationRequest.html">SetUserChatConfigurationRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SetUserChatConfigurationResponse.html">SetUserChatConfigurationResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_UnblockUser_" data-uid="AccelByte.Api.ChatWebsocketApi.UnblockUser*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_UnblockUser_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_BlockUnblockResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.UnblockUser(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.BlockUnblockResponse})">
+  UnblockUser(string, ResultCallback&lt;BlockUnblockResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnblockUser(string userId, ResultCallback&lt;BlockUnblockResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.BlockUnblockResponse.html">BlockUnblockResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_ChatWebsocketApi_UpdateSystemMessages_" data-uid="AccelByte.Api.ChatWebsocketApi.UpdateSystemMessages*"></a>
+
+  <h3 id="AccelByte_Api_ChatWebsocketApi_UpdateSystemMessages_System_Collections_Generic_HashSet_AccelByte_Models_ActionUpdateSystemMessage__AccelByte_Core_ResultCallback_AccelByte_Models_UpdateSystemMessagesResponse__" data-uid="AccelByte.Api.ChatWebsocketApi.UpdateSystemMessages(System.Collections.Generic.HashSet{AccelByte.Models.ActionUpdateSystemMessage},AccelByte.Core.ResultCallback{AccelByte.Models.UpdateSystemMessagesResponse})">
+  UpdateSystemMessages(HashSet&lt;ActionUpdateSystemMessage&gt;, ResultCallback&lt;UpdateSystemMessagesResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/ChatWebsocketApi.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateSystemMessages(HashSet&lt;ActionUpdateSystemMessage&gt; actionUpdateSystemMessages, ResultCallback&lt;UpdateSystemMessagesResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>actionUpdateSystemMessages</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="AccelByte.Models.ActionUpdateSystemMessage.html">ActionUpdateSystemMessage</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UpdateSystemMessagesResponse.html">UpdateSystemMessagesResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Achievement | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Achievement | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Provide APIs to access Achievement service.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_Achievement.md&amp;value=---%0Auid%3A%20AccelByte.Api.Achievement%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.Achievement">
+
+
+
+  <h1 id="AccelByte_Api_Achievement" data-uid="AccelByte.Api.Achievement" class="text-break">
+Class Achievement  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Provide APIs to access Achievement service.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Achievement : WrapperBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.WrapperBase.html">WrapperBase</a></div>
+      <div><span class="xref">Achievement</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.WrapperBase.html#AccelByte_Core_WrapperBase_IdValidator">WrapperBase.IdValidator</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_Achievement_BulkUnlockAchievement_" data-uid="AccelByte.Api.Achievement.BulkUnlockAchievement*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_BulkUnlockAchievement_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_BulkUnlockAchievementResponse____" data-uid="AccelByte.Api.Achievement.BulkUnlockAchievement(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.BulkUnlockAchievementResponse[]})">
+  BulkUnlockAchievement(string[], ResultCallback&lt;BulkUnlockAchievementResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unlock multiple achievements via achievementCode for the current user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkUnlockAchievement(string[] achievementCodes, ResultCallback&lt;BulkUnlockAchievementResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>achievementCodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Array of achievement codes to be unlocked.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.BulkUnlockAchievementResponse.html">BulkUnlockAchievementResponse</a>[]&gt;</dt>
+    <dd><p>Returns a Result via callback that contains an array of BulkUnlockAchievementResponse when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_ClaimGlobalAchievement_" data-uid="AccelByte.Api.Achievement.ClaimGlobalAchievement*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_ClaimGlobalAchievement_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Achievement.ClaimGlobalAchievement(System.String,AccelByte.Core.ResultCallback)">
+  ClaimGlobalAchievement(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L512"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Claim specific global achievement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClaimGlobalAchievement(string achievementCode, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>achievementCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The code of the expected global achievement.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_GetAchievement_" data-uid="AccelByte.Api.Achievement.GetAchievement*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_GetAchievement_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_MultiLanguageAchievement__" data-uid="AccelByte.Api.Achievement.GetAchievement(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.MultiLanguageAchievement})">
+  GetAchievement(string, ResultCallback&lt;MultiLanguageAchievement&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get an specific achievement information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetAchievement(string achievementCode, ResultCallback&lt;MultiLanguageAchievement&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>achievementCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The code of the expected achievement.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.MultiLanguageAchievement.html">MultiLanguageAchievement</a>&gt;</dt>
+    <dd><p>Returns a Result that contains MultiLanguageAchievement via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_GetTags_" data-uid="AccelByte.Api.Achievement.GetTags*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_GetTags_System_String_AccelByte_Models_AchievementSortBy_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedPublicTag__System_Int32_System_Int32_" data-uid="AccelByte.Api.Achievement.GetTags(System.String,AccelByte.Models.AchievementSortBy,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedPublicTag},System.Int32,System.Int32)">
+  GetTags(string, AchievementSortBy, ResultCallback&lt;PaginatedPublicTag&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L561"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query all tags for achievements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetTags(string name, AchievementSortBy sortBy, ResultCallback&lt;PaginatedPublicTag&gt; callback, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the expected tag</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.AchievementSortBy.html">AchievementSortBy</a></dt>
+    <dd><p>Sorting method for the achievement tags result.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedPublicTag.html">PaginatedPublicTag</a>&gt;</dt>
+    <dd><p>Returns a Result that contains PaginatedPublicTag via callback when completed.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the achievement result. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the achievement result. Default value is 20.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_QueryAchievements_" data-uid="AccelByte.Api.Achievement.QueryAchievements*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_QueryAchievements_System_String_AccelByte_Models_AchievementSortBy_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedPublicAchievement__System_Int32_System_Int32_AccelByte_Core_TagQueryBuilder_System_Boolean_" data-uid="AccelByte.Api.Achievement.QueryAchievements(System.String,AccelByte.Models.AchievementSortBy,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedPublicAchievement},System.Int32,System.Int32,AccelByte.Core.TagQueryBuilder,System.Boolean)">
+  QueryAchievements(string, AchievementSortBy, ResultCallback&lt;PaginatedPublicAchievement&gt;, int, int, TagQueryBuilder, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query all achievements in the related namespace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryAchievements(string language, AchievementSortBy sortBy, ResultCallback&lt;PaginatedPublicAchievement&gt; callback, int offset = 0, int limit = 20, TagQueryBuilder tagBuilder = null, bool isGlobal = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>language</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The language to display the appropiate achievement's name and description. If it is empty, it will use the its default language.
+If the achievement does not have the expected language, it will use its dafault languge.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.AchievementSortBy.html">AchievementSortBy</a></dt>
+    <dd><p>Sorting method for the achievements result.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedPublicAchievement.html">PaginatedPublicAchievement</a>&gt;</dt>
+    <dd><p>Returns a Result that contains PaginatedPublicAchievement via callback when completed.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the achievement result. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the achievement result. Default value is 20.</p>
+</dd>
+    <dt><code>tagBuilder</code> <a class="xref" href="AccelByte.Core.TagQueryBuilder.html">TagQueryBuilder</a></dt>
+    <dd><p>A query expression consists of tags to query the achievement from.</p>
+</dd>
+    <dt><code>isGlobal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the configuration to display global achievements.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_QueryGlobalAchievementContributors_" data-uid="AccelByte.Api.Achievement.QueryGlobalAchievementContributors*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_QueryGlobalAchievementContributors_System_String_AccelByte_Models_GlobalAchievementContributorsSortBy_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedGlobalAchievementContributors__System_Int32_System_Int32_" data-uid="AccelByte.Api.Achievement.QueryGlobalAchievementContributors(System.String,AccelByte.Models.GlobalAchievementContributorsSortBy,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedGlobalAchievementContributors},System.Int32,System.Int32)">
+  QueryGlobalAchievementContributors(string, GlobalAchievementContributorsSortBy, ResultCallback&lt;PaginatedGlobalAchievementContributors&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L380"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query the list of contributors for a global achievement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryGlobalAchievementContributors(string achievementCode, GlobalAchievementContributorsSortBy sortBy, ResultCallback&lt;PaginatedGlobalAchievementContributors&gt; callback, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>achievementCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The code of the expected global achievement.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.GlobalAchievementContributorsSortBy.html">GlobalAchievementContributorsSortBy</a></dt>
+    <dd><p>Sorting method for the achievements result.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedGlobalAchievementContributors.html">PaginatedGlobalAchievementContributors</a>&gt;</dt>
+    <dd><p>Returns a Result that contains PaginatedGlobalAchievementContributors via callback when completed.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the achievement result. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the achievement result. Default value is 20.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_QueryGlobalAchievementUserContributed_" data-uid="AccelByte.Api.Achievement.QueryGlobalAchievementUserContributed*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_QueryGlobalAchievementUserContributed_System_String_AccelByte_Models_GlobalAchievementContributorsSortBy_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedGlobalAchievementUserContributed__System_Int32_System_Int32_" data-uid="AccelByte.Api.Achievement.QueryGlobalAchievementUserContributed(System.String,AccelByte.Models.GlobalAchievementContributorsSortBy,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedGlobalAchievementUserContributed},System.Int32,System.Int32)">
+  QueryGlobalAchievementUserContributed(string, GlobalAchievementContributorsSortBy, ResultCallback&lt;PaginatedGlobalAchievementUserContributed&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L453"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query the list of global achievements that have been contributed by the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryGlobalAchievementUserContributed(string achievementCode, GlobalAchievementContributorsSortBy sortBy, ResultCallback&lt;PaginatedGlobalAchievementUserContributed&gt; callback, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>achievementCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The code of the expected achievement.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.GlobalAchievementContributorsSortBy.html">GlobalAchievementContributorsSortBy</a></dt>
+    <dd><p>Sorting method for the achievements result.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedGlobalAchievementUserContributed.html">PaginatedGlobalAchievementUserContributed</a>&gt;</dt>
+    <dd><p>Returns a Result that contains PaginatedGlobalAchievementUserContributed via callback when completed.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the achievement result. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the achievement result. Default value is 20.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_QueryGlobalAchievements_" data-uid="AccelByte.Api.Achievement.QueryGlobalAchievements*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_QueryGlobalAchievements_System_String_AccelByte_Models_GlobalAchievementStatus_AccelByte_Models_GlobalAchievementListSortBy_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedUserGlobalAchievement__System_Int32_System_Int32_AccelByte_Core_TagQueryBuilder_" data-uid="AccelByte.Api.Achievement.QueryGlobalAchievements(System.String,AccelByte.Models.GlobalAchievementStatus,AccelByte.Models.GlobalAchievementListSortBy,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedUserGlobalAchievement},System.Int32,System.Int32,AccelByte.Core.TagQueryBuilder)">
+  QueryGlobalAchievements(string, GlobalAchievementStatus, GlobalAchievementListSortBy, ResultCallback&lt;PaginatedUserGlobalAchievement&gt;, int, int, TagQueryBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query the progress list of global achievements. Include achieved and in-progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryGlobalAchievements(string achievementCode, GlobalAchievementStatus achievementStatus, GlobalAchievementListSortBy sortBy, ResultCallback&lt;PaginatedUserGlobalAchievement&gt; callback, int offset = 0, int limit = 20, TagQueryBuilder tagBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>achievementCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The code of the expected global achievement.</p>
+</dd>
+    <dt><code>achievementStatus</code> <a class="xref" href="AccelByte.Models.GlobalAchievementStatus.html">GlobalAchievementStatus</a></dt>
+    <dd><p>Achievement status for the achievements result.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.GlobalAchievementListSortBy.html">GlobalAchievementListSortBy</a></dt>
+    <dd><p>Sorting method for the achievements result.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedUserGlobalAchievement.html">PaginatedUserGlobalAchievement</a>&gt;</dt>
+    <dd><p>Returns a Result that contains PaginatedUserGlobalAchievement via callback when completed.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the achievement result. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the achievement result. Default value is 20.</p>
+</dd>
+    <dt><code>tagBuilder</code> <a class="xref" href="AccelByte.Core.TagQueryBuilder.html">TagQueryBuilder</a></dt>
+    <dd><p>A query expression consists of tags to query the achievement from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_QueryUserAchievements_" data-uid="AccelByte.Api.Achievement.QueryUserAchievements*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_QueryUserAchievements_AccelByte_Models_AchievementSortBy_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedUserAchievement__System_Int32_System_Int32_System_Boolean_AccelByte_Core_TagQueryBuilder_" data-uid="AccelByte.Api.Achievement.QueryUserAchievements(AccelByte.Models.AchievementSortBy,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedUserAchievement},System.Int32,System.Int32,System.Boolean,AccelByte.Core.TagQueryBuilder)">
+  QueryUserAchievements(AchievementSortBy, ResultCallback&lt;PaginatedUserAchievement&gt;, int, int, bool, TagQueryBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query user's achievements. Include achieved and in-progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryUserAchievements(AchievementSortBy sortBy, ResultCallback&lt;PaginatedUserAchievement&gt; callback, int offset = 0, int limit = 20, bool preferUnlocked = true, TagQueryBuilder tagBuilder = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.AchievementSortBy.html">AchievementSortBy</a></dt>
+    <dd><p>Sorting method for the achievements result.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedUserAchievement.html">PaginatedUserAchievement</a>&gt;</dt>
+    <dd><p>Returns a Result that contains PaginatedUserAchievement via callback when completed.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the achievement result. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the achievement result. Default value is 20.</p>
+</dd>
+    <dt><code>preferUnlocked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the configuration to display unlocked achievements first active, the list order should display unlocked achievements first on top of locked achievements, and false otherwise. Default value is true.</p>
+</dd>
+    <dt><code>tagBuilder</code> <a class="xref" href="AccelByte.Core.TagQueryBuilder.html">TagQueryBuilder</a></dt>
+    <dd><p>A query expression consists of tags to query the achievement from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Achievement_UnlockAchievement_" data-uid="AccelByte.Api.Achievement.UnlockAchievement*"></a>
+
+  <h3 id="AccelByte_Api_Achievement_UnlockAchievement_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Achievement.UnlockAchievement(System.String,AccelByte.Core.ResultCallback)">
+  UnlockAchievement(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Achievement.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unlock specific achievement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlockAchievement(string achievementCode, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>achievementCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The achievement code which will be unlock.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

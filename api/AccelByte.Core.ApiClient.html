@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ApiClient | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ApiClient | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Holder of ApiBase children, ultimately stored in MultiRegistry. eg: GroupApi, AchievementApi">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Core_ApiClient.md&amp;value=---%0Auid%3A%20AccelByte.Core.ApiClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Core.ApiClient">
+
+
+
+  <h1 id="AccelByte_Core_ApiClient" data-uid="AccelByte.Core.ApiClient" class="text-break">
+Class ApiClient  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Core.html">Core</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Holder of ApiBase children, ultimately stored in MultiRegistry.</p>
+<p>eg: GroupApi, AchievementApi</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApiClient</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ApiClient</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="AccelByte_Core_ApiClient__ctor_" data-uid="AccelByte.Core.ApiClient.#ctor*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient__ctor_AccelByte_Api_UserSession_AccelByte_Core_IHttpClient_AccelByte_Core_CoroutineRunner_" data-uid="AccelByte.Core.ApiClient.#ctor(AccelByte.Api.UserSession,AccelByte.Core.IHttpClient,AccelByte.Core.CoroutineRunner)">
+  ApiClient(UserSession, IHttpClient, CoroutineRunner)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApiClient(UserSession inSession, IHttpClient inHttpClient, CoroutineRunner inCoroutineRunner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inSession</code> <a class="xref" href="AccelByte.Api.UserSession.html">UserSession</a></dt>
+    <dd></dd>
+    <dt><code>inHttpClient</code> <a class="xref" href="AccelByte.Core.IHttpClient.html">IHttpClient</a></dt>
+    <dd></dd>
+    <dt><code>inCoroutineRunner</code> <a class="xref" href="AccelByte.Core.CoroutineRunner.html">CoroutineRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="AccelByte_Core_ApiClient_UseSharedCredentials" data-uid="AccelByte.Core.ApiClient.UseSharedCredentials">
+  UseSharedCredentials
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>CURRENTLY UNUSED: Added for Unreal parity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseSharedCredentials</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="AccelByte_Core_ApiClient_coroutineRunner" data-uid="AccelByte.Core.ApiClient.coroutineRunner">
+  coroutineRunner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly CoroutineRunner coroutineRunner</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.CoroutineRunner.html">CoroutineRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="AccelByte_Core_ApiClient_httpClient" data-uid="AccelByte.Core.ApiClient.httpClient">
+  httpClient
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IHttpClient httpClient</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.IHttpClient.html">IHttpClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="AccelByte_Core_ApiClient_session" data-uid="AccelByte.Core.ApiClient.session">
+  session
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserSession session</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.UserSession.html">UserSession</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="AccelByte_Core_ApiClient_wrapperBaseCollection" data-uid="AccelByte.Core.ApiClient.wrapperBaseCollection">
+  wrapperBaseCollection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, WrapperBase&gt; wrapperBaseCollection</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="AccelByte.Core.WrapperBase.html">WrapperBase</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Core_ApiClient_GetAchievement_" data-uid="AccelByte.Core.ApiClient.GetAchievement*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetAchievement" data-uid="AccelByte.Core.ApiClient.GetAchievement">
+  GetAchievement()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Achievement GetAchievement()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Achievement.html">Achievement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetAgreement_" data-uid="AccelByte.Core.ApiClient.GetAgreement*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetAgreement" data-uid="AccelByte.Core.ApiClient.GetAgreement">
+  GetAgreement()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Agreement GetAgreement()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Agreement.html">Agreement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetAnalyticsService_" data-uid="AccelByte.Core.ApiClient.GetAnalyticsService*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetAnalyticsService" data-uid="AccelByte.Core.ApiClient.GetAnalyticsService">
+  GetAnalyticsService()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnalyticsService GetAnalyticsService()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.AnalyticsService.html">AnalyticsService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetApi_" data-uid="AccelByte.Core.ApiClient.GetApi*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetApi__2_System_Boolean_" data-uid="AccelByte.Core.ApiClient.GetApi``2(System.Boolean)">
+  GetApi&lt;TWrapper, TApi&gt;(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get new CoreBase child class instance with dynamic params.</p>
+<p>* Param types: IHttpClient, Config, ISession.</p> 
+<p>* TEMPORARY EXCEPTION: UserApi's ISession param is of type UserSession</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TWrapper GetApi&lt;TWrapper, TApi&gt;(bool autoCreate = true) where TWrapper : WrapperBase where TApi : ApiBase</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>autoCreate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TWrapper</span></dt>
+    <dd><p>Returns new ApiBase child instance.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TWrapper</code></dt>
+    <dd><p>WrapperBase child - eg, &quot;Group&quot;</p>
+</dd>
+    <dt><code>TApi</code></dt>
+    <dd><p>ApiBase child - eg, &quot;GroupApi&quot;</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="AccelByte_Core_ApiClient_GetApi__2_System_Boolean__examples">Examples</h4>
+  <pre><code class="lang-csharp">ApiClient apiClient = MultiRegistry.GetApiClient(userData.emailAddress);
+User localUser = apiClient.GetApi≪User, UserApi≫();</code></pre>
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetBinaryCloudSave_" data-uid="AccelByte.Core.ApiClient.GetBinaryCloudSave*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetBinaryCloudSave" data-uid="AccelByte.Core.ApiClient.GetBinaryCloudSave">
+  GetBinaryCloudSave()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BinaryCloudSave GetBinaryCloudSave()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.BinaryCloudSave.html">BinaryCloudSave</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetCategories_" data-uid="AccelByte.Core.ApiClient.GetCategories*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetCategories" data-uid="AccelByte.Core.ApiClient.GetCategories">
+  GetCategories()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Categories GetCategories()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Categories.html">Categories</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetChallenge_" data-uid="AccelByte.Core.ApiClient.GetChallenge*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetChallenge" data-uid="AccelByte.Core.ApiClient.GetChallenge">
+  GetChallenge()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IClientChallenge GetChallenge()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Interface.IClientChallenge.html">IClientChallenge</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetChat_" data-uid="AccelByte.Core.ApiClient.GetChat*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetChat" data-uid="AccelByte.Core.ApiClient.GetChat">
+  GetChat()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Chat GetChat()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Chat.html">Chat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetCloudSave_" data-uid="AccelByte.Core.ApiClient.GetCloudSave*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetCloudSave" data-uid="AccelByte.Core.ApiClient.GetCloudSave">
+  GetCloudSave()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CloudSave GetCloudSave()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.CloudSave.html">CloudSave</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetCloudStorage_" data-uid="AccelByte.Core.ApiClient.GetCloudStorage*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetCloudStorage" data-uid="AccelByte.Core.ApiClient.GetCloudStorage">
+  GetCloudStorage()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This interface is deprecated. Please use GetBinaryCloudSave() instead&quot;)]
+public CloudStorage GetCloudStorage()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.CloudStorage.html">CloudStorage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetCurrencies_" data-uid="AccelByte.Core.ApiClient.GetCurrencies*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetCurrencies" data-uid="AccelByte.Core.ApiClient.GetCurrencies">
+  GetCurrencies()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Currencies GetCurrencies()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Currencies.html">Currencies</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetEntitlement_" data-uid="AccelByte.Core.ApiClient.GetEntitlement*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetEntitlement" data-uid="AccelByte.Core.ApiClient.GetEntitlement">
+  GetEntitlement()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Entitlement GetEntitlement()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Entitlement.html">Entitlement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetFulfillment_" data-uid="AccelByte.Core.ApiClient.GetFulfillment*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetFulfillment" data-uid="AccelByte.Core.ApiClient.GetFulfillment">
+  GetFulfillment()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Fulfillment GetFulfillment()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Fulfillment.html">Fulfillment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetGameProfiles_" data-uid="AccelByte.Core.ApiClient.GetGameProfiles*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetGameProfiles" data-uid="AccelByte.Core.ApiClient.GetGameProfiles">
+  GetGameProfiles()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This interface is deprecated. Please use GetCloudSave() instead&quot;)]
+public GameProfiles GetGameProfiles()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.GameProfiles.html">GameProfiles</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetGameTelemetry_" data-uid="AccelByte.Core.ApiClient.GetGameTelemetry*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetGameTelemetry" data-uid="AccelByte.Core.ApiClient.GetGameTelemetry">
+  GetGameTelemetry()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameTelemetry GetGameTelemetry()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.GameTelemetry.html">GameTelemetry</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetGdpr_" data-uid="AccelByte.Core.ApiClient.GetGdpr*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetGdpr" data-uid="AccelByte.Core.ApiClient.GetGdpr">
+  GetGdpr()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Gdpr GetGdpr()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Gdpr.html">Gdpr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetGroup_" data-uid="AccelByte.Core.ApiClient.GetGroup*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetGroup" data-uid="AccelByte.Core.ApiClient.GetGroup">
+  GetGroup()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Group GetGroup()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Group.html">Group</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetHeartBeatService_" data-uid="AccelByte.Core.ApiClient.GetHeartBeatService*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetHeartBeatService_System_Boolean_" data-uid="AccelByte.Core.ApiClient.GetHeartBeatService(System.Boolean)">
+  GetHeartBeatService(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HeartBeat GetHeartBeatService(bool autoCreate = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>autoCreate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.HeartBeat.html">HeartBeat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetInventory_" data-uid="AccelByte.Core.ApiClient.GetInventory*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetInventory" data-uid="AccelByte.Core.ApiClient.GetInventory">
+  GetInventory()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IClientInventory GetInventory()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Interface.IClientInventory.html">IClientInventory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetItems_" data-uid="AccelByte.Core.ApiClient.GetItems*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetItems" data-uid="AccelByte.Core.ApiClient.GetItems">
+  GetItems()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Items GetItems()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Items.html">Items</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetLeaderboard_" data-uid="AccelByte.Core.ApiClient.GetLeaderboard*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetLeaderboard" data-uid="AccelByte.Core.ApiClient.GetLeaderboard">
+  GetLeaderboard()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Leaderboard GetLeaderboard()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Leaderboard.html">Leaderboard</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetLobby_" data-uid="AccelByte.Core.ApiClient.GetLobby*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetLobby" data-uid="AccelByte.Core.ApiClient.GetLobby">
+  GetLobby()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Lobby GetLobby()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Lobby.html">Lobby</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetMatchmakingV2_" data-uid="AccelByte.Core.ApiClient.GetMatchmakingV2*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetMatchmakingV2" data-uid="AccelByte.Core.ApiClient.GetMatchmakingV2">
+  GetMatchmakingV2()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatchmakingV2 GetMatchmakingV2()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.MatchmakingV2.html">MatchmakingV2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetMiscellaneous_" data-uid="AccelByte.Core.ApiClient.GetMiscellaneous*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetMiscellaneous" data-uid="AccelByte.Core.ApiClient.GetMiscellaneous">
+  GetMiscellaneous()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Miscellaneous GetMiscellaneous()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Miscellaneous.html">Miscellaneous</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetOrders_" data-uid="AccelByte.Core.ApiClient.GetOrders*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetOrders" data-uid="AccelByte.Core.ApiClient.GetOrders">
+  GetOrders()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Orders GetOrders()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Orders.html">Orders</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetQos_" data-uid="AccelByte.Core.ApiClient.GetQos*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetQos" data-uid="AccelByte.Core.ApiClient.GetQos">
+  GetQos()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QosManager GetQos()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.QosManager.html">QosManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetReporting_" data-uid="AccelByte.Core.ApiClient.GetReporting*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetReporting" data-uid="AccelByte.Core.ApiClient.GetReporting">
+  GetReporting()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Reporting GetReporting()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Reporting.html">Reporting</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetReward_" data-uid="AccelByte.Core.ApiClient.GetReward*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetReward" data-uid="AccelByte.Core.ApiClient.GetReward">
+  GetReward()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Reward GetReward()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Reward.html">Reward</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetSeasonPass_" data-uid="AccelByte.Core.ApiClient.GetSeasonPass*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetSeasonPass" data-uid="AccelByte.Core.ApiClient.GetSeasonPass">
+  GetSeasonPass()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SeasonPass GetSeasonPass()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.SeasonPass.html">SeasonPass</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetSession_" data-uid="AccelByte.Core.ApiClient.GetSession*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetSession_System_Boolean_" data-uid="AccelByte.Core.ApiClient.GetSession(System.Boolean)">
+  GetSession(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Session GetSession(bool autoCreate = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>autoCreate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Session.html">Session</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetStatistic_" data-uid="AccelByte.Core.ApiClient.GetStatistic*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetStatistic" data-uid="AccelByte.Core.ApiClient.GetStatistic">
+  GetStatistic()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Statistic GetStatistic()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Statistic.html">Statistic</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetStoreDisplayService_" data-uid="AccelByte.Core.ApiClient.GetStoreDisplayService*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetStoreDisplayService" data-uid="AccelByte.Core.ApiClient.GetStoreDisplayService">
+  GetStoreDisplayService()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StoreDisplay GetStoreDisplayService()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.StoreDisplay.html">StoreDisplay</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetTurnManager_" data-uid="AccelByte.Core.ApiClient.GetTurnManager*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetTurnManager" data-uid="AccelByte.Core.ApiClient.GetTurnManager">
+  GetTurnManager()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TurnManager GetTurnManager()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.TurnManager.html">TurnManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetUgc_" data-uid="AccelByte.Core.ApiClient.GetUgc*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetUgc" data-uid="AccelByte.Core.ApiClient.GetUgc">
+  GetUgc()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UGC GetUgc()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.UGC.html">UGC</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetUser_" data-uid="AccelByte.Core.ApiClient.GetUser*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetUser_System_Boolean_" data-uid="AccelByte.Core.ApiClient.GetUser(System.Boolean)">
+  GetUser(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public User GetUser(bool autoCreate = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>autoCreate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.User.html">User</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetUserProfiles_" data-uid="AccelByte.Core.ApiClient.GetUserProfiles*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetUserProfiles" data-uid="AccelByte.Core.ApiClient.GetUserProfiles">
+  GetUserProfiles()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserProfiles GetUserProfiles()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.UserProfiles.html">UserProfiles</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetVersionService_" data-uid="AccelByte.Core.ApiClient.GetVersionService*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetVersionService" data-uid="AccelByte.Core.ApiClient.GetVersionService">
+  GetVersionService()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServiceVersion GetVersionService()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.ServiceVersion.html">ServiceVersion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_GetWallet_" data-uid="AccelByte.Core.ApiClient.GetWallet*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_GetWallet" data-uid="AccelByte.Core.ApiClient.GetWallet">
+  GetWallet()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Wallet GetWallet()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.Wallet.html">Wallet</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_Reset_" data-uid="AccelByte.Core.ApiClient.Reset*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_Reset" data-uid="AccelByte.Core.ApiClient.Reset">
+  Reset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_SetApi_" data-uid="AccelByte.Core.ApiClient.SetApi*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_SetApi__1___0_" data-uid="AccelByte.Core.ApiClient.SetApi``1(``0)">
+  SetApi&lt;TWrapper&gt;(TWrapper)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetApi&lt;TWrapper&gt;(TWrapper newWrapper) where TWrapper : WrapperBase</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newWrapper</code> <span class="xref">TWrapper</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TWrapper</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ApiClient_getApiArgs_" data-uid="AccelByte.Core.ApiClient.getApiArgs*"></a>
+
+  <h3 id="AccelByte_Core_ApiClient_getApiArgs" data-uid="AccelByte.Core.ApiClient.getApiArgs">
+  getApiArgs()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiClient.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object[] getApiArgs()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

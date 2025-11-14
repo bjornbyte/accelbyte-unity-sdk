@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ApiBase | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ApiBase | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Inherit from this class to set common Client Api functionality.  Used for Api modules, such as &amp;quot;GroupApi&amp;quot;.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Core_ApiBase.md&amp;value=---%0Auid%3A%20AccelByte.Core.ApiBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Core.ApiBase">
+
+
+
+  <h1 id="AccelByte_Core_ApiBase" data-uid="AccelByte.Core.ApiBase" class="text-break">
+Class ApiBase  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiBase.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Core.html">Core</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Inherit from this class to set common Client Api functionality.</p>
+<ul>
+<li>Used for Api modules, such as &quot;GroupApi&quot;.</li>
+</ul>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApiBase : ApiBaseParent</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.ApiBaseParent.html">ApiBaseParent</a></div>
+      <div><span class="xref">ApiBase</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="AccelByte.Api.AchievementApi.html">AchievementApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.AgreementApi.html">AgreementApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.BinaryCloudSaveApi.html">BinaryCloudSaveApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.CategoriesApi.html">CategoriesApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.ChatApi.html">ChatApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.ClientGameTelemetryApi.html">ClientGameTelemetryApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.CloudSaveApi.html">CloudSaveApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.CloudStorageApi.html">CloudStorageApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.EntitlementApi.html">EntitlementApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.GameProfilesApi.html">GameProfilesApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.GdprApi.html">GdprApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.GroupApi.html">GroupApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.HeartBeatApi.html">HeartBeatApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.ItemsApi.html">ItemsApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.LeaderboardApi.html">LeaderboardApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.LobbyApi.html">LobbyApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.MatchmakingV2Api.html">MatchmakingV2Api</a></div>
+      <div><a class="xref" href="AccelByte.Api.OrdersApi.html">OrdersApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.QosManagerApi.html">QosManagerApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.RewardApi.html">RewardApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.ServiceVersionApi.html">ServiceVersionApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.SessionApi.html">SessionApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.StatisticApi.html">StatisticApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.StoreDisplayApi.html">StoreDisplayApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.TurnManagerApi.html">TurnManagerApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.UserApi.html">UserApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.UserProfilesApi.html">UserProfilesApi</a></div>
+      <div><a class="xref" href="AccelByte.Api.WalletApi.html">WalletApi</a></div>
+      <div><a class="xref" href="Global.OAuth2.html">OAuth2</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_Session">ApiBaseParent.Session</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_BaseUrl">ApiBaseParent.BaseUrl</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_HttpClient">ApiBaseParent.HttpClient</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_AuthToken">ApiBaseParent.AuthToken</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="AccelByte_Core_ApiBase__ctor_" data-uid="AccelByte.Core.ApiBase.#ctor*"></a>
+
+  <h3 id="AccelByte_Core_ApiBase__ctor_AccelByte_Core_IHttpClient_AccelByte_Models_Config_System_String_AccelByte_Core_ISession_AccelByte_Core_HttpOperator_" data-uid="AccelByte.Core.ApiBase.#ctor(AccelByte.Core.IHttpClient,AccelByte.Models.Config,System.String,AccelByte.Core.ISession,AccelByte.Core.HttpOperator)">
+  ApiBase(IHttpClient, Config, string, ISession, HttpOperator)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiBase.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ApiBase(IHttpClient inHttpClient, Config inConfig, string inBaseUrl, ISession inSession, HttpOperator httpOperator = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inHttpClient</code> <a class="xref" href="AccelByte.Core.IHttpClient.html">IHttpClient</a></dt>
+    <dd></dd>
+    <dt><code>inConfig</code> <a class="xref" href="AccelByte.Models.Config.html">Config</a></dt>
+    <dd></dd>
+    <dt><code>inBaseUrl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>inSession</code> <a class="xref" href="AccelByte.Core.ISession.html">ISession</a></dt>
+    <dd></dd>
+    <dt><code>httpOperator</code> <a class="xref" href="AccelByte.Core.HttpOperator.html">HttpOperator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="AccelByte_Core_ApiBase_Namespace__" data-uid="AccelByte.Core.ApiBase.Namespace_*"></a>
+
+  <h3 id="AccelByte_Core_ApiBase_Namespace_" data-uid="AccelByte.Core.ApiBase.Namespace_">
+  Namespace_
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ApiBase.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Config.Namespace wrapper</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string Namespace_ { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

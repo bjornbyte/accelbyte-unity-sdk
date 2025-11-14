@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IClientSession | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IClientSession | AccelByte Unity SDK | 17.12.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_Interface_IClientSession.md&amp;value=---%0Auid%3A%20AccelByte.Api.Interface.IClientSession%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.Interface.IClientSession">
+
+
+
+  <h1 id="AccelByte_Api_Interface_IClientSession" data-uid="AccelByte.Api.Interface.IClientSession" class="text-break">
+Interface IClientSession  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a>.<a class="xref" href="AccelByte.Api.Interface.html">Interface</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IClientSession</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_CreateGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.CreateGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_CreateGameSession_AccelByte_Models_SessionV2GameSessionCreateRequest_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2GameSession__" data-uid="AccelByte.Api.Interface.IClientSession.CreateGameSession(AccelByte.Models.SessionV2GameSessionCreateRequest,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2GameSession})">
+  CreateGameSession(SessionV2GameSessionCreateRequest, ResultCallback&lt;SessionV2GameSession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create Game Session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CreateGameSession(SessionV2GameSessionCreateRequest request, ResultCallback&lt;SessionV2GameSession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.SessionV2GameSessionCreateRequest.html">SessionV2GameSessionCreateRequest</a></dt>
+    <dd><p>Details of creating game session.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;</dt>
+    <dd><p>Returns a Result that contain SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_CreateParty_" data-uid="AccelByte.Api.Interface.IClientSession.CreateParty*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_CreateParty_AccelByte_Models_SessionV2PartySessionCreateRequest_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySession__" data-uid="AccelByte.Api.Interface.IClientSession.CreateParty(AccelByte.Models.SessionV2PartySessionCreateRequest,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySession})">
+  CreateParty(SessionV2PartySessionCreateRequest, ResultCallback&lt;SessionV2PartySession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a Party and assign invoker as leader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CreateParty(SessionV2PartySessionCreateRequest request, ResultCallback&lt;SessionV2PartySession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.SessionV2PartySessionCreateRequest.html">SessionV2PartySessionCreateRequest</a></dt>
+    <dd><p>Compiled request with details of the creating party session</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;</dt>
+    <dd><p>Returns a Result that contain SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_DeleteGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.DeleteGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_DeleteGameSession_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.DeleteGameSession(System.String,AccelByte.Core.ResultCallback)">
+  DeleteGameSession(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a game session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteGameSession(string sessionId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_GenerateNewGameSessionCode_" data-uid="AccelByte.Api.Interface.IClientSession.GenerateNewGameSessionCode*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_GenerateNewGameSessionCode_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2GameSession__" data-uid="AccelByte.Api.Interface.IClientSession.GenerateNewGameSessionCode(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2GameSession})">
+  GenerateNewGameSessionCode(string, ResultCallback&lt;SessionV2GameSession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generate new code for a game session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GenerateNewGameSessionCode(string sessionId, ResultCallback&lt;SessionV2GameSession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Game session ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;</dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_GenerateNewPartyCode_" data-uid="AccelByte.Api.Interface.IClientSession.GenerateNewPartyCode*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_GenerateNewPartyCode_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySession__" data-uid="AccelByte.Api.Interface.IClientSession.GenerateNewPartyCode(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySession})">
+  GenerateNewPartyCode(string, ResultCallback&lt;SessionV2PartySession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generate new code for a party.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GenerateNewPartyCode(string partyId, ResultCallback&lt;SessionV2PartySession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Party ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;</dt>
+    <dd><p>Returns a result of SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_GetGameSessionDetailsByPodName_" data-uid="AccelByte.Api.Interface.IClientSession.GetGameSessionDetailsByPodName*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_GetGameSessionDetailsByPodName_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2GameSession__" data-uid="AccelByte.Api.Interface.IClientSession.GetGameSessionDetailsByPodName(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2GameSession})">
+  GetGameSessionDetailsByPodName(string, ResultCallback&lt;SessionV2GameSession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get game session detail by podName.
+Session service has several DSInformation status to track DS request to DSMC</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetGameSessionDetailsByPodName(string podName, ResultCallback&lt;SessionV2GameSession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>podName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's podName</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;</dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_GetGameSessionDetailsBySessionId_" data-uid="AccelByte.Api.Interface.IClientSession.GetGameSessionDetailsBySessionId*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_GetGameSessionDetailsBySessionId_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2GameSession__" data-uid="AccelByte.Api.Interface.IClientSession.GetGameSessionDetailsBySessionId(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2GameSession})">
+  GetGameSessionDetailsBySessionId(string, ResultCallback&lt;SessionV2GameSession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get game session detail by sessionId.
+Session service has several DSInformation status to track DS request to DSMC</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetGameSessionDetailsBySessionId(string sessionId, ResultCallback&lt;SessionV2GameSession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;</dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_GetPartyDetails_" data-uid="AccelByte.Api.Interface.IClientSession.GetPartyDetails*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_GetPartyDetails_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySession__" data-uid="AccelByte.Api.Interface.IClientSession.GetPartyDetails(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySession})">
+  GetPartyDetails(string, ResultCallback&lt;SessionV2PartySession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Party details with partyId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetPartyDetails(string partyId, ResultCallback&lt;SessionV2PartySession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;</dt>
+    <dd><p>Returns a Result that contain SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_GetUserGameSessions_" data-uid="AccelByte.Api.Interface.IClientSession.GetUserGameSessions*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_GetUserGameSessions_System_Nullable_AccelByte_Models_SessionV2StatusFilter__System_Nullable_AccelByte_Models_SessionV2AttributeOrderBy__System_Nullable_System_Boolean__AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedResponse_AccelByte_Models_SessionV2GameSession___" data-uid="AccelByte.Api.Interface.IClientSession.GetUserGameSessions(System.Nullable{AccelByte.Models.SessionV2StatusFilter},System.Nullable{AccelByte.Models.SessionV2AttributeOrderBy},System.Nullable{System.Boolean},AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedResponse{AccelByte.Models.SessionV2GameSession}})">
+  GetUserGameSessions(SessionV2StatusFilter?, SessionV2AttributeOrderBy?, bool?, ResultCallback&lt;PaginatedResponse&lt;SessionV2GameSession&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query user's game sessions.
+By default, API will return a list of user's active game sessions (INVITED,JOINED,CONNECTED).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetUserGameSessions(SessionV2StatusFilter? statusFilter, SessionV2AttributeOrderBy? orderBy, bool? sortDesc, ResultCallback&lt;PaginatedResponse&lt;SessionV2GameSession&gt;&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>statusFilter</code> <a class="xref" href="AccelByte.Models.SessionV2StatusFilter.html">SessionV2StatusFilter</a>?</dt>
+    <dd><p>Game session status to filter. Supported status: INVITED, JOINED, CONNECTED</p>
+</dd>
+    <dt><code>orderBy</code> <a class="xref" href="AccelByte.Models.SessionV2AttributeOrderBy.html">SessionV2AttributeOrderBy</a>?</dt>
+    <dd><p>Order result by specific attribute. Supported: createdAt (default), updatedAt</p>
+</dd>
+    <dt><code>sortDesc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd><p>Is descending order of the result. Default is true. Ascending order if false.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedResponse-1.html">PaginatedResponse</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;&gt;</dt>
+    <dd><p>Returns a paginated result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_GetUserParties_" data-uid="AccelByte.Api.Interface.IClientSession.GetUserParties*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_GetUserParties_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedResponse_AccelByte_Models_SessionV2PartySession___" data-uid="AccelByte.Api.Interface.IClientSession.GetUserParties(AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedResponse{AccelByte.Models.SessionV2PartySession}})">
+  GetUserParties(ResultCallback&lt;PaginatedResponse&lt;SessionV2PartySession&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all parties of a user(invoker).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetUserParties(ResultCallback&lt;PaginatedResponse&lt;SessionV2PartySession&gt;&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedResponse-1.html">PaginatedResponse</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;&gt;</dt>
+    <dd><p>Returns a paginated result of SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_InviteUserToGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.InviteUserToGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_InviteUserToGameSession_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.InviteUserToGameSession(System.String,System.String,AccelByte.Core.ResultCallback)">
+  InviteUserToGameSession(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invite a user to a game session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InviteUserToGameSession(string sessionId, string userId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user's userId</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_InviteUserToGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.InviteUserToGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_InviteUserToGameSession_System_String_System_String_AccelByte_Models_InviteUserToGameSessionOptionalParameters_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.InviteUserToGameSession(System.String,System.String,AccelByte.Models.InviteUserToGameSessionOptionalParameters,AccelByte.Core.ResultCallback)">
+  InviteUserToGameSession(string, string, InviteUserToGameSessionOptionalParameters, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invite a user to a game session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InviteUserToGameSession(string sessionId, string userId, InviteUserToGameSessionOptionalParameters optionalParameters, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user's userId</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.InviteUserToGameSessionOptionalParameters.html">InviteUserToGameSessionOptionalParameters</a></dt>
+    <dd><p>Optional parameters can be used</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_InviteUserToParty_" data-uid="AccelByte.Api.Interface.IClientSession.InviteUserToParty*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_InviteUserToParty_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.InviteUserToParty(System.String,System.String,AccelByte.Core.ResultCallback)">
+  InviteUserToParty(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invite a user to a party.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InviteUserToParty(string partyId, string userId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result with status code</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_InviteUserToParty_" data-uid="AccelByte.Api.Interface.IClientSession.InviteUserToParty*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_InviteUserToParty_System_String_System_String_AccelByte_Models_InviteUserToPartyOptionalParameters_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.InviteUserToParty(System.String,System.String,AccelByte.Models.InviteUserToPartyOptionalParameters,AccelByte.Core.ResultCallback)">
+  InviteUserToParty(string, string, InviteUserToPartyOptionalParameters, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invite a user to a party.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InviteUserToParty(string partyId, string userId, InviteUserToPartyOptionalParameters optionalParameters, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.InviteUserToPartyOptionalParameters.html">InviteUserToPartyOptionalParameters</a></dt>
+    <dd><p>Optional parameters to be set</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result with status code</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_JoinGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.JoinGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_JoinGameSession_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2GameSession__" data-uid="AccelByte.Api.Interface.IClientSession.JoinGameSession(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2GameSession})">
+  JoinGameSession(string, ResultCallback&lt;SessionV2GameSession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Join a game session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void JoinGameSession(string sessionId, ResultCallback&lt;SessionV2GameSession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;</dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_JoinGameSessionByCode_" data-uid="AccelByte.Api.Interface.IClientSession.JoinGameSessionByCode*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_JoinGameSessionByCode_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2GameSession__" data-uid="AccelByte.Api.Interface.IClientSession.JoinGameSessionByCode(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2GameSession})">
+  JoinGameSessionByCode(string, ResultCallback&lt;SessionV2GameSession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Join a game session using a code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void JoinGameSessionByCode(string code, ResultCallback&lt;SessionV2GameSession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Game session code.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;</dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_JoinParty_" data-uid="AccelByte.Api.Interface.IClientSession.JoinParty*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_JoinParty_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySession__" data-uid="AccelByte.Api.Interface.IClientSession.JoinParty(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySession})">
+  JoinParty(string, ResultCallback&lt;SessionV2PartySession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Join a party.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void JoinParty(string partyId, ResultCallback&lt;SessionV2PartySession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;</dt>
+    <dd><p>Returns a Result that contain SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_JoinPartyByCode_" data-uid="AccelByte.Api.Interface.IClientSession.JoinPartyByCode*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_JoinPartyByCode_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySession__" data-uid="AccelByte.Api.Interface.IClientSession.JoinPartyByCode(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySession})">
+  JoinPartyByCode(string, ResultCallback&lt;SessionV2PartySession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Join a party using a code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void JoinPartyByCode(string code, ResultCallback&lt;SessionV2PartySession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Party code.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;</dt>
+    <dd><p>Returns a result of SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_KickUserFromGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.KickUserFromGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_KickUserFromGameSession_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.KickUserFromGameSession(System.String,System.String,AccelByte.Core.ResultCallback)">
+  KickUserFromGameSession(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Kick a user from the game session. Only the leader can kick a member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void KickUserFromGameSession(string sessionId, string userId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user's userId</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_KickUserFromParty_" data-uid="AccelByte.Api.Interface.IClientSession.KickUserFromParty*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_KickUserFromParty_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySessionKickResponse__" data-uid="AccelByte.Api.Interface.IClientSession.KickUserFromParty(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySessionKickResponse})">
+  KickUserFromParty(string, string, ResultCallback&lt;SessionV2PartySessionKickResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Kick a player from a party.
+Requires invoker to be the party leader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void KickUserFromParty(string partyId, string userId, ResultCallback&lt;SessionV2PartySessionKickResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID.</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user's ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySessionKickResponse.html">SessionV2PartySessionKickResponse</a>&gt;</dt>
+    <dd><p>Returns a Result that contain SessionV2PartySessionKickResponse via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_LeaveGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.LeaveGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_LeaveGameSession_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.LeaveGameSession(System.String,AccelByte.Core.ResultCallback)">
+  LeaveGameSession(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Leave a game session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LeaveGameSession(string sessionId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_LeaveParty_" data-uid="AccelByte.Api.Interface.IClientSession.LeaveParty*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_LeaveParty_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.LeaveParty(System.String,AccelByte.Core.ResultCallback)">
+  LeaveParty(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Leave a Party.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LeaveParty(string partyId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result with status code</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_PatchGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.PatchGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_PatchGameSession_System_String_AccelByte_Models_SessionV2GameSessionUpdateRequest_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2GameSession__" data-uid="AccelByte.Api.Interface.IClientSession.PatchGameSession(System.String,AccelByte.Models.SessionV2GameSessionUpdateRequest,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2GameSession})">
+  PatchGameSession(string, SessionV2GameSessionUpdateRequest, ResultCallback&lt;SessionV2GameSession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Patch updates a game session, only specified fields from game session data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PatchGameSession(string sessionId, SessionV2GameSessionUpdateRequest request, ResultCallback&lt;SessionV2GameSession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.SessionV2GameSessionUpdateRequest.html">SessionV2GameSessionUpdateRequest</a></dt>
+    <dd><p>Compiled request of updating game session details</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;</dt>
+    <dd><p>Returns a result of updated SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_PatchUpdateParty_" data-uid="AccelByte.Api.Interface.IClientSession.PatchUpdateParty*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_PatchUpdateParty_System_String_AccelByte_Models_SessionV2PartySessionUpdateRequest_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySession__" data-uid="AccelByte.Api.Interface.IClientSession.PatchUpdateParty(System.String,AccelByte.Models.SessionV2PartySessionUpdateRequest,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySession})">
+  PatchUpdateParty(string, SessionV2PartySessionUpdateRequest, ResultCallback&lt;SessionV2PartySession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update(Partially) specified field(s) of a party.
+Note: Join type can only be updated by the party's leader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PatchUpdateParty(string partyId, SessionV2PartySessionUpdateRequest request, ResultCallback&lt;SessionV2PartySession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID.</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.SessionV2PartySessionUpdateRequest.html">SessionV2PartySessionUpdateRequest</a></dt>
+    <dd><p>Compiled request with the updating details of the party session</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;</dt>
+    <dd><p>Returns a Result that contain SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_PromoteUserToGameSessionLeader_" data-uid="AccelByte.Api.Interface.IClientSession.PromoteUserToGameSessionLeader*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_PromoteUserToGameSessionLeader_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2GameSession__" data-uid="AccelByte.Api.Interface.IClientSession.PromoteUserToGameSessionLeader(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2GameSession})">
+  PromoteUserToGameSessionLeader(string, string, ResultCallback&lt;SessionV2GameSession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Promote user to be a game session leader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PromoteUserToGameSessionLeader(string sessionId, string leaderId, ResultCallback&lt;SessionV2GameSession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Game session ID.</p>
+</dd>
+    <dt><code>leaderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID of new leader</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;</dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_PromoteUserToPartyLeader_" data-uid="AccelByte.Api.Interface.IClientSession.PromoteUserToPartyLeader*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_PromoteUserToPartyLeader_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySession__" data-uid="AccelByte.Api.Interface.IClientSession.PromoteUserToPartyLeader(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySession})">
+  PromoteUserToPartyLeader(string, string, ResultCallback&lt;SessionV2PartySession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Promotes a party member to be a party leader. Only leader can promote a new leader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PromoteUserToPartyLeader(string partyId, string leaderId, ResultCallback&lt;SessionV2PartySession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID</p>
+</dd>
+    <dt><code>leaderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID of new leader</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;</dt>
+    <dd><p>Returns a Result that contain SessionV2PartySession via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_QueryGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.QueryGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_QueryGameSession_AccelByte_Models_GameSessionQuery_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedResponse_AccelByte_Models_SessionV2GameSession___" data-uid="AccelByte.Api.Interface.IClientSession.QueryGameSession(AccelByte.Models.GameSessionQuery,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedResponse{AccelByte.Models.SessionV2GameSession}})">
+  QueryGameSession(GameSessionQuery, ResultCallback&lt;PaginatedResponse&lt;SessionV2GameSession&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query Game Session
+By default, API will return a list of available game sessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void QueryGameSession(GameSessionQuery query, ResultCallback&lt;PaginatedResponse&lt;SessionV2GameSession&gt;&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="AccelByte.Models.GameSessionQuery.html">GameSessionQuery</a></dt>
+    <dd><p>Query Object</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedResponse-1.html">PaginatedResponse</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;&gt;</dt>
+    <dd><p>Returns a paginated result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_QueryGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.QueryGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_QueryGameSession_AccelByte_Models_GameSessionQuery_AccelByte_Models_QueryGameSessionOptionalParameters_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedResponse_AccelByte_Models_SessionV2GameSession___" data-uid="AccelByte.Api.Interface.IClientSession.QueryGameSession(AccelByte.Models.GameSessionQuery,AccelByte.Models.QueryGameSessionOptionalParameters,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedResponse{AccelByte.Models.SessionV2GameSession}})">
+  QueryGameSession(GameSessionQuery, QueryGameSessionOptionalParameters, ResultCallback&lt;PaginatedResponse&lt;SessionV2GameSession&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query Game Session
+By default, API will return a list of available game sessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void QueryGameSession(GameSessionQuery query, QueryGameSessionOptionalParameters optionalParameters, ResultCallback&lt;PaginatedResponse&lt;SessionV2GameSession&gt;&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="AccelByte.Models.GameSessionQuery.html">GameSessionQuery</a></dt>
+    <dd><p>Query Object</p>
+</dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.QueryGameSessionOptionalParameters.html">QueryGameSessionOptionalParameters</a></dt>
+    <dd><p>Contains query optional parameter</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedResponse-1.html">PaginatedResponse</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;&gt;</dt>
+    <dd><p>Returns a paginated result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_QueryGameSession_" data-uid="AccelByte.Api.Interface.IClientSession.QueryGameSession*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_QueryGameSession_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedResponse_AccelByte_Models_SessionV2GameSession___" data-uid="AccelByte.Api.Interface.IClientSession.QueryGameSession(System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedResponse{AccelByte.Models.SessionV2GameSession}})">
+  QueryGameSession(Dictionary&lt;string, object&gt;, ResultCallback&lt;PaginatedResponse&lt;SessionV2GameSession&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query Game Session
+By default, API will return a list of available game sessions with free form input</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void QueryGameSession(Dictionary&lt;string, object&gt; request, ResultCallback&lt;PaginatedResponse&lt;SessionV2GameSession&gt;&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>List of attributes to filter from available sessions</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedResponse-1.html">PaginatedResponse</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2GameSession.html">SessionV2GameSession</a>&gt;&gt;</dt>
+    <dd><p>Returns a paginated result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_RejectGameSessionInvitation_" data-uid="AccelByte.Api.Interface.IClientSession.RejectGameSessionInvitation*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_RejectGameSessionInvitation_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.RejectGameSessionInvitation(System.String,AccelByte.Core.ResultCallback)">
+  RejectGameSessionInvitation(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reject a game session invitation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RejectGameSessionInvitation(string sessionId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted game session's sessionId</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_RejectPartyInvitation_" data-uid="AccelByte.Api.Interface.IClientSession.RejectPartyInvitation*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_RejectPartyInvitation_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.RejectPartyInvitation(System.String,AccelByte.Core.ResultCallback)">
+  RejectPartyInvitation(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reject a party invitation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RejectPartyInvitation(string partyId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result with status code</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_RevokeGameSessionCode_" data-uid="AccelByte.Api.Interface.IClientSession.RevokeGameSessionCode*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_RevokeGameSessionCode_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.RevokeGameSessionCode(System.String,AccelByte.Core.ResultCallback)">
+  RevokeGameSessionCode(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Revoke game session code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RevokeGameSessionCode(string sessionId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Game session ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result of SessionV2GameSession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_RevokePartyCode_" data-uid="AccelByte.Api.Interface.IClientSession.RevokePartyCode*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_RevokePartyCode_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.Interface.IClientSession.RevokePartyCode(System.String,AccelByte.Core.ResultCallback)">
+  RevokePartyCode(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Revoke party code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RevokePartyCode(string sessionId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Party ID.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result of SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_UpdateLeaderStorage_" data-uid="AccelByte.Api.Interface.IClientSession.UpdateLeaderStorage*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_UpdateLeaderStorage_System_String_JObject_AccelByte_Core_ResultCallback_JObject__" data-uid="AccelByte.Api.Interface.IClientSession.UpdateLeaderStorage(System.String,JObject,AccelByte.Core.ResultCallback{JObject})">
+  UpdateLeaderStorage(string, JObject, ResultCallback&lt;JObject&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update leader's session storage data, can only be updated by current session leader.
+This will overwrite leader storage data, if updating also provide latest leader storage.
+To clear current leader storage data update with empty JObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateLeaderStorage(string sessionId, JObject data, ResultCallback&lt;JObject&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The game or party session id.</p>
+</dd>
+    <dt><code>data</code> <span class="xref">JObject</span></dt>
+    <dd><p>Data to update leader storage.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<span class="xref">JObject</span>&gt;</dt>
+    <dd><p>Callback will be called when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_UpdateMemberStorage_" data-uid="AccelByte.Api.Interface.IClientSession.UpdateMemberStorage*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_UpdateMemberStorage_System_String_JObject_AccelByte_Core_ResultCallback_JObject__" data-uid="AccelByte.Api.Interface.IClientSession.UpdateMemberStorage(System.String,JObject,AccelByte.Core.ResultCallback{JObject})">
+  UpdateMemberStorage(string, JObject, ResultCallback&lt;JObject&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L383"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update current user's session member storage data.
+This will overwrite this user's storage data, if updating also provide latest user's storage.
+To clear current user's storage data update with empty jsonObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateMemberStorage(string sessionId, JObject data, ResultCallback&lt;JObject&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The game or party session id.</p>
+</dd>
+    <dt><code>data</code> <span class="xref">JObject</span></dt>
+    <dd><p>Data to update leader storage.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<span class="xref">JObject</span>&gt;</dt>
+    <dd><p>Callback will be called when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_Interface_IClientSession_UpdateParty_" data-uid="AccelByte.Api.Interface.IClientSession.UpdateParty*"></a>
+
+  <h3 id="AccelByte_Api_Interface_IClientSession_UpdateParty_System_String_AccelByte_Models_SessionV2PartySessionUpdateRequest_AccelByte_Core_ResultCallback_AccelByte_Models_SessionV2PartySession__" data-uid="AccelByte.Api.Interface.IClientSession.UpdateParty(System.String,AccelByte.Models.SessionV2PartySessionUpdateRequest,AccelByte.Core.ResultCallback{AccelByte.Models.SessionV2PartySession})">
+  UpdateParty(string, SessionV2PartySessionUpdateRequest, ResultCallback&lt;SessionV2PartySession&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/Interface/IClientSession.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update(Overwrite) all fields of a party.
+Note: Join type can only be updated by the party's leader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateParty(string partyId, SessionV2PartySessionUpdateRequest request, ResultCallback&lt;SessionV2PartySession&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>partyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted party ID.</p>
+</dd>
+    <dt><code>request</code> <a class="xref" href="AccelByte.Models.SessionV2PartySessionUpdateRequest.html">SessionV2PartySessionUpdateRequest</a></dt>
+    <dd><p>Compiled request with the updating details of the party session</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SessionV2PartySession.html">SessionV2PartySession</a>&gt;</dt>
+    <dd><p>Returns a Result that contain SessionV2PartySession via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

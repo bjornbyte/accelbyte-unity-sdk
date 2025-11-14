@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AccelByteSettings | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AccelByteSettings | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Primarily used by the Editor for the config in the popup menu. Looking for runtime settings? See static AccelByteSDK.GetClientConfig()">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_AccelByteSettings.md&amp;value=---%0Auid%3A%20AccelByte.Api.AccelByteSettings%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.AccelByteSettings">
+
+
+
+  <h1 id="AccelByte_Api_AccelByteSettings" data-uid="AccelByte.Api.AccelByteSettings" class="text-break">
+Class AccelByteSettings  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Primarily used by the Editor for the config in the popup menu.</p>
+<p>Looking for runtime settings? See static AccelByteSDK.GetClientConfig()</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class AccelByteSettings : ScriptableObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AccelByteSettings</span></div>
+    </dd>
+  </dl>
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="AccelByte_Api_AccelByteSettings_AccelByteSDKVersion_" data-uid="AccelByte.Api.AccelByteSettings.AccelByteSDKVersion*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_AccelByteSDKVersion" data-uid="AccelByte.Api.AccelByteSettings.AccelByteSDKVersion">
+  AccelByteSDKVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AccelByteSDKVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_AchievementServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.AchievementServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_AchievementServerUrl" data-uid="AccelByte.Api.AccelByteSettings.AchievementServerUrl">
+  AchievementServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string AchievementServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_AgreementServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.AgreementServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_AgreementServerUrl" data-uid="AccelByte.Api.AccelByteSettings.AgreementServerUrl">
+  AgreementServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string AgreementServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_AppId_" data-uid="AccelByte.Api.AccelByteSettings.AppId*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_AppId" data-uid="AccelByte.Api.AccelByteSettings.AppId">
+  AppId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string AppId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_BaseUrl_" data-uid="AccelByte.Api.AccelByteSettings.BaseUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_BaseUrl" data-uid="AccelByte.Api.AccelByteSettings.BaseUrl">
+  BaseUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BaseUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_BasicServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.BasicServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_BasicServerUrl" data-uid="AccelByte.Api.AccelByteSettings.BasicServerUrl">
+  BasicServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BasicServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_ClientId_" data-uid="AccelByte.Api.AccelByteSettings.ClientId*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_ClientId" data-uid="AccelByte.Api.AccelByteSettings.ClientId">
+  ClientId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ClientId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_ClientSecret_" data-uid="AccelByte.Api.AccelByteSettings.ClientSecret*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_ClientSecret" data-uid="AccelByte.Api.AccelByteSettings.ClientSecret">
+  ClientSecret
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ClientSecret { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_CloudSaveServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.CloudSaveServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_CloudSaveServerUrl" data-uid="AccelByte.Api.AccelByteSettings.CloudSaveServerUrl">
+  CloudSaveServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CloudSaveServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_CloudStorageServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.CloudStorageServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_CloudStorageServerUrl" data-uid="AccelByte.Api.AccelByteSettings.CloudStorageServerUrl">
+  CloudStorageServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CloudStorageServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_DebugLogFilter_" data-uid="AccelByte.Api.AccelByteSettings.DebugLogFilter*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_DebugLogFilter" data-uid="AccelByte.Api.AccelByteSettings.DebugLogFilter">
+  DebugLogFilter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DebugLogFilter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_EnableAuthHandshake_" data-uid="AccelByte.Api.AccelByteSettings.EnableAuthHandshake*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_EnableAuthHandshake" data-uid="AccelByte.Api.AccelByteSettings.EnableAuthHandshake">
+  EnableAuthHandshake
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool EnableAuthHandshake { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_EnableDebugLog_" data-uid="AccelByte.Api.AccelByteSettings.EnableDebugLog*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_EnableDebugLog" data-uid="AccelByte.Api.AccelByteSettings.EnableDebugLog">
+  EnableDebugLog
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool EnableDebugLog { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_GameProfileServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.GameProfileServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_GameProfileServerUrl" data-uid="AccelByte.Api.AccelByteSettings.GameProfileServerUrl">
+  GameProfileServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GameProfileServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_GameTelemetryServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.GameTelemetryServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_GameTelemetryServerUrl" data-uid="AccelByte.Api.AccelByteSettings.GameTelemetryServerUrl">
+  GameTelemetryServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GameTelemetryServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_GroupServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.GroupServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_GroupServerUrl" data-uid="AccelByte.Api.AccelByteSettings.GroupServerUrl">
+  GroupServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GroupServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_IamServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.IamServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_IamServerUrl" data-uid="AccelByte.Api.AccelByteSettings.IamServerUrl">
+  IamServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string IamServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_Instance_" data-uid="AccelByte.Api.AccelByteSettings.Instance*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_Instance" data-uid="AccelByte.Api.AccelByteSettings.Instance">
+  Instance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AccelByteSettings Instance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Api.AccelByteSettings.html">AccelByteSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_LeaderboardServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.LeaderboardServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_LeaderboardServerUrl" data-uid="AccelByte.Api.AccelByteSettings.LeaderboardServerUrl">
+  LeaderboardServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LeaderboardServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_LobbyServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.LobbyServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_LobbyServerUrl" data-uid="AccelByte.Api.AccelByteSettings.LobbyServerUrl">
+  LobbyServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string LobbyServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_Namespace_" data-uid="AccelByte.Api.AccelByteSettings.Namespace*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_Namespace" data-uid="AccelByte.Api.AccelByteSettings.Namespace">
+  Namespace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Namespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_PlatformServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.PlatformServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_PlatformServerUrl" data-uid="AccelByte.Api.AccelByteSettings.PlatformServerUrl">
+  PlatformServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PlatformServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_PublisherNamespace_" data-uid="AccelByte.Api.AccelByteSettings.PublisherNamespace*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_PublisherNamespace" data-uid="AccelByte.Api.AccelByteSettings.PublisherNamespace">
+  PublisherNamespace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PublisherNamespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_RedirectUri_" data-uid="AccelByte.Api.AccelByteSettings.RedirectUri*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_RedirectUri" data-uid="AccelByte.Api.AccelByteSettings.RedirectUri">
+  RedirectUri
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string RedirectUri { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_SeasonPassServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.SeasonPassServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_SeasonPassServerUrl" data-uid="AccelByte.Api.AccelByteSettings.SeasonPassServerUrl">
+  SeasonPassServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SeasonPassServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_StatisticServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.StatisticServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_StatisticServerUrl" data-uid="AccelByte.Api.AccelByteSettings.StatisticServerUrl">
+  StatisticServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string StatisticServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_TurnManagerServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.TurnManagerServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_TurnManagerServerUrl" data-uid="AccelByte.Api.AccelByteSettings.TurnManagerServerUrl">
+  TurnManagerServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TurnManagerServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_TurnServerHost_" data-uid="AccelByte.Api.AccelByteSettings.TurnServerHost*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_TurnServerHost" data-uid="AccelByte.Api.AccelByteSettings.TurnServerHost">
+  TurnServerHost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TurnServerHost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_TurnServerPassword_" data-uid="AccelByte.Api.AccelByteSettings.TurnServerPassword*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_TurnServerPassword" data-uid="AccelByte.Api.AccelByteSettings.TurnServerPassword">
+  TurnServerPassword
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TurnServerPassword { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_TurnServerPort_" data-uid="AccelByte.Api.AccelByteSettings.TurnServerPort*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_TurnServerPort" data-uid="AccelByte.Api.AccelByteSettings.TurnServerPort">
+  TurnServerPort
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TurnServerPort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_TurnServerSecret_" data-uid="AccelByte.Api.AccelByteSettings.TurnServerSecret*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_TurnServerSecret" data-uid="AccelByte.Api.AccelByteSettings.TurnServerSecret">
+  TurnServerSecret
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TurnServerSecret { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_TurnServerUsername_" data-uid="AccelByte.Api.AccelByteSettings.TurnServerUsername*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_TurnServerUsername" data-uid="AccelByte.Api.AccelByteSettings.TurnServerUsername">
+  TurnServerUsername
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TurnServerUsername { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_UGCServerUrl_" data-uid="AccelByte.Api.AccelByteSettings.UGCServerUrl*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_UGCServerUrl" data-uid="AccelByte.Api.AccelByteSettings.UGCServerUrl">
+  UGCServerUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UGCServerUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_UsePlayerPrefs_" data-uid="AccelByte.Api.AccelByteSettings.UsePlayerPrefs*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_UsePlayerPrefs" data-uid="AccelByte.Api.AccelByteSettings.UsePlayerPrefs">
+  UsePlayerPrefs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UsePlayerPrefs { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_UseTurnManager_" data-uid="AccelByte.Api.AccelByteSettings.UseTurnManager*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_UseTurnManager" data-uid="AccelByte.Api.AccelByteSettings.UseTurnManager">
+  UseTurnManager
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UseTurnManager { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_AccelByteSettings_CompareConfig_" data-uid="AccelByte.Api.AccelByteSettings.CompareConfig*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_CompareConfig_AccelByte_Models_Config_" data-uid="AccelByte.Api.AccelByteSettings.CompareConfig(AccelByte.Models.Config)">
+  CompareConfig(Config)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CompareConfig(Config newConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newConfig</code> <a class="xref" href="AccelByte.Models.Config.html">Config</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_CompareOAuthConfig_" data-uid="AccelByte.Api.AccelByteSettings.CompareOAuthConfig*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_CompareOAuthConfig_AccelByte_Models_OAuthConfig_" data-uid="AccelByte.Api.AccelByteSettings.CompareOAuthConfig(AccelByte.Models.OAuthConfig)">
+  CompareOAuthConfig(OAuthConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CompareOAuthConfig(OAuthConfig newConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newConfig</code> <a class="xref" href="AccelByte.Models.OAuthConfig.html">OAuthConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_CopyConfig_" data-uid="AccelByte.Api.AccelByteSettings.CopyConfig*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_CopyConfig" data-uid="AccelByte.Api.AccelByteSettings.CopyConfig">
+  CopyConfig()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Config CopyConfig()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Models.Config.html">Config</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_CopyOAuthConfig_" data-uid="AccelByte.Api.AccelByteSettings.CopyOAuthConfig*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_CopyOAuthConfig" data-uid="AccelByte.Api.AccelByteSettings.CopyOAuthConfig">
+  CopyOAuthConfig()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OAuthConfig CopyOAuthConfig()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Models.OAuthConfig.html">OAuthConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_GetEditedEnvironment_" data-uid="AccelByte.Api.AccelByteSettings.GetEditedEnvironment*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_GetEditedEnvironment" data-uid="AccelByte.Api.AccelByteSettings.GetEditedEnvironment">
+  GetEditedEnvironment()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SettingsEnvironment GetEditedEnvironment()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Models.SettingsEnvironment.html">SettingsEnvironment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_Load_" data-uid="AccelByte.Api.AccelByteSettings.Load*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_Load" data-uid="AccelByte.Api.AccelByteSettings.Load">
+  Load()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Load configuration from Resource directory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_Save_" data-uid="AccelByte.Api.AccelByteSettings.Save*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_Save" data-uid="AccelByte.Api.AccelByteSettings.Save">
+  Save()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save configuration to AccelByteSDKConfig.json</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_SetEditedEnvironment_" data-uid="AccelByte.Api.AccelByteSettings.SetEditedEnvironment*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_SetEditedEnvironment_AccelByte_Models_SettingsEnvironment_" data-uid="AccelByte.Api.AccelByteSettings.SetEditedEnvironment(AccelByte.Models.SettingsEnvironment)">
+  SetEditedEnvironment(SettingsEnvironment)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEditedEnvironment(SettingsEnvironment environment)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>environment</code> <a class="xref" href="AccelByte.Models.SettingsEnvironment.html">SettingsEnvironment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_SetEditedPlatform_" data-uid="AccelByte.Api.AccelByteSettings.SetEditedPlatform*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_SetEditedPlatform_System_String_" data-uid="AccelByte.Api.AccelByteSettings.SetEditedPlatform(System.String)">
+  SetEditedPlatform(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L308"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEditedPlatform(string platform = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>platform</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_UpdateConfig_" data-uid="AccelByte.Api.AccelByteSettings.UpdateConfig*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_UpdateConfig_AccelByte_Models_Config_" data-uid="AccelByte.Api.AccelByteSettings.UpdateConfig(AccelByte.Models.Config)">
+  UpdateConfig(Config)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateConfig(Config newConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newConfig</code> <a class="xref" href="AccelByte.Models.Config.html">Config</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_AccelByteSettings_UpdateOAuthConfig_" data-uid="AccelByte.Api.AccelByteSettings.UpdateOAuthConfig*"></a>
+
+  <h3 id="AccelByte_Api_AccelByteSettings_UpdateOAuthConfig_AccelByte_Models_OAuthConfig_" data-uid="AccelByte.Api.AccelByteSettings.UpdateOAuthConfig(AccelByte.Models.OAuthConfig)">
+  UpdateOAuthConfig(OAuthConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Scripts/AccelByteSettings.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateOAuthConfig(OAuthConfig newConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newConfig</code> <a class="xref" href="AccelByte.Models.OAuthConfig.html">OAuthConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

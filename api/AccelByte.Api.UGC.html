@@ -1,0 +1,2540 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class UGC | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class UGC | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Provide APIs to access User-Generated Content (UGC) service.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_UGC.md&amp;value=---%0Auid%3A%20AccelByte.Api.UGC%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.UGC">
+
+
+
+  <h1 id="AccelByte_Api_UGC" data-uid="AccelByte.Api.UGC" class="text-break">
+Class UGC  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Provide APIs to access User-Generated Content (UGC) service.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UGC : WrapperBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.WrapperBase.html">WrapperBase</a></div>
+      <div><span class="xref">UGC</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.WrapperBase.html#AccelByte_Core_WrapperBase_IdValidator">WrapperBase.IdValidator</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_UGC_AddDownloadContentCountV2_" data-uid="AccelByte.Api.UGC.AddDownloadContentCountV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_AddDownloadContentCountV2_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsAddDownloadContentCountResponseV2__" data-uid="AccelByte.Api.UGC.AddDownloadContentCountV2(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsAddDownloadContentCountResponseV2})">
+  AddDownloadContentCountV2(string, ResultCallback&lt;UGCModelsAddDownloadContentCountResponseV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1512"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add download count for a content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddDownloadContentCountV2(string contentId, ResultCallback&lt;UGCModelsAddDownloadContentCountResponseV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The contentId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsAddDownloadContentCountResponseV2.html">UGCModelsAddDownloadContentCountResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_BulkGetContentByShareCode_" data-uid="AccelByte.Api.UGC.BulkGetContentByShareCode*"></a>
+
+  <h3 id="AccelByte_Api_UGC_BulkGetContentByShareCode_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsContentsResponse____" data-uid="AccelByte.Api.UGC.BulkGetContentByShareCode(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsContentsResponse[]})">
+  BulkGetContentByShareCode(string[], ResultCallback&lt;UGCModelsContentsResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1058"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get contents by share codes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetContentByShareCode(string[] shareCodes, ResultCallback&lt;UGCModelsContentsResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shareCodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Content ShareCodes Array</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsContentsResponse.html">UGCModelsContentsResponse</a>[]&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_BulkGetContentByShareCodeV2_" data-uid="AccelByte.Api.UGC.BulkGetContentByShareCodeV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_BulkGetContentByShareCodeV2_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsContentsResponseV2____" data-uid="AccelByte.Api.UGC.BulkGetContentByShareCodeV2(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsContentsResponseV2[]})">
+  BulkGetContentByShareCodeV2(string[], ResultCallback&lt;UGCModelsContentsResponseV2[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get contents by share codes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetContentByShareCodeV2(string[] shareCodes, ResultCallback&lt;UGCModelsContentsResponseV2[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shareCodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Content ShareCodes Array</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsContentsResponseV2.html">UGCModelsContentsResponseV2</a>[]&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_CreateChannel_" data-uid="AccelByte.Api.UGC.CreateChannel*"></a>
+
+  <h3 id="AccelByte_Api_UGC_CreateChannel_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCChannelResponse__" data-uid="AccelByte.Api.UGC.CreateChannel(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCChannelResponse})">
+  CreateChannel(string, ResultCallback&lt;UGCChannelResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L433"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create player's channel with specific channel name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateChannel(string channelName, ResultCallback&lt;UGCChannelResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the channel.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCChannelResponse.html">UGCChannelResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCChannelResponse Model.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_CreateContent_" data-uid="AccelByte.Api.UGC.CreateContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_CreateContent_System_String_AccelByte_Models_UGCRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCResponse__" data-uid="AccelByte.Api.UGC.CreateContent(System.String,AccelByte.Models.UGCRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCResponse})">
+  CreateContent(string, UGCRequest, ResultCallback&lt;UGCResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a content with string preview and get the payload url to upload the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateContent(string channelId, UGCRequest createRequest, ResultCallback&lt;UGCResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>createRequest</code> <a class="xref" href="AccelByte.Models.UGCRequest.html">UGCRequest</a></dt>
+    <dd><p>Detail information for the content request.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCResponse.html">UGCResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCResponse Model.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_CreateContent_" data-uid="AccelByte.Api.UGC.CreateContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_CreateContent_System_String_System_String_System_String_System_String_System_String___System_Byte___System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCResponse__System_String_" data-uid="AccelByte.Api.UGC.CreateContent(System.String,System.String,System.String,System.String,System.String[],System.Byte[],System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCResponse},System.String)">
+  CreateContent(string, string, string, string, string[], byte[], string, ResultCallback&lt;UGCResponse&gt;, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a content with byte array Preview paramater and get the payload url to upload the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateContent(string channelId, string name, string type, string subtype, string[] tags, byte[] preview, string fileExtension, ResultCallback&lt;UGCResponse&gt; callback, string contentType = &quot;application/octet-stream&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the content.</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Type of the content.</p>
+</dd>
+    <dt><code>subtype</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>SubType of the content.</p>
+</dd>
+    <dt><code>tags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Tags of the content.</p>
+</dd>
+    <dt><code>preview</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>Preview the byte array of the content's preview.</p>
+</dd>
+    <dt><code>fileExtension</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>FileExtension of the content</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCResponse.html">UGCResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCResponse Model.</p>
+</dd>
+    <dt><code>contentType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The specific type of the content's created. default value is &quot;application/octet-stream&quot;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_CreateContentV2_" data-uid="AccelByte.Api.UGC.CreateContentV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_CreateContentV2_System_String_AccelByte_Models_CreateUGCRequestV2_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsCreateUGCResponseV2__" data-uid="AccelByte.Api.UGC.CreateContentV2(System.String,AccelByte.Models.CreateUGCRequestV2,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsCreateUGCResponseV2})">
+  CreateContentV2(string, CreateUGCRequestV2, ResultCallback&lt;UGCModelsCreateUGCResponseV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a UGC content with create content request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateContentV2(string channelId, CreateUGCRequestV2 createRequest, ResultCallback&lt;UGCModelsCreateUGCResponseV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>createRequest</code> <a class="xref" href="AccelByte.Models.CreateUGCRequestV2.html">CreateUGCRequestV2</a></dt>
+    <dd><p>Detail information for the content request.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsCreateUGCResponseV2.html">UGCModelsCreateUGCResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_DeleteChannel_" data-uid="AccelByte.Api.UGC.DeleteChannel*"></a>
+
+  <h3 id="AccelByte_Api_UGC_DeleteChannel_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UGC.DeleteChannel(System.String,AccelByte.Core.ResultCallback)">
+  DeleteChannel(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L508"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete player's channel based on the its channel id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteChannel(string channelId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the channel that will be deleted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_DeleteContent_" data-uid="AccelByte.Api.UGC.DeleteContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_DeleteContent_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UGC.DeleteContent(System.String,System.String,AccelByte.Core.ResultCallback)">
+  DeleteContent(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a content based on the its channel id and content id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteContent(string channelId, string contentId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content that will be deleted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_DeleteContentByShareCode_" data-uid="AccelByte.Api.UGC.DeleteContentByShareCode*"></a>
+
+  <h3 id="AccelByte_Api_UGC_DeleteContentByShareCode_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UGC.DeleteContentByShareCode(System.String,System.String,AccelByte.Core.ResultCallback)">
+  DeleteContentByShareCode(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1032"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a content based on  its channel id and share code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteContentByShareCode(string channelId, string shareCode, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>shareCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The share code of the content that will be fetched.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_DeleteContentScreenshotV2_" data-uid="AccelByte.Api.UGC.DeleteContentScreenshotV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_DeleteContentScreenshotV2_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UGC.DeleteContentScreenshotV2(System.String,System.String,AccelByte.Core.ResultCallback)">
+  DeleteContentScreenshotV2(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1457"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteContentScreenshotV2(string contentId, string screenshotId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>screenshotId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_DeleteContentV2_" data-uid="AccelByte.Api.UGC.DeleteContentV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_DeleteContentV2_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UGC.DeleteContentV2(System.String,System.String,AccelByte.Core.ResultCallback)">
+  DeleteContentV2(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a content based on the its channel id and content id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteContentV2(string channelId, string contentId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content that will be deleted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_DeleteStagingContentByContentId_" data-uid="AccelByte.Api.UGC.DeleteStagingContentByContentId*"></a>
+
+  <h3 id="AccelByte_Api_UGC_DeleteStagingContentByContentId_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UGC.DeleteStagingContentByContentId(System.String,System.String,AccelByte.Core.ResultCallback)">
+  DeleteStagingContentByContentId(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1733"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteStagingContentByContentId(string userId, string contentId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GenerateUploadContentURLV2_" data-uid="AccelByte.Api.UGC.GenerateUploadContentURLV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GenerateUploadContentURLV2_System_String_System_String_AccelByte_Models_UGCUploadContentURLRequestV2_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsUploadContentURLResponseV2__" data-uid="AccelByte.Api.UGC.GenerateUploadContentURLV2(System.String,System.String,AccelByte.Models.UGCUploadContentURLRequestV2,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsUploadContentURLResponseV2})">
+  GenerateUploadContentURLV2(string, string, UGCUploadContentURLRequestV2, ResultCallback&lt;UGCModelsUploadContentURLResponseV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generate Upload URL and Conten File Location.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenerateUploadContentURLV2(string channelId, string contentId, UGCUploadContentURLRequestV2 uploadRequest, ResultCallback&lt;UGCModelsUploadContentURLResponseV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The contentId.</p>
+</dd>
+    <dt><code>uploadRequest</code> <a class="xref" href="AccelByte.Models.UGCUploadContentURLRequestV2.html">UGCUploadContentURLRequestV2</a></dt>
+    <dd><p>Detail information for the upload request.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsUploadContentURLResponseV2.html">UGCModelsUploadContentURLResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetBulkContentId_" data-uid="AccelByte.Api.UGC.GetBulkContentId*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetBulkContentId_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsContentsResponse____" data-uid="AccelByte.Api.UGC.GetBulkContentId(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsContentsResponse[]})">
+  GetBulkContentId(string[], ResultCallback&lt;UGCModelsContentsResponse[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L702"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Bulk ContentId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetBulkContentId(string[] contentIds, ResultCallback&lt;UGCModelsContentsResponse[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsContentsResponse.html">UGCModelsContentsResponse</a>[]&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetChannels_" data-uid="AccelByte.Api.UGC.GetChannels*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetChannels_AccelByte_Core_ResultCallback_AccelByte_Models_UGCChannelPagingResponse__System_Int32_System_Int32_System_String_" data-uid="AccelByte.Api.UGC.GetChannels(AccelByte.Core.ResultCallback{AccelByte.Models.UGCChannelPagingResponse},System.Int32,System.Int32,System.String)">
+  GetChannels(ResultCallback&lt;UGCChannelPagingResponse&gt;, int, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L486"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all of the player's channels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetChannels(ResultCallback&lt;UGCChannelPagingResponse&gt; callback, int offset = 0, int limit = 1000, string channelName = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCChannelPagingResponse.html">UGCChannelPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCChannelsPagingResponse Model.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the channel results. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the channel results. Default value is 1000.</p>
+</dd>
+    <dt><code>channelName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the channel you want to query.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetChannels_" data-uid="AccelByte.Api.UGC.GetChannels*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetChannels_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCChannelPagingResponse__System_Int32_System_Int32_System_String_" data-uid="AccelByte.Api.UGC.GetChannels(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCChannelPagingResponse},System.Int32,System.Int32,System.String)">
+  GetChannels(string, ResultCallback&lt;UGCChannelPagingResponse&gt;, int, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all of the player's channels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetChannels(string userId, ResultCallback&lt;UGCChannelPagingResponse&gt; callback, int offset = 0, int limit = 1000, string channelName = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCChannelPagingResponse.html">UGCChannelPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCChannelsPagingResponse Model.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the channel results. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the channel results. Default value is 1000.</p>
+</dd>
+    <dt><code>channelName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the channel you want to query.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetContentBulkByIdsV2_" data-uid="AccelByte.Api.UGC.GetContentBulkByIdsV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetContentBulkByIdsV2_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsContentsResponseV2____" data-uid="AccelByte.Api.UGC.GetContentBulkByIdsV2(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsContentsResponseV2[]})">
+  GetContentBulkByIdsV2(string[], ResultCallback&lt;UGCModelsContentsResponseV2[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get contents by content Ids</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetContentBulkByIdsV2(string[] contentIds, ResultCallback&lt;UGCModelsContentsResponseV2[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsContentsResponseV2.html">UGCModelsContentsResponseV2</a>[]&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetContentByContentId_" data-uid="AccelByte.Api.UGC.GetContentByContentId*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetContentByContentId_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCContentResponse__" data-uid="AccelByte.Api.UGC.GetContentByContentId(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCContentResponse})">
+  GetContentByContentId(string, ResultCallback&lt;UGCContentResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a content information by its content id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetContentByContentId(string contentId, ResultCallback&lt;UGCContentResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content that will be fetched.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCContentResponse.html">UGCContentResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCContentResponse Model.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetContentByContentIdV2_" data-uid="AccelByte.Api.UGC.GetContentByContentIdV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetContentByContentIdV2_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsContentsResponseV2__" data-uid="AccelByte.Api.UGC.GetContentByContentIdV2(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsContentsResponseV2})">
+  GetContentByContentIdV2(string, ResultCallback&lt;UGCModelsContentsResponseV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a content information by its content id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetContentByContentIdV2(string contentId, ResultCallback&lt;UGCModelsContentsResponseV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content that will be fetched.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsContentsResponseV2.html">UGCModelsContentsResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetContentByShareCode_" data-uid="AccelByte.Api.UGC.GetContentByShareCode*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetContentByShareCode_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCContentResponse__" data-uid="AccelByte.Api.UGC.GetContentByShareCode(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCContentResponse})">
+  GetContentByShareCode(string, ResultCallback&lt;UGCContentResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L319"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a content information by its share code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetContentByShareCode(string shareCode, ResultCallback&lt;UGCContentResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shareCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The share code of the content that will be fetched.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCContentResponse.html">UGCContentResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCContentResponse Model.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetContentByShareCodeV2_" data-uid="AccelByte.Api.UGC.GetContentByShareCodeV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetContentByShareCodeV2_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsContentsResponseV2__" data-uid="AccelByte.Api.UGC.GetContentByShareCodeV2(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsContentsResponseV2})">
+  GetContentByShareCodeV2(string, ResultCallback&lt;UGCModelsContentsResponseV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a content information by its share code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetContentByShareCodeV2(string shareCode, ResultCallback&lt;UGCModelsContentsResponseV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shareCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The share code of the content that will be fetched.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsContentsResponseV2.html">UGCModelsContentsResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetContentFollowed_" data-uid="AccelByte.Api.UGC.GetContentFollowed*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetContentFollowed_AccelByte_Core_ResultCallback_AccelByte_Models_UGCContentsPagingResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.UGC.GetContentFollowed(AccelByte.Core.ResultCallback{AccelByte.Models.UGCContentsPagingResponse},System.Int32,System.Int32)">
+  GetContentFollowed(ResultCallback&lt;UGCContentsPagingResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L791"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Content Followed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetContentFollowed(ResultCallback&lt;UGCContentsPagingResponse&gt; callback, int limit = 1000, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCContentsPagingResponse.html">UGCContentsPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 1000.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetContentPreview_" data-uid="AccelByte.Api.UGC.GetContentPreview*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetContentPreview_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCPreview__" data-uid="AccelByte.Api.UGC.GetContentPreview(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCPreview})">
+  GetContentPreview(string, ResultCallback&lt;UGCPreview&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get content preview as UGCPreview Model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetContentPreview(string contentId, ResultCallback&lt;UGCPreview&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the Preview's content that will be fetched.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCPreview.html">UGCPreview</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCPreview Model.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetContentPreview_" data-uid="AccelByte.Api.UGC.GetContentPreview*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetContentPreview_System_String_AccelByte_Core_ResultCallback_System_Byte____" data-uid="AccelByte.Api.UGC.GetContentPreview(System.String,AccelByte.Core.ResultCallback{System.Byte[]})">
+  GetContentPreview(string, ResultCallback&lt;byte[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L364"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get content preview as byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetContentPreview(string contentId, ResultCallback&lt;byte[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the Preview's content that will be fetched.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is byte array</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetCreatorStats_" data-uid="AccelByte.Api.UGC.GetCreatorStats*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetCreatorStats_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCGetCreatorStatsResponse__" data-uid="AccelByte.Api.UGC.GetCreatorStats(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCGetCreatorStatsResponse})">
+  GetCreatorStats(string, ResultCallback&lt;UGCGetCreatorStatsResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L909"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Creator Stats.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetCreatorStats(string userId, ResultCallback&lt;UGCGetCreatorStatsResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCGetCreatorStatsResponse.html">UGCGetCreatorStatsResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetFollowedCreators_" data-uid="AccelByte.Api.UGC.GetFollowedCreators*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetFollowedCreators_AccelByte_Core_ResultCallback_AccelByte_Models_UGCGetListFollowersPagingResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.UGC.GetFollowedCreators(AccelByte.Core.ResultCallback{AccelByte.Models.UGCGetListFollowersPagingResponse},System.Int32,System.Int32)">
+  GetFollowedCreators(ResultCallback&lt;UGCGetListFollowersPagingResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L814"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Followed Creators.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetFollowedCreators(ResultCallback&lt;UGCGetListFollowersPagingResponse&gt; callback, int limit = 1000, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCGetListFollowersPagingResponse.html">UGCGetListFollowersPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 1000.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetLikedContents_" data-uid="AccelByte.Api.UGC.GetLikedContents*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetLikedContents_AccelByte_Models_GetAllLikedContentRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCContentsPagingResponse__" data-uid="AccelByte.Api.UGC.GetLikedContents(AccelByte.Models.GetAllLikedContentRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCContentsPagingResponse})">
+  GetLikedContents(GetAllLikedContentRequest, ResultCallback&lt;UGCContentsPagingResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L888"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Liked Contents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetLikedContents(GetAllLikedContentRequest getLikedContentRequest, ResultCallback&lt;UGCContentsPagingResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>getLikedContentRequest</code> <a class="xref" href="AccelByte.Models.GetAllLikedContentRequest.html">GetAllLikedContentRequest</a></dt>
+    <dd><p>Detail information for the content request.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCContentsPagingResponse.html">UGCContentsPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetLikedContents_" data-uid="AccelByte.Api.UGC.GetLikedContents*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetLikedContents_AccelByte_Models_GetLikedContentRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCContentsPagingResponse__" data-uid="AccelByte.Api.UGC.GetLikedContents(AccelByte.Models.GetLikedContentRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCContentsPagingResponse})">
+  GetLikedContents(GetLikedContentRequest, ResultCallback&lt;UGCContentsPagingResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L865"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Liked Contents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This method will be deprecated in future, please use GetLikedContents( GetAllLikedContentRequest getLikedContentRequest ResultCallback&lt;UGCContentsPagingResponse&gt; callback)&quot;)]
+public void GetLikedContents(GetLikedContentRequest getLikedContentRequest, ResultCallback&lt;UGCContentsPagingResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>getLikedContentRequest</code> <a class="xref" href="AccelByte.Models.GetLikedContentRequest.html">GetLikedContentRequest</a></dt>
+    <dd><p>Detail information for the content request.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCContentsPagingResponse.html">UGCContentsPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetListContentDownloaderV2_" data-uid="AccelByte.Api.UGC.GetListContentDownloaderV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetListContentDownloaderV2_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsPaginatedContentDownloaderResponseV2__System_String_System_Int32_System_Int32_AccelByte_Models_UGCContentDownloaderSortBy_" data-uid="AccelByte.Api.UGC.GetListContentDownloaderV2(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsPaginatedContentDownloaderResponseV2},System.String,System.Int32,System.Int32,AccelByte.Models.UGCContentDownloaderSortBy)">
+  GetListContentDownloaderV2(string, ResultCallback&lt;UGCModelsPaginatedContentDownloaderResponseV2&gt;, string, int, int, UGCContentDownloaderSortBy)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1541"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get list of UGC content downloader</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetListContentDownloaderV2(string contentId, ResultCallback&lt;UGCModelsPaginatedContentDownloaderResponseV2&gt; callback, string userId = &quot;&quot;, int limit = 20, int offset = 0, UGCContentDownloaderSortBy sortBy = UGCContentDownloaderSortBy.CreatedTimeDesc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The contentId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsPaginatedContentDownloaderResponseV2.html">UGCModelsPaginatedContentDownloaderResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userId.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 20.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.UGCContentDownloaderSortBy.html">UGCContentDownloaderSortBy</a></dt>
+    <dd><p>Sorting criteria: created time with asc or desc. Default= created time and desc.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetListContentLikerV2_" data-uid="AccelByte.Api.UGC.GetListContentLikerV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetListContentLikerV2_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsPaginatedContentLikerResponseV2__System_Int32_System_Int32_AccelByte_Models_UGCContentDownloaderSortBy_" data-uid="AccelByte.Api.UGC.GetListContentLikerV2(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsPaginatedContentLikerResponseV2},System.Int32,System.Int32,AccelByte.Models.UGCContentDownloaderSortBy)">
+  GetListContentLikerV2(string, ResultCallback&lt;UGCModelsPaginatedContentLikerResponseV2&gt;, int, int, UGCContentDownloaderSortBy)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1577"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a list of users who like the content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetListContentLikerV2(string contentId, ResultCallback&lt;UGCModelsPaginatedContentLikerResponseV2&gt; callback, int limit = 20, int offset = 0, UGCContentDownloaderSortBy sortBy = UGCContentDownloaderSortBy.CreatedTimeDesc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The contentId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsPaginatedContentLikerResponseV2.html">UGCModelsPaginatedContentLikerResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 20.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.UGCContentDownloaderSortBy.html">UGCContentDownloaderSortBy</a></dt>
+    <dd><p>Sorting criteria: created time with asc or desc. Default= created time and desc.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetListFollowers_" data-uid="AccelByte.Api.UGC.GetListFollowers*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetListFollowers_AccelByte_Core_ResultCallback_AccelByte_Models_UGCGetListFollowersPagingResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.UGC.GetListFollowers(AccelByte.Core.ResultCallback{AccelByte.Models.UGCGetListFollowersPagingResponse},System.Int32,System.Int32)">
+  GetListFollowers(ResultCallback&lt;UGCGetListFollowersPagingResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L615"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get List Followers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetListFollowers(ResultCallback&lt;UGCGetListFollowersPagingResponse&gt; callback, int limit = 1000, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCGetListFollowersPagingResponse.html">UGCGetListFollowersPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 1000.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetListFollowing_" data-uid="AccelByte.Api.UGC.GetListFollowing*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetListFollowing_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCGetListFollowersPagingResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.UGC.GetListFollowing(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCGetListFollowersPagingResponse},System.Int32,System.Int32)">
+  GetListFollowing(string, ResultCallback&lt;UGCGetListFollowersPagingResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L838"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get List Following.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetListFollowing(string userId, ResultCallback&lt;UGCGetListFollowersPagingResponse&gt; callback, int limit = 1000, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCGetListFollowersPagingResponse.html">UGCGetListFollowersPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 1000.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetListStagingContent_" data-uid="AccelByte.Api.UGC.GetListStagingContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetListStagingContent_System_String_AccelByte_Models_UGCStagingContentStatus_System_Int32_System_Int32_AccelByte_Models_UGCListStagingContentSortBy_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsPaginatedStagingContentResponse__" data-uid="AccelByte.Api.UGC.GetListStagingContent(System.String,AccelByte.Models.UGCStagingContentStatus,System.Int32,System.Int32,AccelByte.Models.UGCListStagingContentSortBy,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsPaginatedStagingContentResponse})">
+  GetListStagingContent(string, UGCStagingContentStatus, int, int, UGCListStagingContentSortBy, ResultCallback&lt;UGCModelsPaginatedStagingContentResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1670"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetListStagingContent(string userId, UGCStagingContentStatus status, int limit, int offset, UGCListStagingContentSortBy sortBy, ResultCallback&lt;UGCModelsPaginatedStagingContentResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>status</code> <a class="xref" href="AccelByte.Models.UGCStagingContentStatus.html">UGCStagingContentStatus</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.UGCListStagingContentSortBy.html">UGCListStagingContentSortBy</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsPaginatedStagingContentResponse.html">UGCModelsPaginatedStagingContentResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetTags_" data-uid="AccelByte.Api.UGC.GetTags*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetTags_AccelByte_Core_ResultCallback_AccelByte_Models_UGCTagsPagingResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.UGC.GetTags(AccelByte.Core.ResultCallback{AccelByte.Models.UGCTagsPagingResponse},System.Int32,System.Int32)">
+  GetTags(ResultCallback&lt;UGCTagsPagingResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all tags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetTags(ResultCallback&lt;UGCTagsPagingResponse&gt; callback, int offset = 0, int limit = 1000)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCTagsPagingResponse.html">UGCTagsPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCTagsPagingResponse Model.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the tags results. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the tags results. Default value is 1000.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetTypes_" data-uid="AccelByte.Api.UGC.GetTypes*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetTypes_AccelByte_Core_ResultCallback_AccelByte_Models_UGCTypesPagingResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.UGC.GetTypes(AccelByte.Core.ResultCallback{AccelByte.Models.UGCTypesPagingResponse},System.Int32,System.Int32)">
+  GetTypes(ResultCallback&lt;UGCTypesPagingResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all of player's types and subtypes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetTypes(ResultCallback&lt;UGCTypesPagingResponse&gt; callback, int offset = 0, int limit = 1000)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCTypesPagingResponse.html">UGCTypesPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCTypesPagingResponse Model.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the types and/or subtypes paging data result. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the types and subtypes results. Default value is 1000.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetUserContents_" data-uid="AccelByte.Api.UGC.GetUserContents*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetUserContents_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCContentsPagingResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.UGC.GetUserContents(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCContentsPagingResponse},System.Int32,System.Int32)">
+  GetUserContents(string, ResultCallback&lt;UGCContentsPagingResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L728"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get User Contents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserContents(string userId, ResultCallback&lt;UGCContentsPagingResponse&gt; callback, int limit = 1000, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCContentsPagingResponse.html">UGCContentsPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 1000.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetUserContentsV2_" data-uid="AccelByte.Api.UGC.GetUserContentsV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetUserContentsV2_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCSearchContentsPagingResponseV2__System_Int32_System_Int32_AccelByte_Models_UGCContentDownloaderSortBy_" data-uid="AccelByte.Api.UGC.GetUserContentsV2(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCSearchContentsPagingResponseV2},System.Int32,System.Int32,AccelByte.Models.UGCContentDownloaderSortBy)">
+  GetUserContentsV2(string, ResultCallback&lt;UGCSearchContentsPagingResponseV2&gt;, int, int, UGCContentDownloaderSortBy)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get user's generated contents</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserContentsV2(string userId, ResultCallback&lt;UGCSearchContentsPagingResponseV2&gt; callback, int limit = 20, int offset = 0, UGCContentDownloaderSortBy sortBy = UGCContentDownloaderSortBy.CreatedTimeDesc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>User Id</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCSearchContentsPagingResponseV2.html">UGCSearchContentsPagingResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 20.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.UGCContentDownloaderSortBy.html">UGCContentDownloaderSortBy</a></dt>
+    <dd><p>Sorting criteria: created time with asc or desc. Default= created time and desc.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetUserGroups_" data-uid="AccelByte.Api.UGC.GetUserGroups*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetUserGroups_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCGetUserGroupsPagingResponse__System_Int32_System_Int32_" data-uid="AccelByte.Api.UGC.GetUserGroups(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCGetUserGroupsPagingResponse},System.Int32,System.Int32)">
+  GetUserGroups(string, ResultCallback&lt;UGCGetUserGroupsPagingResponse&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L936"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get User Groups.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserGroups(string userId, ResultCallback&lt;UGCGetUserGroupsPagingResponse&gt; callback, int limit = 1000, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCGetUserGroupsPagingResponse.html">UGCGetUserGroupsPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 1000.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_GetUserStagingContentByContentId_" data-uid="AccelByte.Api.UGC.GetUserStagingContentByContentId*"></a>
+
+  <h3 id="AccelByte_Api_UGC_GetUserStagingContentByContentId_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelStagingContent__" data-uid="AccelByte.Api.UGC.GetUserStagingContentByContentId(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelStagingContent})">
+  GetUserStagingContentByContentId(string, string, ResultCallback&lt;UGCModelStagingContent&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1636"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserStagingContentByContentId(string userId, string contentId, ResultCallback&lt;UGCModelStagingContent&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelStagingContent.html">UGCModelStagingContent</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_ModifyContent_" data-uid="AccelByte.Api.UGC.ModifyContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_ModifyContent_System_String_System_String_AccelByte_Models_UGCRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCResponse__System_Boolean_" data-uid="AccelByte.Api.UGC.ModifyContent(System.String,System.String,AccelByte.Models.UGCRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCResponse},System.Boolean)">
+  ModifyContent(string, string, UGCRequest, ResultCallback&lt;UGCResponse&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modify existing content to update some information with string preview.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This method will be deprecated in future, please use ModifyContent(string channelId, string contentId, UGCUpdateRequest ModifyRequest, ResultCallback&lt;UGCResponse&gt; callback)&quot;)]
+public void ModifyContent(string channelId, string contentId, UGCRequest ModifyRequest, ResultCallback&lt;UGCResponse&gt; callback, bool updateContent = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content that will be modified.</p>
+</dd>
+    <dt><code>ModifyRequest</code> <a class="xref" href="AccelByte.Models.UGCRequest.html">UGCRequest</a></dt>
+    <dd><p>Detail information for the content request that will be modified.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCResponse.html">UGCResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCResponse Model.</p>
+</dd>
+    <dt><code>updateContent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This will be used to update the content too or only content information . Default value is false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_ModifyContent_" data-uid="AccelByte.Api.UGC.ModifyContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_ModifyContent_System_String_System_String_AccelByte_Models_UGCUpdateRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCResponse__" data-uid="AccelByte.Api.UGC.ModifyContent(System.String,System.String,AccelByte.Models.UGCUpdateRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCResponse})">
+  ModifyContent(string, string, UGCUpdateRequest, ResultCallback&lt;UGCResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modify existing content to update some information with string preview.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ModifyContent(string channelId, string contentId, UGCUpdateRequest ModifyRequest, ResultCallback&lt;UGCResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content that will be modified.</p>
+</dd>
+    <dt><code>ModifyRequest</code> <a class="xref" href="AccelByte.Models.UGCUpdateRequest.html">UGCUpdateRequest</a></dt>
+    <dd><p>Detail information for the content request that will be modified.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCResponse.html">UGCResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCResponse Model.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_ModifyContent_" data-uid="AccelByte.Api.UGC.ModifyContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_ModifyContent_System_String_System_String_System_String_System_String_System_String_System_String___System_Byte___System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCResponse__System_String_System_Boolean_" data-uid="AccelByte.Api.UGC.ModifyContent(System.String,System.String,System.String,System.String,System.String,System.String[],System.Byte[],System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCResponse},System.String,System.Boolean)">
+  ModifyContent(string, string, string, string, string, string[], byte[], string, ResultCallback&lt;UGCResponse&gt;, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modify existing content to update some information with byte array Preview paramater.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This method will be deprecated in future, please use ModifyContent(string channelId, string contentId, UGCUpdateRequest ModifyRequest, ResultCallback&lt;UGCResponse&gt; callback)&quot;)]
+public void ModifyContent(string channelId, string contentId, string name, string type, string subtype, string[] tags, byte[] preview, string fileExtension, ResultCallback&lt;UGCResponse&gt; callback, string contentType = &quot;application/octet-stream&quot;, bool updateContent = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content that will be modified.</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the content</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Type of the content</p>
+</dd>
+    <dt><code>subtype</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>SubType of the content.</p>
+</dd>
+    <dt><code>tags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Tags of the content.</p>
+</dd>
+    <dt><code>preview</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>The byte array of the content's Preview</p>
+</dd>
+    <dt><code>fileExtension</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>FileExtension of the content</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCResponse.html">UGCResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCResponse Model.</p>
+</dd>
+    <dt><code>contentType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The specific type of the content's modified. Default value is &quot;application/octet-stream&quot;</p>
+</dd>
+    <dt><code>updateContent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This will be used to update the content too or only content information . Default value is false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_ModifyContentByShareCode_" data-uid="AccelByte.Api.UGC.ModifyContentByShareCode*"></a>
+
+  <h3 id="AccelByte_Api_UGC_ModifyContentByShareCode_System_String_System_String_AccelByte_Models_UGCUpdateRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCResponse__" data-uid="AccelByte.Api.UGC.ModifyContentByShareCode(System.String,System.String,AccelByte.Models.UGCUpdateRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCResponse})">
+  ModifyContentByShareCode(string, string, UGCUpdateRequest, ResultCallback&lt;UGCResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1004"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modify existing content to update some information by share code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ModifyContentByShareCode(string channelId, string shareCode, UGCUpdateRequest modifyRequest, ResultCallback&lt;UGCResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>shareCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The share code of the content that will be fetched.</p>
+</dd>
+    <dt><code>modifyRequest</code> <a class="xref" href="AccelByte.Models.UGCUpdateRequest.html">UGCUpdateRequest</a></dt>
+    <dd><p>Detail information for the content request that will be modified.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCResponse.html">UGCResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded. The result is UGCResponse Model.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_ModifyContentV2_" data-uid="AccelByte.Api.UGC.ModifyContentV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_ModifyContentV2_System_String_System_String_AccelByte_Models_ModifyUGCRequestV2_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelsModifyUGCResponseV2__" data-uid="AccelByte.Api.UGC.ModifyContentV2(System.String,System.String,AccelByte.Models.ModifyUGCRequestV2,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelsModifyUGCResponseV2})">
+  ModifyContentV2(string, string, ModifyUGCRequestV2, ResultCallback&lt;UGCModelsModifyUGCResponseV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modify existing content to update some information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ModifyContentV2(string channelId, string contentId, ModifyUGCRequestV2 modifyRequest, ResultCallback&lt;UGCModelsModifyUGCResponseV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The contentId.</p>
+</dd>
+    <dt><code>modifyRequest</code> <a class="xref" href="AccelByte.Models.ModifyUGCRequestV2.html">ModifyUGCRequestV2</a></dt>
+    <dd><p>Detail information for the content request that will be modified.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelsModifyUGCResponseV2.html">UGCModelsModifyUGCResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_ModifyStagingContentByContentId_" data-uid="AccelByte.Api.UGC.ModifyStagingContentByContentId*"></a>
+
+  <h3 id="AccelByte_Api_UGC_ModifyStagingContentByContentId_System_String_System_String_AccelByte_Models_UGCUpdateStagingContentRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCModelStagingContent__" data-uid="AccelByte.Api.UGC.ModifyStagingContentByContentId(System.String,System.String,AccelByte.Models.UGCUpdateStagingContentRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCModelStagingContent})">
+  ModifyStagingContentByContentId(string, string, UGCUpdateStagingContentRequest, ResultCallback&lt;UGCModelStagingContent&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1701"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modify staging content to update some information based on content id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ModifyStagingContentByContentId(string userId, string contentId, UGCUpdateStagingContentRequest modifyRequest, ResultCallback&lt;UGCModelStagingContent&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The content Id.</p>
+</dd>
+    <dt><code>modifyRequest</code> <a class="xref" href="AccelByte.Models.UGCUpdateStagingContentRequest.html">UGCUpdateStagingContentRequest</a></dt>
+    <dd><p>Detail information for the content request that will be modified.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCModelStagingContent.html">UGCModelStagingContent</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_SearchContent_" data-uid="AccelByte.Api.UGC.SearchContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_SearchContent_AccelByte_Models_SearchContentRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCSearchContentsPagingResponse__" data-uid="AccelByte.Api.UGC.SearchContent(AccelByte.Models.SearchContentRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCSearchContentsPagingResponse})">
+  SearchContent(SearchContentRequest, ResultCallback&lt;UGCSearchContentsPagingResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L533"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Search Content player's channel based on the its channel id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchContent(SearchContentRequest searchContentRequest, ResultCallback&lt;UGCSearchContentsPagingResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>searchContentRequest</code> <a class="xref" href="AccelByte.Models.SearchContentRequest.html">SearchContentRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCSearchContentsPagingResponse.html">UGCSearchContentsPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_SearchContentsSpecificToChannelV2_" data-uid="AccelByte.Api.UGC.SearchContentsSpecificToChannelV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_SearchContentsSpecificToChannelV2_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCSearchContentsPagingResponseV2__System_Int32_System_Int32_AccelByte_Models_UGCContentDownloaderSortBy_" data-uid="AccelByte.Api.UGC.SearchContentsSpecificToChannelV2(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCSearchContentsPagingResponseV2},System.Int32,System.Int32,AccelByte.Models.UGCContentDownloaderSortBy)">
+  SearchContentsSpecificToChannelV2(string, ResultCallback&lt;UGCSearchContentsPagingResponseV2&gt;, int, int, UGCContentDownloaderSortBy)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1085"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Search contents specific to a channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchContentsSpecificToChannelV2(string channelId, ResultCallback&lt;UGCSearchContentsPagingResponseV2&gt; callback, int limit = 20, int offset = 0, UGCContentDownloaderSortBy sortBy = UGCContentDownloaderSortBy.CreatedTimeDesc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Channel Id.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCSearchContentsPagingResponseV2.html">UGCSearchContentsPagingResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 20.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.UGCContentDownloaderSortBy.html">UGCContentDownloaderSortBy</a></dt>
+    <dd><p>Sorting criteria: created time with asc or desc. Default= created time and desc.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_SearchContentsSpesificToChannel_" data-uid="AccelByte.Api.UGC.SearchContentsSpesificToChannel*"></a>
+
+  <h3 id="AccelByte_Api_UGC_SearchContentsSpesificToChannel_System_String_AccelByte_Models_SearchContentRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UGCSearchContentsPagingResponse__" data-uid="AccelByte.Api.UGC.SearchContentsSpesificToChannel(System.String,AccelByte.Models.SearchContentRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UGCSearchContentsPagingResponse})">
+  SearchContentsSpesificToChannel(string, SearchContentRequest, ResultCallback&lt;UGCSearchContentsPagingResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L553"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Search Content player's channel based on the its channel id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchContentsSpesificToChannel(string channelId, SearchContentRequest searchContentRequest, ResultCallback&lt;UGCSearchContentsPagingResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>searchContentRequest</code> <a class="xref" href="AccelByte.Models.SearchContentRequest.html">SearchContentRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCSearchContentsPagingResponse.html">UGCSearchContentsPagingResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_SearchContentsV2_" data-uid="AccelByte.Api.UGC.SearchContentsV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_SearchContentsV2_AccelByte_Models_UGCGetContentFilterRequestV2_AccelByte_Core_ResultCallback_AccelByte_Models_UGCSearchContentsPagingResponseV2__System_Int32_System_Int32_AccelByte_Models_UGCContentSortBy_" data-uid="AccelByte.Api.UGC.SearchContentsV2(AccelByte.Models.UGCGetContentFilterRequestV2,AccelByte.Core.ResultCallback{AccelByte.Models.UGCSearchContentsPagingResponseV2},System.Int32,System.Int32,AccelByte.Models.UGCContentSortBy)">
+  SearchContentsV2(UGCGetContentFilterRequestV2, ResultCallback&lt;UGCSearchContentsPagingResponseV2&gt;, int, int, UGCContentSortBy)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all contents in current namespace</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchContentsV2(UGCGetContentFilterRequestV2 filterRequest, ResultCallback&lt;UGCSearchContentsPagingResponseV2&gt; callback, int limit = 20, int offset = 0, UGCContentSortBy sortBy = UGCContentSortBy.CreatedTimeDesc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filterRequest</code> <a class="xref" href="AccelByte.Models.UGCGetContentFilterRequestV2.html">UGCGetContentFilterRequestV2</a></dt>
+    <dd><p>To filter the returned UGC contets.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCSearchContentsPagingResponseV2.html">UGCSearchContentsPagingResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit Number of user per page. Default value is 20.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset number to retrieve. Default value is 0.</p>
+</dd>
+    <dt><code>sortBy</code> <a class="xref" href="AccelByte.Models.UGCContentSortBy.html">UGCContentSortBy</a></dt>
+    <dd><p>Sorting criteria: name, download, like, created time with asc or desc. Default= created time and asc.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UpdateChannel_" data-uid="AccelByte.Api.UGC.UpdateChannel*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UpdateChannel_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCChannelResponse__" data-uid="AccelByte.Api.UGC.UpdateChannel(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCChannelResponse})">
+  UpdateChannel(string, string, ResultCallback&lt;UGCChannelResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L964"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateChannel(string channelId, string name, ResultCallback&lt;UGCChannelResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The channelId value.</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The new channel's name value.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCChannelResponse.html">UGCChannelResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UpdateContentFileLocationV2_" data-uid="AccelByte.Api.UGC.UpdateContentFileLocationV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UpdateContentFileLocationV2_System_String_System_String_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UpdateContentFileLocationResponseV2__" data-uid="AccelByte.Api.UGC.UpdateContentFileLocationV2(System.String,System.String,System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UpdateContentFileLocationResponseV2})">
+  UpdateContentFileLocationV2(string, string, string, string, ResultCallback&lt;UpdateContentFileLocationResponseV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update Content File Location in S3.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateContentFileLocationV2(string channelId, string contentId, string fileExtension, string s3Key, ResultCallback&lt;UpdateContentFileLocationResponseV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content's channel.</p>
+</dd>
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the content.</p>
+</dd>
+    <dt><code>fileExtension</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>FileExtension of the content.</p>
+</dd>
+    <dt><code>s3Key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Detail information about the file location in S3.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UpdateContentFileLocationResponseV2.html">UpdateContentFileLocationResponseV2</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UpdateContentScreenshotV2_" data-uid="AccelByte.Api.UGC.UpdateContentScreenshotV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UpdateContentScreenshotV2_System_String_AccelByte_Models_ScreenshotsUpdatesV2_AccelByte_Core_ResultCallback_AccelByte_Models_ScreenshotsUpdatesV2__" data-uid="AccelByte.Api.UGC.UpdateContentScreenshotV2(System.String,AccelByte.Models.ScreenshotsUpdatesV2,AccelByte.Core.ResultCallback{AccelByte.Models.ScreenshotsUpdatesV2})">
+  UpdateContentScreenshotV2(string, ScreenshotsUpdatesV2, ResultCallback&lt;ScreenshotsUpdatesV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateContentScreenshotV2(string contentId, ScreenshotsUpdatesV2 updateSreenshotsRequest, ResultCallback&lt;ScreenshotsUpdatesV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>updateSreenshotsRequest</code> <a class="xref" href="AccelByte.Models.ScreenshotsUpdatesV2.html">ScreenshotsUpdatesV2</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ScreenshotsUpdatesV2.html">ScreenshotsUpdatesV2</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UpdateFollowStatus_" data-uid="AccelByte.Api.UGC.UpdateFollowStatus*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UpdateFollowStatus_System_Boolean_AccelByte_Core_ResultCallback_AccelByte_Models_UGCUpdateFollowStatusToUserResponse__" data-uid="AccelByte.Api.UGC.UpdateFollowStatus(System.Boolean,AccelByte.Core.ResultCallback{AccelByte.Models.UGCUpdateFollowStatusToUserResponse})">
+  UpdateFollowStatus(bool, ResultCallback&lt;UGCUpdateFollowStatusToUserResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L637"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update follow/unfollow status to user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateFollowStatus(bool followStatus, ResultCallback&lt;UGCUpdateFollowStatusToUserResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>followStatus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>The new follow status value.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCUpdateFollowStatusToUserResponse.html">UGCUpdateFollowStatusToUserResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UpdateFollowStatus_" data-uid="AccelByte.Api.UGC.UpdateFollowStatus*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UpdateFollowStatus_System_Boolean_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UGCUpdateFollowStatusToUserResponse__" data-uid="AccelByte.Api.UGC.UpdateFollowStatus(System.Boolean,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UGCUpdateFollowStatusToUserResponse})">
+  UpdateFollowStatus(bool, string, ResultCallback&lt;UGCUpdateFollowStatusToUserResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L667"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update follow/unfollow status to user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateFollowStatus(bool followStatus, string userId, ResultCallback&lt;UGCUpdateFollowStatusToUserResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>followStatus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>The new follow status value.</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userId.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCUpdateFollowStatusToUserResponse.html">UGCUpdateFollowStatusToUserResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UpdateLikeStatusToContent_" data-uid="AccelByte.Api.UGC.UpdateLikeStatusToContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UpdateLikeStatusToContent_System_String_System_Boolean_AccelByte_Core_ResultCallback_AccelByte_Models_UGCUpdateLikeStatusToContentResponse__" data-uid="AccelByte.Api.UGC.UpdateLikeStatusToContent(System.String,System.Boolean,AccelByte.Core.ResultCallback{AccelByte.Models.UGCUpdateLikeStatusToContentResponse})">
+  UpdateLikeStatusToContent(string, bool, ResultCallback&lt;UGCUpdateLikeStatusToContentResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L579"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateLikeStatusToContent(string contentId, bool likeStatus, ResultCallback&lt;UGCUpdateLikeStatusToContentResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>likeStatus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCUpdateLikeStatusToContentResponse.html">UGCUpdateLikeStatusToContentResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UpdateLikeStatusToContentV2_" data-uid="AccelByte.Api.UGC.UpdateLikeStatusToContentV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UpdateLikeStatusToContentV2_System_String_System_Boolean_AccelByte_Core_ResultCallback_AccelByte_Models_UGCUpdateLikeStatusToContentResponse__" data-uid="AccelByte.Api.UGC.UpdateLikeStatusToContentV2(System.String,System.Boolean,AccelByte.Core.ResultCallback{AccelByte.Models.UGCUpdateLikeStatusToContentResponse})">
+  UpdateLikeStatusToContentV2(string, bool, ResultCallback&lt;UGCUpdateLikeStatusToContentResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1606"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateLikeStatusToContentV2(string contentId, bool likeStatus, ResultCallback&lt;UGCUpdateLikeStatusToContentResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>likeStatus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UGCUpdateLikeStatusToContentResponse.html">UGCUpdateLikeStatusToContentResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UploadContentScreenshotV2_" data-uid="AccelByte.Api.UGC.UploadContentScreenshotV2*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UploadContentScreenshotV2_System_String_AccelByte_Models_ScreenshotsRequest_AccelByte_Core_ResultCallback_AccelByte_Models_ScreenshotsResponseV2__" data-uid="AccelByte.Api.UGC.UploadContentScreenshotV2(System.String,AccelByte.Models.ScreenshotsRequest,AccelByte.Core.ResultCallback{AccelByte.Models.ScreenshotsResponseV2})">
+  UploadContentScreenshotV2(string, ScreenshotsRequest, ResultCallback&lt;ScreenshotsResponseV2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L1430"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UploadContentScreenshotV2(string contentId, ScreenshotsRequest screenshotsRequest, ResultCallback&lt;ScreenshotsResponseV2&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>screenshotsRequest</code> <a class="xref" href="AccelByte.Models.ScreenshotsRequest.html">ScreenshotsRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ScreenshotsResponseV2.html">ScreenshotsResponseV2</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UGC_UploadScreenshotContent_" data-uid="AccelByte.Api.UGC.UploadScreenshotContent*"></a>
+
+  <h3 id="AccelByte_Api_UGC_UploadScreenshotContent_System_String_System_String_AccelByte_Models_ScreenshotsRequest_AccelByte_Core_ResultCallback_AccelByte_Models_ScreenshotsResponse__" data-uid="AccelByte.Api.UGC.UploadScreenshotContent(System.String,System.String,AccelByte.Models.ScreenshotsRequest,AccelByte.Core.ResultCallback{AccelByte.Models.ScreenshotsResponse})">
+  UploadScreenshotContent(string, string, ScreenshotsRequest, ResultCallback&lt;ScreenshotsResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UGC.cs/#L758"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get User Contents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UploadScreenshotContent(string contentId, string userId, ScreenshotsRequest screenshotsRequest, ResultCallback&lt;ScreenshotsResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The contentId.</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The userId.</p>
+</dd>
+    <dt><code>screenshotsRequest</code> <a class="xref" href="AccelByte.Models.ScreenshotsRequest.html">ScreenshotsRequest</a></dt>
+    <dd><p>Supported file extensions: pjp, jpg, jpeg, jfif, bmp, png.
+Maximum description length: 1024..</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ScreenshotsResponse.html">ScreenshotsResponse</a>&gt;</dt>
+    <dd><p>This will be called when the operation succeeded.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

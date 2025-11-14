@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Enum ErrorCode | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Enum ErrorCode | AccelByte Unity SDK | 17.12.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Core_ErrorCode.md&amp;value=---%0Auid%3A%20AccelByte.Core.ErrorCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Core.ErrorCode">
+
+
+
+
+  <h1 id="AccelByte_Core_ErrorCode" data-uid="AccelByte.Core.ErrorCode" class="text-break">
+Enum ErrorCode  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/Result.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Core.html">Core</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum ErrorCode</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="AccelByte_Core_ErrorCode_AcceptFriendDataNotFound"><code>AcceptFriendDataNotFound = 11733</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AcceptFriendInvalidRequestBody"><code>AcceptFriendInvalidRequestBody = 11732</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AcceptFriendRequestorNotFound"><code>AcceptFriendRequestorNotFound = 11735</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AcceptFriendUnableAcceptFriends"><code>AcceptFriendUnableAcceptFriends = 11731</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AcceptFriendUnableGetRequestorRegistry"><code>AcceptFriendUnableGetRequestorRegistry = 11736</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AcceptFriendUnableGetUserRegistry"><code>AcceptFriendUnableGetUserRegistry = 11734</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Accepted"><code>Accepted = 202</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AccessDenied"><code>AccessDenied = 14014</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AccountIsNotUpgraded"><code>AccountIsNotUpgraded = 14009</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AchievementTooManyRequests"><code>AchievementTooManyRequests = 40153</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ActionBanned"><code>ActionBanned = 20016</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AliPayRefundFailedException"><code>AliPayRefundFailedException = 33323</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_AlreadyReported"><code>AlreadyReported = 208</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BadGateway"><code>BadGateway = 502</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BadRequest"><code>BadRequest = 400</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BadRequestException"><code>BadRequestException = 20018</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BaseBuildNotFoundException"><code>BaseBuildNotFoundException = 12143</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BlockEmptyException"><code>BlockEmptyException = 12121</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BlockHashMismatchException"><code>BlockHashMismatchException = 12125</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BlockNotFoundException"><code>BlockNotFoundException = 12142</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BlockUuidRequiredException"><code>BlockUuidRequiredException = 12122</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BuildAlreadyCommittedException"><code>BuildAlreadyCommittedException = 12171</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BuildIncompleteException"><code>BuildIncompleteException = 12172</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_BuildNotFoundException"><code>BuildNotFoundException = 12141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CachedTokenExpired"><code>CachedTokenExpired = 14303</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CachedTokenNotFound"><code>CachedTokenNotFound = 14301</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CampaignAlreadyExistsException"><code>CampaignAlreadyExistsException = 37171</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CampaignInactive"><code>CampaignInactive = 37172</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CampaignNotFoundException"><code>CampaignNotFoundException = 37141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelFriendDataNotFound"><code>CancelFriendDataNotFound = 11753</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelFriendInvalidRequestBody"><code>CancelFriendInvalidRequestBody = 11752</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelFriendUnableCancelFriends"><code>CancelFriendUnableCancelFriends = 11751</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelFriendUnableGetUserRegistry"><code>CancelFriendUnableGetUserRegistry = 11754</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelMatchmakingNotInParty"><code>CancelMatchmakingNotInParty = 11615</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelMatchmakingNotPartyLeader"><code>CancelMatchmakingNotPartyLeader = 11613</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelMatchmakingUnableToFindUserParty"><code>CancelMatchmakingUnableToFindUserParty = 11611</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelMatchmakingUnableToGetPartyInfo"><code>CancelMatchmakingUnableToGetPartyInfo = 11612</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CancelMatchmakingUnableToPushCancelRequest"><code>CancelMatchmakingUnableToPushCancelRequest = 11614</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CategoryAlreadyExistsException"><code>CategoryAlreadyExistsException = 30271</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CategoryNotEmptyException"><code>CategoryNotEmptyException = 30272</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CategoryNotFound"><code>CategoryNotFound = 30241</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ChannelChatSenderBanned"><code>ChannelChatSenderBanned = 11880</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CodeHasBeenRedeemedException"><code>CodeHasBeenRedeemedException = 37176</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CodeInactive"><code>CodeInactive = 37173</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CodeNotFound"><code>CodeNotFound = 37142</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CodeRedeemptionAlreadyEnded"><code>CodeRedeemptionAlreadyEnded = 37178</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CodeRedeemptionNotStarted"><code>CodeRedeemptionNotStarted = 37177</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Conflict"><code>Conflict = 409</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Continue"><code>Continue = 100</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CountryNotFound"><code>CountryNotFound = 10154</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CreateGameRecordValueTooBigException"><code>CreateGameRecordValueTooBigException = 18015</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Created"><code>Created = 201</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CurrencyAlreadyExistsException"><code>CurrencyAlreadyExistsException = 36171</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_CurrencyNotFound"><code>CurrencyNotFound = 36141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DedicatedServerConfigNotFound"><code>DedicatedServerConfigNotFound = 9014123</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DedicatedServerNotFound"><code>DedicatedServerNotFound = 9014183</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DefaultLanguageRequiredException"><code>DefaultLanguageRequiredException = 30021</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DefaultRegionRequiredException"><code>DefaultRegionRequiredException = 30022</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Deprecated"><code>Deprecated = 14901</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DisplayNameContainsInvalidCharacterException"><code>DisplayNameContainsInvalidCharacterException = 11339</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DistributionReceiverAlreadyExist"><code>DistributionReceiverAlreadyExist = 31271</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DistributionReceiverNotFound"><code>DistributionReceiverNotFound = 31241</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DsRegistrationConflict"><code>DsRegistrationConflict = 9014143</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_DuplicateBuildIdException"><code>DuplicateBuildIdException = 12175</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EmailAlreadyUsed"><code>EmailAlreadyUsed = 10133</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EmailIsNotVerified"><code>EmailIsNotVerified = 14011</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementAlreadyDistributedException"><code>EntitlementAlreadyDistributedException = 31175</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementAlreadyRevokedException"><code>EntitlementAlreadyRevokedException = 31171</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementAlreadyUsedException"><code>EntitlementAlreadyUsedException = 31174</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementAppIdNotFound"><code>EntitlementAppIdNotFound = 31142</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementIdNotFound"><code>EntitlementIdNotFound = 31141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementNotActiveException"><code>EntitlementNotActiveException = 31172</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementNotConsumableException"><code>EntitlementNotConsumableException = 31173</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementNotCreated"><code>EntitlementNotCreated = 14012</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementNotDistributable"><code>EntitlementNotDistributable = 31121</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementOutOfTimeRangeException"><code>EntitlementOutOfTimeRangeException = 31178</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementRequiredException"><code>EntitlementRequiredException = 12103</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_EntitlementUseCountIsInsufficientException"><code>EntitlementUseCountIsInsufficientException = 31176</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ErrorFromException"><code>ErrorFromException = 14001</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ExceedDistributeQuantity"><code>ExceedDistributeQuantity = 31122</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ExceedItemMaxCount"><code>ExceedItemMaxCount = 32176</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ExceedItemMaxCountPerUser"><code>ExceedItemMaxCountPerUser = 32175</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ExpectationFailed"><code>ExpectationFailed = 417</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FileTypeNotSupportedException"><code>FileTypeNotSupportedException = 11131</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Forbidden"><code>Forbidden = 403</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Found"><code>Found = 302</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendListIsEmpty"><code>FriendListIsEmpty = 11732</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequestAlreadySent"><code>FriendRequestAlreadySent = 11973</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequestAwaitingResponse"><code>FriendRequestAwaitingResponse = 11974</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequestConflictFriendship"><code>FriendRequestConflictFriendship = 11703</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequestFriendRegistryNotFound"><code>FriendRequestFriendRegistryNotFound = 11705</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequestInvalidRequestBody"><code>FriendRequestInvalidRequestBody = 11702</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequestUnableGetFriendRegistry"><code>FriendRequestUnableGetFriendRegistry = 11706</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequestUnableGetUserRegistry"><code>FriendRequestUnableGetUserRegistry = 11704</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequestUnableRequestFriends"><code>FriendRequestUnableRequestFriends = 11701</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequesteeMaxFriendsLimitReached"><code>FriendRequesteeMaxFriendsLimitReached = 11591</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_FriendRequesterMaxFriendsLimitReached"><code>FriendRequesterMaxFriendsLimitReached = 11590</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GameProfileAttributeMismatchException"><code>GameProfileAttributeMismatchException = 12022</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GameProfileIdNotFoundException"><code>GameProfileIdNotFoundException = 12041</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GameRecordNotFound"><code>GameRecordNotFound = 18003</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GameRecordPreconditionFailed"><code>GameRecordPreconditionFailed = 18056</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GameRecordValidationErrorException"><code>GameRecordValidationErrorException = 18055</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GatewayTimeout"><code>GatewayTimeout = 504</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GeneralClientError"><code>GeneralClientError = 14000</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GenerateAuthCodeFailed"><code>GenerateAuthCodeFailed = 14013</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GenerateTokenFailed"><code>GenerateTokenFailed = 14008</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GetFriendsDataNotFound"><code>GetFriendsDataNotFound = 11792</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GetFriendsInvalidRequestBody"><code>GetFriendsInvalidRequestBody = 11791</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GetFriendsUnableGetListOfFriends"><code>GetFriendsUnableGetListOfFriends = 11793</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GetFriendsUnableToWriteResponse"><code>GetFriendsUnableToWriteResponse = 11794</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GetFriendshipStatusInvalidRequestBody"><code>GetFriendshipStatusInvalidRequestBody = 11784</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GetFriendshipStatusUnableGetFriendshipStatus"><code>GetFriendshipStatusUnableGetFriendshipStatus = 11781</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GetFriendshipStatusUnableGetUserRegistry"><code>GetFriendshipStatusUnableGetUserRegistry = 11783</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GetGameRecordBadRequestException"><code>GetGameRecordBadRequestException = 18004</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Gone"><code>Gone = 410</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GroupAdminCannotLeaveGroup"><code>GroupAdminCannotLeaveGroup = 73440</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_GroupNotFound"><code>GroupNotFound = 73333</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_HttpTooManyRequests"><code>HttpTooManyRequests = 429</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_HttpVersionNotSupported"><code>HttpVersionNotSupported = 505</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ImUsed"><code>ImUsed = 226</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InsufficientMemberRolePermission"><code>InsufficientMemberRolePermission = 73036</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InternalServerError"><code>InternalServerError = 500</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidArgument"><code>InvalidArgument = 14002</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidAudienceException"><code>InvalidAudienceException = 20014</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidPaymentOrderStatusException"><code>InvalidPaymentOrderStatusException = 33171</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidPaymentOrderTransactionStatusException"><code>InvalidPaymentOrderTransactionStatusException = 3372</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidPaymentOrderTransactionTypeException"><code>InvalidPaymentOrderTransactionTypeException = 3373</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidPlatformIdException"><code>InvalidPlatformIdException = 12123</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidRequest"><code>InvalidRequest = 14003</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidResponse"><code>InvalidResponse = 14004</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidSession"><code>InvalidSession = 13132</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidStatOperator"><code>InvalidStatOperator = 12221</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_InvalidStoreDataException"><code>InvalidStoreDataException = 30121</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_IsNotLoggedIn"><code>IsNotLoggedIn = 14006</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ItemAppIdNotFoundException"><code>ItemAppIdNotFoundException = 30342</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ItemBundleException"><code>ItemBundleException = 30322</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ItemInvalidDiscountValueException"><code>ItemInvalidDiscountValueException = 30321</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ItemNotFound"><code>ItemNotFound = 30341</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ItemSkuNotFoundException"><code>ItemSkuNotFoundException = 30343</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LeaderboardConfigAlreadyExist"><code>LeaderboardConfigAlreadyExist = 71132</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LeaderboardConfigNotFound"><code>LeaderboardConfigNotFound = 71230</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LeaderboardRankingNotFound"><code>LeaderboardRankingNotFound = 71235</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LeaderboardRankingUnableToRetrieve"><code>LeaderboardRankingUnableToRetrieve = 71233</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LengthRequired"><code>LengthRequired = 411</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListFriendsPresenceUnableGetFriendsPresence"><code>ListFriendsPresenceUnableGetFriendsPresence = 11344</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListFriendsPresenceUnableGetOnlineFiends"><code>ListFriendsPresenceUnableGetOnlineFiends = 11343</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListFriendsPresenceUnableGetUserRegistry"><code>ListFriendsPresenceUnableGetUserRegistry = 11341</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListFriendsUnableGetAllOnlineUsers"><code>ListFriendsUnableGetAllOnlineUsers = 11305</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListFriendsUnableGetOnlineFiends"><code>ListFriendsUnableGetOnlineFiends = 11303</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListFriendsUnableGetUserRegistry"><code>ListFriendsUnableGetUserRegistry = 11301</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListIncomingFriendsDataNotFound"><code>ListIncomingFriendsDataNotFound = 11714</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListIncomingFriendsInvalidRequestBody"><code>ListIncomingFriendsInvalidRequestBody = 11715</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListIncomingFriendsUnableGetListIncoming"><code>ListIncomingFriendsUnableGetListIncoming = 11711</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListIncomingFriendsUnableGetUserRegistry"><code>ListIncomingFriendsUnableGetUserRegistry = 11713</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListIncomingFriendsUnableToWriteResponse"><code>ListIncomingFriendsUnableToWriteResponse = 11712</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListNotificationUnableDeleteUserNotification"><code>ListNotificationUnableDeleteUserNotification = 11314</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListNotificationUnableGetUserNotification"><code>ListNotificationUnableGetUserNotification = 11312</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListNotificationUnableGetUserRegistry"><code>ListNotificationUnableGetUserRegistry = 11311</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListOfFriendsUnableGetListOfFriends"><code>ListOfFriendsUnableGetListOfFriends = 11771</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListOfFriendsUnableGetUserRegistry"><code>ListOfFriendsUnableGetUserRegistry = 11773</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListOutgoingFriendsDataNotFound"><code>ListOutgoingFriendsDataNotFound = 11724</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListOutgoingFriendsInvalidRequestBody"><code>ListOutgoingFriendsInvalidRequestBody = 11725</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListOutgoingFriendsUnableGetListOutgoing"><code>ListOutgoingFriendsUnableGetListOutgoing = 11721</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListOutgoingFriendsUnableGetUserRegistry"><code>ListOutgoingFriendsUnableGetUserRegistry = 11723</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ListOutgoingFriendsUnableToWriteResponse"><code>ListOutgoingFriendsUnableToWriteResponse = 11722</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LobbyConnectionInvalidSession"><code>LobbyConnectionInvalidSession = 11218</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LobbyConnectionMultipleLoginAttempt"><code>LobbyConnectionMultipleLoginAttempt = 11215</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LobbyConnectionUnableCheckConnectedUser"><code>LobbyConnectionUnableCheckConnectedUser = 11216</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LobbyConnectionUnableToRegisterUser"><code>LobbyConnectionUnableToRegisterUser = 11212</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LobbyConnectionUnableToUpgrade"><code>LobbyConnectionUnableToUpgrade = 11211</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_LobbyConnectionUnableToValidateSession"><code>LobbyConnectionUnableToValidateSession = 11217</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingMatchPoolNotFound"><code>MatchmakingMatchPoolNotFound = 520003</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingPartyNotFound"><code>MatchmakingPartyNotFound = 11624</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingRoleBasedEmptyRole"><code>MatchmakingRoleBasedEmptyRole = 510401</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingRoleBasedWrongRole"><code>MatchmakingRoleBasedWrongRole = 510402</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingTicketNotFound"><code>MatchmakingTicketNotFound = 520303</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingUnablePrepareReadyConsent"><code>MatchmakingUnablePrepareReadyConsent = 11627</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingUnableSaveMMResult"><code>MatchmakingUnableSaveMMResult = 11629</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingUnableToFindParty"><code>MatchmakingUnableToFindParty = 11623</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MatchmakingV2CreateMatchTicketConflict"><code>MatchmakingV2CreateMatchTicketConflict = 520300</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MaxRedeemCountPerCodeExceeded"><code>MaxRedeemCountPerCodeExceeded = 37174</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MaxRedeemCountPerCodePerCampaignExceeded"><code>MaxRedeemCountPerCodePerCampaignExceeded = 37179</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MaxRedeemCountPerCodePerUserExceeded"><code>MaxRedeemCountPerCodePerUserExceeded = 37175</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MaximumDRMActivationLimitExceeded"><code>MaximumDRMActivationLimitExceeded = 12124</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MemberRequestNotFound"><code>MemberRequestNotFound = 73443</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MessageCannotBeSent"><code>MessageCannotBeSent = 14019</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MessageFieldConversionFailed"><code>MessageFieldConversionFailed = 14018</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MessageFieldDoesNotExist"><code>MessageFieldDoesNotExist = 14017</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MessageFieldTypeNotSupported"><code>MessageFieldTypeNotSupported = 14015</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MessageFormatInvalid"><code>MessageFormatInvalid = 14016</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MessageTypeNotSupported"><code>MessageTypeNotSupported = 14020</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MethodNotAllowed"><code>MethodNotAllowed = 405</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MovedPermanently"><code>MovedPermanently = 301</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MultiStatus"><code>MultiStatus = 207</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_MultipleChoices"><code>MultipleChoices = 300</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NamespaceAlreadyExistsException"><code>NamespaceAlreadyExistsException = 11336</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NamespaceContainsInvalidCharacterException"><code>NamespaceContainsInvalidCharacterException = 11338</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NamespaceNotFound"><code>NamespaceNotFound = 2141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NamespaceNotFoundException"><code>NamespaceNotFoundException = 11337</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NetworkError"><code>NetworkError = 14005</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NoContent"><code>NoContent = 204</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NonAuthoritativeInfo"><code>NonAuthoritativeInfo = 203</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_None"><code>None = 0</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NotAcceptable"><code>NotAcceptable = 406</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NotFound"><code>NotFound = 404</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NotImplemented"><code>NotImplemented = 501</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_NotModified"><code>NotModified = 304</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Ok"><code>Ok = 200</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_OptimisticLock"><code>OptimisticLock = 20006</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_OrderInvalidStatus"><code>OrderInvalidStatus = 32172</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_OrderNotCancelable"><code>OrderNotCancelable = 32177</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_OrderNotFound"><code>OrderNotFound = 32141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_OrderNotRefundableException"><code>OrderNotRefundableException = 32171</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_OrderPriceMismatch"><code>OrderPriceMismatch = 32121</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_OrderReceiptNotDownloadable"><code>OrderReceiptNotDownloadable = 32173</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_OrderTransactionAmountMismatchException"><code>OrderTransactionAmountMismatchException = 32174</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartialContent"><code>PartialContent = 206</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyChatPartyNotFound"><code>PartyChatPartyNotFound = 11293</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyChatReceiverBanned"><code>PartyChatReceiverBanned = 11295</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyChatReceiverNotFound"><code>PartyChatReceiverNotFound = 11296</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyChatSenderBanned"><code>PartyChatSenderBanned = 11292</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyChatUnableGetUserRegistry"><code>PartyChatUnableGetUserRegistry = 11291</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyChatUnableSaveChat"><code>PartyChatUnableSaveChat = 11294</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyCreationAlreadyInParty"><code>PartyCreationAlreadyInParty = 11232</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyCreationUnableCreateParty"><code>PartyCreationUnableCreateParty = 11233</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyCreationUnableGetUserRegistry"><code>PartyCreationUnableGetUserRegistry = 11231</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyInfoSuccessGetUserPartyInfoEmpty"><code>PartyInfoSuccessGetUserPartyInfoEmpty = 11223</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyInfoUnableGetUserPartyInfo"><code>PartyInfoUnableGetUserPartyInfo = 11222</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyInfoUnableGetUserRegistry"><code>PartyInfoUnableGetUserRegistry = 11221</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyInviteInviteeInParty"><code>PartyInviteInviteeInParty = 11254</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyInviteInviteeNotFound"><code>PartyInviteInviteeNotFound = 11252</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyInviteNotInParty"><code>PartyInviteNotInParty = 11253</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyInviteUnableGetUserRegistry"><code>PartyInviteUnableGetUserRegistry = 11251</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyInviteUnableInviteToParty"><code>PartyInviteUnableInviteToParty = 11255</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyJoinAlreadyInParty"><code>PartyJoinAlreadyInParty = 11265</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyJoinBlocked"><code>PartyJoinBlocked = 112610</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyJoinInvalidInvitationToken"><code>PartyJoinInvalidInvitationToken = 11263</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyJoinNotInvited"><code>PartyJoinNotInvited = 11264</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyJoinPartyFull"><code>PartyJoinPartyFull = 11266</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyJoinPartyNotFound"><code>PartyJoinPartyNotFound = 11262</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyJoinUnableGetUserRegistry"><code>PartyJoinUnableGetUserRegistry = 11261</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyJoinUnableJoinParty"><code>PartyJoinUnableJoinParty = 11267</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyKickKickOwnSelf"><code>PartyKickKickOwnSelf = 11277</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyKickKickeeNotInParty"><code>PartyKickKickeeNotInParty = 11274</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyKickNotInParty"><code>PartyKickNotInParty = 11272</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyKickNotLeader"><code>PartyKickNotLeader = 11273</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyKickUnableGetUserRegistry"><code>PartyKickUnableGetUserRegistry = 11271</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyKickUnableKickUser"><code>PartyKickUnableKickUser = 11275</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyLeavePartyIsNil"><code>PartyLeavePartyIsNil = 11242</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyLeavePartyNotFound"><code>PartyLeavePartyNotFound = 11243</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyLeaveUnableGetUserRegistry"><code>PartyLeaveUnableGetUserRegistry = 11241</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyLeaveUnableToLeaveParty"><code>PartyLeaveUnableToLeaveParty = 11245</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyLeaveUserNotInParty"><code>PartyLeaveUserNotInParty = 11244</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyNotFound"><code>PartyNotFound = 11901</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyPromoteLeaderUnableToGetPartyInfo"><code>PartyPromoteLeaderUnableToGetPartyInfo = 11372</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyPromoteLeaderUnableToGetUserRegistry"><code>PartyPromoteLeaderUnableToGetUserRegistry = 11371</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyPromoteLeaderUnableToPromoteLeader"><code>PartyPromoteLeaderUnableToPromoteLeader = 11375</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyPromoteLeaderUserNotLeader"><code>PartyPromoteLeaderUserNotLeader = 11374</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyPromoteLeaderUserPartyNotFound"><code>PartyPromoteLeaderUserPartyNotFound = 11373</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PartyStorageOutdatedUpdateData"><code>PartyStorageOutdatedUpdateData = 119017</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PaymentCurrencyNotSupportedException"><code>PaymentCurrencyNotSupportedException = 33321</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PaymentExtOrderNoAlreadyExistsException"><code>PaymentExtOrderNoAlreadyExistsException = 33173</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PaymentOrderChargeTransactionNotFoundException"><code>PaymentOrderChargeTransactionNotFoundException = 33142</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PaymentOrderNotFoundException"><code>PaymentOrderNotFoundException = 33141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PaymentOrderNotRefundableException"><code>PaymentOrderNotRefundableException = 33172</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PaymentOrderTransactionAmountMismatchException"><code>PaymentOrderTransactionAmountMismatchException = 3375</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PaymentProviderNotSupportedException"><code>PaymentProviderNotSupportedException = 33322</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PaymentRequired"><code>PaymentRequired = 402</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PermanentItemAlreadyOwned"><code>PermanentItemAlreadyOwned = 31177</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PermanentRedirect"><code>PermanentRedirect = 308</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PersonalChatReceiverBanned"><code>PersonalChatReceiverBanned = 11283</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PersonalChatReceiverNotFound"><code>PersonalChatReceiverNotFound = 11284</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PersonalChatSenderBanned"><code>PersonalChatSenderBanned = 11282</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PersonalChatUnableGetUserRegistry"><code>PersonalChatUnableGetUserRegistry = 11281</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PersonalChatUnableSaveChat"><code>PersonalChatUnableSaveChat = 11285</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlatformAlreadyLinked"><code>PlatformAlreadyLinked = 10173</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlatformInternalServerErrorException"><code>PlatformInternalServerErrorException = 20000</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerBlockRequestInvalidRequestBody"><code>PlayerBlockRequestInvalidRequestBody = 11811</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerBlockRequestUnableBlockPlayer"><code>PlayerBlockRequestUnableBlockPlayer = 11813</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerBlockRequestUnableGetUserRegistry"><code>PlayerBlockRequestUnableGetUserRegistry = 11812</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerBlocked"><code>PlayerBlocked = 11817</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerBlockedUnableGet"><code>PlayerBlockedUnableGet = 11818</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerPublicRecordNotFound"><code>PlayerPublicRecordNotFound = 18081</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerPublicRecordValidationErrorException"><code>PlayerPublicRecordValidationErrorException = 18102</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerRecordEditorIsNotOwnerException"><code>PlayerRecordEditorIsNotOwnerException = 18035</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerRecordGetterIsNotOwnerException"><code>PlayerRecordGetterIsNotOwnerException = 18023</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerRecordNotFound"><code>PlayerRecordNotFound = 18022</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerRecordPreconditionFailed"><code>PlayerRecordPreconditionFailed = 18103</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerUnblockRequestInvalidRequestBody"><code>PlayerUnblockRequestInvalidRequestBody = 11814</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerUnblockRequestUnableBlockPlayer"><code>PlayerUnblockRequestUnableBlockPlayer = 11816</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PlayerUnblockRequestUnableGetUserRegistry"><code>PlayerUnblockRequestUnableGetUserRegistry = 11815</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PreconditionFailed"><code>PreconditionFailed = 412</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PrivateGroupIsNotJoinable"><code>PrivateGroupIsNotJoinable = 73441</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Processing"><code>Processing = 102</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ProxyAuthenticationRequired"><code>ProxyAuthenticationRequired = 407</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PublisherNamespaceNotDistributable"><code>PublisherNamespaceNotDistributable = 31123</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_PublisherStoreNotExist"><code>PublisherStoreNotExist = 30142</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RejectFriendDataNotFound"><code>RejectFriendDataNotFound = 11743</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RejectFriendInvalidRequestBody"><code>RejectFriendInvalidRequestBody = 11742</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RejectFriendUnableGetUserRegistry"><code>RejectFriendUnableGetUserRegistry = 11744</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RejectFriendUnableRejectFriends"><code>RejectFriendUnableRejectFriends = 11741</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ReleaseBuildNotFoundException"><code>ReleaseBuildNotFoundException = 12144</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RequestEntityTooLarge"><code>RequestEntityTooLarge = 413</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RequestTimeout"><code>RequestTimeout = 408</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RequestUriTooLong"><code>RequestUriTooLong = 414</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RequestedRangeNotSatisfiable"><code>RequestedRangeNotSatisfiable = 416</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ResetContent"><code>ResetContent = 205</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ResetUserStatusUnableGetFriendsList"><code>ResetUserStatusUnableGetFriendsList = 11334</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ResetUserStatusUnableResetStatus"><code>ResetUserStatusUnableResetStatus = 11335</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_RetryWith"><code>RetryWith = 449</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassDefaultLanguageRequiredException"><code>SeasonPassDefaultLanguageRequiredException = 49121</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassInvalidTimeRangeException"><code>SeasonPassInvalidTimeRangeException = 49122</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassPassCodeNotFoundException"><code>SeasonPassPassCodeNotFoundException = 49145</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassPassItemNotFoundException"><code>SeasonPassPassItemNotFoundException = 49142</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassPassesNotProvidedException"><code>SeasonPassPassesNotProvidedException = 49173</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassRewardNotFoundException"><code>SeasonPassRewardNotFoundException = 49144</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassRewardsNotProvidedException"><code>SeasonPassRewardsNotProvidedException = 49172</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassSeasonInvalidStatusException"><code>SeasonPassSeasonInvalidStatusException = 49171</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassSeasonNotFoundException"><code>SeasonPassSeasonNotFoundException = 49143</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassTierItemNotFoundException"><code>SeasonPassTierItemNotFoundException = 49141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeasonPassTiersNotProvidedException"><code>SeasonPassTiersNotProvidedException = 49174</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SeeOther"><code>SeeOther = 303</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ServiceUnavailable"><code>ServiceUnavailable = 503</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ServiceUnavailableException"><code>ServiceUnavailableException = 20004</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionConfigurationNotExist"><code>SessionConfigurationNotExist = 20045</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionIdNotFound"><code>SessionIdNotFound = 20042</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionInvalidId"><code>SessionInvalidId = 20034</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionInvalidJoinability"><code>SessionInvalidJoinability = 20021</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionInvitationExpired"><code>SessionInvitationExpired = 20047</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionJoinNotAllowed"><code>SessionJoinNotAllowed = 20032</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionLeadershipRequired"><code>SessionLeadershipRequired = 20031</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionPartyNotFound"><code>SessionPartyNotFound = 20041</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionPlayerAttributesNotFound"><code>SessionPlayerAttributesNotFound = 20050</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionStorageMemberNotInSession"><code>SessionStorageMemberNotInSession = 30052</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionStorageNonLeaderUpdateLeaderData"><code>SessionStorageNonLeaderUpdateLeaderData = 31001</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionStorageUserNotActiveInSession"><code>SessionStorageUserNotActiveInSession = 30055</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionUserInParty"><code>SessionUserInParty = 20048</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionUserTokenAndLeaderIdNotMatch"><code>SessionUserTokenAndLeaderIdNotMatch = 30054</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SessionVersionMismatch"><code>SessionVersionMismatch = 20071</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SetReadyConsentNotFound"><code>SetReadyConsentNotFound = 11632</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SetReadyConsentUnableGetMMResult"><code>SetReadyConsentUnableGetMMResult = 11634</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SetReadyConsentUnableGetUserRegistry"><code>SetReadyConsentUnableGetUserRegistry = 11631</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SetReadyConsentUnableSetReadyConsent"><code>SetReadyConsentUnableSetReadyConsent = 11633</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SetUserStatusUnableGetFriendsList"><code>SetUserStatusUnableGetFriendsList = 11333</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SetUserStatusUnableGetUserRegistry"><code>SetUserStatusUnableGetUserRegistry = 11332</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SetUserStatusUnableSetStatus"><code>SetUserStatusUnableSetStatus = 11331</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SimultaneousLoginAccountAlreadyLinkedButNativeTicketMismatch"><code>SimultaneousLoginAccountAlreadyLinkedButNativeTicketMismatch = 10221</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SimultaneousLoginAccountAlreadyLinkedButSecondaryTicketMismatch"><code>SimultaneousLoginAccountAlreadyLinkedButSecondaryTicketMismatch = 10219</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SimultaneousLoginBothNativeAndSecondaryPlatformAlreadyLinkedToDifferentAccelByteAccount"><code>SimultaneousLoginBothNativeAndSecondaryPlatformAlreadyLinkedToDifferentAccelByteAccount = 10220</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SimultaneousLoginNativePlatformAccountPreviouslyLinkedToAnotherAccount"><code>SimultaneousLoginNativePlatformAccountPreviouslyLinkedToAnotherAccount = 10217</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SimultaneousLoginSecondaryPlatformAccountPreviouslyLinkedToAnotherAccount"><code>SimultaneousLoginSecondaryPlatformAccountPreviouslyLinkedToAnotherAccount = 10218</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SimultaneousLoginSecondaryPlatformTicketRequired"><code>SimultaneousLoginSecondaryPlatformTicketRequired = 10215</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StartMatchmakingMemberBanned"><code>StartMatchmakingMemberBanned = 11607</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StartMatchmakingNotPartyLeader"><code>StartMatchmakingNotPartyLeader = 11605</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StartMatchmakingUnableToFindUserParty"><code>StartMatchmakingUnableToFindUserParty = 11604</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StartMatchmakingUnableToFindUserRegistry"><code>StartMatchmakingUnableToFindUserRegistry = 11602</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StartMatchmakingUnableToPush"><code>StartMatchmakingUnableToPush = 11601</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StartMatchmakingUnableToStoreMMStatus"><code>StartMatchmakingUnableToStoreMMStatus = 11606</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StartMatchmakingUserNotInParty"><code>StartMatchmakingUserNotInParty = 11603</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatNotDecreasable"><code>StatNotDecreasable = 12273</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatValueOutOfRange"><code>StatValueOutOfRange = 12275</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatisticConfigNotFoundException"><code>StatisticConfigNotFoundException = 12222</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatisticNotFound"><code>StatisticNotFound = 12241</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusFailedDependency"><code>StatusFailedDependency = 424</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusInsufficientStorage"><code>StatusInsufficientStorage = 507</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusLocked"><code>StatusLocked = 423</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusLoopDetected"><code>StatusLoopDetected = 508</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusMisdirectedRequest"><code>StatusMisdirectedRequest = 421</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusNetworkAuthenticationRequired"><code>StatusNetworkAuthenticationRequired = 511</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusNotExtended"><code>StatusNotExtended = 510</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusPreconditionRequired"><code>StatusPreconditionRequired = 428</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusRequestHeaderFieldsTooLarge"><code>StatusRequestHeaderFieldsTooLarge = 431</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusTeapot"><code>StatusTeapot = 418</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusUnavailableForLegalReasons"><code>StatusUnavailableForLegalReasons = 451</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusUpgradeRequired"><code>StatusUpgradeRequired = 426</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StatusVariantAlsoNegotiates"><code>StatusVariantAlsoNegotiates = 506</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StoreMetaMismatchException"><code>StoreMetaMismatchException = 30122</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_StoreNotFound"><code>StoreNotFound = 30141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_SwitchingProtocols"><code>SwitchingProtocols = 101</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_TemporaryRedirect"><code>TemporaryRedirect = 307</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_TokenExpiredException"><code>TokenExpiredException = 20011</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_TokenIsNotUserToken"><code>TokenIsNotUserToken = 20022</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_TokenRevokedException"><code>TokenRevokedException = 20012</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_TooManyRequests"><code>TooManyRequests = 20007</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCCreateChannelMalformedRequestException"><code>UGCCreateChannelMalformedRequestException = 770500</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCCreateContentBadRequestException"><code>UGCCreateContentBadRequestException = 770100</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCCreateContentConflictShareCodeErrorException"><code>UGCCreateContentConflictShareCodeErrorException = 770103</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCDeleteChannelNotFoundException"><code>UGCDeleteChannelNotFoundException = 772502</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCDeleteContentNotFoundException"><code>UGCDeleteContentNotFoundException = 772702</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCDownloadContentByShareCodeNotFoundException"><code>UGCDownloadContentByShareCodeNotFoundException = 770300</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCGetContentByIDNotFoundException"><code>UGCGetContentByIDNotFoundException = 770200</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCGetContentPreviewNotFoundException"><code>UGCGetContentPreviewNotFoundException = 773702</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCGetTagBadRequestException"><code>UGCGetTagBadRequestException = 771501</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCGetTypeBadRequestException"><code>UGCGetTypeBadRequestException = 771801</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCUpdateChannelMalformedRequestException"><code>UGCUpdateChannelMalformedRequestException = 770600</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCUpdateChannelNotFoundException"><code>UGCUpdateChannelNotFoundException = 770603</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UGCUpdateContentNotFoundException"><code>UGCUpdateContentNotFoundException = 772603</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnableToParseRequestBody"><code>UnableToParseRequestBody = 20019</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnableToSerializeDeserializeCachedToken"><code>UnableToSerializeDeserializeCachedToken = 14302</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_Unauthorized"><code>Unauthorized = 401</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnauthorizedAccess"><code>UnauthorizedAccess = 20001</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnauthorizedAccessException"><code>UnauthorizedAccessException = 20003</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnfriendDataNotFound"><code>UnfriendDataNotFound = 11763</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnfriendInvalidRequestBody"><code>UnfriendInvalidRequestBody = 11762</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnfriendUnableGetUserRegistry"><code>UnfriendUnableGetUserRegistry = 11764</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnfriendUnableUnfriend"><code>UnfriendUnableUnfriend = 11761</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UniqueDisplayNameAlreadyExists"><code>UniqueDisplayNameAlreadyExists = 10222</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnknownError"><code>UnknownError = 20009</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnprocessableEntity"><code>UnprocessableEntity = 422</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnsupportedMediaType"><code>UnsupportedMediaType = 415</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UnsupportedMediaTypeException"><code>UnsupportedMediaTypeException = 20005</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UploadAlreadyCompleteException"><code>UploadAlreadyCompleteException = 12173</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UploadAlreadyStartedException"><code>UploadAlreadyStartedException = 12174</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UseProxy"><code>UseProxy = 305</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserAccessDifferentGroup"><code>UserAccessDifferentGroup = 73037</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserAlreadyExist"><code>UserAlreadyExist = 10180</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserAlreadyInvited"><code>UserAlreadyInvited = 73437</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserAlreadyJoinedGroup"><code>UserAlreadyJoinedGroup = 73342</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserAlreadyJoinedInAnotherGroup"><code>UserAlreadyJoinedInAnotherGroup = 73442</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserAlreadyRequestedToJoin"><code>UserAlreadyRequestedToJoin = 73438</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserFileStorageExceedLimitException"><code>UserFileStorageExceedLimitException = 11132</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserIsNotLinkedToNamespace"><code>UserIsNotLinkedToNamespace = 20017</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserNameAlreadyUsedException"><code>UserNameAlreadyUsedException = 10177</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserNotBelongToAnyGroup"><code>UserNotBelongToAnyGroup = 73034</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserNotFound"><code>UserNotFound = 20008</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserProfileConflict"><code>UserProfileConflict = 11441</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserProfileIsNotCreated"><code>UserProfileIsNotCreated = 14007</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserProfileNotFound"><code>UserProfileNotFound = 2241</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserProfileNotFoundException"><code>UserProfileNotFoundException = 11440</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserRevokedException"><code>UserRevokedException = 20010</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserStatAlreadyExist"><code>UserStatAlreadyExist = 12274</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserStatsNotFound"><code>UserStatsNotFound = 12242</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserUnderage"><code>UserUnderage = 10130</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_UserWalletDoesNotExist"><code>UserWalletDoesNotExist = 35141</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_ValidationError"><code>ValidationError = 20002</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_VerificationCodeIsNotRequested"><code>VerificationCodeIsNotRequested = 14010</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WalletAlreadyExist"><code>WalletAlreadyExist = 3571</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WalletExceedMaxAmountPerTransaction"><code>WalletExceedMaxAmountPerTransaction = 35122</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WalletExceedMaxBalanceAmount"><code>WalletExceedMaxBalanceAmount = 35125</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WalletExceedMaxTransactionAmountPerDay"><code>WalletExceedMaxTransactionAmountPerDay = 35121</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WalletInactive"><code>WalletInactive = 35123</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WalletInsufficientBalance"><code>WalletInsufficientBalance = 35124</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WebSocketConnectFailed"><code>WebSocketConnectFailed = 14201</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WxPayRefundFailedException"><code>WxPayRefundFailedException = 33324</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_WxPayUnifiedOrderFailedException"><code>WxPayUnifiedOrderFailedException = 33327</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_insufficientPermissionException"><code>insufficientPermissionException = 20013</code></dt>
+  
+  <dd></dd>
+    <dt id="AccelByte_Core_ErrorCode_insufficientScopeException"><code>insufficientScopeException = 20015</code></dt>
+  
+  <dd></dd>
+  </dl>
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

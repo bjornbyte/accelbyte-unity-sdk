@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ServerCloudSave | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ServerCloudSave | AccelByte Unity SDK | 17.12.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Server_ServerCloudSave.md&amp;value=---%0Auid%3A%20AccelByte.Server.ServerCloudSave%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Server.ServerCloudSave">
+
+
+
+  <h1 id="AccelByte_Server_ServerCloudSave" data-uid="AccelByte.Server.ServerCloudSave" class="text-break">
+Class ServerCloudSave  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Server.html">Server</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ServerCloudSave : WrapperBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.WrapperBase.html">WrapperBase</a></div>
+      <div><span class="xref">ServerCloudSave</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.WrapperBase.html#AccelByte_Core_WrapperBase_IdValidator">WrapperBase.IdValidator</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Server_ServerCloudSave_BulkQueryAdminGameRecordsByKey_" data-uid="AccelByte.Server.ServerCloudSave.BulkQueryAdminGameRecordsByKey*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_BulkQueryAdminGameRecordsByKey_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_BulkAdminGameRecordResponse__" data-uid="AccelByte.Server.ServerCloudSave.BulkQueryAdminGameRecordsByKey(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.BulkAdminGameRecordResponse})">
+  BulkQueryAdminGameRecordsByKey(string[], ResultCallback&lt;BulkAdminGameRecordResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L518"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get an array of records by their keys in namespace-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkQueryAdminGameRecordsByKey(string[] keys, ResultCallback&lt;BulkAdminGameRecordResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Array of keys of record to get. Maximum value of 20.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.BulkAdminGameRecordResponse.html">BulkAdminGameRecordResponse</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_CreateAdminGameRecord_" data-uid="AccelByte.Server.ServerCloudSave.CreateAdminGameRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_CreateAdminGameRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Models_AdminRecordMetadataOptionalParams_AccelByte_Core_ResultCallback_AccelByte_Models_AdminGameRecord__" data-uid="AccelByte.Server.ServerCloudSave.CreateAdminGameRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Models.AdminRecordMetadataOptionalParams,AccelByte.Core.ResultCallback{AccelByte.Models.AdminGameRecord})">
+  CreateAdminGameRecord(string, Dictionary&lt;string, object&gt;, AdminRecordMetadataOptionalParams, ResultCallback&lt;AdminGameRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L478"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create new admin game record or append the existing admin game record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateAdminGameRecord(string key, Dictionary&lt;string, object&gt; recordRequest, AdminRecordMetadataOptionalParams optionalParams, ResultCallback&lt;AdminGameRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>optionalParams</code> <a class="xref" href="AccelByte.Models.AdminRecordMetadataOptionalParams.html">AdminRecordMetadataOptionalParams</a></dt>
+    <dd><p>Optional params to set metadata (Can be null)</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.AdminGameRecord.html">AdminGameRecord</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_CreateAdminUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.CreateAdminUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_CreateAdminUserRecord_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_AccelByte_Models_AdminUserRecord__" data-uid="AccelByte.Server.ServerCloudSave.CreateAdminUserRecord(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback{AccelByte.Models.AdminUserRecord})">
+  CreateAdminUserRecord(string, string, Dictionary&lt;string, object&gt;, ResultCallback&lt;AdminUserRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L602"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create new admin user record or append the existing admin user record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateAdminUserRecord(string key, string userId, Dictionary&lt;string, object&gt; recordRequest, ResultCallback&lt;AdminUserRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>UserId of the record owner.</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.AdminUserRecord.html">AdminUserRecord</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_DeleteAdminGameRecord_" data-uid="AccelByte.Server.ServerCloudSave.DeleteAdminGameRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_DeleteAdminGameRecord_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.DeleteAdminGameRecord(System.String,AccelByte.Core.ResultCallback)">
+  DeleteAdminGameRecord(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L581"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteAdminGameRecord(string key, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_DeleteAdminGameRecordTTLConfig_" data-uid="AccelByte.Server.ServerCloudSave.DeleteAdminGameRecordTTLConfig*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_DeleteAdminGameRecordTTLConfig_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.DeleteAdminGameRecordTTLConfig(System.String,AccelByte.Core.ResultCallback)">
+  DeleteAdminGameRecordTTLConfig(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L730"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete the TTLConfig for a specific Admin Game Record by its key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteAdminGameRecordTTLConfig(string key, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of the admin game record.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_DeleteAdminUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.DeleteAdminUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_DeleteAdminUserRecord_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.DeleteAdminUserRecord(System.String,System.String,AccelByte.Core.ResultCallback)">
+  DeleteAdminUserRecord(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L705"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteAdminUserRecord(string key, string userId, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_DeleteGameRecord_" data-uid="AccelByte.Server.ServerCloudSave.DeleteGameRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_DeleteGameRecord_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.DeleteGameRecord(System.String,AccelByte.Core.ResultCallback)">
+  DeleteGameRecord(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a game record under the given key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteGameRecord(string key, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_DeleteGameRecordTTLConfig_" data-uid="AccelByte.Server.ServerCloudSave.DeleteGameRecordTTLConfig*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_DeleteGameRecordTTLConfig_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.DeleteGameRecordTTLConfig(System.String,AccelByte.Core.ResultCallback)">
+  DeleteGameRecordTTLConfig(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L748"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete the TTLConfig for a specific Game Record by its key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteGameRecordTTLConfig(string key, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of the game record.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a result via callback when completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_DeleteUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.DeleteUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_DeleteUserRecord_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.DeleteUserRecord(System.String,System.String,AccelByte.Core.ResultCallback)">
+  DeleteUserRecord(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a record under the given key in user-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteUserRecord(string userId, string key, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_GetGameRecords_" data-uid="AccelByte.Server.ServerCloudSave.GetGameRecords*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_GetGameRecords_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_GameRecord__" data-uid="AccelByte.Server.ServerCloudSave.GetGameRecords(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.GameRecord})">
+  GetGameRecords(string, ResultCallback&lt;GameRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L458"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a record by its key in namespace-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetGameRecords(string key, ResultCallback&lt;GameRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The key of the record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GameRecord.html">GameRecord</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_GetUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.GetUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_GetUserRecord_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserRecord__" data-uid="AccelByte.Server.ServerCloudSave.GetUserRecord(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserRecord})">
+  GetUserRecord(string, string, ResultCallback&lt;UserRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a record (arbitrary JSON data) by its key in user-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserRecord(string userId, string key, ResultCallback&lt;UserRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserRecord.html">UserRecord</a>&gt;</dt>
+    <dd><p>Returns a Result that contains UserRecord via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_QueryAdminGameRecordKeys_" data-uid="AccelByte.Server.ServerCloudSave.QueryAdminGameRecordKeys*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_QueryAdminGameRecordKeys_AccelByte_Core_ResultCallback_AccelByte_Models_GameRecordList__System_Int32_System_Int32_" data-uid="AccelByte.Server.ServerCloudSave.QueryAdminGameRecordKeys(AccelByte.Core.ResultCallback{AccelByte.Models.GameRecordList},System.Int32,System.Int32)">
+  QueryAdminGameRecordKeys(ResultCallback&lt;GameRecordList&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L538"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve list of records key by namespace</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryAdminGameRecordKeys(ResultCallback&lt;GameRecordList&gt; callback, int limit = 20, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GameRecordList.html">GameRecordList</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the keys result.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Distance between the beginning of the data list and a given point</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_QueryAdminGameRecordsByKey_" data-uid="AccelByte.Server.ServerCloudSave.QueryAdminGameRecordsByKey*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_QueryAdminGameRecordsByKey_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_AdminGameRecord__" data-uid="AccelByte.Server.ServerCloudSave.QueryAdminGameRecordsByKey(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.AdminGameRecord})">
+  QueryAdminGameRecordsByKey(string, ResultCallback&lt;AdminGameRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L499"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a record by its key in namespace-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryAdminGameRecordsByKey(string key, ResultCallback&lt;AdminGameRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.AdminGameRecord.html">AdminGameRecord</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_QueryAdminUserRecordKeys_" data-uid="AccelByte.Server.ServerCloudSave.QueryAdminUserRecordKeys*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_QueryAdminUserRecordKeys_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedGetAdminUserRecordKeys__System_Int32_System_Int32_" data-uid="AccelByte.Server.ServerCloudSave.QueryAdminUserRecordKeys(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedGetAdminUserRecordKeys},System.Int32,System.Int32)">
+  QueryAdminUserRecordKeys(string, ResultCallback&lt;PaginatedGetAdminUserRecordKeys&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L656"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query admin user record Keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryAdminUserRecordKeys(string userId, ResultCallback&lt;PaginatedGetAdminUserRecordKeys&gt; callback, int limit = 20, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>UserId of the record owner.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedGetAdminUserRecordKeys.html">PaginatedGetAdminUserRecordKeys</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the keys result.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Distance between the beginning of the data list and a given point</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_QueryAdminUserRecordsByKey_" data-uid="AccelByte.Server.ServerCloudSave.QueryAdminUserRecordsByKey*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_QueryAdminUserRecordsByKey_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_AdminUserRecord__" data-uid="AccelByte.Server.ServerCloudSave.QueryAdminUserRecordsByKey(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.AdminUserRecord})">
+  QueryAdminUserRecordsByKey(string, string, ResultCallback&lt;AdminUserRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L629"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Query admin user records by Key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueryAdminUserRecordsByKey(string key, string userId, ResultCallback&lt;AdminUserRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>UserId of the record owner.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.AdminUserRecord.html">AdminUserRecord</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_ReplaceAdminGameRecord_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceAdminGameRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_ReplaceAdminGameRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Models_AdminRecordMetadataOptionalParams_AccelByte_Core_ResultCallback_AccelByte_Models_AdminGameRecord__" data-uid="AccelByte.Server.ServerCloudSave.ReplaceAdminGameRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Models.AdminRecordMetadataOptionalParams,AccelByte.Core.ResultCallback{AccelByte.Models.AdminGameRecord})">
+  ReplaceAdminGameRecord(string, Dictionary&lt;string, object&gt;, AdminRecordMetadataOptionalParams, ResultCallback&lt;AdminGameRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L560"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create new admin game record or replace the existing admin game record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceAdminGameRecord(string key, Dictionary&lt;string, object&gt; recordRequest, AdminRecordMetadataOptionalParams optionalParams, ResultCallback&lt;AdminGameRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>optionalParams</code> <a class="xref" href="AccelByte.Models.AdminRecordMetadataOptionalParams.html">AdminRecordMetadataOptionalParams</a></dt>
+    <dd><p>Optional params to set metadata (Can be null)</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.AdminGameRecord.html">AdminGameRecord</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_ReplaceAdminUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceAdminUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_ReplaceAdminUserRecord_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_AccelByte_Models_AdminUserRecord__" data-uid="AccelByte.Server.ServerCloudSave.ReplaceAdminUserRecord(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback{AccelByte.Models.AdminUserRecord})">
+  ReplaceAdminUserRecord(string, string, Dictionary&lt;string, object&gt;, ResultCallback&lt;AdminUserRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L684"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace admin user record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceAdminUserRecord(string key, string userId, Dictionary&lt;string, object&gt; recordRequest, ResultCallback&lt;AdminUserRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>UserId of the record owner.</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.AdminUserRecord.html">AdminUserRecord</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_ReplaceGameRecord_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceGameRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_ReplaceGameRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Models_GameRecordMetadataOptionalParams_AccelByte_Core_ResultCallback_AccelByte_Models_GameRecord__" data-uid="AccelByte.Server.ServerCloudSave.ReplaceGameRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Models.GameRecordMetadataOptionalParams,AccelByte.Core.ResultCallback{AccelByte.Models.GameRecord})">
+  ReplaceGameRecord(string, Dictionary&lt;string, object&gt;, GameRecordMetadataOptionalParams, ResultCallback&lt;GameRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a game record. If the record doesn't exist, it will create and
+save the record, if already exists, it will append to the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceGameRecord(string key, Dictionary&lt;string, object&gt; recordRequest, GameRecordMetadataOptionalParams optionalParams, ResultCallback&lt;GameRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record to be formatted as JSON</p>
+</dd>
+    <dt><code>optionalParams</code> <a class="xref" href="AccelByte.Models.GameRecordMetadataOptionalParams.html">GameRecordMetadataOptionalParams</a></dt>
+    <dd><p>Optional params to set metadata (Can be null)</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GameRecord.html">GameRecord</a>&gt;</dt>
+    <dd><p>Returns a GameRecord result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_ReplaceGameRecordCheckLatest_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceGameRecordCheckLatest*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_ReplaceGameRecordCheckLatest_System_String_System_DateTime_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceGameRecordCheckLatest(System.String,System.DateTime,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback)">
+  ReplaceGameRecordCheckLatest(string, DateTime, Dictionary&lt;string, object&gt;, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a game record. If the record doesn't exist, it will create and
+save the record, if already exists, it will append to the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceGameRecordCheckLatest(string key, DateTime lastUpdated, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>lastUpdated</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>Last updated</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_ReplaceUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_ReplaceUserRecord_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceUserRecord(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback)">
+  ReplaceUserRecord(string, string, Dictionary&lt;string, object&gt;, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceUserRecord(string userId, string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_ReplaceUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_ReplaceUserRecord_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Models_RecordSetBy_System_Boolean_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.ReplaceUserRecord(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Models.RecordSetBy,System.Boolean,AccelByte.Core.ResultCallback)">
+  ReplaceUserRecord(string, string, Dictionary&lt;string, object&gt;, RecordSetBy, bool, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceUserRecord(string userId, string key, Dictionary&lt;string, object&gt; recordRequest, RecordSetBy setBy, bool isPublic, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>setBy</code> <a class="xref" href="AccelByte.Models.RecordSetBy.html">RecordSetBy</a></dt>
+    <dd><p>Indicate which party that could modify the player record.</p>
+</dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Indicate whether the player record is a public record or not.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_RetrieveGameRecordsKey_" data-uid="AccelByte.Server.ServerCloudSave.RetrieveGameRecordsKey*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_RetrieveGameRecordsKey_AccelByte_Core_ResultCallback_AccelByte_Models_GameRecordList__System_String_System_Int32_System_Int32_" data-uid="AccelByte.Server.ServerCloudSave.RetrieveGameRecordsKey(AccelByte.Core.ResultCallback{AccelByte.Models.GameRecordList},System.String,System.Int32,System.Int32)">
+  RetrieveGameRecordsKey(ResultCallback&lt;GameRecordList&gt;, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a record (arbitrary JSON data) by its key in user-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RetrieveGameRecordsKey(ResultCallback&lt;GameRecordList&gt; callback, string query = &quot;{}&quot;, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GameRecordList.html">GameRecordList</a>&gt;</dt>
+    <dd><param name="query">list of GameRecordKey
+<param name="offset">Offset The offset of GameRecord result. Default value is 0.
+<param name="limit">limit The limit of GameRecord result. Default value is 20.
+Returns a Result that contains UserRecord via callback when completed
+</dd>
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_SaveGameRecord_" data-uid="AccelByte.Server.ServerCloudSave.SaveGameRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_SaveGameRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Models_GameRecordMetadataOptionalParams_AccelByte_Core_ResultCallback_AccelByte_Models_GameRecord__" data-uid="AccelByte.Server.ServerCloudSave.SaveGameRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Models.GameRecordMetadataOptionalParams,AccelByte.Core.ResultCallback{AccelByte.Models.GameRecord})">
+  SaveGameRecord(string, Dictionary&lt;string, object&gt;, GameRecordMetadataOptionalParams, ResultCallback&lt;GameRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save a game record.If the record doesn't exist, it will create and
+save the record, if already exists, it will append to the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveGameRecord(string key, Dictionary&lt;string, object&gt; recordRequest, GameRecordMetadataOptionalParams optionalParams, ResultCallback&lt;GameRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record to be formatted as JSON</p>
+</dd>
+    <dt><code>optionalParams</code> <a class="xref" href="AccelByte.Models.GameRecordMetadataOptionalParams.html">GameRecordMetadataOptionalParams</a></dt>
+    <dd><p>Optional params to set metadata (Can be null)</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GameRecord.html">GameRecord</a>&gt;</dt>
+    <dd><p>Returns a GameRecord result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_SaveUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.SaveUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_SaveUserRecord_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.SaveUserRecord(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback)">
+  SaveUserRecord(string, string, Dictionary&lt;string, object&gt;, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save a user-level record. If the record doesn't exist, it will create and save
+the record, if already exists, it will append to the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveUserRecord(string userId, string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Server_ServerCloudSave_SaveUserRecord_" data-uid="AccelByte.Server.ServerCloudSave.SaveUserRecord*"></a>
+
+  <h3 id="AccelByte_Server_ServerCloudSave_SaveUserRecord_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Models_RecordSetBy_System_Boolean_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Server.ServerCloudSave.SaveUserRecord(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Models.RecordSetBy,System.Boolean,AccelByte.Core.ResultCallback)">
+  SaveUserRecord(string, string, Dictionary&lt;string, object&gt;, RecordSetBy, bool, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Server/ServerCloudSave.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save a user-level record. If the record doesn't exist, it will create and save
+the record, if already exists, it will append to the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveUserRecord(string userId, string key, Dictionary&lt;string, object&gt; recordRequest, RecordSetBy setBy, bool isPublic, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Targeted user ID</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>setBy</code> <a class="xref" href="AccelByte.Models.RecordSetBy.html">RecordSetBy</a></dt>
+    <dd><p>Indicate which party that could modify the player record</p>
+</dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Indicate whether the player record is a public record or not</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

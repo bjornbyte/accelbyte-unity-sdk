@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ServerApiClient | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ServerApiClient | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Holder of ServerApiBase children. eg: ServerAchievementApi, ServerLobbyApi">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Core_ServerApiClient.md&amp;value=---%0Auid%3A%20AccelByte.Core.ServerApiClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Core.ServerApiClient">
+
+
+
+  <h1 id="AccelByte_Core_ServerApiClient" data-uid="AccelByte.Core.ServerApiClient" class="text-break">
+Class ServerApiClient  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Core.html">Core</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Holder of ServerApiBase children.</p>
+<p>eg: ServerAchievementApi, ServerLobbyApi</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ServerApiClient</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ServerApiClient</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="AccelByte_Core_ServerApiClient__ctor_" data-uid="AccelByte.Core.ServerApiClient.#ctor*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient__ctor_AccelByte_Server_ServerOauthLoginSession_AccelByte_Core_IHttpClient_AccelByte_Core_CoroutineRunner_" data-uid="AccelByte.Core.ServerApiClient.#ctor(AccelByte.Server.ServerOauthLoginSession,AccelByte.Core.IHttpClient,AccelByte.Core.CoroutineRunner)">
+  ServerApiClient(ServerOauthLoginSession, IHttpClient, CoroutineRunner)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerApiClient(ServerOauthLoginSession inSession, IHttpClient inHttpClient, CoroutineRunner inCoroutinerunner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inSession</code> <a class="xref" href="AccelByte.Server.ServerOauthLoginSession.html">ServerOauthLoginSession</a></dt>
+    <dd></dd>
+    <dt><code>inHttpClient</code> <a class="xref" href="AccelByte.Core.IHttpClient.html">IHttpClient</a></dt>
+    <dd></dd>
+    <dt><code>inCoroutinerunner</code> <a class="xref" href="AccelByte.Core.CoroutineRunner.html">CoroutineRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient__ctor_" data-uid="AccelByte.Core.ServerApiClient.#ctor*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient__ctor_AccelByte_Server_ServerOauthLoginSession_AccelByte_Core_IHttpClient_AccelByte_Core_CoroutineRunner_AccelByte_Models_ServerConfig_AccelByte_Models_OAuthConfig_" data-uid="AccelByte.Core.ServerApiClient.#ctor(AccelByte.Server.ServerOauthLoginSession,AccelByte.Core.IHttpClient,AccelByte.Core.CoroutineRunner,AccelByte.Models.ServerConfig,AccelByte.Models.OAuthConfig)">
+  ServerApiClient(ServerOauthLoginSession, IHttpClient, CoroutineRunner, ServerConfig, OAuthConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerApiClient(ServerOauthLoginSession inSession, IHttpClient inHttpClient, CoroutineRunner inCoroutineRunner, ServerConfig serverConfig, OAuthConfig oAuthConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inSession</code> <a class="xref" href="AccelByte.Server.ServerOauthLoginSession.html">ServerOauthLoginSession</a></dt>
+    <dd></dd>
+    <dt><code>inHttpClient</code> <a class="xref" href="AccelByte.Core.IHttpClient.html">IHttpClient</a></dt>
+    <dd></dd>
+    <dt><code>inCoroutineRunner</code> <a class="xref" href="AccelByte.Core.CoroutineRunner.html">CoroutineRunner</a></dt>
+    <dd></dd>
+    <dt><code>serverConfig</code> <a class="xref" href="AccelByte.Models.ServerConfig.html">ServerConfig</a></dt>
+    <dd></dd>
+    <dt><code>oAuthConfig</code> <a class="xref" href="AccelByte.Models.OAuthConfig.html">OAuthConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="AccelByte_Core_ServerApiClient_coroutineRunner" data-uid="AccelByte.Core.ServerApiClient.coroutineRunner">
+  coroutineRunner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly CoroutineRunner coroutineRunner</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.CoroutineRunner.html">CoroutineRunner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="AccelByte_Core_ServerApiClient_httpClient" data-uid="AccelByte.Core.ServerApiClient.httpClient">
+  httpClient
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IHttpClient httpClient</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Core.IHttpClient.html">IHttpClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="AccelByte_Core_ServerApiClient_session" data-uid="AccelByte.Core.ServerApiClient.session">
+  session
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerOauthLoginSession session</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerOauthLoginSession.html">ServerOauthLoginSession</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetAchievement_" data-uid="AccelByte.Core.ServerApiClient.GetAchievement*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetAchievement" data-uid="AccelByte.Core.ServerApiClient.GetAchievement">
+  GetAchievement()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerAchievement GetAchievement()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerAchievement.html">ServerAchievement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetAnalyticsService_" data-uid="AccelByte.Core.ServerApiClient.GetAnalyticsService*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetAnalyticsService" data-uid="AccelByte.Core.ServerApiClient.GetAnalyticsService">
+  GetAnalyticsService()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerAnalyticsService GetAnalyticsService()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerAnalyticsService.html">ServerAnalyticsService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetBinaryCloudSave_" data-uid="AccelByte.Core.ServerApiClient.GetBinaryCloudSave*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetBinaryCloudSave" data-uid="AccelByte.Core.ServerApiClient.GetBinaryCloudSave">
+  GetBinaryCloudSave()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IServerBinaryCloudSave GetBinaryCloudSave()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.Interface.IServerBinaryCloudSave.html">IServerBinaryCloudSave</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetChallenge_" data-uid="AccelByte.Core.ServerApiClient.GetChallenge*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetChallenge" data-uid="AccelByte.Core.ServerApiClient.GetChallenge">
+  GetChallenge()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IServerChallenge GetChallenge()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.Interface.IServerChallenge.html">IServerChallenge</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetCloudSave_" data-uid="AccelByte.Core.ServerApiClient.GetCloudSave*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetCloudSave" data-uid="AccelByte.Core.ServerApiClient.GetCloudSave">
+  GetCloudSave()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerCloudSave GetCloudSave()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerCloudSave.html">ServerCloudSave</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetDedicatedServer_" data-uid="AccelByte.Core.ServerApiClient.GetDedicatedServer*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetDedicatedServer" data-uid="AccelByte.Core.ServerApiClient.GetDedicatedServer">
+  GetDedicatedServer()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DedicatedServer GetDedicatedServer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.DedicatedServer.html">DedicatedServer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetDedicatedServerManager_" data-uid="AccelByte.Core.ServerApiClient.GetDedicatedServerManager*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetDedicatedServerManager" data-uid="AccelByte.Core.ServerApiClient.GetDedicatedServerManager">
+  GetDedicatedServerManager()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DedicatedServerManager GetDedicatedServerManager()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.DedicatedServerManager.html">DedicatedServerManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetDsHub_" data-uid="AccelByte.Core.ServerApiClient.GetDsHub*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetDsHub" data-uid="AccelByte.Core.ServerApiClient.GetDsHub">
+  GetDsHub()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerDSHub GetDsHub()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerDSHub.html">ServerDSHub</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetEcommerce_" data-uid="AccelByte.Core.ServerApiClient.GetEcommerce*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetEcommerce" data-uid="AccelByte.Core.ServerApiClient.GetEcommerce">
+  GetEcommerce()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerEcommerce GetEcommerce()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerEcommerce.html">ServerEcommerce</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetGameTelemetry_" data-uid="AccelByte.Core.ServerApiClient.GetGameTelemetry*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetGameTelemetry" data-uid="AccelByte.Core.ServerApiClient.GetGameTelemetry">
+  GetGameTelemetry()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerGameTelemetry GetGameTelemetry()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerGameTelemetry.html">ServerGameTelemetry</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetInventory_" data-uid="AccelByte.Core.ServerApiClient.GetInventory*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetInventory" data-uid="AccelByte.Core.ServerApiClient.GetInventory">
+  GetInventory()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IServerInventory GetInventory()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.Interface.IServerInventory.html">IServerInventory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetLobby_" data-uid="AccelByte.Core.ServerApiClient.GetLobby*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetLobby" data-uid="AccelByte.Core.ServerApiClient.GetLobby">
+  GetLobby()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerLobby GetLobby()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerLobby.html">ServerLobby</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetMatchmaking_" data-uid="AccelByte.Core.ServerApiClient.GetMatchmaking*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetMatchmaking" data-uid="AccelByte.Core.ServerApiClient.GetMatchmaking">
+  GetMatchmaking()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerMatchmaking GetMatchmaking()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerMatchmaking.html">ServerMatchmaking</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetMatchmakingV2_" data-uid="AccelByte.Core.ServerApiClient.GetMatchmakingV2*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetMatchmakingV2" data-uid="AccelByte.Core.ServerApiClient.GetMatchmakingV2">
+  GetMatchmakingV2()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerMatchmakingV2 GetMatchmakingV2()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerMatchmakingV2.html">ServerMatchmakingV2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetMiscellaneous_" data-uid="AccelByte.Core.ServerApiClient.GetMiscellaneous*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetMiscellaneous" data-uid="AccelByte.Core.ServerApiClient.GetMiscellaneous">
+  GetMiscellaneous()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IServerMiscellaneousWrapper GetMiscellaneous()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.IServerMiscellaneousWrapper.html">IServerMiscellaneousWrapper</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetProfanityFilter_" data-uid="AccelByte.Core.ServerApiClient.GetProfanityFilter*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetProfanityFilter" data-uid="AccelByte.Core.ServerApiClient.GetProfanityFilter">
+  GetProfanityFilter()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IServerProfanityFilter GetProfanityFilter()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.Interface.IServerProfanityFilter.html">IServerProfanityFilter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetQos_" data-uid="AccelByte.Core.ServerApiClient.GetQos*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetQos" data-uid="AccelByte.Core.ServerApiClient.GetQos">
+  GetQos()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerQosManager GetQos()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerQosManager.html">ServerQosManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetSeasonPass_" data-uid="AccelByte.Core.ServerApiClient.GetSeasonPass*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetSeasonPass" data-uid="AccelByte.Core.ServerApiClient.GetSeasonPass">
+  GetSeasonPass()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerSeasonPass GetSeasonPass()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerSeasonPass.html">ServerSeasonPass</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetServerApi_" data-uid="AccelByte.Core.ServerApiClient.GetServerApi*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetServerApi__2" data-uid="AccelByte.Core.ServerApiClient.GetServerApi``2">
+  GetServerApi&lt;TServerWrapper, TServerApi&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get new ServerApiBase child class instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TServerWrapper GetServerApi&lt;TServerWrapper, TServerApi&gt;() where TServerWrapper : WrapperBase where TServerApi : ServerApiBase</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TServerWrapper</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TServerWrapper</code></dt>
+    <dd><p>ServerWrapperBase child - eg, &quot;ServerGroup&quot;</p>
+</dd>
+    <dt><code>TServerApi</code></dt>
+    <dd><p>ServerApiBase child - eg, &quot;ServerGroupApi&quot;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetSession_" data-uid="AccelByte.Core.ServerApiClient.GetSession*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetSession" data-uid="AccelByte.Core.ServerApiClient.GetSession">
+  GetSession()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerSession GetSession()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerSession.html">ServerSession</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetStatistic_" data-uid="AccelByte.Core.ServerApiClient.GetStatistic*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetStatistic" data-uid="AccelByte.Core.ServerApiClient.GetStatistic">
+  GetStatistic()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerStatistic GetStatistic()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerStatistic.html">ServerStatistic</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetStatsMetricExporterService_" data-uid="AccelByte.Core.ServerApiClient.GetStatsMetricExporterService*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetStatsMetricExporterService" data-uid="AccelByte.Core.ServerApiClient.GetStatsMetricExporterService">
+  GetStatsMetricExporterService()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccelByteStatsDMetricExporterApi GetStatsMetricExporterService()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.AccelByteStatsDMetricExporterApi.html">AccelByteStatsDMetricExporterApi</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetUGC_" data-uid="AccelByte.Core.ServerApiClient.GetUGC*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetUGC" data-uid="AccelByte.Core.ServerApiClient.GetUGC">
+  GetUGC()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerUGC GetUGC()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerUGC.html">ServerUGC</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetUserAccount_" data-uid="AccelByte.Core.ServerApiClient.GetUserAccount*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetUserAccount" data-uid="AccelByte.Core.ServerApiClient.GetUserAccount">
+  GetUserAccount()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServerUserAccount GetUserAccount()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServerUserAccount.html">ServerUserAccount</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_GetVersionService_" data-uid="AccelByte.Core.ServerApiClient.GetVersionService*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_GetVersionService" data-uid="AccelByte.Core.ServerApiClient.GetVersionService">
+  GetVersionService()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServiceVersion GetVersionService()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AccelByte.Server.ServiceVersion.html">ServiceVersion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_Reset_" data-uid="AccelByte.Core.ServerApiClient.Reset*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_Reset" data-uid="AccelByte.Core.ServerApiClient.Reset">
+  Reset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_SetApi_" data-uid="AccelByte.Core.ServerApiClient.SetApi*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_SetApi__1___0_" data-uid="AccelByte.Core.ServerApiClient.SetApi``1(``0)">
+  SetApi&lt;TWrapper&gt;(TWrapper)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetApi&lt;TWrapper&gt;(TWrapper newWrapper) where TWrapper : WrapperBase</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newWrapper</code> <span class="xref">TWrapper</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TWrapper</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Core_ServerApiClient_getApiArgs_" data-uid="AccelByte.Core.ServerApiClient.getApiArgs*"></a>
+
+  <h3 id="AccelByte_Core_ServerApiClient_getApiArgs" data-uid="AccelByte.Core.ServerApiClient.getApiArgs">
+  getApiArgs()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Core/ServerApiClient.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object[] getApiArgs()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

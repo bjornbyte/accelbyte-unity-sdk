@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CloudSave | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CloudSave | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Provide an API to access CloudSave service.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_CloudSave.md&amp;value=---%0Auid%3A%20AccelByte.Api.CloudSave%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.CloudSave">
+
+
+
+  <h1 id="AccelByte_Api_CloudSave" data-uid="AccelByte.Api.CloudSave" class="text-break">
+Class CloudSave  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Provide an API to access CloudSave service.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CloudSave : WrapperBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.WrapperBase.html">WrapperBase</a></div>
+      <div><span class="xref">CloudSave</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.WrapperBase.html#AccelByte_Core_WrapperBase_IdValidator">WrapperBase.IdValidator</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_CloudSave_BulkGetGameRecords_" data-uid="AccelByte.Api.CloudSave.BulkGetGameRecords*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_BulkGetGameRecords_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_GameRecords__" data-uid="AccelByte.Api.CloudSave.BulkGetGameRecords(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.GameRecords})">
+  BulkGetGameRecords(string[], ResultCallback&lt;GameRecords&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L916"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bulk get game records by keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetGameRecords(string[] keys, ResultCallback&lt;GameRecords&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Keys of records</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GameRecords.html">GameRecords</a>&gt;</dt>
+    <dd><p>Returns a Result that contains GameRecords via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_BulkGetOtherPlayerPublicRecordKeys_" data-uid="AccelByte.Api.CloudSave.BulkGetOtherPlayerPublicRecordKeys*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_BulkGetOtherPlayerPublicRecordKeys_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_PaginatedBulkGetPublicUserRecordKeys__System_Int32_System_Int32_" data-uid="AccelByte.Api.CloudSave.BulkGetOtherPlayerPublicRecordKeys(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.PaginatedBulkGetPublicUserRecordKeys},System.Int32,System.Int32)">
+  BulkGetOtherPlayerPublicRecordKeys(string, ResultCallback&lt;PaginatedBulkGetPublicUserRecordKeys&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L947"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bulk get other user public record keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetOtherPlayerPublicRecordKeys(string userId, ResultCallback&lt;PaginatedBulkGetPublicUserRecordKeys&gt; callback, int offset = 0, int limit = 20)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>UserId of the record owner</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PaginatedBulkGetPublicUserRecordKeys.html">PaginatedBulkGetPublicUserRecordKeys</a>&gt;</dt>
+    <dd><p>Returns a Result that contains GameRecords via callback when completed</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The offset of the public record keys. Default value is 0.</p>
+</dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The limit of the public record keys. Default value is 20.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_BulkGetOtherPlayerPublicRecords_" data-uid="AccelByte.Api.CloudSave.BulkGetOtherPlayerPublicRecords*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_BulkGetOtherPlayerPublicRecords_System_String_AccelByte_Models_BulkGetRecordsByKeyRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UserRecords__" data-uid="AccelByte.Api.CloudSave.BulkGetOtherPlayerPublicRecords(System.String,AccelByte.Models.BulkGetRecordsByKeyRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UserRecords})">
+  BulkGetOtherPlayerPublicRecords(string, BulkGetRecordsByKeyRequest, ResultCallback&lt;UserRecords&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L982"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bulk get other user public records by keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetOtherPlayerPublicRecords(string userId, BulkGetRecordsByKeyRequest data, ResultCallback&lt;UserRecords&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>UserId of the record owner</p>
+</dd>
+    <dt><code>data</code> <a class="xref" href="AccelByte.Models.BulkGetRecordsByKeyRequest.html">BulkGetRecordsByKeyRequest</a></dt>
+    <dd><p>Data struct to list Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserRecords.html">UserRecords</a>&gt;</dt>
+    <dd><p>Returns a Result that contains GameRecords via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_BulkGetPublicUserRecord_" data-uid="AccelByte.Api.CloudSave.BulkGetPublicUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_BulkGetPublicUserRecord_System_String_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_UserRecords__" data-uid="AccelByte.Api.CloudSave.BulkGetPublicUserRecord(System.String,System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.UserRecords})">
+  BulkGetPublicUserRecord(string, string[], ResultCallback&lt;UserRecords&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L884"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bulk get public user records by multiple userIds and keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetPublicUserRecord(string key, string[] userIds, ResultCallback&lt;UserRecords&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Keys of records</p>
+</dd>
+    <dt><code>userIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Collection of AccelByte Ids</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserRecords.html">UserRecords</a>&gt;</dt>
+    <dd><p>Returns a result that contains UserRecords</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_BulkGetUserRecords_" data-uid="AccelByte.Api.CloudSave.BulkGetUserRecords*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_BulkGetUserRecords_System_String___AccelByte_Core_ResultCallback_AccelByte_Models_UserRecords__" data-uid="AccelByte.Api.CloudSave.BulkGetUserRecords(System.String[],AccelByte.Core.ResultCallback{AccelByte.Models.UserRecords})">
+  BulkGetUserRecords(string[], ResultCallback&lt;UserRecords&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L854"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Bulk get user records by keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetUserRecords(string[] keys, ResultCallback&lt;UserRecords&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Keys of records</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserRecords.html">UserRecords</a>&gt;</dt>
+    <dd><p>Returns a Result that contains UserRecords via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_DeleteGameRecord_" data-uid="AccelByte.Api.CloudSave.DeleteGameRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_DeleteGameRecord_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.DeleteGameRecord(System.String,AccelByte.Core.ResultCallback)">
+  DeleteGameRecord(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L830"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a record under the given key in namespace-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteGameRecord(string key, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_DeleteUserRecord_" data-uid="AccelByte.Api.CloudSave.DeleteUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_DeleteUserRecord_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.DeleteUserRecord(System.String,AccelByte.Core.ResultCallback)">
+  DeleteUserRecord(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L592"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a record under the given key in user-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteUserRecord(string key, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_GetGameRecord_" data-uid="AccelByte.Api.CloudSave.GetGameRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_GetGameRecord_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_GameRecord__" data-uid="AccelByte.Api.CloudSave.GetGameRecord(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.GameRecord})">
+  GetGameRecord(string, ResultCallback&lt;GameRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L641"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a record by its key in namespace-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetGameRecord(string key, ResultCallback&lt;GameRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GameRecord.html">GameRecord</a>&gt;</dt>
+    <dd><p>Returns a Result that contains GameRecord via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_GetPublicUserRecord_" data-uid="AccelByte.Api.CloudSave.GetPublicUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_GetPublicUserRecord_System_String_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserRecord__" data-uid="AccelByte.Api.CloudSave.GetPublicUserRecord(System.String,System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserRecord})">
+  GetPublicUserRecord(string, string, ResultCallback&lt;UserRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get other user's public record (arbitrary JSON data) by its key in user-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetPublicUserRecord(string key, string userId, ResultCallback&lt;UserRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>UserId of the record owner</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserRecord.html">UserRecord</a>&gt;</dt>
+    <dd><p>Returns a Result that contains UserRecord via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_GetUserRecord_" data-uid="AccelByte.Api.CloudSave.GetUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_GetUserRecord_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_UserRecord__" data-uid="AccelByte.Api.CloudSave.GetUserRecord(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.UserRecord})">
+  GetUserRecord(string, ResultCallback&lt;UserRecord&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a record (arbitrary JSON data) by its key in user-level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserRecord(string key, ResultCallback&lt;UserRecord&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserRecord.html">UserRecord</a>&gt;</dt>
+    <dd><p>Returns a Result that contains UserRecord via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceGameRecord_" data-uid="AccelByte.Api.CloudSave.ReplaceGameRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceGameRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.ReplaceGameRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback)">
+  ReplaceGameRecord(string, Dictionary&lt;string, object&gt;, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L667"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in namespace-level. If the record doesn't exist, it will
+create and save the record. If already exists, it will replace the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceGameRecord(string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceGameRecordCheckLatest_" data-uid="AccelByte.Api.CloudSave.ReplaceGameRecordCheckLatest*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceGameRecordCheckLatest_System_Int32_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_System_Func_System_Collections_Generic_Dictionary_System_String_System_Object__System_Collections_Generic_Dictionary_System_String_System_Object___" data-uid="AccelByte.Api.CloudSave.ReplaceGameRecordCheckLatest(System.Int32,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback,System.Func{System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object}})">
+  ReplaceGameRecordCheckLatest(int, string, Dictionary&lt;string, object&gt;, ResultCallback, Func&lt;Dictionary&lt;string, object&gt;, Dictionary&lt;string, object&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L735"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in namespace-level. If the record doesn't exist, it will
+create and save the record. If already exists, it will replace the existing one.
+Beware:
+Function will try to get the latest value, put it in the custom modifier and
+request to replace the record. will retry it again when the record is
+updated by other user, until exhaust all the attempt.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceGameRecordCheckLatest(int tryAttempt, string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback, Func&lt;Dictionary&lt;string, object&gt;, Dictionary&lt;string, object&gt;&gt; payloadModifier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tryAttempt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Attempt to try to replace the game record.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+    <dt><code>payloadModifier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</dt>
+    <dd><p>Function to modify the latest record value with your customized modifier.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceGameRecordCheckLatest_" data-uid="AccelByte.Api.CloudSave.ReplaceGameRecordCheckLatest*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceGameRecordCheckLatest_System_String_System_DateTime_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.ReplaceGameRecordCheckLatest(System.String,System.DateTime,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback)">
+  ReplaceGameRecordCheckLatest(string, DateTime, Dictionary&lt;string, object&gt;, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L694"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in namespace-level. If the record doesn't exist, it will
+create and save the record. If already exists, it will replace the existing
+one, but will failed if lastUpdated is not up-to-date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceGameRecordCheckLatest(string key, DateTime lastUpdated, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>lastUpdated</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>last time the record is updated. Retrieve it from GetGameRecord.</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceUserRecord_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceUserRecord_System_String_System_Boolean_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecord(System.String,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback)">
+  ReplaceUserRecord(string, bool, Dictionary&lt;string, object&gt;, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceUserRecord(string key, bool setPublic, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>setPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Using metadata, True if you want the record can be accessed by other user. Default is false</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceUserRecord_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceUserRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_System_Boolean_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback,System.Boolean)">
+  ReplaceUserRecord(string, Dictionary&lt;string, object&gt;, ResultCallback, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceUserRecord(string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback, bool isPublic = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceUserRecord_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceUserRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__System_Boolean_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean,AccelByte.Core.ResultCallback)">
+  ReplaceUserRecord(string, Dictionary&lt;string, object&gt;, bool, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This method will be deprecated in future, please use ReplaceUserRecord(string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback, bool isPublic = false)&quot;)]
+public void ReplaceUserRecord(string key, Dictionary&lt;string, object&gt; recordRequest, bool isPublic, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if you want the record can be accessed by other user</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceUserRecordCheckLatest_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecordCheckLatest*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceUserRecordCheckLatest_System_Int32_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_System_Func_System_Collections_Generic_Dictionary_System_String_System_Object__System_Collections_Generic_Dictionary_System_String_System_Object___" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecordCheckLatest(System.Int32,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback,System.Func{System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object}})">
+  ReplaceUserRecordCheckLatest(int, string, Dictionary&lt;string, object&gt;, ResultCallback, Func&lt;Dictionary&lt;string, object&gt;, Dictionary&lt;string, object&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one.
+Beware:
+Function will try to get the latest value, put it in the custom modifier and
+request to replace the record. will retry it again when the record is updated
+by other user, until exhaust all the attempt.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceUserRecordCheckLatest(int tryAttempt, string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback, Func&lt;Dictionary&lt;string, object&gt;, Dictionary&lt;string, object&gt;&gt; payloadModifier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tryAttempt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Attempt to try to replace the game record.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+    <dt><code>payloadModifier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</dt>
+    <dd><p>Function to modify the latest record value with your customized modifier.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceUserRecordCheckLatest_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecordCheckLatest*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceUserRecordCheckLatest_System_String_System_DateTime_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecordCheckLatest(System.String,System.DateTime,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback)">
+  ReplaceUserRecordCheckLatest(string, DateTime, Dictionary&lt;string, object&gt;, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one,
+but will failed if lastUpdated is not up-to-date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceUserRecordCheckLatest(string key, DateTime lastUpdated, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>lastUpdated</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>last time the record is updated. Retrieve it from GetGameRecord.</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceUserRecordCheckLatestWithResponse_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecordCheckLatestWithResponse*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceUserRecordCheckLatestWithResponse_System_Int32_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_AccelByte_Models_ConcurrentReplaceUserRecordResponse__System_Func_System_Collections_Generic_Dictionary_System_String_System_Object__System_Collections_Generic_Dictionary_System_String_System_Object___" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecordCheckLatestWithResponse(System.Int32,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback{AccelByte.Models.ConcurrentReplaceUserRecordResponse},System.Func{System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object}})">
+  ReplaceUserRecordCheckLatestWithResponse(int, string, Dictionary&lt;string, object&gt;, ResultCallback&lt;ConcurrentReplaceUserRecordResponse&gt;, Func&lt;Dictionary&lt;string, object&gt;, Dictionary&lt;string, object&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L494"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one.
+Beware:
+Function will try to get the latest value, put it in the custom modifier and
+request to replace the record. will retry it again when the record is updated
+by other user, until exhaust all the attempt.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceUserRecordCheckLatestWithResponse(int tryAttempt, string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback&lt;ConcurrentReplaceUserRecordResponse&gt; callback, Func&lt;Dictionary&lt;string, object&gt;, Dictionary&lt;string, object&gt;&gt; payloadModifier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tryAttempt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Attempt to try to replace the game record.</p>
+</dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ConcurrentReplaceUserRecordResponse.html">ConcurrentReplaceUserRecordResponse</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+    <dt><code>payloadModifier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</dt>
+    <dd><p>Function to modify the latest record value with your customized modifier.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_ReplaceUserRecordCheckLatestWithResponse_" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecordCheckLatestWithResponse*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_ReplaceUserRecordCheckLatestWithResponse_System_String_System_DateTime_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_AccelByte_Models_ConcurrentReplaceUserRecordResponse__" data-uid="AccelByte.Api.CloudSave.ReplaceUserRecordCheckLatestWithResponse(System.String,System.DateTime,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback{AccelByte.Models.ConcurrentReplaceUserRecordResponse})">
+  ReplaceUserRecordCheckLatestWithResponse(string, DateTime, Dictionary&lt;string, object&gt;, ResultCallback&lt;ConcurrentReplaceUserRecordResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L452"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace a record in user-level. If the record doesn't exist, it will create and
+save the record. If already exists, it will replace the existing one,
+but will failed if lastUpdated is not up-to-date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceUserRecordCheckLatestWithResponse(string key, DateTime lastUpdated, Dictionary&lt;string, object&gt; recordRequest, ResultCallback&lt;ConcurrentReplaceUserRecordResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>lastUpdated</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>last time the record is updated. Retrieve it from GetGameRecord.</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ConcurrentReplaceUserRecordResponse.html">ConcurrentReplaceUserRecordResponse</a>&gt;</dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_SaveGameRecord_" data-uid="AccelByte.Api.CloudSave.SaveGameRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_SaveGameRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.SaveGameRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback)">
+  SaveGameRecord(string, Dictionary&lt;string, object&gt;, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L614"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save a namespace-level record. If the record doesn't exist, it will create and
+save the record, if already exists, it will append to the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveGameRecord(string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_SaveUserRecord_" data-uid="AccelByte.Api.CloudSave.SaveUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_SaveUserRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__AccelByte_Core_ResultCallback_System_Boolean_" data-uid="AccelByte.Api.CloudSave.SaveUserRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},AccelByte.Core.ResultCallback,System.Boolean)">
+  SaveUserRecord(string, Dictionary&lt;string, object&gt;, ResultCallback, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save a user-level record. If the record doesn't exist, it will create and
+save the record, if already exists, it will append to the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveUserRecord(string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback, bool isPublic = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if you want the record can be accessed by other user. Default is false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_CloudSave_SaveUserRecord_" data-uid="AccelByte.Api.CloudSave.SaveUserRecord*"></a>
+
+  <h3 id="AccelByte_Api_CloudSave_SaveUserRecord_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__System_Boolean_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.CloudSave.SaveUserRecord(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean,AccelByte.Core.ResultCallback)">
+  SaveUserRecord(string, Dictionary&lt;string, object&gt;, bool, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/CloudSave.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save a user-level record. If the record doesn't exist, it will create
+and save the record, if already exists, it will append to the existing one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This method will be deprecated in future, please use SaveUserRecord(string key, Dictionary&lt;string, object&gt; recordRequest, ResultCallback callback, bool isPublic = false)&quot;)]
+public void SaveUserRecord(string key, Dictionary&lt;string, object&gt; recordRequest, bool isPublic, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Key of record</p>
+</dd>
+    <dt><code>recordRequest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The request of the record with JSON formatted.</p>
+</dd>
+    <dt><code>isPublic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if you want the record can be accessed by other user</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd><p>Returns a Result via callback when completed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

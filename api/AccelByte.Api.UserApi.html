@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class UserApi | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class UserApi | AccelByte Unity SDK | 17.12.0 ">
+      
+      <meta name="description" content="Formerly called UserAccount">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/new/bjorn/apiSpec/new?filename=AccelByte_Api_UserApi.md&amp;value=---%0Auid%3A%20AccelByte.Api.UserApi%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AccelByte.Api.UserApi">
+
+
+
+  <h1 id="AccelByte_Api_UserApi" data-uid="AccelByte.Api.UserApi" class="text-break">
+Class UserApi  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AccelByte.html">AccelByte</a>.<a class="xref" href="AccelByte.Api.html">Api</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>Formerly called UserAccount</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UserApi : ApiBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="AccelByte.Core.ApiBaseParent.html">ApiBaseParent</a></div>
+      <div><a class="xref" href="AccelByte.Core.ApiBase.html">ApiBase</a></div>
+      <div><span class="xref">UserApi</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBase.html#AccelByte_Core_ApiBase_Namespace_">ApiBase.Namespace_</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_Session">ApiBaseParent.Session</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_BaseUrl">ApiBaseParent.BaseUrl</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_HttpClient">ApiBaseParent.HttpClient</a>
+    </div>
+    <div>
+      <a class="xref" href="AccelByte.Core.ApiBaseParent.html#AccelByte_Core_ApiBaseParent_AuthToken">ApiBaseParent.AuthToken</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="AccelByte.Core.FormEncoding.html#AccelByte_Core_FormEncoding_ToForm__1___0_">FormEncoding.ToForm&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToJsonString__1___0_Formatting_">JsonExtension.ToJsonString&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.JsonExtension.html#AccelByte_Core_JsonExtension_ToUtf8Json__1___0_Formatting_">JsonExtension.ToUtf8Json&lt;T&gt;(T, Formatting)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_AsDictionary_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.AsDictionary(object, BindingFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="AccelByte.Core.ObjectExtensions.html#AccelByte_Core_ObjectExtensions_ToArray__1_System_Object_System_Reflection_BindingFlags_">ObjectExtensions.ToArray&lt;T&gt;(object, BindingFlags)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="AccelByte_Api_UserApi__ctor_" data-uid="AccelByte.Api.UserApi.#ctor*"></a>
+
+  <h3 id="AccelByte_Api_UserApi__ctor_AccelByte_Core_IHttpClient_AccelByte_Models_Config_AccelByte_Core_ISession_" data-uid="AccelByte.Api.UserApi.#ctor(AccelByte.Core.IHttpClient,AccelByte.Models.Config,AccelByte.Core.ISession)">
+  UserApi(IHttpClient, Config, ISession)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserApi(IHttpClient httpClient, Config config, ISession session)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>httpClient</code> <a class="xref" href="AccelByte.Core.IHttpClient.html">IHttpClient</a></dt>
+    <dd></dd>
+    <dt><code>config</code> <a class="xref" href="AccelByte.Models.Config.html">Config</a></dt>
+    <dd></dd>
+    <dt><code>session</code> <a class="xref" href="AccelByte.Core.ISession.html">ISession</a></dt>
+    <dd><p>BaseUrl==IamServerUrl
+(!) This will soon be replaced with ISession instead of UserSession</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi__ctor_" data-uid="AccelByte.Api.UserApi.#ctor*"></a>
+
+  <h3 id="AccelByte_Api_UserApi__ctor_AccelByte_Core_IHttpClient_AccelByte_Models_Config_AccelByte_Core_ISession_AccelByte_Core_HttpOperator_" data-uid="AccelByte.Api.UserApi.#ctor(AccelByte.Core.IHttpClient,AccelByte.Models.Config,AccelByte.Core.ISession,AccelByte.Core.HttpOperator)">
+  UserApi(IHttpClient, Config, ISession, HttpOperator)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserApi(IHttpClient httpClient, Config config, ISession session, HttpOperator httpOperator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>httpClient</code> <a class="xref" href="AccelByte.Core.IHttpClient.html">IHttpClient</a></dt>
+    <dd></dd>
+    <dt><code>config</code> <a class="xref" href="AccelByte.Models.Config.html">Config</a></dt>
+    <dd></dd>
+    <dt><code>session</code> <a class="xref" href="AccelByte.Core.ISession.html">ISession</a></dt>
+    <dd></dd>
+    <dt><code>httpOperator</code> <a class="xref" href="AccelByte.Core.HttpOperator.html">HttpOperator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AccelByte_Api_UserApi_BulkGetUserByOtherPlatformUserIdsV4_" data-uid="AccelByte.Api.UserApi.BulkGetUserByOtherPlatformUserIdsV4*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_BulkGetUserByOtherPlatformUserIdsV4_AccelByte_Models_BulkPlatformUserIdRequest_AccelByte_Models_BulkPlatformUserIdParameter_AccelByte_Core_ResultCallback_AccelByte_Models_BulkPlatformUserIdResponse__" data-uid="AccelByte.Api.UserApi.BulkGetUserByOtherPlatformUserIdsV4(AccelByte.Models.BulkPlatformUserIdRequest,AccelByte.Models.BulkPlatformUserIdParameter,AccelByte.Core.ResultCallback{AccelByte.Models.BulkPlatformUserIdResponse})">
+  BulkGetUserByOtherPlatformUserIdsV4(BulkPlatformUserIdRequest, BulkPlatformUserIdParameter, ResultCallback&lt;BulkPlatformUserIdResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1044"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BulkGetUserByOtherPlatformUserIdsV4(BulkPlatformUserIdRequest requestModel, BulkPlatformUserIdParameter requestParameter, ResultCallback&lt;BulkPlatformUserIdResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.BulkPlatformUserIdRequest.html">BulkPlatformUserIdRequest</a></dt>
+    <dd></dd>
+    <dt><code>requestParameter</code> <a class="xref" href="AccelByte.Models.BulkPlatformUserIdParameter.html">BulkPlatformUserIdParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.BulkPlatformUserIdResponse.html">BulkPlatformUserIdResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Change2FAFactor_" data-uid="AccelByte.Api.UserApi.Change2FAFactor*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Change2FAFactor_AccelByte_Models_Change2FAFactorParameter_AccelByte_Core_ResultCallback_AccelByte_Models_TokenData__" data-uid="AccelByte.Api.UserApi.Change2FAFactor(AccelByte.Models.Change2FAFactorParameter,AccelByte.Core.ResultCallback{AccelByte.Models.TokenData})">
+  Change2FAFactor(Change2FAFactorParameter, ResultCallback&lt;TokenData&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Change2FAFactor(Change2FAFactorParameter requestModel, ResultCallback&lt;TokenData&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.Change2FAFactorParameter.html">Change2FAFactorParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.TokenData.html">TokenData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_CheckUserAccountAvailability_" data-uid="AccelByte.Api.UserApi.CheckUserAccountAvailability*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_CheckUserAccountAvailability_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.CheckUserAccountAvailability(System.String,AccelByte.Core.ResultCallback)">
+  CheckUserAccountAvailability(string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1749"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckUserAccountAvailability(string displayName, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>displayName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_CheckUserAccountAvailabilityByFieldName_" data-uid="AccelByte.Api.UserApi.CheckUserAccountAvailabilityByFieldName*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_CheckUserAccountAvailabilityByFieldName_System_String_System_String_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.CheckUserAccountAvailabilityByFieldName(System.String,System.String,AccelByte.Core.ResultCallback)">
+  CheckUserAccountAvailabilityByFieldName(string, string, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1920"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckUserAccountAvailabilityByFieldName(string valueToCheck, string fieldName, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>valueToCheck</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fieldName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Disable2FAAuthenticator_" data-uid="AccelByte.Api.UserApi.Disable2FAAuthenticator*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Disable2FAAuthenticator_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.Disable2FAAuthenticator(AccelByte.Core.ResultCallback)">
+  Disable2FAAuthenticator(ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disable2FAAuthenticator(ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Disable2FABackupCodes_" data-uid="AccelByte.Api.UserApi.Disable2FABackupCodes*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Disable2FABackupCodes_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.Disable2FABackupCodes(AccelByte.Core.ResultCallback)">
+  Disable2FABackupCodes(ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disable2FABackupCodes(ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Enable2FAAuthenticator_" data-uid="AccelByte.Api.UserApi.Enable2FAAuthenticator*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Enable2FAAuthenticator_AccelByte_Models_Enable2FAAuthenticatorParameter_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.Enable2FAAuthenticator(AccelByte.Models.Enable2FAAuthenticatorParameter,AccelByte.Core.ResultCallback)">
+  Enable2FAAuthenticator(Enable2FAAuthenticatorParameter, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Enable2FAAuthenticator(Enable2FAAuthenticatorParameter requestModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.Enable2FAAuthenticatorParameter.html">Enable2FAAuthenticatorParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Enable2FABackupCodes_" data-uid="AccelByte.Api.UserApi.Enable2FABackupCodes*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Enable2FABackupCodes_AccelByte_Core_ResultCallback_AccelByte_Models_TwoFACode__" data-uid="AccelByte.Api.UserApi.Enable2FABackupCodes(AccelByte.Core.ResultCallback{AccelByte.Models.TwoFACode})">
+  Enable2FABackupCodes(ResultCallback&lt;TwoFACode&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Enable2FABackupCodes(ResultCallback&lt;TwoFACode&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.TwoFACode.html">TwoFACode</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_ForcedLinkOtherPlatform_" data-uid="AccelByte.Api.UserApi.ForcedLinkOtherPlatform*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_ForcedLinkOtherPlatform_AccelByte_Models_LinkPlatformAccountRequest_AccelByte_Models_LinkPlatformAccountParameter_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.ForcedLinkOtherPlatform(AccelByte.Models.LinkPlatformAccountRequest,AccelByte.Models.LinkPlatformAccountParameter,AccelByte.Core.ResultCallback)">
+  ForcedLinkOtherPlatform(LinkPlatformAccountRequest, LinkPlatformAccountParameter, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L691"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForcedLinkOtherPlatform(LinkPlatformAccountRequest requestModel, LinkPlatformAccountParameter requestParameter, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.LinkPlatformAccountRequest.html">LinkPlatformAccountRequest</a></dt>
+    <dd></dd>
+    <dt><code>requestParameter</code> <a class="xref" href="AccelByte.Models.LinkPlatformAccountParameter.html">LinkPlatformAccountParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GenerateBackUpCode_" data-uid="AccelByte.Api.UserApi.GenerateBackUpCode*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GenerateBackUpCode_AccelByte_Core_ResultCallback_AccelByte_Models_TwoFACode__" data-uid="AccelByte.Api.UserApi.GenerateBackUpCode(AccelByte.Core.ResultCallback{AccelByte.Models.TwoFACode})">
+  GenerateBackUpCode(ResultCallback&lt;TwoFACode&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenerateBackUpCode(ResultCallback&lt;TwoFACode&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.TwoFACode.html">TwoFACode</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GenerateSecretKeyFor3rdPartyAuthenticateApp_" data-uid="AccelByte.Api.UserApi.GenerateSecretKeyFor3rdPartyAuthenticateApp*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GenerateSecretKeyFor3rdPartyAuthenticateApp_AccelByte_Core_ResultCallback_AccelByte_Models_SecretKey3rdPartyApp__" data-uid="AccelByte.Api.UserApi.GenerateSecretKeyFor3rdPartyAuthenticateApp(AccelByte.Core.ResultCallback{AccelByte.Models.SecretKey3rdPartyApp})">
+  GenerateSecretKeyFor3rdPartyAuthenticateApp(ResultCallback&lt;SecretKey3rdPartyApp&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenerateSecretKeyFor3rdPartyAuthenticateApp(ResultCallback&lt;SecretKey3rdPartyApp&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.SecretKey3rdPartyApp.html">SecretKey3rdPartyApp</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetBackUpCode_" data-uid="AccelByte.Api.UserApi.GetBackUpCode*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetBackUpCode_AccelByte_Core_ResultCallback_AccelByte_Models_TwoFACode__" data-uid="AccelByte.Api.UserApi.GetBackUpCode(AccelByte.Core.ResultCallback{AccelByte.Models.TwoFACode})">
+  GetBackUpCode(ResultCallback&lt;TwoFACode&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1383"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetBackUpCode(ResultCallback&lt;TwoFACode&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.TwoFACode.html">TwoFACode</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetConfigUniqueDisplayNameEnabled_" data-uid="AccelByte.Api.UserApi.GetConfigUniqueDisplayNameEnabled*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetConfigUniqueDisplayNameEnabled_AccelByte_Core_ResultCallback_System_Boolean__" data-uid="AccelByte.Api.UserApi.GetConfigUniqueDisplayNameEnabled(AccelByte.Core.ResultCallback{System.Boolean})">
+  GetConfigUniqueDisplayNameEnabled(ResultCallback&lt;bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1767"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetConfigUniqueDisplayNameEnabled(ResultCallback&lt;bool&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetConfigUserNameDisabled_" data-uid="AccelByte.Api.UserApi.GetConfigUserNameDisabled*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetConfigUserNameDisabled_AccelByte_Core_ResultCallback_System_Boolean__" data-uid="AccelByte.Api.UserApi.GetConfigUserNameDisabled(AccelByte.Core.ResultCallback{System.Boolean})">
+  GetConfigUserNameDisabled(ResultCallback&lt;bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1795"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetConfigUserNameDisabled(ResultCallback&lt;bool&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetConflictResultWhenLinkHeadlessAccountToFullAccount_" data-uid="AccelByte.Api.UserApi.GetConflictResultWhenLinkHeadlessAccountToFullAccount*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetConflictResultWhenLinkHeadlessAccountToFullAccount_AccelByte_Models_GetConflictResultWhenLinkHeadlessAccountToFullAccountRequest_AccelByte_Core_ResultCallback_AccelByte_Models_ConflictLinkHeadlessAccountResult__" data-uid="AccelByte.Api.UserApi.GetConflictResultWhenLinkHeadlessAccountToFullAccount(AccelByte.Models.GetConflictResultWhenLinkHeadlessAccountToFullAccountRequest,AccelByte.Core.ResultCallback{AccelByte.Models.ConflictLinkHeadlessAccountResult})">
+  GetConflictResultWhenLinkHeadlessAccountToFullAccount(GetConflictResultWhenLinkHeadlessAccountToFullAccountRequest, ResultCallback&lt;ConflictLinkHeadlessAccountResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1703"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetConflictResultWhenLinkHeadlessAccountToFullAccount(GetConflictResultWhenLinkHeadlessAccountToFullAccountRequest requestModel, ResultCallback&lt;ConflictLinkHeadlessAccountResult&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.GetConflictResultWhenLinkHeadlessAccountToFullAccountRequest.html">GetConflictResultWhenLinkHeadlessAccountToFullAccountRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ConflictLinkHeadlessAccountResult.html">ConflictLinkHeadlessAccountResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetCountryFromIP_" data-uid="AccelByte.Api.UserApi.GetCountryFromIP*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetCountryFromIP_AccelByte_Core_ResultCallback_AccelByte_Models_CountryInfo__" data-uid="AccelByte.Api.UserApi.GetCountryFromIP(AccelByte.Core.ResultCallback{AccelByte.Models.CountryInfo})">
+  GetCountryFromIP(ResultCallback&lt;CountryInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetCountryFromIP(ResultCallback&lt;CountryInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.CountryInfo.html">CountryInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetCountryGroupV3_" data-uid="AccelByte.Api.UserApi.GetCountryGroupV3*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetCountryGroupV3_AccelByte_Core_ResultCallback_AccelByte_Models_Country____" data-uid="AccelByte.Api.UserApi.GetCountryGroupV3(AccelByte.Core.ResultCallback{AccelByte.Models.Country[]})">
+  GetCountryGroupV3(ResultCallback&lt;Country[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1973"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetCountryGroupV3(ResultCallback&lt;Country[]&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.Country.html">Country</a>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetData_" data-uid="AccelByte.Api.UserApi.GetData*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetData_AccelByte_Core_ResultCallback_AccelByte_Models_UserData__System_Boolean_" data-uid="AccelByte.Api.UserApi.GetData(AccelByte.Core.ResultCallback{AccelByte.Models.UserData},System.Boolean)">
+  GetData(ResultCallback&lt;UserData&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetData(ResultCallback&lt;UserData&gt; callback, bool isIncludeAllPlatforms = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserData.html">UserData</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>isIncludeAllPlatforms</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetInputValidations_" data-uid="AccelByte.Api.UserApi.GetInputValidations*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetInputValidations_AccelByte_Models_GetInputValidationsParameter_AccelByte_Core_ResultCallback_AccelByte_Models_InputValidation__" data-uid="AccelByte.Api.UserApi.GetInputValidations(AccelByte.Models.GetInputValidationsParameter,AccelByte.Core.ResultCallback{AccelByte.Models.InputValidation})">
+  GetInputValidations(GetInputValidationsParameter, ResultCallback&lt;InputValidation&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1491"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetInputValidations(GetInputValidationsParameter requestModel, ResultCallback&lt;InputValidation&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.GetInputValidationsParameter.html">GetInputValidationsParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.InputValidation.html">InputValidation</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetPlatformLinks_" data-uid="AccelByte.Api.UserApi.GetPlatformLinks*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetPlatformLinks_AccelByte_Models_GetPlatformLinkRequest_AccelByte_Core_ResultCallback_AccelByte_Models_PagedPlatformLinks__" data-uid="AccelByte.Api.UserApi.GetPlatformLinks(AccelByte.Models.GetPlatformLinkRequest,AccelByte.Core.ResultCallback{AccelByte.Models.PagedPlatformLinks})">
+  GetPlatformLinks(GetPlatformLinkRequest, ResultCallback&lt;PagedPlatformLinks&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L849"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetPlatformLinks(GetPlatformLinkRequest requestModel, ResultCallback&lt;PagedPlatformLinks&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.GetPlatformLinkRequest.html">GetPlatformLinkRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PagedPlatformLinks.html">PagedPlatformLinks</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetPublisherUser_" data-uid="AccelByte.Api.UserApi.GetPublisherUser*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetPublisherUser_AccelByte_Models_GetPublisherUserParameter_AccelByte_Core_ResultCallback_AccelByte_Models_GetPublisherUserResponse__" data-uid="AccelByte.Api.UserApi.GetPublisherUser(AccelByte.Models.GetPublisherUserParameter,AccelByte.Core.ResultCallback{AccelByte.Models.GetPublisherUserResponse})">
+  GetPublisherUser(GetPublisherUserParameter, ResultCallback&lt;GetPublisherUserResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1577"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetPublisherUser(GetPublisherUserParameter requestModel, ResultCallback&lt;GetPublisherUserResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.GetPublisherUserParameter.html">GetPublisherUserParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GetPublisherUserResponse.html">GetPublisherUserResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetUserEnabledFactors_" data-uid="AccelByte.Api.UserApi.GetUserEnabledFactors*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetUserEnabledFactors_AccelByte_Core_ResultCallback_AccelByte_Models_Enable2FAFactors__" data-uid="AccelByte.Api.UserApi.GetUserEnabledFactors(AccelByte.Core.ResultCallback{AccelByte.Models.Enable2FAFactors})">
+  GetUserEnabledFactors(ResultCallback&lt;Enable2FAFactors&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1414"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserEnabledFactors(ResultCallback&lt;Enable2FAFactors&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.Enable2FAFactors.html">Enable2FAFactors</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetUserInformation_" data-uid="AccelByte.Api.UserApi.GetUserInformation*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetUserInformation_AccelByte_Models_GetUserInformationParameter_AccelByte_Core_ResultCallback_AccelByte_Models_GetUserInformationResponse__" data-uid="AccelByte.Api.UserApi.GetUserInformation(AccelByte.Models.GetUserInformationParameter,AccelByte.Core.ResultCallback{AccelByte.Models.GetUserInformationResponse})">
+  GetUserInformation(GetUserInformationParameter, ResultCallback&lt;GetUserInformationResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1621"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserInformation(GetUserInformationParameter requestModel, ResultCallback&lt;GetUserInformationResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.GetUserInformationParameter.html">GetUserInformationParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GetUserInformationResponse.html">GetUserInformationResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetUserOtherPlatformBasicPublicInfo_" data-uid="AccelByte.Api.UserApi.GetUserOtherPlatformBasicPublicInfo*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetUserOtherPlatformBasicPublicInfo_AccelByte_Models_PlatformAccountInfoRequest_AccelByte_Core_ResultCallback_AccelByte_Models_AccountUserPlatformInfosResponse__" data-uid="AccelByte.Api.UserApi.GetUserOtherPlatformBasicPublicInfo(AccelByte.Models.PlatformAccountInfoRequest,AccelByte.Core.ResultCallback{AccelByte.Models.AccountUserPlatformInfosResponse})">
+  GetUserOtherPlatformBasicPublicInfo(PlatformAccountInfoRequest, ResultCallback&lt;AccountUserPlatformInfosResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1876"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserOtherPlatformBasicPublicInfo(PlatformAccountInfoRequest requestPayload, ResultCallback&lt;AccountUserPlatformInfosResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestPayload</code> <a class="xref" href="AccelByte.Models.PlatformAccountInfoRequest.html">PlatformAccountInfoRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.AccountUserPlatformInfosResponse.html">AccountUserPlatformInfosResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_GetUserPublicInfo_" data-uid="AccelByte.Api.UserApi.GetUserPublicInfo*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_GetUserPublicInfo_System_String_AccelByte_Core_ResultCallback_AccelByte_Models_GetUserPublicInfoResponse__" data-uid="AccelByte.Api.UserApi.GetUserPublicInfo(System.String,AccelByte.Core.ResultCallback{AccelByte.Models.GetUserPublicInfoResponse})">
+  GetUserPublicInfo(string, ResultCallback&lt;GetUserPublicInfoResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L961"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetUserPublicInfo(string userId, ResultCallback&lt;GetUserPublicInfoResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.GetUserPublicInfoResponse.html">GetUserPublicInfoResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_LinkHeadlessAccountToCurrentFullAccount_" data-uid="AccelByte.Api.UserApi.LinkHeadlessAccountToCurrentFullAccount*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_LinkHeadlessAccountToCurrentFullAccount_AccelByte_Models_LinkHeadlessAccountRequest_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.LinkHeadlessAccountToCurrentFullAccount(AccelByte.Models.LinkHeadlessAccountRequest,AccelByte.Core.ResultCallback)">
+  LinkHeadlessAccountToCurrentFullAccount(LinkHeadlessAccountRequest, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1665"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LinkHeadlessAccountToCurrentFullAccount(LinkHeadlessAccountRequest requestModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.LinkHeadlessAccountRequest.html">LinkHeadlessAccountRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_LinkOtherPlatform_" data-uid="AccelByte.Api.UserApi.LinkOtherPlatform*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_LinkOtherPlatform_AccelByte_Models_LinkOtherPlatformRequest_AccelByte_Models_LinkOtherPlatformParameter_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.LinkOtherPlatform(AccelByte.Models.LinkOtherPlatformRequest,AccelByte.Models.LinkOtherPlatformParameter,AccelByte.Core.ResultCallback)">
+  LinkOtherPlatform(LinkOtherPlatformRequest, LinkOtherPlatformParameter, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L632"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LinkOtherPlatform(LinkOtherPlatformRequest requestModel, LinkOtherPlatformParameter requestParameter, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.LinkOtherPlatformRequest.html">LinkOtherPlatformRequest</a></dt>
+    <dd></dd>
+    <dt><code>requestParameter</code> <a class="xref" href="AccelByte.Models.LinkOtherPlatformParameter.html">LinkOtherPlatformParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Make2FAFactorDefault_" data-uid="AccelByte.Api.UserApi.Make2FAFactorDefault*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Make2FAFactorDefault_AccelByte_Models_Make2FAFactorDefaultParameter_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.Make2FAFactorDefault(AccelByte.Models.Make2FAFactorDefaultParameter,AccelByte.Core.ResultCallback)">
+  Make2FAFactorDefault(Make2FAFactorDefaultParameter, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1446"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Make2FAFactorDefault(Make2FAFactorDefaultParameter requestModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.Make2FAFactorDefaultParameter.html">Make2FAFactorDefaultParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Register_" data-uid="AccelByte.Api.UserApi.Register*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Register_AccelByte_Models_RegisterUserRequest_AccelByte_Core_ResultCallback_AccelByte_Models_RegisterUserResponse__" data-uid="AccelByte.Api.UserApi.Register(AccelByte.Models.RegisterUserRequest,AccelByte.Core.ResultCallback{AccelByte.Models.RegisterUserResponse})">
+  Register(RegisterUserRequest, ResultCallback&lt;RegisterUserResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Register(RegisterUserRequest requestModel, ResultCallback&lt;RegisterUserResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.RegisterUserRequest.html">RegisterUserRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.RegisterUserResponse.html">RegisterUserResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_RegisterV2_" data-uid="AccelByte.Api.UserApi.RegisterV2*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_RegisterV2_AccelByte_Models_RegisterUserRequestv2_AccelByte_Core_ResultCallback_AccelByte_Models_RegisterUserResponse__" data-uid="AccelByte.Api.UserApi.RegisterV2(AccelByte.Models.RegisterUserRequestv2,AccelByte.Core.ResultCallback{AccelByte.Models.RegisterUserResponse})">
+  RegisterV2(RegisterUserRequestv2, ResultCallback&lt;RegisterUserResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterV2(RegisterUserRequestv2 requestModel, ResultCallback&lt;RegisterUserResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.RegisterUserRequestv2.html">RegisterUserRequestv2</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.RegisterUserResponse.html">RegisterUserResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_ResetPassword_" data-uid="AccelByte.Api.UserApi.ResetPassword*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_ResetPassword_AccelByte_Models_ResetPasswordRequest_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.ResetPassword(AccelByte.Models.ResetPasswordRequest,AccelByte.Core.ResultCallback)">
+  ResetPassword(ResetPasswordRequest, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L581"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetPassword(ResetPasswordRequest requestModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.ResetPasswordRequest.html">ResetPasswordRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_SearchUsers_" data-uid="AccelByte.Api.UserApi.SearchUsers*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_SearchUsers_AccelByte_Models_SearchUsersRequest_AccelByte_Core_ResultCallback_AccelByte_Models_PagedPublicUsersInfo__" data-uid="AccelByte.Api.UserApi.SearchUsers(AccelByte.Models.SearchUsersRequest,AccelByte.Core.ResultCallback{AccelByte.Models.PagedPublicUsersInfo})">
+  SearchUsers(SearchUsersRequest, ResultCallback&lt;PagedPublicUsersInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L895"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SearchUsers(SearchUsersRequest requestModel, ResultCallback&lt;PagedPublicUsersInfo&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.SearchUsersRequest.html">SearchUsersRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.PagedPublicUsersInfo.html">PagedPublicUsersInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_SendPasswordResetCode_" data-uid="AccelByte.Api.UserApi.SendPasswordResetCode*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_SendPasswordResetCode_AccelByte_Models_SendPasswordResetCodeRequest_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.SendPasswordResetCode(AccelByte.Models.SendPasswordResetCodeRequest,AccelByte.Core.ResultCallback)">
+  SendPasswordResetCode(SendPasswordResetCodeRequest, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L539"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendPasswordResetCode(SendPasswordResetCodeRequest requestModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.SendPasswordResetCodeRequest.html">SendPasswordResetCodeRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_SendVerificationCode_" data-uid="AccelByte.Api.UserApi.SendVerificationCode*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_SendVerificationCode_AccelByte_Models_SendVerificationCodeRequest_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.SendVerificationCode(AccelByte.Models.SendVerificationCodeRequest,AccelByte.Core.ResultCallback)">
+  SendVerificationCode(SendVerificationCodeRequest, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L448"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendVerificationCode(SendVerificationCodeRequest requestModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.SendVerificationCodeRequest.html">SendVerificationCodeRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_SendVerificationCodeToNewUser_" data-uid="AccelByte.Api.UserApi.SendVerificationCodeToNewUser*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_SendVerificationCodeToNewUser_System_String_AccelByte_Models_SendVerificationCodeToNewUserOptionalParameters_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.SendVerificationCodeToNewUser(System.String,AccelByte.Models.SendVerificationCodeToNewUserOptionalParameters,AccelByte.Core.ResultCallback)">
+  SendVerificationCodeToNewUser(string, SendVerificationCodeToNewUserOptionalParameters, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendVerificationCodeToNewUser(string emailAddress, SendVerificationCodeToNewUserOptionalParameters optionalParameters, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emailAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>optionalParameters</code> <a class="xref" href="AccelByte.Models.SendVerificationCodeToNewUserOptionalParameters.html">SendVerificationCodeToNewUserOptionalParameters</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_UnlinkAllOtherPlatform_" data-uid="AccelByte.Api.UserApi.UnlinkAllOtherPlatform*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_UnlinkAllOtherPlatform_AccelByte_Models_UnlinkPlatformAccountParameter_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.UnlinkAllOtherPlatform(AccelByte.Models.UnlinkPlatformAccountParameter,AccelByte.Core.ResultCallback)">
+  UnlinkAllOtherPlatform(UnlinkPlatformAccountParameter, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L809"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlinkAllOtherPlatform(UnlinkPlatformAccountParameter requestParameter, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestParameter</code> <a class="xref" href="AccelByte.Models.UnlinkPlatformAccountParameter.html">UnlinkPlatformAccountParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_UnlinkOtherPlatform_" data-uid="AccelByte.Api.UserApi.UnlinkOtherPlatform*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_UnlinkOtherPlatform_AccelByte_Models_UnlinkPlatformAccountRequest_AccelByte_Models_UnlinkPlatformAccountParameter_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.UnlinkOtherPlatform(AccelByte.Models.UnlinkPlatformAccountRequest,AccelByte.Models.UnlinkPlatformAccountParameter,AccelByte.Core.ResultCallback)">
+  UnlinkOtherPlatform(UnlinkPlatformAccountRequest, UnlinkPlatformAccountParameter, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L754"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnlinkOtherPlatform(UnlinkPlatformAccountRequest requestModel, UnlinkPlatformAccountParameter requestParameter, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.UnlinkPlatformAccountRequest.html">UnlinkPlatformAccountRequest</a></dt>
+    <dd></dd>
+    <dt><code>requestParameter</code> <a class="xref" href="AccelByte.Models.UnlinkPlatformAccountParameter.html">UnlinkPlatformAccountParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Update_" data-uid="AccelByte.Api.UserApi.Update*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Update_AccelByte_Models_UpdateUserRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UserData__" data-uid="AccelByte.Api.UserApi.Update(AccelByte.Models.UpdateUserRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UserData})">
+  Update(UpdateUserRequest, ResultCallback&lt;UserData&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update(UpdateUserRequest updateUserRequest, ResultCallback&lt;UserData&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>updateUserRequest</code> <a class="xref" href="AccelByte.Models.UpdateUserRequest.html">UpdateUserRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserData.html">UserData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_UpdateEmail_" data-uid="AccelByte.Api.UserApi.UpdateEmail*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_UpdateEmail_AccelByte_Models_UpdateEmailRequest_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.UpdateEmail(AccelByte.Models.UpdateEmailRequest,AccelByte.Core.ResultCallback)">
+  UpdateEmail(UpdateEmailRequest, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateEmail(UpdateEmailRequest updateEmailRequest, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>updateEmailRequest</code> <a class="xref" href="AccelByte.Models.UpdateEmailRequest.html">UpdateEmailRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_UpdateUser_" data-uid="AccelByte.Api.UserApi.UpdateUser*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_UpdateUser_AccelByte_Models_UpdateUserRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UserData__" data-uid="AccelByte.Api.UserApi.UpdateUser(AccelByte.Models.UpdateUserRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UserData})">
+  UpdateUser(UpdateUserRequest, ResultCallback&lt;UserData&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L1535"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateUser(UpdateUserRequest requestModel, ResultCallback&lt;UserData&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.UpdateUserRequest.html">UpdateUserRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserData.html">UserData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Upgrade_" data-uid="AccelByte.Api.UserApi.Upgrade*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Upgrade_AccelByte_Models_UpgradeRequest_AccelByte_Models_UpgradeParameter_AccelByte_Core_ResultCallback_AccelByte_Models_UserData__" data-uid="AccelByte.Api.UserApi.Upgrade(AccelByte.Models.UpgradeRequest,AccelByte.Models.UpgradeParameter,AccelByte.Core.ResultCallback{AccelByte.Models.UserData})">
+  Upgrade(UpgradeRequest, UpgradeParameter, ResultCallback&lt;UserData&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Upgrade(UpgradeRequest requestModel, UpgradeParameter requestParameter, ResultCallback&lt;UserData&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.UpgradeRequest.html">UpgradeRequest</a></dt>
+    <dd></dd>
+    <dt><code>requestParameter</code> <a class="xref" href="AccelByte.Models.UpgradeParameter.html">UpgradeParameter</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserData.html">UserData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_UpgradeAndVerifyHeadlessAccount_" data-uid="AccelByte.Api.UserApi.UpgradeAndVerifyHeadlessAccount*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_UpgradeAndVerifyHeadlessAccount_AccelByte_Models_UpgradeAndVerifyHeadlessRequest_AccelByte_Core_ResultCallback_AccelByte_Models_UserData__" data-uid="AccelByte.Api.UserApi.UpgradeAndVerifyHeadlessAccount(AccelByte.Models.UpgradeAndVerifyHeadlessRequest,AccelByte.Core.ResultCallback{AccelByte.Models.UserData})">
+  UpgradeAndVerifyHeadlessAccount(UpgradeAndVerifyHeadlessRequest, ResultCallback&lt;UserData&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpgradeAndVerifyHeadlessAccount(UpgradeAndVerifyHeadlessRequest requestModel, ResultCallback&lt;UserData&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.UpgradeAndVerifyHeadlessRequest.html">UpgradeAndVerifyHeadlessRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserData.html">UserData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_UpgradeV2_" data-uid="AccelByte.Api.UserApi.UpgradeV2*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_UpgradeV2_AccelByte_Models_UpgradeV2Request_AccelByte_Core_ResultCallback_AccelByte_Models_UserData__" data-uid="AccelByte.Api.UserApi.UpgradeV2(AccelByte.Models.UpgradeV2Request,AccelByte.Core.ResultCallback{AccelByte.Models.UserData})">
+  UpgradeV2(UpgradeV2Request, ResultCallback&lt;UserData&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpgradeV2(UpgradeV2Request requestModel, ResultCallback&lt;UserData&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.UpgradeV2Request.html">UpgradeV2Request</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.UserData.html">UserData</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_ValidateUserInput_" data-uid="AccelByte.Api.UserApi.ValidateUserInput*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_ValidateUserInput_AccelByte_Models_ValidateInputRequest_AccelByte_Core_ResultCallback_AccelByte_Models_ValidateInputResponse__" data-uid="AccelByte.Api.UserApi.ValidateUserInput(AccelByte.Models.ValidateInputRequest,AccelByte.Core.ResultCallback{AccelByte.Models.ValidateInputResponse})">
+  ValidateUserInput(ValidateInputRequest, ResultCallback&lt;ValidateInputResponse&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L2009"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ValidateUserInput(ValidateInputRequest requestBody, ResultCallback&lt;ValidateInputResponse&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestBody</code> <a class="xref" href="AccelByte.Models.ValidateInputRequest.html">ValidateInputRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback-1.html">ResultCallback</a>&lt;<a class="xref" href="AccelByte.Models.ValidateInputResponse.html">ValidateInputResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AccelByte_Api_UserApi_Verify_" data-uid="AccelByte.Api.UserApi.Verify*"></a>
+
+  <h3 id="AccelByte_Api_UserApi_Verify_AccelByte_Models_VerifyRequest_AccelByte_Core_ResultCallback_" data-uid="AccelByte.Api.UserApi.Verify(AccelByte.Models.VerifyRequest,AccelByte.Core.ResultCallback)">
+  Verify(VerifyRequest, ResultCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Runtime/Api/UserApi.cs/#L492"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Verify(VerifyRequest requestModel, ResultCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>requestModel</code> <a class="xref" href="AccelByte.Models.VerifyRequest.html">VerifyRequest</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="AccelByte.Core.ResultCallback.html">ResultCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

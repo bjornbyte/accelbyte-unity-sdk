@@ -1,0 +1,2915 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Changelog | AccelByte Unity SDK | 17.12.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Changelog | AccelByte Unity SDK | 17.12.0 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/bjornbyte/accelbyte-unity-sdk/blob/bjorn/Documentation~/changelog/CHANGELOG.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="changelog">Changelog</h1>
+
+<p>All notable changes to this project will be documented in this file. See [standard-version] for commit guidelines.</p>
+<h2 id="17120-2025-11-04">[17.12.0] (2025-11-04)</h2>
+<h3 id="features">Features</h3>
+<ul>
+<li>add endpoint url when encountered an error</li>
+<li>add metadata optional parameter GameSessionInvite and PartyInvite</li>
+<li>added offset and limit option to query game session</li>
+</ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>fix wrong qos status enum</li>
+</ul>
+<h3 id="refactors">Refactors</h3>
+<ul>
+<li>add strong type input to session query</li>
+</ul>
+<h2 id="17110-2025-10-07">[17.11.0] (2025-10-07)</h2>
+<h3 id="features-1">Features</h3>
+<ul>
+<li>add missing sold enum in entitlement status</li>
+<li>add optional param for evaluate challenge progress</li>
+<li>add user id as getstatuseritem param</li>
+<li>added EndDatetime to auth ban error</li>
+<li>added Get Legal Policies by Namespace and Country</li>
+<li>added GetLeaderboardV3</li>
+<li>added ServerStatistic.ListUserStatCycleItems</li>
+</ul>
+<h3 id="bug-fixes-1">Bug Fixes</h3>
+<ul>
+<li>fix incorrect namespace value</li>
+<li>removed format validation of stat cycle id</li>
+</ul>
+<h2 id="17100-2025-09-02">[17.10.0] (2025-09-02)</h2>
+<h3 id="features-2">Features</h3>
+<ul>
+<li>add skip set cookie on login with other platform opt param option</li>
+<li>added id field response on moving inventory item response</li>
+<li>sunset google play games v1 interface</li>
+<li>sunset inventory and server cloudsave deprecated interfaces</li>
+</ul>
+<h3 id="bug-fixes-2">Bug Fixes</h3>
+<ul>
+<li>clean session invitation cache after the session is rejected</li>
+<li>fix chat websocket behavior on webgl</li>
+<li>fixed refresh session maintainer behavior</li>
+</ul>
+<h2 id="1790-2025-07-22">[17.9.0] (2025-07-22)</h2>
+<h3 id="features-3">Features</h3>
+<ul>
+<li>decommissioned CloudStorage and GameProfiles</li>
+<li>re-enable CloudStorage and GameProfiles</li>
+</ul>
+<h3 id="bug-fixes-3">Bug Fixes</h3>
+<ul>
+<li>use random port prior udp ping execution</li>
+</ul>
+<h2 id="1780-2025-06-18">[17.8.0] (2025-06-18)</h2>
+<h3 id="features-4">Features</h3>
+<ul>
+<li>add http request and response timestamp</li>
+<li>decommissioned challenge GetChallenges and get challenge response.schedule</li>
+<li>Decommissioned qos GetServerLatencies</li>
+<li>decommissioned server agreement service</li>
+<li>decommissioned user interfaces: GetUserByUserId, GetUserByOtherPlatformUserId, BulkGetUserInfo</li>
+<li>implement new API to get public system config</li>
+<li>log every accelbyte sdk module version</li>
+</ul>
+<h3 id="bug-fixes-4">Bug Fixes</h3>
+<ul>
+<li>skip qos and turn server latency calculation when server status is not active</li>
+</ul>
+<h3 id="refactors-1">Refactors</h3>
+<ul>
+<li>add optional parameter on leaderboard service</li>
+<li>improve instance created event handling</li>
+<li>udp ping error handling improvement</li>
+<li>update service tracker output</li>
+</ul>
+<h2 id="1770-2025-05-21">[17.7.0] (2025-05-21)</h2>
+<h3 id="features-5">Features</h3>
+<ul>
+<li>add log injection for turn manager</li>
+<li>add log injection on GetUserStatItems</li>
+<li>add method overloads with optional parameters to statistic service</li>
+<li>added server game standard event</li>
+</ul>
+<h3 id="bug-fixes-5">Bug Fixes</h3>
+<ul>
+<li>android identifier generated when RandomizeDeviceId is false</li>
+<li>fix exception when download empty user avatar</li>
+</ul>
+<h3 id="refactors-2">Refactors</h3>
+<ul>
+<li>add api tracker to server profanity filter</li>
+<li>add api tracker to web request task</li>
+<li>add functional injection</li>
+<li>add internal config injection to AccelByteNetUtilities</li>
+<li>add internal overloads with optional parameters to achievement service</li>
+<li>add internal service tracker</li>
+<li>add optional parameter to all methods of agreement, challenge, currencies, and matchmaking interface</li>
+<li>add safeguard for api callback</li>
+<li>iam config injection</li>
+<li>improve websocket and qos logging</li>
+<li>refactor chat websocket log</li>
+<li>refactor statistic api</li>
+</ul>
+<h2 id="1760-2025-03-17">[17.6.0] (2025-03-17)</h2>
+<h3 id="features-6">Features</h3>
+<ul>
+<li>add user wrapper endpoint to trigger verification email, additional field to register user requests</li>
+<li>add reconnecting event delegate for lobby websocket</li>
+<li>add topic related chat function</li>
+<li>added google sign in implementation and deprecated google play v1 extension</li>
+<li>change optional value from statistic wrapper</li>
+<li>decomissioned Network.Ping</li>
+<li>decommission loginV4 with TokenDataV4 interface</li>
+<li>decommission matchmaking backfill proposal with no response model</li>
+<li>exposed bulk unlock achievement endpoints</li>
+</ul>
+<h3 id="bug-fixes-6">Bug Fixes</h3>
+<ul>
+<li>refactored ugc api with anonymous type for request body for compatibility with mobile</li>
+</ul>
+<h3 id="refactors-3">Refactors</h3>
+<ul>
+<li>added serializeable attribute for all enum</li>
+<li>pushed back server cloud save migration</li>
+<li>rename telemetry cache enabled config name</li>
+</ul>
+<h3 id="documentations">Documentations</h3>
+<ul>
+<li>update google android readme link</li>
+<li>update page link</li>
+</ul>
+<h3 id="1751-2025-02-27">[17.5.1] (2025-02-27)</h3>
+<h3 id="bug-fixes-7">Bug Fixes</h3>
+<ul>
+<li>add missing field in server inventory</li>
+</ul>
+<h2 id="1750-2025-02-20">[17.5.0] (2025-02-20)</h2>
+<h3 id="features-7">Features</h3>
+<ul>
+<li>add get challenge's schedule endpoint</li>
+<li>add optional parameters tags and keyword when requesting challanges list</li>
+<li>add retry mechanism for lobby connect</li>
+<li>add TeamID field to session team data</li>
+<li>added get public user info endpoint</li>
+<li>added migration qos.GetServerLatencies to qos.GetAllActiveServerLatencies</li>
+<li>added new game standard events</li>
+<li>expose kick user from game session endpoints to session wrapper services</li>
+<li>implemented lockable queue for synchronous lobby event handling</li>
+<li>remove inventory query item interface, remove turn manager get closest turn server interface, remove duplicated presence event api</li>
+</ul>
+<h3 id="refactors-4">Refactors</h3>
+<ul>
+<li>change api base parent BaseUrl, AuthToken, Namespace_ to protected internal</li>
+<li>improve UGC and Wallet validation checks</li>
+</ul>
+<h2 id="1740-2025-01-21">[17.4.0] (2025-01-21)</h2>
+<h3 id="features-8">Features</h3>
+<ul>
+<li>add missing field on challenge model</li>
+</ul>
+<h3 id="bug-fixes-8">Bug Fixes</h3>
+<ul>
+<li>fix challenge model typo</li>
+</ul>
+<h2 id="1730-2025-01-16">[17.3.0] (2025-01-16)</h2>
+<h3 id="features-9">Features</h3>
+<ul>
+<li>add caching mechanism when joining party</li>
+<li>add excluded session optional param when creating matchmaking ticket</li>
+<li>add internal interface for session party storage</li>
+<li>add optional param for generate one time code</li>
+<li>add request token by one time code function</li>
+<li>add service tracker log</li>
+<li>added server Profanity Filter service, and validation endpoints to User service</li>
+<li>sunset telemetry event created timestamp and google apple entitlement sync interfaces</li>
+</ul>
+<h2 id="1720-2024-12-10">[17.2.0] (2024-12-10)</h2>
+<h3 id="features-10">Features</h3>
+<ul>
+<li>add cancel party invitation</li>
+<li>added lobby PartyCreatedNotification</li>
+<li>added new session interfaces store, get, delete player attributes</li>
+<li>removed deprecated telemetry scripts</li>
+</ul>
+<h3 id="documentations-1">Documentations</h3>
+<ul>
+<li>update readme</li>
+</ul>
+<h2 id="1710-2024-11-25">[17.1.0] (2024-11-25)</h2>
+<h3 id="features-11">Features</h3>
+<ul>
+<li>add login v4 and cancel queue process</li>
+<li>add partial accept backfill proposal</li>
+<li>add qosm new interface to fetch server list</li>
+<li>added optional parameters on User.BulkGetUserByOtherPlatformUserIds</li>
+<li>added ttl config to relevant admin game record interfaces, mark older function for deprecation</li>
+<li>remove support to fetch 100 or more users on Api.User.BulkGetUserByOtherPlatformUserIds</li>
+<li>sunset accelbyte plugin and multi registry interfaces</li>
+<li>sunset api client's deprecated interfaces</li>
+</ul>
+<h3 id="bug-fixes-9">Bug Fixes</h3>
+<ul>
+<li>fix missing ctor exception on some of lobby's response and request models</li>
+<li>fix missing preserver attribute in statistic models</li>
+<li>fix webgl ping method</li>
+</ul>
+<h3 id="refactors-5">Refactors</h3>
+<ul>
+<li>differentiate ping method optional parameters</li>
+<li>improve sdk http executor</li>
+<li>refactor native websocket and wrapper to be overridable for testing</li>
+<li>response validation improvements</li>
+</ul>
+<h3 id="1701-2024-10-31">[17.0.1] (2024-10-31)</h3>
+<h3 id="bug-fixes-10">Bug Fixes</h3>
+<ul>
+<li>fix null GetTurnServers result on webgl platform</li>
+<li>fix server challenge response model</li>
+<li>fix webgl ping method</li>
+</ul>
+<h3 id="refactors-6">Refactors</h3>
+<ul>
+<li>bring back websocket changes</li>
+</ul>
+<h2 id="1700-2024-10-21">[17.0.0] (2024-10-21)</h2>
+<h3 id="-breaking-changes">⚠ BREAKING CHANGES</h3>
+<ul>
+<li>drop support sort by quantity for get all items of inventory service</li>
+</ul>
+<h3 id="features-12">Features</h3>
+<ul>
+<li>add apple iap subscription interface</li>
+<li>add google iap subscription interface</li>
+<li>add IAP query subscription interface</li>
+<li>add message system v2</li>
+<li>add optional param to include mac address</li>
+<li>add turn manager get latency</li>
+<li><strong>entitlement:</strong> add sync steam inventory</li>
+<li>exposed chat websocket endpoints to get and set user chat configuration</li>
+<li>exposed get user entitlement history endpoint</li>
+<li>implemented admin agreement endpoint interfaces, updated response model for QueryLegalEligibilities</li>
+<li>implemented matchmakingV2 canceled lobby notification</li>
+</ul>
+<h3 id="bug-fixes-11">Bug Fixes</h3>
+<ul>
+<li>add default latency calculator when calculating turn server's latency</li>
+<li>fixed issue on matchmaking session polling</li>
+<li>fixed issue when unity persistent path is null</li>
+<li>webgl platform improvements</li>
+</ul>
+<h3 id="refactors-7">Refactors</h3>
+<ul>
+<li>drop support sort by quantity for get all items of inventory service</li>
+<li>expose some private api fields to internal</li>
+<li>fixed game common info persistent path name</li>
+<li>refactor qosm to support call GetAllServerLatencies on AMS</li>
+<li>remove deprecated param from inventory and server inventory</li>
+</ul>
+<h3 id="documentations-2">Documentations</h3>
+<ul>
+<li>pushed back presence event api and get country groups deprecation to AGS 3.81</li>
+</ul>
+<h3 id="16254-2024-10-07">[16.25.4] (2024-10-07)</h3>
+<h3 id="bug-fixes-12">Bug Fixes</h3>
+<ul>
+<li>fix unathorized http request null exception</li>
+</ul>
+<h3 id="16253-2024-10-01">[16.25.3] (2024-10-01)</h3>
+<h3 id="bug-fixes-13">Bug Fixes</h3>
+<ul>
+<li>support http client clear cookies on multi-thread</li>
+</ul>
+<h3 id="16252-2024-09-24">[16.25.2] (2024-09-24)</h3>
+<h3 id="bug-fixes-14">Bug Fixes</h3>
+<ul>
+<li>fix some field types of TurnManager model</li>
+</ul>
+<h3 id="16251-2024-09-19">[16.25.1] (2024-09-19)</h3>
+<h3 id="bug-fixes-15">Bug Fixes</h3>
+<ul>
+<li>add various http response fields</li>
+<li>added missing parameter to set upload binary content type</li>
+<li><strong>BinaryCloudSave:</strong> incorrect request presigned url callback model</li>
+<li><strong>BinaryCloudSave:</strong> invalid callback model</li>
+</ul>
+<h3 id="refactors-8">Refactors</h3>
+<ul>
+<li>change save binary and presigned url type</li>
+</ul>
+<h2 id="16250-2024-09-18">[16.25.0] (2024-09-18)</h2>
+<h3 id="features-13">Features</h3>
+<ul>
+<li>add change policy preferences in agreement</li>
+<li>add disconnect endpoint</li>
+<li>add overload function for sync apple purchase</li>
+<li>added additional header to ds hub connection request</li>
+<li>added option to have randomized device id on development build and editor</li>
+<li><strong>entitlement:</strong> add overload function for google sync</li>
+<li>exposed endpoint to set and reset session timeout for ams ds</li>
+<li>exposed new challenge service endpoints</li>
+<li>Implemented fallback ticket polling and ws notif spoofing for matchmaking</li>
+<li>update turn manager model</li>
+</ul>
+<h3 id="bug-fixes-16">Bug Fixes</h3>
+<ul>
+<li>corrected sequenceId data type, changed buffer primary sort param from SentAt to SequenceId</li>
+<li>incorrect data type for GoogleReceiptResolveResult.NeedConsume</li>
+<li>preserve inventory api</li>
+<li>set missing oauth api shared memory</li>
+</ul>
+<h3 id="refactors-9">Refactors</h3>
+<ul>
+<li>add defensive code for sync apple iap</li>
+<li>refactor sdk heartbeat</li>
+<li>refactor sdk logging</li>
+<li>refactor telemetry flightId payload field to camel case</li>
+<li>sdk refresh session improvement</li>
+</ul>
+<h2 id="16240-2024-08-12">[16.24.0] (2024-08-12)</h2>
+<h3 id="features-14">Features</h3>
+<ul>
+<li>add AppleExtension as InternalsVisibleTo</li>
+<li>add flight id and device type into telemetry data</li>
+<li>add friend related error code</li>
+<li>add login with apple</li>
+<li>add optional service label param</li>
+<li>add server misc service</li>
+<li>add StatisticCodePredicate and Code field for purchasing requirement</li>
+<li>add support for GooglePlayGames authentication</li>
+<li>add unity switch token expired time</li>
+<li>implement BulkGetUserByOtherPlatformUserIdsV4</li>
+<li>set telemetry client timestamp with server time reference</li>
+</ul>
+<h3 id="bug-fixes-17">Bug Fixes</h3>
+<ul>
+<li>fixed incorrect chat and server user account endpoints</li>
+</ul>
+<h3 id="refactors-10">Refactors</h3>
+<ul>
+<li>refactor qos get latencies implementation</li>
+</ul>
+<h3 id="16231-2024-07-31">[16.23.1] (2024-07-31)</h3>
+<h3 id="bug-fixes-18">Bug Fixes</h3>
+<ul>
+<li><strong>QoS:</strong> unable parse DNS address to get latency</li>
+</ul>
+<h2 id="16230-2024-07-01">[16.23.0] (2024-07-01)</h2>
+<h3 id="features-15">Features</h3>
+<ul>
+<li>implemented network maintainer</li>
+</ul>
+<h3 id="bug-fixes-19">Bug Fixes</h3>
+<ul>
+<li>add editor dedicated server macro to linux server bootstrap</li>
+<li>add missing storeId param and fix false serverEcommerce endpoint</li>
+<li>broken endpoint name in UserApi</li>
+</ul>
+<h3 id="16222-2024-06-13">[16.22.2] (2024-06-13)</h3>
+<h3 id="bug-fixes-20">Bug Fixes</h3>
+<ul>
+<li>skip check null value for optional parameter in Entitlement</li>
+</ul>
+<h3 id="16221-2024-05-28">[16.22.1] (2024-05-28)</h3>
+<h3 id="refactors-11">Refactors</h3>
+<ul>
+<li>deprecate few nintendo switch interfaces</li>
+</ul>
+<h2 id="16220-2024-05-22">[16.22.0] (2024-05-22)</h2>
+<h3 id="features-16">Features</h3>
+<ul>
+<li>add connect failed warning callback</li>
+<li>add get dlc mapping endpoint</li>
+<li>add more error codes</li>
+<li><strong>BinaryCloudSave:</strong> add server binary cloudsave interface</li>
+<li><strong>Order:</strong> discount code redemption order preview order price with discount code API</li>
+<li>server inventory service and api implementation</li>
+</ul>
+<h3 id="bug-fixes-21">Bug Fixes</h3>
+<ul>
+<li>broken revoke token endpoint</li>
+<li>fix websocket implementation on webgl build</li>
+</ul>
+<h2 id="16210-2024-05-13">[16.21.0] (2024-05-13)</h2>
+<h3 id="features-17">Features</h3>
+<ul>
+<li>add dshub websocket url</li>
+<li>add impacted user information</li>
+</ul>
+<h3 id="16202-2024-05-08">[16.20.2] (2024-05-08)</h3>
+<h3 id="features-18">Features</h3>
+<ul>
+<li><strong>session:</strong> expose Session Endpoints to query active session</li>
+</ul>
+<h3 id="refactors-12">Refactors</h3>
+<ul>
+<li>modify native websocket lib to return any ws close code</li>
+</ul>
+<h3 id="16201-2024-04-30">[16.20.1] (2024-04-30)</h3>
+<h3 id="features-19">Features</h3>
+<ul>
+<li>added config for custom reconnect timeout for dshub and ams</li>
+</ul>
+<h3 id="bug-fixes-22">Bug Fixes</h3>
+<ul>
+<li>added missing leading/trailing slashes to config urls</li>
+<li>remove nunit assert</li>
+<li><strong>WebSocket:</strong> missing close code on websocket retry</li>
+</ul>
+<h2 id="16200-2024-04-26">[16.20.0] (2024-04-26)</h2>
+<h3 id="features-20">Features</h3>
+<ul>
+<li>implemented inventory service wrapper</li>
+</ul>
+<h3 id="bug-fixes-23">Bug Fixes</h3>
+<ul>
+<li>rename editor variable into namespace id</li>
+</ul>
+<h3 id="refactors-13">Refactors</h3>
+<ul>
+<li>add null check on get refresh token info</li>
+</ul>
+<h3 id="16192-2024-04-24">[16.19.2] (2024-04-24)</h3>
+<h3 id="features-21">Features</h3>
+<ul>
+<li>exposed get all server session endpoint for server session service</li>
+</ul>
+<h3 id="16191-2024-04-08">[16.19.1] (2024-04-08)</h3>
+<h2 id="16190-2024-04-05">[16.19.0] (2024-04-05)</h2>
+<h3 id="features-22">Features</h3>
+<ul>
+<li>add a feature to immediately sending telemetry data in the queue</li>
+<li>add additional config types: Sandbox, Integration, QA</li>
+<li>add get oauth config interface</li>
+<li>add google play wrapper</li>
+<li>add switch save cache and handle game exit API</li>
+<li>implement challenge api</li>
+<li><strong>Item:</strong> add autoCalcEstimatedPrice param to some item endpoint</li>
+</ul>
+<h2 id="16180-2024-03-24">[16.18.0] (2024-03-24)</h2>
+<h3 id="features-23">Features</h3>
+<ul>
+<li>add get config interfaces</li>
+<li>add implementation of nintendo switch platform</li>
+<li>add server config editor</li>
+<li><strong>login:</strong> add login queue API</li>
+</ul>
+<h3 id="bug-fixes-24">Bug Fixes</h3>
+<ul>
+<li>fixed dshub error on empty websocket message topic</li>
+</ul>
+<h3 id="refactors-14">Refactors</h3>
+<ul>
+<li>add new steam handler format</li>
+</ul>
+<h3 id="tests">Tests</h3>
+<ul>
+<li>set internal visible to e2e test</li>
+</ul>
+<h3 id="16171-2024-03-11">[16.17.1] (2024-03-11)</h3>
+<h3 id="bug-fixes-25">Bug Fixes</h3>
+<ul>
+<li><strong>utility:</strong> missmatch data on download</li>
+</ul>
+<h2 id="16170-2024-03-08">[16.17.0] (2024-03-08)</h2>
+<h3 id="features-24">Features</h3>
+<ul>
+<li>add cloudsave endpoint</li>
+<li>add default null filestream for switch platform.</li>
+<li><strong>user:</strong> assign uniqueDisplayName with displayName on Register</li>
+</ul>
+<h3 id="bug-fixes-26">Bug Fixes</h3>
+<ul>
+<li>fixed roslyn compiler warnings triggering on other attributes with the preview keyword</li>
+<li>remove additionalKey requirement from UpdateUserStatItemsValue</li>
+</ul>
+<h3 id="refactors-15">Refactors</h3>
+<ul>
+<li>add server log settings, log only active after configuration loaded</li>
+<li>change config injection command</li>
+<li>refactor config injection to avoid unnecessary warning</li>
+<li>refactor SDK filesystem for switch support</li>
+<li>update game telemetry cache save &amp; load</li>
+</ul>
+<h2 id="16160-2024-02-21">[16.16.0] (2024-02-21)</h2>
+<h3 id="features-25">Features</h3>
+<ul>
+<li><strong>account:</strong> account profile revamp</li>
+<li><strong>User:</strong> deprecate upgrade account username param</li>
+</ul>
+<h3 id="bug-fixes-27">Bug Fixes</h3>
+<ul>
+<li>add preserve attributes on some models</li>
+<li>missing sanitation stage</li>
+</ul>
+<h3 id="refactors-16">Refactors</h3>
+<ul>
+<li>deprecate authentication platform link with username</li>
+</ul>
+<h2 id="16150-2024-02-05">[16.15.0] (2024-02-05)</h2>
+<h3 id="features-26">Features</h3>
+<ul>
+<li>add GetCountryGroupV3</li>
+</ul>
+<h3 id="bug-fixes-28">Bug Fixes</h3>
+<ul>
+<li>prevent login error exception if an user hasn't complying legal agreement</li>
+</ul>
+<h3 id="refactors-17">Refactors</h3>
+<ul>
+<li>add 429 response code description</li>
+<li>change custom_attribute type based on backend</li>
+</ul>
+<h2 id="16140-2024-01-18">[16.14.0] (2024-01-18)</h2>
+<h3 id="features-27">Features</h3>
+<ul>
+<li>add ams port in server config</li>
+<li>add config injection v2</li>
+<li>add new client registry interface</li>
+<li>add new server registry interface</li>
+<li>add override reload config option</li>
+<li>added network conditioner to simulate dropped packets for websocket</li>
+<li>implemented sdk adjustments to accomodate new field on userdata, new user search overloads, and getting other user platform basic info</li>
+<li><strong>lobby:</strong> add change user region</li>
+<li><strong>lobby:</strong> automatically change region on lobby connected</li>
+<li><strong>UGC:</strong> expose public staging content endpoint</li>
+</ul>
+<h3 id="bug-fixes-29">Bug Fixes</h3>
+<ul>
+<li>fix linux dedicated server error build</li>
+<li>readd namepsace on predefined event added</li>
+</ul>
+<h3 id="refactors-18">Refactors</h3>
+<ul>
+<li>redirect all interface into api registry</li>
+<li>refactored null param handlers for game client services, fixed errors with incorrect uri and headers</li>
+<li>update various service</li>
+</ul>
+<h2 id="16130-2023-12-14">[16.13.0] (2023-12-14)</h2>
+<h3 id="features-28">Features</h3>
+<ul>
+<li>add byte converter utils</li>
+<li>Added missing predefined events, refactored predefined event namespace</li>
+<li>adjust concurrent record endpoint behavior</li>
+<li>expose public bulk get content by sharecode</li>
+<li>Expose UGC ModifyContent and DeleteContent by shareCode</li>
+<li><strong>MPv2:</strong> add promote game session leader API</li>
+<li>sync epic games inventory/IAP</li>
+</ul>
+<h3 id="bug-fixes-30">Bug Fixes</h3>
+<ul>
+<li>change websocket-sharp to native-websocket</li>
+<li>fix websocket send logic and add retry backoff mechanism</li>
+</ul>
+<h3 id="16121-2023-11-30">[16.12.1] (2023-11-30)</h3>
+<h3 id="bug-fixes-31">Bug Fixes</h3>
+<ul>
+<li>add missing override config in editor</li>
+<li>fix presence broadcast event is never initiated</li>
+<li>fix unable to login with latest token</li>
+</ul>
+<h3 id="refactors-19">Refactors</h3>
+<ul>
+<li>remove flight id hypens</li>
+</ul>
+<h2 id="16120-2023-11-28">[16.12.0] (2023-11-28)</h2>
+<h3 id="features-29">Features</h3>
+<ul>
+<li>add sdk version and game version info on multiplayer connect</li>
+<li>Added api endpoint to serversession for sending ds session ready state</li>
+<li>Added flag in client config to toggle using AMS QoS url</li>
+<li>added new search hidden content parameters</li>
+<li>implemented statsD / server metrics</li>
+</ul>
+<h3 id="bug-fixes-32">Bug Fixes</h3>
+<ul>
+<li>change websocket-sharp to native-websocket</li>
+<li>fixed OnSDKStop race condition resulting in service clean up not triggering</li>
+<li>move main run to first scene load before other scripts are run, api typo</li>
+</ul>
+<h3 id="refactors-20">Refactors</h3>
+<ul>
+<li>refactor session cache implementation</li>
+<li>store linux command line information to override config</li>
+</ul>
+<h2 id="16110-2023-11-13">[16.11.0] (2023-11-13)</h2>
+<h3 id="features-30">Features</h3>
+<ul>
+<li>Added custom roslyn analyzer for preview attribute warning emission</li>
+<li>added game standard events analytics implementations</li>
+<li>added public binary cloud save APIs</li>
+<li><strong>Cloudsave:</strong> Expose Admin Game and Player Record endpoints</li>
+<li><strong>ecommerce:</strong> flexible bundle pricing</li>
+<li>integrated flight id to api calls</li>
+<li>Make the error description clearer for CheckUserAccountAvailability.</li>
+<li>remove game standard customizable event namespace</li>
+<li><strong>UGC:</strong> Add new V2 endpoints for UGC Service</li>
+</ul>
+<h3 id="bug-fixes-33">Bug Fixes</h3>
+<ul>
+<li>add payment failed predefined event</li>
+<li>fix client session not update after environment updated</li>
+<li>fix empty device id on desktop platform</li>
+<li>fix file cache webgl implementation</li>
+<li>fix predefined event on monetization category</li>
+</ul>
+<h3 id="refactors-21">Refactors</h3>
+<ul>
+<li>transfer previous event name to payload param, implemented generic event name</li>
+<li>update game standard payload model</li>
+</ul>
+<h2 id="16100-2023-10-30">[16.10.0] (2023-10-30)</h2>
+<h3 id="features-31">Features</h3>
+<ul>
+<li>add config injection for windows dev build and linux server platform</li>
+<li>added predefined events analytics implementations</li>
+<li>Expose CheckUserAvailability</li>
+<li><strong>lobby:</strong> add S2S friend sync API</li>
+<li>Make the error description clearer for CheckUserAccountAvailability.</li>
+<li>update config injector interface</li>
+</ul>
+<h3 id="bug-fixes-34">Bug Fixes</h3>
+<ul>
+<li>AccelbyteDebug config initialization and callbacks</li>
+<li>change presence broadcast event namespace from publisher namespace to session namespace</li>
+<li>remove unused metafile</li>
+<li><strong>ugc:</strong> sync the variables for UGC response</li>
+</ul>
+<h3 id="refactors-22">Refactors</h3>
+<ul>
+<li>add leaderboard get rankings v3</li>
+<li>lobby event send platform info on sending connect request</li>
+</ul>
+<h3 id="1691-2023-10-16">[16.9.1] (2023-10-16)</h3>
+<h3 id="refactors-23">Refactors</h3>
+<ul>
+<li>fix webscheduler process keep looping after unity editor closed</li>
+</ul>
+<h2 id="1690-2023-10-12">[16.9.0] (2023-10-12)</h2>
+<h3 id="features-32">Features</h3>
+<ul>
+<li><strong>DSHub:</strong> add session member changed notification handler</li>
+<li><strong>mpv2:</strong> add persistent payload in SessionV2PublicConfiguration</li>
+<li>oidc unlink features</li>
+</ul>
+<h3 id="bug-fixes-35">Bug Fixes</h3>
+<ul>
+<li>add webrequest duplication prevention</li>
+<li><strong>mpv2:</strong> add missing notification handler for OnSessionEnded and refactor warning message for unrecognized topic</li>
+</ul>
+<h3 id="refactors-24">Refactors</h3>
+<ul>
+<li>add id input validation</li>
+</ul>
+<h2 id="1680-2023-09-25">[16.8.0] (2023-09-25)</h2>
+<h3 id="features-33">Features</h3>
+<ul>
+<li>add StatusV2 for session member and DS status</li>
+<li>add turn manager send metric endpoint</li>
+<li>change client and server environment pointing into a same target</li>
+<li>parity and add missing Oauth2Token params</li>
+</ul>
+<h2 id="1670-2023-09-11">[16.7.0] (2023-09-11)</h2>
+<h3 id="features-34">Features</h3>
+<ul>
+<li>[JSC-1311] add game core and access model</li>
+<li>[JSC-1311] add ITelemetryEvent interface and constructor</li>
+<li>[JSC-1311] add play and social models</li>
+<li>[JSC-1311] add predefined event and config</li>
+<li>[JSC-1311] add storage and monetization</li>
+<li>[JSC-1557] add presence broadcast event runtime config</li>
+<li>add auto send login telemetry</li>
+<li>add server-side predefined event analytics</li>
+<li>Added version copy flow on engine initialization</li>
+<li>apply sdk initialize and game launch event</li>
+<li><strong>MPv2:</strong> add API for session storage and lobby notification for storage changed</li>
+<li>Refactored debug and default log classes to allow for scalable abstraction, multiple logger types running simultaneously</li>
+<li>toggleable auto generate service url on saving configuration</li>
+</ul>
+<h3 id="bug-fixes-36">Bug Fixes</h3>
+<ul>
+<li>add additional info in login method</li>
+<li>Added default logger to logging callbacks</li>
+<li>change presence broadcast event interval unit</li>
+<li>fix accelbyte plugin error</li>
+<li>fix enable and disable config</li>
+<li>fix presence broadcast event enabled logic</li>
+<li><strong>Statistic:</strong> Adjust newest flow to expose which statistic is being updated</li>
+</ul>
+<h3 id="refactors-25">Refactors</h3>
+<ul>
+<li>add accelbyte telemetry event layer</li>
+<li>add analytics api and wrapper</li>
+<li>create new analytic event base</li>
+<li>implement user login event</li>
+<li>move and modify predefined event controller</li>
+<li>refactor client after adding analytics wrapper and api</li>
+<li>refactor game state event</li>
+<li>refactor server after adding analytics wrapper and api</li>
+<li>rename predefine event controller into predefine event scheduler</li>
+</ul>
+<h3 id="1665-2023-09-07">[16.6.5] (2023-09-07)</h3>
+<h3 id="features-35">Features</h3>
+<ul>
+<li>add client analytics interval config</li>
+</ul>
+<h3 id="bug-fixes-37">Bug Fixes</h3>
+<ul>
+<li>reset sdk static object on game start</li>
+</ul>
+<h3 id="1664-2023-09-06">[16.6.4] (2023-09-06)</h3>
+<h3 id="features-36">Features</h3>
+<ul>
+<li>add customizable event namespace to client analytics</li>
+</ul>
+<h3 id="bug-fixes-38">Bug Fixes</h3>
+<ul>
+<li>change Nunit import into UnityEngine</li>
+</ul>
+<h3 id="1663-2023-09-06">[16.6.3] (2023-09-06)</h3>
+<h3 id="bug-fixes-39">Bug Fixes</h3>
+<ul>
+<li>fix windows package and linux editor unable to find steam oAuth config</li>
+</ul>
+<h3 id="1662-2023-09-04">[16.6.2] (2023-09-04)</h3>
+<h3 id="bug-fixes-40">Bug Fixes</h3>
+<ul>
+<li>fix error on analytics dispose failure on unity close</li>
+</ul>
+<h3 id="1661-2023-09-04">[16.6.1] (2023-09-04)</h3>
+<h3 id="features-37">Features</h3>
+<ul>
+<li>add analytic config editor</li>
+<li>add client telemetry feature</li>
+<li>add GetTokenWithClientCredentials oauth api</li>
+<li>analytics core</li>
+<li>change client and server environment pointing into a same target</li>
+</ul>
+<h3 id="refactors-26">Refactors</h3>
+<ul>
+<li>refactor for testability</li>
+</ul>
+<h2 id="1660-2023-08-28">[16.6.0] (2023-08-28)</h2>
+<h3 id="features-38">Features</h3>
+<ul>
+<li><strong>MPv2:</strong> add data model for create match ticket error</li>
+<li><strong>UGC:</strong> add a new sort by value and devide liked content endpoint</li>
+</ul>
+<h3 id="bug-fixes-41">Bug Fixes</h3>
+<ul>
+<li>add error callback when the auth token is empty</li>
+<li>itemIds param on BulkGetLocaleItems was modified to be a string joined separated with comma when used as a query param in an HTTP call.</li>
+</ul>
+<h3 id="refactors-27">Refactors</h3>
+<ul>
+<li>add playstation 4 main</li>
+<li>add playstation 5 main</li>
+<li>add steam wrapper abstraction</li>
+<li>add xbox game core main</li>
+<li>refactor platform infoware</li>
+</ul>
+<h2 id="1650-2023-08-14">[16.5.0] (2023-08-14)</h2>
+<h3 id="features-39">Features</h3>
+<ul>
+<li>[JSC-1519] add client timestamp as datamember</li>
+<li><strong>lobby:</strong> implement lobby API outgoing and incoming friend request with timestamp</li>
+<li><strong>MPv1:</strong> add region in MatchmakingNotif data model</li>
+<li><strong>sessionV2:</strong> add API for joining game session and party by code</li>
+</ul>
+<h3 id="bug-fixes-42">Bug Fixes</h3>
+<ul>
+<li>[none] set presence broadcast enabled after plugin is running</li>
+<li>itemIds param on BulkGetLocaleItems was modified to be a string joined separated with comma when used as a query param in an HTTP call.</li>
+</ul>
+<h3 id="1641-2023-08-03">[16.4.1] (2023-08-03)</h3>
+<h3 id="bug-fixes-43">Bug Fixes</h3>
+<ul>
+<li>itemIds param on BulkGetLocaleItems was modified to be a string joined separated with comma when used as a query param in an HTTP call.</li>
+</ul>
+<h2 id="1640-2023-07-31">[16.4.0] (2023-07-31)</h2>
+<h3 id="features-40">Features</h3>
+<ul>
+<li>Expose Oculus IAP Sync Endpoint</li>
+<li><strong>MPv2:</strong> add api to query active matchmaking ticket</li>
+<li><strong>sessionV2:</strong> add API for joining game session and party by code</li>
+</ul>
+<h3 id="bug-fixes-44">Bug Fixes</h3>
+<ul>
+<li>add missing field on user models</li>
+<li>adjust typo in IAPOrderStatus enum</li>
+<li>complete user service url error information</li>
+<li><strong>UGC:</strong> Expose the target user id so player didn't folloow themselves</li>
+</ul>
+<h3 id="1631-2023-07-25">[16.3.1] (2023-07-25)</h3>
+<h3 id="bug-fixes-45">Bug Fixes</h3>
+<ul>
+<li>use connect async to avoid blocking game thread</li>
+</ul>
+<h2 id="1630-2023-07-17">[16.3.0] (2023-07-17)</h2>
+<h3 id="features-41">Features</h3>
+<ul>
+<li>exposed sync consumable entitlement</li>
+<li>exposing missing psn sync entitlement multiple service</li>
+</ul>
+<h3 id="bug-fixes-46">Bug Fixes</h3>
+<ul>
+<li>adjust typo in IAPOrderStatus enum</li>
+</ul>
+<h3 id="refactors-28">Refactors</h3>
+<ul>
+<li>set AccelByteSDKMain to public</li>
+</ul>
+<h3 id="1621-2023-07-17">[16.2.1] (2023-07-17)</h3>
+<h3 id="refactors-29">Refactors</h3>
+<ul>
+<li>set AccelByteSDKMain to public</li>
+</ul>
+<h2 id="1620-2023-07-03">[16.2.0] (2023-07-03)</h2>
+<h3 id="features-42">Features</h3>
+<ul>
+<li>[JSC-1199] add presence broadcast event UI and mechanism</li>
+<li>added missing metafile for gdpr api</li>
+<li><strong>chat:</strong> add group chat moderator api</li>
+<li>Provide methods for end users to request account deletion for own headless accounts in game</li>
+</ul>
+<h3 id="bug-fixes-47">Bug Fixes</h3>
+<ul>
+<li>[JSC-1278] remove unwanted warning while adding unity sdk through git</li>
+</ul>
+<h2 id="1610-2023-06-19">[16.1.0] (2023-06-19)</h2>
+<h3 id="features-43">Features</h3>
+<ul>
+<li>[JSC-1125] Get device Id for Xbox</li>
+<li>add new config member for P2P and assign reasonable default value</li>
+<li>custom game thread signaller support</li>
+<li>leaderboard v3 endpoints</li>
+<li>new statistic endpoint</li>
+</ul>
+<h3 id="refactors-30">Refactors</h3>
+<ul>
+<li><strong>AMS:</strong> change ServerWatchdog to ServerAMS</li>
+</ul>
+<h3 id="documentations-3">Documentations</h3>
+<ul>
+<li>redirect readme to doc portal</li>
+</ul>
+<h2 id="1600-2023-06-05">[16.0.0] (2023-06-05)</h2>
+<h3 id="-breaking-changes-1">⚠ BREAKING CHANGES</h3>
+<ul>
+<li>changed Attribute field in session models from Dictionary&lt;string, string&gt; to Dictionary&lt;string, object&gt;</li>
+</ul>
+<h3 id="bug-fixes-48">Bug Fixes</h3>
+<ul>
+<li>preserve user API</li>
+<li><strong>UGC:</strong> change the content update boolean to false by default</li>
+</ul>
+<h3 id="refactors-31">Refactors</h3>
+<ul>
+<li>cache generated device id</li>
+<li>change attribute data type from Dictionary&lt;string, string&gt; to Dictionary&lt;string, object&gt;</li>
+</ul>
+<h3 id="15192-2023-05-26">[15.19.2] (2023-05-26)</h3>
+<h3 id="features-44">Features</h3>
+<ul>
+<li><strong>DS:</strong> add DSM heartbeat API</li>
+</ul>
+<h3 id="15191-2023-05-24">[15.19.1] (2023-05-24)</h3>
+<h3 id="bug-fixes-49">Bug Fixes</h3>
+<ul>
+<li>preserve SDK models and API</li>
+</ul>
+<h2 id="15190-2023-05-22">[15.19.0] (2023-05-22)</h2>
+<h3 id="features-45">Features</h3>
+<ul>
+<li>Supporting Expiry Dates for Item Types</li>
+</ul>
+<h3 id="bug-fixes-50">Bug Fixes</h3>
+<ul>
+<li>[ASP-4655] add null IHttpResponse condition</li>
+</ul>
+<h3 id="15182-2023-05-17">[15.18.2] (2023-05-17)</h3>
+<h3 id="bug-fixes-51">Bug Fixes</h3>
+<ul>
+<li>add unityWebRequest dispose for better cleanup</li>
+<li>exclude webgl in set platform login cache</li>
+</ul>
+<h3 id="15181-2023-05-12">[15.18.1] (2023-05-12)</h3>
+<h3 id="bug-fixes-52">Bug Fixes</h3>
+<ul>
+<li>fix webgl websocket missing implementation</li>
+</ul>
+<h2 id="15180-2023-05-08">[15.18.0] (2023-05-08)</h2>
+<h3 id="features-46">Features</h3>
+<ul>
+<li>add custom attribute property</li>
+<li>add statistic cycle endpoint along with the models</li>
+<li>Section ID needs to be passed and stored when create order for items that are ‘Section Exclusive’.</li>
+</ul>
+<h3 id="bug-fixes-53">Bug Fixes</h3>
+<ul>
+<li>add config null check on setting editor</li>
+<li>add multiple constructor in user and oauth api, set all api to public</li>
+<li>fix config setting unable to redirect to default config</li>
+<li>fix multiregistry issue</li>
+<li>remove url config warning when the value is empty</li>
+</ul>
+<h3 id="refactors-32">Refactors</h3>
+<ul>
+<li>add request task only at game main thread</li>
+<li>remove xbox 360 from config</li>
+</ul>
+<h2 id="15170-2023-04-26">[15.17.0] (2023-04-26)</h2>
+<h3 id="features-47">Features</h3>
+<ul>
+<li>Add itemName and currencyCode to response of RedeemCampaignCode API</li>
+<li>add send verification to email</li>
+<li><strong>cloudsave:</strong> add get bulk user record keys and records</li>
+<li>ecommerce enable item sellback store</li>
+<li><strong>mmv2:</strong> implement get metrics and add queueTime field in create ticket response</li>
+<li>server api cloudsave get gamerecord</li>
+<li><strong>UGC:</strong> new get channels, fix sort by and order by</li>
+</ul>
+<h3 id="refactors-33">Refactors</h3>
+<ul>
+<li>add webrequest scheduler</li>
+<li>change logger abstraction</li>
+<li>refactor user and oauth api structure</li>
+<li>remove sdk warnings</li>
+<li>revert back user api function names, remove coroutine usage within user interface</li>
+<li>user api using c# async await</li>
+</ul>
+<h3 id="15162-2023-04-19">[15.16.2] (2023-04-19)</h3>
+<h3 id="bug-fixes-54">Bug Fixes</h3>
+<ul>
+<li>[ASP-4200] Android null device id</li>
+<li>add static marshal linking in linux sigterm listener</li>
+<li>fix config setting unable to redirect to default config</li>
+</ul>
+<h3 id="refactors-34">Refactors</h3>
+<ul>
+<li>add API http client getter</li>
+<li>remove client secret as requirement</li>
+</ul>
+<h3 id="15161-2023-04-18">[15.16.1] (2023-04-18)</h3>
+<h3 id="features-48">Features</h3>
+<ul>
+<li>server api cloudsave get gamerecord</li>
+</ul>
+<h3 id="bug-fixes-55">Bug Fixes</h3>
+<ul>
+<li>sigterm library exposed to all platforms</li>
+</ul>
+<h2 id="15160-2023-04-10">[15.16.0] (2023-04-10)</h2>
+<h3 id="features-49">Features</h3>
+<ul>
+<li><strong>lobby:</strong> ErrorNotif with associated Request will trigger Respond instead</li>
+<li>platform relogin</li>
+</ul>
+<h3 id="bug-fixes-56">Bug Fixes</h3>
+<ul>
+<li>[JSC-1125] fix missing device ID on PSN</li>
+<li>fix base url sanitize when url is null</li>
+<li>fix linux server error</li>
+<li><strong>turnManager:</strong> change UdpClient instantiation so it doesn't bind to a port</li>
+<li>upload crypto medatada</li>
+</ul>
+<h3 id="refactors-35">Refactors</h3>
+<ul>
+<li>add file cache implementation</li>
+</ul>
+<h2 id="15150-2023-03-27">[15.15.0] (2023-03-27)</h2>
+<h3 id="features-50">Features</h3>
+<ul>
+<li>added sigterm listener to linux server</li>
+<li>admin get bulk user by user id</li>
+<li><strong>chat:</strong> add notif handler and api (query, update, delete, stats) for system messages</li>
+<li>create connection to Watchdog in SDK Linux Server main</li>
+<li>expose Account Linking and Proggresion</li>
+<li>mark deprecated since will give security hole issue for other player/user use GetUserProfilePublicInfo instead. function now just only have error message</li>
+</ul>
+<h3 id="refactors-36">Refactors</h3>
+<ul>
+<li>add log when SDK start</li>
+</ul>
+<h2 id="15140-2023-03-13">[15.14.0] (2023-03-13)</h2>
+<h3 id="features-51">Features</h3>
+<ul>
+<li><strong>DS:</strong> add watchdog api</li>
+</ul>
+<h3 id="documentations-4">Documentations</h3>
+<ul>
+<li>remove documentation of directly creating config files</li>
+</ul>
+<h3 id="refactors-37">Refactors</h3>
+<ul>
+<li>add http send request with async method</li>
+<li>change heartbeat with async</li>
+<li>change websocket maintainer with async method</li>
+<li>create async method of heartbeat, websocket, http request</li>
+<li>seperate device identifier and device unique id</li>
+<li>set config editor default environment to default</li>
+</ul>
+<h2 id="15130-2023-02-28">[15.13.0] (2023-02-28)</h2>
+<h3 id="features-52">Features</h3>
+<ul>
+<li>adding global achievements endpoints</li>
+</ul>
+<h3 id="bug-fixes-57">Bug Fixes</h3>
+<ul>
+<li>fix unsupported code in lower version csharp</li>
+</ul>
+<h3 id="refactors-38">Refactors</h3>
+<ul>
+<li>set app id as non mandatory config field</li>
+</ul>
+<h2 id="15120-2023-02-13">[15.12.0] (2023-02-13)</h2>
+<h3 id="features-53">Features</h3>
+<ul>
+<li>[JSC-1032] add compatibility matrix check</li>
+<li>add ugc custom attributes</li>
+<li>cache config</li>
+<li>get game token by publisher token</li>
+<li>http cache</li>
+<li>http cache</li>
+<li><strong>lobby:</strong> add reject match</li>
+<li>LRU Memory implementation</li>
+<li>new v2 group api</li>
+<li>new v2 group api</li>
+<li>Remove some Stadia enumeration variable, because Google is shutting down Stadia.</li>
+<li><strong>turnmanager:</strong> add api to get turn server credential</li>
+<li>user ban error response</li>
+<li>user ban error response</li>
+</ul>
+<h3 id="bug-fixes-58">Bug Fixes</h3>
+<ul>
+<li>change default current_player and current_internal_player to 0</li>
+<li>fix unsupported code in lower version csharp</li>
+<li>generate sdk version metadata file</li>
+<li>revert default config directory to resource root</li>
+<li>set server flag on save OAuth file</li>
+</ul>
+<h3 id="refactors-39">Refactors</h3>
+<ul>
+<li>add changeable http sender</li>
+</ul>
+<h3 id="15112-2023-02-01">[15.11.2] (2023-02-01)</h3>
+<h3 id="bug-fixes-59">Bug Fixes</h3>
+<ul>
+<li>missing NUnit package causes compile error</li>
+</ul>
+<h3 id="15111-2023-01-31">[15.11.1] (2023-01-31)</h3>
+<h3 id="bug-fixes-60">Bug Fixes</h3>
+<ul>
+<li><strong>chat:</strong> change class initialization to support c[#8] and below</li>
+<li>define AccelByteNetUtilities explicitly public</li>
+</ul>
+<h2 id="15110-2023-01-30">[15.11.0] (2023-01-30)</h2>
+<h3 id="features-54">Features</h3>
+<ul>
+<li><strong>chat:</strong> add chat apis</li>
+<li><strong>turnmanager:</strong> add api to get turn server credential</li>
+</ul>
+<h3 id="bug-fixes-61">Bug Fixes</h3>
+<ul>
+<li>set server flag on save OAuth file</li>
+</ul>
+<h3 id="1591-2023-01-18">[15.9.1] (2023-01-18)</h3>
+<h3 id="features-55">Features</h3>
+<ul>
+<li>add required text on config input field</li>
+<li>implement new endpoint bulk get user and game records</li>
+</ul>
+<h3 id="bug-fixes-62">Bug Fixes</h3>
+<ul>
+<li>add missing param title to reporting api</li>
+<li>add safe guard and refactor with debugable code of http error parser</li>
+<li>fix websocket not running coroutine in their events</li>
+<li>missing Unity meta files</li>
+<li>unsupported C# implementation in Unity 2019</li>
+</ul>
+<h3 id="refactors-40">Refactors</h3>
+<ul>
+<li>refactor accelbyte setting into non singleton structure</li>
+<li>repositioned config editor order and add foldout category</li>
+</ul>
+<h3 id="15101-2023-01-18">[15.10.1] (2023-01-18)</h3>
+<h3 id="bug-fixes-63">Bug Fixes</h3>
+<ul>
+<li>missing Unity meta files</li>
+<li>unsupported C# implementation in Unity 2019</li>
+</ul>
+<h2 id="15100-2023-01-16">[15.10.0] (2023-01-16)</h2>
+<h3 id="features-56">Features</h3>
+<ul>
+<li>[JSC-916] add device ID generator</li>
+<li>ability to set logger</li>
+<li>get global statistic item by stat code</li>
+</ul>
+<h3 id="bug-fixes-64">Bug Fixes</h3>
+<ul>
+<li>[JSC-1020] replace websocket-sharp.dll properly</li>
+</ul>
+<h3 id="refactors-41">Refactors</h3>
+<ul>
+<li>rename websockket-sharp to accelbyte.websocket.sharp</li>
+</ul>
+<h2 id="1590-2023-01-03">[15.9.0] (2023-01-03)</h2>
+<h3 id="features-57">Features</h3>
+<ul>
+<li>Displays &amp; sections (Rotating Shop Items)</li>
+<li><strong>lobby:</strong> Add away availability in lobby presence</li>
+<li>new get achievement public tag endpoint</li>
+<li>renamed api class for rotating item feature</li>
+<li><strong>Session:</strong> add ENDED and UNKNOWN DS status</li>
+</ul>
+<h3 id="bug-fixes-65">Bug Fixes</h3>
+<ul>
+<li>GetItemsByCriteria parse Error</li>
+</ul>
+<h3 id="1581-2022-12-23">[15.8.1] (2022-12-23)</h3>
+<h3 id="bug-fixes-66">Bug Fixes</h3>
+<ul>
+<li>unsupported implicit instantiation when using .NET Framework</li>
+</ul>
+<h2 id="1580-2022-12-19">[15.8.0] (2022-12-19)</h2>
+<h3 id="features-58">Features</h3>
+<ul>
+<li>Account linking with one-time code</li>
+<li>add Snapchat &amp; Discord to PlatformType Model</li>
+<li><strong>doxygen:</strong> add check envar before generate docs</li>
+<li><strong>doxygen:</strong> generate doxygen document when compilation triggerred</li>
+</ul>
+<h3 id="bug-fixes-67">Bug Fixes</h3>
+<ul>
+<li>fix sdk setting editor error and add scrollbar</li>
+<li>GetItemsByCriteria parse Error</li>
+<li>handle lobby received ban and unban</li>
+<li>set dummy coroutine dont destroy called by gameobject</li>
+</ul>
+<h2 id="1570-2022-12-05">[15.7.0] (2022-12-05)</h2>
+<h3 id="features-59">Features</h3>
+<ul>
+<li>add .editorconfig</li>
+<li>add heartbeat service</li>
+<li>Exposing Get Item By Criteria in DS</li>
+<li>PSN sync endpoint to be able to receive multiple service labels</li>
+<li>sanitize base url on load</li>
+<li>tag query builder class for endpoint with search function with tags.</li>
+</ul>
+<h3 id="bug-fixes-68">Bug Fixes</h3>
+<ul>
+<li>disable HeartBeat in DS</li>
+<li>http request namespace defined from parameter</li>
+<li>misleading readme.md</li>
+</ul>
+<h3 id="refactors-42">Refactors</h3>
+<ul>
+<li>set oAuth return the result</li>
+</ul>
+<h2 id="1560-2022-11-21">[15.6.0] (2022-11-21)</h2>
+<h3 id="features-60">Features</h3>
+<ul>
+<li>add new item type ecommerce lootbox</li>
+<li><strong>DSM:</strong> add public getter for server name</li>
+<li>expose get store list for ds</li>
+<li><strong>misc:</strong> add get back calculated server time</li>
+<li><strong>refresh token:</strong> change refresh token playerprefs save method with binary file save</li>
+<li><strong>serverApiClient:</strong> cache instantiated wrapper</li>
+<li><strong>session:</strong> add Disconnected and terminated member status enum</li>
+</ul>
+<h3 id="bug-fixes-69">Bug Fixes</h3>
+<ul>
+<li>add empty DsHubNotificationTopic enum</li>
+<li>cache server name when register local server</li>
+<li>fix bearer unathorized loop stuck</li>
+<li>update access token failed authentication flow</li>
+<li>Update SessionV2DsInformation and SessionV2MemberStatus</li>
+</ul>
+<h3 id="tests-1">Tests</h3>
+<ul>
+<li>add severity, time, and stacktraces to logger</li>
+</ul>
+<h2 id="1550-2022-11-07">[15.5.0] (2022-11-07)</h2>
+<h3 id="features-61">Features</h3>
+<ul>
+<li>fixed subscription test that always fail</li>
+<li>OPTIONBOX on EAccelByteEntitlementClass</li>
+<li>username field in the BaseUserInfo function</li>
+</ul>
+<h2 id="1540-2022-10-24">[15.4.0] (2022-10-24)</h2>
+<h3 id="features-62">Features</h3>
+<ul>
+<li>Bulk get user season progression API</li>
+<li>deprecated endpoint /iam/oauth/token, added new end point /iam/v3/oauth/verify</li>
+<li>deprecated endpoint /iam/oauth/token, added new end point /iam/v3/oauth/verify</li>
+<li>Expose update channel public endpoint</li>
+<li>IAM Phase 3 Statement &amp; Substitute Implementation</li>
+<li>IAM Phase 4 Statement &amp; Substitute Implementation</li>
+<li>UnitTest/Sample Code SyncSteamDLC</li>
+</ul>
+<h3 id="bug-fixes-70">Bug Fixes</h3>
+<ul>
+<li>adopt the changes from lobby session refactoring</li>
+<li>client sdk config type misplaced</li>
+<li>comment out matchmaking code to avoid build test crashes</li>
+<li>comment out protobuf messaage notification handling</li>
+<li>fix wrong purchase condition model in item api BREAKING CHANGES: updated item info model</li>
+<li><strong>lobby:</strong> fix presence message still uri escaped on FriendsStatusChanged and ListOnlineFriends</li>
+<li>missing dependency after rebase</li>
+<li>missing request model for promote member to party leader</li>
+<li>mistaken refactor of session model and server config</li>
+<li>rename typo, confusing namespace, remove UpdateGameSession</li>
+<li>session info replace session member and ds status changed notif</li>
+<li>SessionV2DsInformation can has null requestedAt</li>
+<li>typo in Lobby.cs of session v2 notification</li>
+<li>typo in ServerMatchmakingApi.cs</li>
+</ul>
+<h3 id="tests-2">Tests</h3>
+<ul>
+<li>Refactor and improved party test coverage and quality</li>
+</ul>
+<h3 id="refactors-43">Refactors</h3>
+<ul>
+<li>handle session notifications as json instead of protobuf</li>
+<li><strong>lobby:</strong> move websocket api call into a new class</li>
+<li>MMv2 RejectBackfillProposal use backfill proposal notification directly</li>
+<li>remove protobuf library and generated class</li>
+</ul>
+<h2 id="1530-2022-10-10">[15.3.0] (2022-10-10)</h2>
+<h3 id="features-63">Features</h3>
+<ul>
+<li>Bruteforce protection upon game login</li>
+<li>adjustment for improve entitlement track log</li>
+<li>banning by device id (PSN, XBOX)</li>
+<li>expose Get and Update PrivateCustomAttributes</li>
+<li><strong>HTTP:</strong> adding SDK version to the resource and add HTTP headers metadata [sdk version, game client version, namespace]</li>
+<li><strong>lobby:</strong> add send party notif</li>
+<li><strong>lobby:</strong> support for role based matchmaking</li>
+<li><strong>lobby:</strong> support rejected status on role based matchmaking</li>
+<li>Temporarily cache telemetry data into the local disk storage</li>
+</ul>
+<h3 id="bug-fixes-71">Bug Fixes</h3>
+<ul>
+<li><strong>lobby:</strong> fix presence message still uri escaped on FriendsStatusChanged and ListOnlineFriends</li>
+<li>support get wallet info old workflow</li>
+</ul>
+<h2 id="1520-2022-09-27">[15.2.0] (2022-09-27)</h2>
+<h3 id="features-64">Features</h3>
+<ul>
+<li>AccelByteUnitySdk Plug-in's GetWalletInfoByCurrencyCode returns a partial response</li>
+<li>Improve Store Category search results to display all items from its sub-categories</li>
+<li>providing mac address &amp; platform name methods to fulfill client requirement</li>
+<li>support old walletapi  walkflow and multiple platform</li>
+</ul>
+<h3 id="bug-fixes-72">Bug Fixes</h3>
+<ul>
+<li>Fixed missing Dispose call when creating and assigning UnityWebRequest</li>
+<li>Fixed missing Dispose call when creating and assigning UnityWebRequest on the possible issue</li>
+<li>player is unable to logout</li>
+<li>Set OnDispose = true on uploadHandler and downloadHandler</li>
+<li>support get wallet info old workflow</li>
+</ul>
+<h2 id="1510-2022-09-12">[15.1.0] (2022-09-12)</h2>
+<h3 id="features-65">Features</h3>
+<ul>
+<li>ApiClient API Getter to ease the transition from singleton</li>
+<li>change access modifier from internal to public</li>
+<li>IAM Phase 4 Statement &amp; Substitute Implementation</li>
+<li>SDK Implementation for UGC service Test</li>
+</ul>
+<h3 id="bug-fixes-73">Bug Fixes</h3>
+<ul>
+<li>compile error on Unity 2019</li>
+<li>use proper LoginWithUsernameV3 in User.cs</li>
+</ul>
+<h2 id="1500-2022-08-29">[15.0.0] (2022-08-29)</h2>
+<h3 id="-breaking-changes-2">⚠ BREAKING CHANGES</h3>
+<ul>
+<li>there is a rename LoginSession -&gt; UserSession</li>
+</ul>
+<h3 id="features-66">Features</h3>
+<ul>
+<li>adjust function and simplify logic</li>
+<li>deprecated endpoint /iam/oauth/token, added new end point /iam/v3/oauth/verify</li>
+<li>fix merging conflict</li>
+<li>IAM Phase 3 Statement &amp; Substitute Implementation</li>
+<li><strong>qos:</strong> add GetAllServerLatencies function</li>
+<li>SDK Implementation for UGC service - get follower count &amp; update Follow status</li>
+<li>SDK Implementation for UGC service - Get list content</li>
+<li>SDK Implementation for UGC service - like a content</li>
+<li>SDK Implementation for UGC service - Query by Tags</li>
+</ul>
+<h3 id="bug-fixes-74">Bug Fixes</h3>
+<ul>
+<li>Cannot remember &quot;device_token&quot; if comes from request header. rename header device_token to device-token</li>
+<li>use proper LoginWithUsernameV3 in User.cs</li>
+</ul>
+<h3 id="feature">feature</h3>
+<ul>
+<li>refactor LoginSession</li>
+</ul>
+<h3 id="refactors-44">Refactors</h3>
+<ul>
+<li><strong>lobby:</strong> move websocket api call into a new class</li>
+</ul>
+<h2 id="1420-2022-08-15">[14.2.0] (2022-08-15)</h2>
+<h3 id="features-67">Features</h3>
+<ul>
+<li>expose store Id and list public store</li>
+<li>exposing v2 statistics endpoint</li>
+<li>searching entitlement by feature</li>
+<li><strong>sessionbrowser:</strong> add get game sessions by user ids</li>
+</ul>
+<h2 id="1410-2022-08-01">[14.1.0] (2022-08-01)</h2>
+<h3 id="features-68">Features</h3>
+<ul>
+<li><strong>basic:</strong> added category param in generate upload url for user content</li>
+<li><strong>iam:</strong> EA Origin Authentication Integration</li>
+<li>Lobby function signature change to follow the rest of WrapperBase class</li>
+<li>Purchasing Requirements</li>
+<li>unity new item type optionbox</li>
+</ul>
+<h3 id="bug-fixes-75">Bug Fixes</h3>
+<ul>
+<li><strong>apiclient:</strong> older version of Unity doesn't support  TryAdd function</li>
+</ul>
+<h2 id="1310-2022-06-20">[13.1.0] (2022-06-20)</h2>
+<h3 id="features-69">Features</h3>
+<ul>
+<li><strong>iam:</strong> Support netflix platform ID for login through Unity SDK</li>
+<li><strong>lobby:</strong> implement add friend by public id</li>
+<li><strong>lobby:</strong> implement set party size limit</li>
+<li><strong>seasonpass:</strong> Granted Season Pass EXP Tracking</li>
+<li><strong>seasonpass:</strong> make new params (source &amp; tags) as optional.</li>
+</ul>
+<h2 id="1300-2022-06-06">[13.0.0] (2022-06-06)</h2>
+<h3 id="-breaking-changes-3">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>basic:</strong> no email field in UserProfile server response</li>
+</ul>
+<h3 id="features-70">Features</h3>
+<ul>
+<li><strong>basic:</strong> Implement Public Code/Friend Code in SDK</li>
+<li><strong>iam:</strong>  Include platformUserIds field when bulk gets users' basic info</li>
+<li><strong>iam:</strong> account linking handling</li>
+<li><strong>iam:</strong> Adjusting Search User to the updated Public Search User V3 API, Adding Params Limit and Offset</li>
+</ul>
+<h3 id="bug-fixes-76">Bug Fixes</h3>
+<ul>
+<li><strong>test:</strong> add delay after create game mode for lobby to refresh game mode cache from matchmaking</li>
+</ul>
+<h3 id="tests-3">Tests</h3>
+<ul>
+<li><strong>matchmaking:</strong> fix cancel matchmaking using wrong value for game mode parameter</li>
+</ul>
+<h3 id="1201-2022-05-23">[12.0.1] (2022-05-23)</h3>
+<h3 id="-breaking-changes-4">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>config:</strong> this changes delete ClientId and ClientSecret variable from Config model and move it to a new model</li>
+</ul>
+<h3 id="features-71">Features</h3>
+<ul>
+<li><strong>AccelbytePlugin:</strong> change the platform list from RuntimePlatform to PlatformType</li>
+<li><strong>config:</strong> separate oauth config from config</li>
+</ul>
+<h2 id="1200-2022-05-23">[12.0.0] (2022-05-23)</h2>
+<h3 id="-breaking-changes-5">⚠ BREAKING CHANGES</h3>
+<ul>
+<li>Band User End Point Call is moved to ServerUserAccountApi</li>
+<li><strong>iam:</strong> Band User End Point Call is moved to ServerUserAccountApi</li>
+<li><strong>multiReg:</strong> This refactors a great number of signatures.</li>
+</ul>
+<h3 id="features-72">Features</h3>
+<ul>
+<li><p><strong>iam:</strong> Expose the Admin Ban User endpoint</p>
+</li>
+<li><p><strong>iam:</strong> Expose the Admin Ban User endpoint</p>
+</li>
+<li><p><strong>multiReg:</strong> Implement multiReg (multiPlugins)</p>
+</li>
+<li><p><strong>Plugins:</strong> add multiple environment credential switch</p>
+</li>
+<li><p>Merge branch 'feature/OS-6354-Expose-Admin-Ban-User-endpoint' of bitbucket.org:accelbyte/justice-unity-sdk into feature/OS-6354-Expose-Admin-Ban-User-endpoint</p>
+</li>
+</ul>
+<h2 id="1100-2022-05-09">[11.0.0] (2022-05-09)</h2>
+<h3 id="-breaking-changes-6">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>ecommerce:</strong> To get total  balance could not be retrieved from credit wallet response (call via admin end point call) anymore because it’s be a current wallet balance. User should call again get use wallet balance public interface to get total balance.</li>
+<li>some unused argument are removed</li>
+<li>some unused argument are removed</li>
+</ul>
+<h3 id="features-73">Features</h3>
+<ul>
+<li><strong>ecommerce:</strong> Update Unit Test Code for New Behavior Cross Platform Wallet</li>
+<li><strong>jsonconverter:</strong> add json serializer settings for enum string, array object and dictionary</li>
+<li><strong>lobby:</strong> add custom attribute in register server &amp; DSNotif</li>
+<li><strong>lobby:</strong> add reconnect on connection close code 4000</li>
+</ul>
+<h3 id="bug-fixes-77">Bug Fixes</h3>
+<ul>
+<li><p>clean up UTF8 Json resolver remnants</p>
+</li>
+<li><p><strong>converter:</strong> add attribute decoration to be able to convert enums into the string values</p>
+</li>
+<li><p><strong>editor:</strong> Fix save settings to the config file</p>
+</li>
+<li><p><strong>lobby:</strong> fixed empty session when reconnecting</p>
+</li>
+<li><p>Due to limited permission of Game Record needs to be adjust some unit tests to make it passes.</p>
+</li>
+<li><p>Due to limited permission of Game Record needs to be adjust some unit tests to make it passes.</p>
+</li>
+</ul>
+<h3 id="tests-4">Tests</h3>
+<ul>
+<li><strong>Agreement:</strong> Make sure test setup fetch correct base policies that have expected contry code</li>
+</ul>
+<h2 id="1000-2022-04-25">[10.0.0] (2022-04-25)</h2>
+<h3 id="-breaking-changes-7">⚠ BREAKING CHANGES</h3>
+<ul>
+<li>renamed enum for arg couldsave method, reorder cloudsave method arg used to call cloudsave end point</li>
+</ul>
+<h3 id="features-74">Features</h3>
+<ul>
+<li>metadata change field name</li>
+</ul>
+<h3 id="bug-fixes-78">Bug Fixes</h3>
+<ul>
+<li>Fixed missing Dispose call when using UnityWebRequest</li>
+</ul>
+<h3 id="tests-5">Tests</h3>
+<ul>
+<li><p>change hardcoded namespace to using namespace from config</p>
+</li>
+<li><p><strong>subscription:</strong> add stage env public key</p>
+</li>
+<li><p>Merge branch 'master' into feature/OS-6138-Change-Metadata-RecordRequest-Field</p>
+</li>
+</ul>
+<h2 id="920-2022-04-11">[9.2.0] (2022-04-11)</h2>
+<h3 id="features-75">Features</h3>
+<ul>
+<li><strong>2FA:</strong> Handle in-game login when 2FA enabled</li>
+<li><strong>2FA:</strong> Implement IAM Input validation to our SDK</li>
+<li>Bring back old login flow with old callback delegate.</li>
+<li>cookie in 2FA in game login</li>
+<li><strong>lobby:</strong> combine signaling message and notif model</li>
+</ul>
+<h2 id="910-2022-03-28">[9.1.0] (2022-03-28)</h2>
+<h3 id="features-76">Features</h3>
+<ul>
+<li><strong>cloudsave:</strong> support server validation by using additional META field</li>
+<li><strong>lobby:</strong> add send signaling message and notification handler</li>
+<li>unity google IAP</li>
+</ul>
+<h2 id="900-2022-03-14">[9.0.0] (2022-03-14)</h2>
+<h3 id="-breaking-changes-8">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>user:</strong> VerificationContext.UpgradeHeadlessAccount to VerificationContext.upgradeHeadlessAccount</li>
+</ul>
+<h3 id="features-77">Features</h3>
+<ul>
+<li><strong>user:</strong> upgrade and verify headless account</li>
+</ul>
+<h3 id="tests-6">Tests</h3>
+<ul>
+<li><strong>matchmaking:</strong> refactor matchmaking test to create game mode in setup step.</li>
+</ul>
+<h2 id="870-2022-03-01">[8.7.0] (2022-03-01)</h2>
+<h3 id="features-78">Features</h3>
+<ul>
+<li><strong>entitlement:</strong> Sync item entitlement with Twitch Drop item</li>
+</ul>
+<h3 id="tests-7">Tests</h3>
+<ul>
+<li><strong>test:</strong> make test stable in dev IaC env</li>
+</ul>
+<h3 id="refactors-45">Refactors</h3>
+<ul>
+<li><strong>lobby:</strong> Separate websocket management logic from lobby class.</li>
+</ul>
+<h2 id="860-2022-02-14">[8.6.0] (2022-02-14)</h2>
+<h3 id="features-79">Features</h3>
+<ul>
+<li><strong>entitlement:</strong> bringback sync DLC item</li>
+<li><strong>user:</strong> Login with password grant V3</li>
+</ul>
+<h2 id="850-2022-01-31">[8.5.0] (2022-01-31)</h2>
+<h3 id="features-80">Features</h3>
+<ul>
+<li><strong>lobby:</strong> add more fields in MatchmakingNotif</li>
+<li><strong>lobby:</strong> add userID in lobby invite &amp; kick response</li>
+</ul>
+<h3 id="841-2022-01-17">[8.4.1] (2022-01-17)</h3>
+<h3 id="bug-fixes-79">Bug Fixes</h3>
+<ul>
+<li><strong>session:</strong> fix session doesn't maintain access token after relogging</li>
+<li><strong>utf8json:</strong> update Utf8JsonGenerated</li>
+</ul>
+<h3 id="tests-8">Tests</h3>
+<ul>
+<li><strong>lobby:</strong> add proper cleanup for RefreshToken test.</li>
+<li><strong>lobby:</strong> fix wrong error codes in unit test check</li>
+</ul>
+<h2 id="840-2022-01-04">[8.4.0] (2022-01-04)</h2>
+<h3 id="features-81">Features</h3>
+<ul>
+<li><strong>lobby:</strong> add startmatchmaking with optional struct as parameter.</li>
+</ul>
+<h3 id="tests-9">Tests</h3>
+<ul>
+<li><strong>matchmaking:</strong> add timeout duration for rematchmaking_ReturnOk case.</li>
+</ul>
+<h2 id="830-2021-12-20">[8.3.0] (2021-12-20)</h2>
+<h3 id="features-82">Features</h3>
+<ul>
+<li><strong>ServerUser:</strong> API to provide DS searchUserOtherPlatform</li>
+<li><strong>SyncGoogleandApple:</strong> sync purchased item from mobile platform</li>
+</ul>
+<h2 id="820-2021-12-06">[8.2.0] (2021-12-06)</h2>
+<h3 id="features-83">Features</h3>
+<ul>
+<li><strong>lobby:</strong> add RefreshToken command, and sdk auto call RefreshToken when Token is refreshed.</li>
+<li><strong>user:</strong> get bulk userInfo</li>
+</ul>
+<h3 id="bug-fixes-80">Bug Fixes</h3>
+<ul>
+<li><strong>UGC:</strong> fix adjustment for backend behavior changes</li>
+</ul>
+<h2 id="810-2021-11-22">[8.1.0] (2021-11-22)</h2>
+<h3 id="features-84">Features</h3>
+<ul>
+<li><strong>accelbyteplugin:</strong> add new internal function to register utf8json resolver. test included</li>
+<li>Added a function to download the UserAvatar of a given UserID UserProfiles.GetUserAvatar(userID,callback)</li>
+<li>Added a function to download the UserAvatar of a given UserID UserProfiles.GetUserAvatar(userID,callback)</li>
+<li>Added a function to download the UserAvatar of a given UserID UserProfiles.GetUserAvatar(userID,callback)</li>
+<li>Added ability to get valid Countries, TimeZones and Languages in the SDK through the Miscellaneous Class</li>
+<li>Added ability to get valid Countries, TimeZones and Languages in the SDK through the Miscellaneous Class</li>
+<li>Added GetPublicUserProfile to a client accessible function</li>
+<li>Added GetPublicUserProfile to a client accessible function</li>
+<li>Added GetPublicUserProfile to a client accessible function</li>
+<li><strong>DSM:</strong> Add support for DSMC Multi Allocation Server Registration.</li>
+<li><strong>ecommerce:</strong> Add Store Media Item Type</li>
+<li><strong>GetCurrentUserProgression:</strong> add GetCurrentUserProgression</li>
+<li><strong>ihttpclient:</strong> add post request without body parameter and make sure that then content type is json media type</li>
+</ul>
+<h3 id="refactors-46">Refactors</h3>
+<ul>
+<li><strong>DSM): Revert &quot;feat(DSM:</strong> Add support for DSMC Multi Allocation Server Registration.&quot;</li>
+</ul>
+<h2 id="800-2021-11-08">[8.0.0] (2021-11-08)</h2>
+<h3 id="-breaking-changes-9">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>LobbyServer:</strong> remove GetActiveParties method.</li>
+</ul>
+<h3 id="features-85">Features</h3>
+<ul>
+<li><strong>AccelBytePlugin:</strong> changes required for multicredential</li>
+<li><strong>ban:</strong> add change ban status, get ban list, and update error code</li>
+<li><strong>reward:</strong> Adding GetRewardByRewardCode, GetRewardByRewardId, and QueryRewards . also setup for the integration tests.</li>
+<li><strong>session:</strong> add is comply</li>
+<li><strong>shadowban:</strong> Add auto refresh token when bearer auth rejected, and try reconnect when in lobby</li>
+</ul>
+<h3 id="bug-fixes-81">Bug Fixes</h3>
+<ul>
+<li><strong>AccelByteHttpClient:</strong> remove ClientSecret is empty checker</li>
+<li><strong>AccelBytePlugin:</strong> remove CheckPlugin preprocessor so that every platform could manually initialize plugin if the plugin has not been initialized</li>
+<li><strong>login:</strong> fix null reference when login with incorrect email</li>
+</ul>
+<h3 id="refactors-47">Refactors</h3>
+<ul>
+<li><strong>LobbyServer:</strong> remove GetActiveParties method.</li>
+</ul>
+<h3 id="711-2021-10-27">[7.1.1] (2021-10-27)</h3>
+<h3 id="refactors-48">Refactors</h3>
+<ul>
+<li><strong>DSM:</strong> Removed apify dependencies</li>
+</ul>
+<h2 id="710-2021-09-27">[7.1.0] (2021-09-27)</h2>
+<h3 id="features-86">Features</h3>
+<ul>
+<li><strong>httperrorparser:</strong> handle empty response body bytes</li>
+</ul>
+<h3 id="bug-fixes-82">Bug Fixes</h3>
+<ul>
+<li><strong>ecommerce:</strong> fix ecommerce setup teardown dependencies</li>
+<li><strong>jenkins:</strong> slack notification + add modules.groovy</li>
+<li><strong>jenkins:</strong> workaround for unity test stuck at clean up mono</li>
+<li><strong>lobby:</strong> make Dictionary&lt;string,int&gt; and &lt;string,string&gt; parseable with ws parser.</li>
+<li><strong>test:</strong> do not shutdown unity run tests on first test failure</li>
+</ul>
+<h3 id="tests-10">Tests</h3>
+<ul>
+<li><strong>TestHelper:</strong> add Wait* test unit</li>
+<li><strong>TestHelper:</strong> change Wait* methods timeout to 1 minute</li>
+<li><strong>TestHelper:</strong> remove WaitWhile &amp; WaitEqual</li>
+</ul>
+<h2 id="700-2021-09-13">[7.0.0] (2021-09-13)</h2>
+<h3 id="-breaking-changes-10">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>User:</strong> Change the name of CountryInfo members of UserModel into using camelCase.</li>
+</ul>
+<h3 id="features-87">Features</h3>
+<ul>
+<li><strong>GameClient:</strong> add extensible client API</li>
+<li><strong>reporting:</strong> Add unity reporting SDK</li>
+<li><strong>SeasonPass:</strong> initial support for Season Pass service</li>
+<li><strong>User:</strong> Reimplement Logout api</li>
+</ul>
+<h3 id="bug-fixes-83">Bug Fixes</h3>
+<ul>
+<li><strong>User:</strong> Change the name of CountryInfo members of UserModel into using camelCase.</li>
+</ul>
+<h3 id="reverts">Reverts</h3>
+<ul>
+<li><strong>accelbyteplugin:</strong> revert accidentally deleted http api configure and getter</li>
+</ul>
+<h2 id="600-2021-08-30">[6.0.0] (2021-08-30)</h2>
+<h3 id="-breaking-changes-11">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>Achievement:</strong> Change the type of goalValue of PublicAchievement and MultiLanguageAchievement and model from int into float.</li>
+</ul>
+<h3 id="features-88">Features</h3>
+<ul>
+<li><strong>accelbyteplugin:</strong> provide basic api url to miscelaneus</li>
+<li><strong>ECommerceModel:</strong> new model for fulfilluserItem api</li>
+<li><strong>ECommerceModels:</strong> add itemid property</li>
+<li><strong>fulfillment:</strong> add new fulfillmentapi, add new fulfillment</li>
+<li><strong>HttpRequestBuilder:</strong> Refactor how http api works to simplify http request creation and make it more testable</li>
+<li><strong>miscellaneous:</strong> miscellaneous api,http request and model</li>
+<li><strong>model:</strong> add var in the leaderboard model</li>
+<li><strong>OrderWalletEntitlementTest:</strong> add fulfilluseritem test for invalid item id and negative amount number</li>
+<li><strong>ServerEcommerceApi:</strong> new fulfill user item method</li>
+<li><strong>ServerEcommerce:</strong> fulfill user item</li>
+</ul>
+<h3 id="bug-fixes-84">Bug Fixes</h3>
+<ul>
+<li><strong>Achievement:</strong> Fix the Achievement Api's Public Achievement and Multi Language Achievement model difference with the Backend response. Fix the Test Helper's Achievement Request and Achievement Response model difference with the Backend response.</li>
+<li><strong>Subscription:</strong> Adjusting from single draft store change</li>
+<li><strong>testhelper:</strong> revert unintended config change</li>
+</ul>
+<h3 id="refactors-49">Refactors</h3>
+<ul>
+<li><strong>accelbyteplugin:</strong> use base url instead of platform url for fulfillment api</li>
+<li><strong>fulfillmentapi:</strong> user PlatformUrl instead of BaseUrl</li>
+</ul>
+<h3 id="tests-11">Tests</h3>
+<ul>
+<li><strong>fulfillmentTest:</strong> add test for fulfillment api</li>
+<li><strong>fulfillmentTest:</strong> complete test</li>
+<li><strong>miscellaneous:</strong> add miscellaneous test</li>
+<li><strong>OrderWalletEntitlementTest:</strong> add server fulfill in-game item success test</li>
+</ul>
+<h2 id="500-2021-08-16">[5.0.0] (2021-08-16)</h2>
+<h3 id="-breaking-changes-12">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>Achievement:</strong> Change the type of latestValue of UserAchievement model from int into float.</li>
+</ul>
+<h3 id="features-89">Features</h3>
+<ul>
+<li><strong>UGC:</strong> add UGC into Unity SDK</li>
+</ul>
+<h3 id="bug-fixes-85">Bug Fixes</h3>
+<ul>
+<li><strong>Achievement:</strong> Fix the User Achievement response model</li>
+<li><strong>LoginSession:</strong> Fix the LoginWithAuthorizationCode() using v1 endpoint</li>
+</ul>
+<h2 id="410-2021-08-02">[4.1.0] (2021-08-02)</h2>
+<h3 id="features-90">Features</h3>
+<ul>
+<li><strong>lobby:</strong> add get &amp; getAll session attribute ws command</li>
+<li><strong>server lobby:</strong> add get, getAll and set user session attribute</li>
+</ul>
+<h3 id="bug-fixes-86">Bug Fixes</h3>
+<ul>
+<li><strong>utf8json:</strong> update utf8json</li>
+</ul>
+<h3 id="tests-12">Tests</h3>
+<ul>
+<li><strong>jenkins:</strong> add quotes to block secrets and passwords</li>
+<li><strong>joinable:</strong> increase timeout because of mm delay logic changes</li>
+<li><strong>lobby:</strong> fixed some lobby tests</li>
+<li><strong>server lobby:</strong> rename UnityTearDown function to CleanupLobbyConnections</li>
+</ul>
+<h2 id="400-2021-06-23">[4.0.0] (2021-06-23)</h2>
+<h3 id="-breaking-changes-13">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>Remove APIGW:</strong> Remove APIGW support from Unity SDK</li>
+</ul>
+<h3 id="features-91">Features</h3>
+<ul>
+<li><strong>Remove APIGW:</strong> Remove APIGW support from Unity SDK</li>
+</ul>
+<h2 id="300-2021-06-09">[3.0.0] (2021-06-09)</h2>
+<h3 id="-breaking-changes-14">⚠ BREAKING CHANGES</h3>
+<ul>
+<li><strong>User:</strong> remove sensitive user information</li>
+</ul>
+<h3 id="features-92">Features</h3>
+<ul>
+<li><strong>User:</strong> remove sensitive user information</li>
+</ul>
+<h3 id="tests-13">Tests</h3>
+<ul>
+<li><strong>leaderboard:</strong> rewrite leadearboard test to be more readable</li>
+</ul>
+<h2 id="2320-2021-05-25">[2.32.0] (2021-05-25)</h2>
+<h3 id="features-93">Features</h3>
+<ul>
+<li><strong>dsm:</strong> add RegisterLocalServer with public ip address &amp; moved GetPublicIp to AccelByteNetUtilites , closes [#263]</li>
+</ul>
+<h2 id="2310-2021-04-28">[2.31.0] (2021-04-28)</h2>
+<h3 id="features-94">Features</h3>
+<ul>
+<li><strong>lobby:</strong> add custom ports field in DSNotif , closes [#258]</li>
+</ul>
+<h2 id="2300-2021-04-14">[2.30.0] (2021-04-14)</h2>
+<h3 id="features-95">Features</h3>
+<ul>
+<li><strong>server:</strong> remove agones</li>
+</ul>
+<h2 id="2290-2021-03-17">[2.29.0] (2021-03-17)</h2>
+<h3 id="features-96">Features</h3>
+<ul>
+<li><strong>config:</strong> make config url optional</li>
+<li><strong>config:</strong> make config url optional</li>
+<li><strong>config:</strong> remove protocol remover</li>
+<li><strong>config:</strong> revert field place</li>
+<li><strong>jsonParser:</strong> add resolver settings to exclude null value</li>
+<li><strong>jsonParser:</strong> add resolver settings to exclude null value</li>
+</ul>
+<h3 id="bug-fixes-87">Bug Fixes</h3>
+<ul>
+<li><strong>config:</strong> fix client lobby url</li>
+<li><strong>config:</strong> fix config JSON</li>
+<li><strong>config:</strong> fix statistic url</li>
+<li><strong>config:</strong> incorrect url</li>
+<li><strong>user:</strong> fix UnlinkOtherPlatform got 406</li>
+<li><strong>user:</strong> fix UnlinkOtherPlatform got 406</li>
+</ul>
+<h3 id="2283-2021-03-03">[2.28.3] (2021-03-03)</h3>
+<h3 id="bug-fixes-88">Bug Fixes</h3>
+<ul>
+<li><strong>dsm:</strong> refactor parse function</li>
+<li><strong>dsm:</strong> replace Provider enum with string</li>
+<li><strong>dsm:</strong> replace Provider enum with string</li>
+<li><strong>dsm:</strong> set variable from parse result</li>
+</ul>
+<h3 id="2282-2021-02-17">[2.28.2] (2021-02-17)</h3>
+<h3 id="2281-2021-02-03">[2.28.1] (2021-02-03)</h3>
+<h3 id="bug-fixes-89">Bug Fixes</h3>
+<ul>
+<li><strong>lobby:</strong> increase timeout and rename function</li>
+<li><strong>plugin:</strong> fix error AccelByteSettings.Save() called in game build. , closes [#240]</li>
+</ul>
+<h2 id="2280-2021-01-20">[2.28.0] (2021-01-20)</h2>
+<h3 id="features-97">Features</h3>
+<ul>
+<li><strong>Automation Metric:</strong> SDET-1300 Integrate SDK Test Result to Automation Metrics , closes [#235]</li>
+<li><strong>lobby:</strong> add matchmaking with extra attribute parameter , closes [#236]</li>
+<li><strong>server:</strong> add GetPartyDataByUserId in server , closes [#238]</li>
+</ul>
+<h3 id="bug-fixes-90">Bug Fixes</h3>
+<ul>
+<li><strong>age:</strong> update age to comply new requisite</li>
+<li><strong>config:</strong> check required field on init</li>
+</ul>
+<h2 id="2270-2021-01-06">[2.27.0] (2021-01-06)</h2>
+<h3 id="features-98">Features</h3>
+<ul>
+<li><strong>lobby:</strong> add client update party storage.</li>
+<li><strong>lobby:</strong> add client update partyStorage.</li>
+<li><strong>server:</strong> implement joinable session</li>
+<li><strong>server:</strong> implement joinable session</li>
+</ul>
+<h3 id="bug-fixes-91">Bug Fixes</h3>
+<ul>
+<li><strong>config:</strong> assign default value when ClientSecret is null</li>
+<li><strong>dsm:</strong> register server shouldn't query QoS but take region from launch params and add provider field</li>
+<li><strong>dsm:</strong> register server shouldn't query QoS but take region from launch params and add provider field</li>
+</ul>
+<h2 id="2260-2020-12-23">[2.26.0] (2020-12-23)</h2>
+<h3 id="features-99">Features</h3>
+<ul>
+<li><strong>lobby:</strong> add matchmaking with temporary party</li>
+<li><strong>lobby:</strong> add matchmaking with temporary party</li>
+<li><strong>log:</strong> make toggle config to enable/disable debug log in editor</li>
+<li><strong>userLogin:</strong> add EpicGames enum</li>
+</ul>
+<h2 id="2250-2020-12-10">[2.25.0] (2020-12-10)</h2>
+<h3 id="features-100">Features</h3>
+<ul>
+<li><strong>lobby:</strong> bulk presence count</li>
+<li><strong>lobby:</strong> support parse lobby message object value</li>
+</ul>
+<h3 id="bug-fixes-92">Bug Fixes</h3>
+<ul>
+<li>login with launcher, calls error callback when the game is not launched from launcher instead of throw assertion</li>
+</ul>
+<h2 id="2240-2020-11-25">[2.24.0] (2020-11-25)</h2>
+<h3 id="features-101">Features</h3>
+<ul>
+<li><strong>cloudsave:</strong> replace record concurrently</li>
+<li><strong>group:</strong> bringback group api from VE</li>
+<li><strong>profanityFilter:</strong> add new WS command setSessionAttribute in lobby, add profanity filter test</li>
+</ul>
+<h3 id="refactors-50">Refactors</h3>
+<ul>
+<li><strong>agreement:</strong> add bulk accept legal to support ismandatory in apigateway</li>
+<li><strong>userId:</strong> get user id by calling refresh data</li>
+</ul>
+<h2 id="2230-2020-11-11">[2.23.0] (2020-11-11)</h2>
+<h3 id="features-102">Features</h3>
+<ul>
+<li><strong>Lobby:</strong> bulk user presence</li>
+<li><strong>user:</strong> stadia login and account link</li>
+</ul>
+<h2 id="2220-2020-10-28">[2.22.0] (2020-10-28)</h2>
+<h3 id="features-103">Features</h3>
+<ul>
+<li><strong>leaderboard:</strong> get leaderboard list</li>
+</ul>
+<h3 id="bug-fixes-93">Bug Fixes</h3>
+<ul>
+<li><strong>dsm:</strong> temporary disabling dsm-related test</li>
+</ul>
+<h3 id="tests-14">Tests</h3>
+<ul>
+<li><strong>Daily Test:</strong> SDET-1166 Run SDK Automation Test Daily and Send report to slack channel</li>
+</ul>
+<h2 id="2210-2020-10-14">[2.21.0] (2020-10-14)</h2>
+<h3 id="features-104">Features</h3>
+<ul>
+<li><strong>lobby:</strong> block and unblock player functions</li>
+<li><strong>lobby:</strong> reject party invitation</li>
+</ul>
+<h2 id="2200-2020-10-01">[2.20.0] (2020-10-01)</h2>
+<h3 id="features-105">Features</h3>
+<ul>
+<li>add cloudsave API to Server SDK</li>
+<li><strong>leaderboard:</strong> add additionalKey and additionalData for character leaderboard</li>
+<li><strong>lobby:</strong> party update notif &amp; its REST APIs</li>
+<li><strong>serverLobby:</strong> change WritePartyStorage signature to prevent overwrite</li>
+</ul>
+<h3 id="bug-fixes-94">Bug Fixes</h3>
+<ul>
+<li><strong>plugin:</strong> hotifx add CheckPlugin() on GetConfig() and set the order of bool setter in the CheckPlugin</li>
+<li><strong>plugin:</strong> plugin failure on Unity Editor disable domain/scene reload</li>
+</ul>
+<h3 id="tests-15">Tests</h3>
+<ul>
+<li><strong>sub:</strong> fixed sub test by changing user</li>
+</ul>
+<h3 id="refactors-51">Refactors</h3>
+<ul>
+<li><strong>search:</strong> add filter param in search users</li>
+</ul>
+<h2 id="2190-2020-09-16">[2.19.0] (2020-09-16)</h2>
+<h3 id="features-106">Features</h3>
+<ul>
+<li><strong>lobby:</strong> add global chat implementation</li>
+<li><strong>statistic:</strong> add additionalKey and additionalData to update statItem endpoint</li>
+<li><strong>statistic:</strong> add reset and update statistic</li>
+<li><strong>subscription:</strong> check subscription in SKD changed flow to not check sub endpoints.</li>
+<li><strong>Subscription:</strong> update using the new flow &amp; API endpoint</li>
+<li><strong>subscriptionTest:</strong> integration test</li>
+<li><strong>user:</strong> register and upgrade with username param</li>
+</ul>
+<h3 id="bug-fixes-95">Bug Fixes</h3>
+<ul>
+<li><strong>subscription:</strong> added flag when final result is found before the end to make it more consistent</li>
+<li><strong>subscription:</strong> changed API endpoint so it can check publisher namespace using game namespace token</li>
+<li><strong>Subscription:</strong> added Publisher Namespace and Changed label &quot;Store App ID&quot; to &quot;App Id&quot; in accelbytePlatrofmSettingEditor</li>
+<li><strong>Subscription:</strong> added publisher namespace in AccelbyteSettings</li>
+<li><strong>Subscription:</strong> changed accessing config from AccelbyteSettings to AccelbytePlugin.Config</li>
+<li><strong>Subscription:</strong> changed sub test name to SubscriptionTest</li>
+<li><strong>Subscription:</strong> some endpoints need to be accessed with publisher namespace (get entitlements by appId, sku and getItems by appid)</li>
+</ul>
+<h3 id="code-style-fixes">Code Style Fixes</h3>
+<ul>
+<li><strong>Subscription:</strong> added newline before callback parameter to keep style inline with other functions.</li>
+</ul>
+<h3 id="tests-16">Tests</h3>
+<ul>
+<li><strong>subcription:</strong> changed appId to static to comply to Jenkins Test</li>
+</ul>
+<h2 id="2180-2020-09-02">[2.18.0] (2020-09-02)</h2>
+<h3 id="features-107">Features</h3>
+<ul>
+<li><strong>Lobby:</strong> add partyAttributes for matchmaking</li>
+<li><strong>User:</strong> add ForcedLinkOtherPlatform function</li>
+<li><strong>User:</strong> fix refreshed token not distributed correctly to other services</li>
+</ul>
+<h2 id="2170-2020-08-19">[2.17.0] (2020-08-19)</h2>
+<h3 id="features-108">Features</h3>
+<ul>
+<li><strong>Achievement:</strong> bring this API back from customer Versus Evil Unity SDK repository.</li>
+</ul>
+<h3 id="bug-fixes-96">Bug Fixes</h3>
+<ul>
+<li><strong>test:</strong> additional incremental Achievement test</li>
+</ul>
+<h2 id="2160-2020-08-05">[2.16.0] (2020-08-05)</h2>
+<h3 id="features-109">Features</h3>
+<ul>
+<li><strong>editor:</strong> AccelBytePlugin static class need to be forcefully initialize on Unity Editor entering the play mode</li>
+<li><strong>gameTelemetry:</strong> APIs are added for both client &amp; server</li>
+</ul>
+<h3 id="bug-fixes-97">Bug Fixes</h3>
+<ul>
+<li><strong>cloudstorage:</strong> Fix UpdateSlotMetadata function</li>
+<li><strong>dsm:</strong> only select healthy DSM url</li>
+<li><strong>statistic:</strong> Fix statistic error codes.</li>
+</ul>
+<h3 id="ci">CI</h3>
+<ul>
+<li><strong>jenkins:</strong> archive test log file</li>
+<li><strong>jenkins:</strong> temporary social service env flag</li>
+</ul>
+<h3 id="tests-17">Tests</h3>
+<ul>
+<li>add leaderboard log result</li>
+<li>log the test name at beginning test run</li>
+</ul>
+<h3 id="refactors-52">Refactors</h3>
+<ul>
+<li><strong>Agremeent:</strong> add missing function from bring back</li>
+</ul>
+<h3 id="2153-2020-07-08">[2.15.3] (2020-07-08)</h3>
+<h3 id="bug-fixes-98">Bug Fixes</h3>
+<ul>
+<li><strong>serverDSM:</strong> agones heartbeat delegate return should not be null</li>
+</ul>
+<h2 id="2152-2020-07-01">2.15.2 (2020-07-01)</h2>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>ServerDSM
+<ul>
+<li>ENABLE_AGONES_PLUGIN definition added</li>
+<li>Required to compile Agones by AccelByte SDK</li>
+</ul>
+</li>
+</ul>
+<h2 id="2151-2020-06-26">2.15.1 (2020-06-26)</h2>
+<h3 id="changed-1">Changed</h3>
+<ul>
+<li>Agreement
+<ul>
+<li>GetLegalPolicies
+<ul>
+<li>Add policyType and tags param</li>
+</ul>
+</li>
+<li>GetLegalPoliciesByCountry
+<ul>
+<li>Add policyType and tags param</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2150-2020-06-25">2.15.0 (2020-06-25)</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>CloudSave
+<ul>
+<li>Add SaveUserRecord</li>
+<li>Add ReplaceUserRecord</li>
+<li>Add GetUserRecord</li>
+<li>Add GetPublicUserRecord</li>
+<li>Add DeleteUserRecord</li>
+<li>Add SaveGameRecord</li>
+<li>Add ReplaceGameRecord</li>
+<li>Add GetGameRecord</li>
+<li>Add DeleteGameRecord</li>
+</ul>
+</li>
+<li>CloudSaveModels
+<ul>
+<li>Add UserRecord</li>
+<li>Add GameRecord</li>
+</ul>
+</li>
+</ul>
+<h2 id="2140-2020-06-24">2.14.0 (2020-06-24)</h2>
+<h3 id="added-1">Added</h3>
+<ul>
+<li>Leaderboard
+<ul>
+<li>Add GetRankings</li>
+<li>Add GetUserRanking</li>
+</ul>
+</li>
+</ul>
+<h2 id="2130-2020-06-23">2.13.0 (2020-06-23)</h2>
+<h3 id="added-2">Added</h3>
+<ul>
+<li>Agones SDK</li>
+<li>Dedicated Server Manager Api
+<ul>
+<li>Agones provider support</li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>Pretty print AccelByteConfig.json</li>
+</ul>
+<h2 id="2120-2020-06-18">2.12.0 (2020-06-18)</h2>
+<h3 id="added-3">Added</h3>
+<ul>
+<li>Agreement
+<ul>
+<li>Add GetLegalPolicies</li>
+<li>Add GetLegalPoliciesByCountry</li>
+<li>Add BulkAcceptPolicyVersions</li>
+<li>Add AcceptPolicyVersion</li>
+</ul>
+</li>
+</ul>
+<h2 id="2110-2020-06-08">2.11.0 (2020-06-08)</h2>
+<h3 id="added-4">Added</h3>
+<ul>
+<li>User Account
+<ul>
+<li>Add UpgradeWithPlayerPortal</li>
+<li>Add GetCountryFromIP</li>
+</ul>
+</li>
+<li>Entitlement
+<ul>
+<li>Add CreateDistributionReceiver</li>
+<li>Add GetDistributionReceiver</li>
+<li>Add DeleteDistributionReceiver</li>
+<li>Add UpdateDistributionReceiver</li>
+</ul>
+</li>
+<li>Config
+<ul>
+<li>Add ApiBaseUrl for GetCountryFromIP feature</li>
+<li>Add NonApiBaseUrl for UpgradeWithPlayerPortal feature</li>
+</ul>
+</li>
+<li>User Models
+<ul>
+<li>Add CountryInfo</li>
+<li>Add UpgradeUserRequest</li>
+</ul>
+</li>
+<li>Ecommerce Models
+<ul>
+<li>Add DistributesAttributes</li>
+<li>Add Attributes</li>
+<li>Add Distribution Receiver</li>
+</ul>
+</li>
+</ul>
+<h2 id="2102-2020-06-03">2.10.2 (2020-06-03)</h2>
+<h3 id="changed-2">Changed</h3>
+<ul>
+<li>Entitlement
+<ul>
+<li>GetEntitlements() -&gt; GetEntitlement()</li>
+</ul>
+</li>
+</ul>
+<h2 id="2101-2020-05-28">2.10.1 (2020-05-28)</h2>
+<h3 id="added-5">Added</h3>
+<ul>
+<li>User
+<ul>
+<li>add <code>ps4</code> and xbox <code>live</code> enum for 3rd party login</li>
+</ul>
+</li>
+<li>Plugin
+<ul>
+<li>add <code>UNITY_PS4</code>, <code>UNITY_XBOXONE</code> and <code>UNITY_SWITCH</code> macro to support development on 3rd platform</li>
+</ul>
+</li>
+</ul>
+<h2 id="2100-2020-05-26">2.10.0 (2020-05-26)</h2>
+<h3 id="added-6">Added</h3>
+<ul>
+<li>User
+<ul>
+<li>Bulk Get User Id by Third Party Platform</li>
+</ul>
+</li>
+<li>Lobby
+<ul>
+<li>Add LobbyApi</li>
+<li>Add Bulk Friend Request</li>
+</ul>
+</li>
+</ul>
+<h2 id="290-2020-04-14">2.9.0 (2020-04-14)</h2>
+<h3 id="added-7">Added</h3>
+<ul>
+<li>UserProfile Api
+<ul>
+<li>GetCustomAttributes</li>
+<li>UpdateCustomAttributes</li>
+</ul>
+</li>
+</ul>
+<h2 id="280-2020-04-09">2.8.0 (2020-04-09)</h2>
+<h3 id="added-8">Added</h3>
+<ul>
+<li>Session Management
+<ul>
+<li>Add automatic refresh session coroutine</li>
+</ul>
+</li>
+<li>DedicatedServerManager
+<ul>
+<li>Implement register static ds</li>
+<li>implement get regional dsm url</li>
+<li>Add errorRetry param on ConfigureHeartBeat</li>
+<li>Will stop sending heartbeat after errorRetry number reached</li>
+</ul>
+</li>
+<li>ServerQos
+<ul>
+<li>Get latencies from game server</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-3">Changed</h3>
+<ul>
+<li>Cloudstorage model dateAccessed, dateCreated, dateModified type from float to DateTime</li>
+</ul>
+<h3 id="fixed-1">Fixed</h3>
+<ul>
+<li>Lobby
+<ul>
+<li>Latencies format when startmatchmaking</li>
+</ul>
+</li>
+<li>ServerModels
+<ul>
+<li>MatchingAlly
+<ul>
+<li>string partyId</li>
+<li>string[] partyMember -&gt; MatchParty[] matching_parties</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Jenkins pipeline
+<ul>
+<li>Fix tests</li>
+</ul>
+</li>
+</ul>
+<h2 id="270-2020-03-26">2.7.0 (2020-03-26)</h2>
+<h3 id="added-9">Added</h3>
+<ul>
+<li>Session Management
+<ul>
+<li>Add automatic refresh session coroutine</li>
+</ul>
+</li>
+</ul>
+<h2 id="260-2020-03-03">2.6.0 (2020-03-03)</h2>
+<h3 id="added-10">Added</h3>
+<ul>
+<li>Statistic
+<ul>
+<li>CreateUserStatItems</li>
+<li>GetUserStatItems</li>
+<li>IncrementUserStatItems</li>
+</ul>
+</li>
+<li>Entitlement
+<ul>
+<li>Get user entitlement by its entitlement id.</li>
+<li>Consume user entitlement.</li>
+</ul>
+</li>
+<li>ServerEcommerce
+<ul>
+<li>Credit user wallet.</li>
+<li>Grant user entitlement.</li>
+<li>Get user entitlement by its entitlement id.</li>
+</ul>
+</li>
+<li>Ecommerce Model:
+<ul>
+<li>Enum CreditUserWalletSource</li>
+<li>ConsumeUserEntitlementRequest</li>
+<li>CreditUserWalletRequest</li>
+<li>GrantUserEntitlementRequest</li>
+<li>StackableEntitlementInfo</li>
+</ul>
+</li>
+<li>QosManager
+<ul>
+<li>Get Qos Servers</li>
+</ul>
+</li>
+<li>Qos
+<ul>
+<li>Get Server Latencies</li>
+</ul>
+</li>
+</ul>
+<h3 id="fixed-2">Fixed</h3>
+<ul>
+<li>Lobby
+<ul>
+<li>Stop reconnecting when lobby server disconnects client because token revoked, expired or another session for the same user connecting</li>
+</ul>
+</li>
+<li>Integration Test
+<ul>
+<li>Fix user test</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-4">Changed</h3>
+<ul>
+<li>Statistic API Standardization
+<ul>
+<li>Model:
+<ul>
+<li>StatItemInfo into StatItem</li>
+<li>BulkUserStatItemInc into UserStatItemIncrement</li>
+<li>StatInfo into StatConfig</li>
+<li>StatItemIncResult into CreateStatItemRequest
+<ul>
+<li>Data Member delete: currentValue</li>
+<li>Data Member add: statCode</li>
+</ul>
+</li>
+<li>StatItemPagingSlicedResult into PagedStatItems</li>
+<li>BulkStatItemInc into StatItemIncrement</li>
+<li>BulkStatItemOperationResult into StatItemOperationResult
+<ul>
+<li>Data Member change: detail -&gt; details</li>
+</ul>
+</li>
+<li>StatItemInfo
+<ul>
+<li>Add member public string[] tags</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>User
+<ul>
+<li>GetUserByEmailAddress into SearchUsers
+<ul>
+<li>parameter: string emailadress -&gt; string emailOrDisplayName</li>
+</ul>
+</li>
+<li>UnlinkOtherPlatform
+<ul>
+<li>parameter: string platformId -&gt; PlatformType platformType</li>
+</ul>
+</li>
+<li>LinkOtherPlatform
+<ul>
+<li>parameter: string platformId -&gt; PlatformType platformType</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Entitlement
+<ul>
+<li>Change class name from entitlements into entitlement</li>
+</ul>
+</li>
+</ul>
+<h2 id="250-2019-11-25">2.5.0 (2019-11-25)</h2>
+<h3 id="fixed-3">Fixed</h3>
+<ul>
+<li>Platform
+<ul>
+<li>Models
+<ul>
+<li>Change sealed class to enum</li>
+<li>Added enum:
+<ul>
+<li>OrderStatus</li>
+<li>EntitlementSource</li>
+</ul>
+</li>
+<li>Refactor some class name and fix some class members:
+<ul>
+<li>WalletTransaction -&gt; WalletTransactionInfo</li>
+<li>PagedWalletTransactions -&gt; WalletTransactionPagingSlicedResult</li>
+<li>WalletInfo
+<ul>
+<li>string status -&gt; ItemStatus status</li>
+</ul>
+</li>
+<li>Category -&gt; CategoryInfo
+<ul>
+<li>childCategories -&gt; Deleted</li>
+</ul>
+</li>
+<li>RegionData -&gt; RegionDataItem
+<ul>
+<li>int totalNum -&gt; Deleted</li>
+<li>int totalNumPerAccount -&gt; Deleted</li>
+<li>int discountTotalNum -&gt; Deleted</li>
+<li>int discountTotalNumPerAccount -&gt; Deleted</li>
+</ul>
+</li>
+<li>ItemCriteria
+<ul>
+<li>EntitlementAppType AppType -&gt; Added</li>
+<li>string Region -&gt; Added</li>
+<li>string Language -&gt; Added</li>
+<li>string BaseAppId -&gt; Added</li>
+<li>string[] Tags -&gt; Added</li>
+<li>ItemStatus ItemStatus -&gt; Deleted</li>
+<li>int? Page -&gt; int? Offset</li>
+<li>int? Size -&gt; int? Limit</li>
+</ul>
+</li>
+<li>Item -&gt; ItemInfo
+<ul>
+<li>Image thumbnailImage -&gt; Deleted</li>
+<li>string thumbnailUrl -&gt; Added</li>
+<li>bool stackable -&gt; Added</li>
+<li>string status -&gt; ItemStatus status</li>
+<li>string baseAppId -&gt; Added</li>
+<li>string name -&gt; Added</li>
+<li>string targetNamespace -&gt; Added</li>
+<li>string targetItemId -&gt; Added</li>
+<li>int maxCountPerUser -&gt; Added</li>
+<li>int maxCount -&gt; Added</li>
+</ul>
+</li>
+<li>ItemSnapshot
+<ul>
+<li>string baseAppId -&gt; Added</li>
+<li>EntitlementType entitlementType -&gt; Added</li>
+<li>bool stackable -&gt; Added</li>
+<li>string thumbnailUrl -&gt; Added</li>
+<li>Image thumbnailImage -&gt; Deleted</li>
+<li>string targetItemId -&gt; Added</li>
+<li>string boothName -&gt; Added</li>
+<li>string clazz -&gt; Added</li>
+<li>string boothName -&gt; Added</li>
+<li>int displayOrder -&gt; Added</li>
+<li>string ext -&gt; Added</li>
+<li>string region -&gt; Added</li>
+<li>string language -&gt; Added</li>
+<li>string localExt -&gt; Added</li>
+</ul>
+</li>
+<li>Image
+<ul>
+<li>string As -&gt; Added</li>
+<li>string caption -&gt; Added</li>
+</ul>
+</li>
+<li>PagedItems -&gt; ItemPagingSlicedResult</li>
+<li>PagedOrderInfo -&gt; OrderPagingSlicedResult</li>
+<li>Entitlement -&gt; EntitlementInfo
+<ul>
+<li>EntitlementSource source -&gt; Added</li>
+</ul>
+</li>
+<li>PagedEntitlements -&gt; EntitlementPagingSlicedResult</li>
+<li>OrderHistoryInfo
+<ul>
+<li>string Namespace -&gt; Added</li>
+</ul>
+</li>
+<li>OrderInfo
+<ul>
+<li>string paymentOrderNo -&gt; Added</li>
+<li>string paymentProvider -&gt; Added</li>
+<li>PaymentUrl -&gt; paymentUrl -&gt; Deleted</li>
+<li>ItemSnapshot itemSnapshot -&gt; Added</li>
+<li>OrderTransaction[] transactions -&gt; Deleted</li>
+<li>string entitlementIds -&gt; Deleted</li>
+<li>string region -&gt; Added</li>
+<li>string language -&gt; Added</li>
+<li>string status -&gt; OrderStatus status</li>
+<li>DateTime chargebackTime -&gt; Added</li>
+<li>DateTime chargebackReversedTime -&gt; Added</li>
+<li>DateTime createdAt -&gt; Added</li>
+<li>DateTime updatedAt -&gt; Added</li>
+</ul>
+</li>
+<li>OrderRequest
+<ul>
+<li>string language -&gt; Added</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Added class:
+<ul>
+<li>PopulatedItemInfo</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-5">Changed</h3>
+<ul>
+<li>Rearrange Folder
+<ul>
+<li>UnitySampleProject folder removed</li>
+<li>All files and folders in UnitySampleProject has been moved to root folder</li>
+</ul>
+</li>
+<li>Statistic API Standardization
+<ul>
+<li>Model:
+<ul>
+<li>StatItemInfo
+<ul>
+<li>Data Member change: profileId -&gt; userId</li>
+</ul>
+</li>
+<li>BulkUserStatItemInc
+<ul>
+<li>Data Member change: profileId -&gt; userId</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Delete Jenkinsfile function to create doxygen document</li>
+</ul>
+<h3 id="added-11">Added</h3>
+<ul>
+<li>Log
+<ul>
+<li>Add HTTP Request/Response Log</li>
+<li>Add Current Function Log</li>
+</ul>
+</li>
+<li>Release
+<ul>
+<li>Add Release folder for Unity SDK Package (in GitHub)</li>
+</ul>
+</li>
+</ul>
+<h2 id="240-2019-11-11">2.4.0 (2019-11-11)</h2>
+<h3 id="changed-6">Changed</h3>
+<ul>
+<li>Statistic API Standardization
+<ul>
+<li>API:
+<ul>
+<li>GetAllStatItems() &amp; GetStatItemsByStatCodes() -&gt; GetUserStatItems()
+<ul>
+<li>URL change: <code>GET</code> &quot;/public/namespaces/{namespace}/users/{userId}/profiles/{profileId}/statitems&quot; -&gt; <code>GET</code> &quot;/v1/public/namespaces/{namespace}/users/{userId}/statitems&quot;</li>
+</ul>
+</li>
+<li>BulkAddStatItemValue()
+<ul>
+<li>URL change: <code>POST</code> &quot;/public/namespaces/{namespace}/statitems/bulk/inc&quot; -&gt; <code>PUT</code> &quot;/v1/public/namespaces/{namespace}/statitems/value/bulk&quot;</li>
+</ul>
+</li>
+<li>BulkAddUserStatItemValue()
+<ul>
+<li>URL change: <code>POST</code> &quot;/public/namespaces/{namespace}/users/{userId}/profiles/{profileId}/statitems/bulk/inc&quot; -&gt; <code>PUT</code> &quot;/v1/public/namespaces/{namespace}/users/{userId}/statitems/value/bulk&quot;</li>
+</ul>
+</li>
+<li>AddUserStatItemValue()
+<ul>
+<li>URL change: <code>POST</code> &quot;/public/namespaces/{namespace}/users/{userId}/profiles/{profileId}/stats/{statCode}/statitems/inc&quot; -&gt; <code>PUT</code> &quot;/v1/public/namespaces/{namespace}/users/{userId}/stats/{statCode}/statitems/value&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Model:
+<ul>
+<li>StatItemInfo
+<ul>
+<li>Add member public string[] tags
+#Added</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Statistic
+<ul>
+<li>Add GetUserStatItemsByTags()
+<ul>
+<li>URL: <code>GET</code> &quot;/v1/public/namespaces/{namespace}/users/{userId}/statitems&quot;</li>
+<li>Query param: &quot;tags&quot;
+#Fixed</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Basic
+<ul>
+<li>Follow API Standardization
+<ul>
+<li>Endpoint Url:
+<ul>
+<li>UserProfilesApi.CreateUserProfile() &quot;/basic/public/namespaces/{namespace}/users/me/profiles&quot; -&gt; &quot;/basic/v1/public/namespaces/{namespace}/users/me/profiles&quot;</li>
+<li>UserProfilesApi.GetUserProfilePublicInfo() &quot;/basic/public/namespaces/{namespace}/users/{userId}/profiles/public&quot; -&gt; &quot;/basic/v1/public/namespaces/{namespace}/users/{userId}/profiles/public&quot;</li>
+<li>UserProfilesApi.UpdateUserProfile() &quot;/basic/public/namespaces/{namespace}/users/me/profiles&quot; -&gt; &quot;/basic/v1/public/namespaces/{namespace}/users/me/profiles&quot;</li>
+<li>UserProfilesApi.GetUserProfile() &quot;/basic/public/namespaces/{namespace}/users/me/profiles&quot; -&gt; &quot;/basic/v1/public/namespaces/{namespace}/users/me/profiles&quot;</li>
+<li>UserProfilesApi.GetUserProfilePublicInfosByIds &quot;/basic/public/namespaces/{namespace}/profiles/public&quot; -&gt; &quot;/basic/v1/public/namespaces/{namespace}/profiles/public&quot;</li>
+<li>UserProfilesApi.GetTimeZones &quot;/basic/public/namespaces/{namespace}/misc/timezones&quot; -&gt; &quot;/basic/v1/public/namespaces/{namespace}/misc/timezones&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Cleanup user profile on integration test</li>
+</ul>
+</li>
+</ul>
+<h2 id="230-2019-10-15">2.3.0 (2019-10-15)</h2>
+<h3 id="added-12">Added</h3>
+<ul>
+<li>Enum members for IAM error handling</li>
+</ul>
+<h3 id="fixed-4">Fixed</h3>
+<ul>
+<li>Jenkins Automation
+<ul>
+<li>Adding Order param on Ecommerce Test</li>
+<li>Fix set proxy on jenkins file</li>
+<li>Add delay for steam to startup on jenkins file</li>
+<li>Ignore some test on RetryTest because can't be done on automated machine</li>
+<li>Change virtual coinCode from &quot;SdkCoin&quot; to &quot;SDKC&quot;</li>
+<li>Adding &quot;sortBy&quot; param for GetItemByCriteria endpoint</li>
+<li>Adding set proxy on Lobby WebSocket test</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-7">Changed</h3>
+<ul>
+<li>Remove intermediate conversion from UTF8 to .NET string before converting to object</li>
+</ul>
+<h3 id="breaking-changes">Breaking changes</h3>
+<ul>
+<li>IAM API Standardization
+<ul>
+<li>UserAccount.Register():
+<ul>
+<li>Result type change: <code>UserData</code> -&gt; <code>RegisterUserResponse</code>, incompatible fields</li>
+</ul>
+</li>
+<li>UserAccount.GetData():
+<ul>
+<li>URL change: <code>GET /v2/public/namespaces/{namespace}/users/{userId}</code> -&gt; <code>GET /v3/public/namespaces/{namespace}/users/me</code></li>
+</ul>
+</li>
+<li>UserAccount.Update():
+<ul>
+<li>URL change: <code>PATCH /v2/public/namespaces/{namespace}/users/{userId}</code> -&gt; <code>PATCH /v3/public/namespaces/{namespace}/users/me</code></li>
+</ul>
+</li>
+<li>UserAccount.Upgrade():
+<ul>
+<li>URL change: <code>POST /v3/public/namespaces/{namespace}/users/{userId}/headless/verify</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/me/headless/verify</code></li>
+</ul>
+</li>
+<li>UserAccount.SendVerificationCode()
+<ul>
+<li>URL change: <code>POST /v3/public/namespaces/{namespace}/users/{userId}/code/request</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/me/code/request</code></li>
+</ul>
+</li>
+<li>UserAccount.Verify()
+<ul>
+<li>URL change: <code>POST /v3/public/namespaces/{namespace}/users/{userId}/code/verify</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/me/code/verify</code></li>
+</ul>
+</li>
+<li>UserAccount.SendPasswordResetCode()
+<ul>
+<li>URL change: <code>POST /v2/public/namespaces/{namespace}/users/forgotPassword</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/forgot&quot;</code></li>
+<li>Request Body change: JSON structure changed incompatibly</li>
+</ul>
+</li>
+<li>UserAccount.ResetPassword()
+<ul>
+<li>URL change: <code>POST /v2/public/namespaces/{namespace}/users/resetPassword</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/reset</code></li>
+</ul>
+</li>
+<li>UserAccount.LinkOtherPlatform()
+<ul>
+<li>URL change: <code>POST /v2/public/namespaces/{namespace}/users/{userId}/platforms/{platformId}/link</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/me/platforms/{platformId}</code></li>
+</ul>
+</li>
+<li>UserAccount.UnlinkOtherPlatform()
+<ul>
+<li>URL change: <code>DELETE /v2/public/namespaces/{namespace}/users/{userId}/platforms/{platformId}/link</code> -&gt; <code>DELETE /v3/public/namespaces/{namespace}/users/me/platforms/{platformId}</code></li>
+</ul>
+</li>
+<li>UserAccount.GetPlatformLinks()
+<ul>
+<li>Result type change: <code>PlatformLink[]</code> -&gt; <code>PagedPlatformLinks</code>, add paging and change fields naming to camelCase</li>
+</ul>
+</li>
+<li>UserAccount.GetUserByLoginId()
+<ul>
+<li>Signature change: <code>GetUserByLoginId(string loginId, ResultCallback&lt;UserData&gt; callback)</code> -&gt; <code>GetUserByEmailAddress(string emailAdress, ResultCallback&lt;PagedPublicUsersInfo&gt; callback)</code></li>
+<li>URL change: <code>GET /namespaces/{namespace}/users/byLoginId</code> -&gt; <code>GET /v3/public/namespaces/{namespace}/users</code></li>
+<li>Request Body change: add query param <code>query</code> with value = email address</li>
+<li>Result type change: <code>UserData</code> -&gt; <code>PagedPublicUsersInfo</code>, incompatible fields with paging</li>
+</ul>
+</li>
+<li>UserAccount.GetUserByUserId()
+<ul>
+<li>URL change: <code>GET /namespaces/{namespace}/users/{userId}</code> -&gt; <code>GET /v3/public/namespaces/{namespace}/users/{userId}</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="v230-2019-10-15">v2.3.0 (2019-10-15)</h2>
+<h3 id="added-13">Added</h3>
+<ul>
+<li>Enum members for IAM error handling</li>
+</ul>
+<h3 id="fixed-5">Fixed</h3>
+<ul>
+<li>Jenkins Automation
+<ul>
+<li>Adding Order param on Ecommerce Test</li>
+<li>Fix set proxy on jenkins file</li>
+<li>Add delay for steam to startup on jenkins file</li>
+<li>Ignore some test on RetryTest because can't be done on automated machine</li>
+<li>Change virtual coinCode from &quot;SdkCoin&quot; to &quot;SDKC&quot;</li>
+<li>Adding &quot;sortBy&quot; param for GetItemByCriteria endpoint</li>
+<li>Adding set proxy on Lobby WebSocket test</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-8">Changed</h3>
+<ul>
+<li>Remove intermediate conversion from UTF8 to .NET string before converting to object</li>
+</ul>
+<h3 id="breaking-changes-1">Breaking changes</h3>
+<ul>
+<li>IAM API Standardization
+<ul>
+<li>UserAccount.Register():
+<ul>
+<li>Result type change: <code>UserData</code> -&gt; <code>RegisterUserResponse</code>, incompatible fields</li>
+</ul>
+</li>
+<li>UserAccount.GetData():
+<ul>
+<li>URL change: <code>GET /v2/public/namespaces/{namespace}/users/{userId}</code> -&gt; <code>GET /v3/public/namespaces/{namespace}/users/me</code></li>
+</ul>
+</li>
+<li>UserAccount.Update():
+<ul>
+<li>URL change: <code>PATCH /v2/public/namespaces/{namespace}/users/{userId}</code> -&gt; <code>PATCH /v3/public/namespaces/{namespace}/users/me</code></li>
+</ul>
+</li>
+<li>UserAccount.Upgrade():
+<ul>
+<li>URL change: <code>POST /v3/public/namespaces/{namespace}/users/{userId}/headless/verify</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/me/headless/verify</code></li>
+</ul>
+</li>
+<li>UserAccount.SendVerificationCode()
+<ul>
+<li>URL change: <code>POST /v3/public/namespaces/{namespace}/users/{userId}/code/request</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/me/code/request</code></li>
+</ul>
+</li>
+<li>UserAccount.Verify()
+<ul>
+<li>URL change: <code>POST /v3/public/namespaces/{namespace}/users/{userId}/code/verify</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/me/code/verify</code></li>
+</ul>
+</li>
+<li>UserAccount.SendPasswordResetCode()
+<ul>
+<li>URL change: <code>POST /v2/public/namespaces/{namespace}/users/forgotPassword</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/forgot&quot;</code></li>
+<li>Request Body change: JSON structure changed incompatibly</li>
+</ul>
+</li>
+<li>UserAccount.ResetPassword()
+<ul>
+<li>URL change: <code>POST /v2/public/namespaces/{namespace}/users/resetPassword</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/reset</code></li>
+</ul>
+</li>
+<li>UserAccount.LinkOtherPlatform()
+<ul>
+<li>URL change: <code>POST /v2/public/namespaces/{namespace}/users/{userId}/platforms/{platformId}/link</code> -&gt; <code>POST /v3/public/namespaces/{namespace}/users/me/platforms/{platformId}</code></li>
+</ul>
+</li>
+<li>UserAccount.UnlinkOtherPlatform()
+<ul>
+<li>URL change: <code>DELETE /v2/public/namespaces/{namespace}/users/{userId}/platforms/{platformId}/link</code> -&gt; <code>DELETE /v3/public/namespaces/{namespace}/users/me/platforms/{platformId}</code></li>
+</ul>
+</li>
+<li>UserAccount.GetPlatformLinks()
+<ul>
+<li>Result type change: <code>PlatformLink[]</code> -&gt; <code>PagedPlatformLinks</code>, add paging and change fields naming to camelCase</li>
+</ul>
+</li>
+<li>UserAccount.GetUserByLoginId()
+<ul>
+<li>Signature change: <code>GetUserByLoginId(string loginId, ResultCallback&lt;UserData&gt; callback)</code> -&gt; <code>GetUserByEmailAddress(string emailAdress, ResultCallback&lt;PagedPublicUsersInfo&gt; callback)</code></li>
+<li>URL change: <code>GET /namespaces/{namespace}/users/byLoginId</code> -&gt; <code>GET /v3/public/namespaces/{namespace}/users</code></li>
+<li>Request Body change: add query param <code>query</code> with value = email address</li>
+<li>Result type change: <code>UserData</code> -&gt; <code>PagedPublicUsersInfo</code>, incompatible fields with paging</li>
+</ul>
+</li>
+<li>UserAccount.GetUserByUserId()
+<ul>
+<li>URL change: <code>GET /namespaces/{namespace}/users/{userId}</code> -&gt; <code>GET /v3/public/namespaces/{namespace}/users/{userId}</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="v200-2019-08-19">v2.0.0 (2019-08-19)</h2>
+<h3 id="added-14">Added</h3>
+<ul>
+<li>Session Management
+<ul>
+<li>Implementing API Gateway</li>
+<li>Add Switchable Session Management</li>
+</ul>
+</li>
+<li>Supported Game Profile Service Features
+<ul>
+<li>Create Game Profile</li>
+<li>Get Game Profile</li>
+<li>Update Game Profile</li>
+<li>Delete Game Profile</li>
+</ul>
+</li>
+<li>Supported Statistic Service Features
+<ul>
+<li>Get StatItem</li>
+<li>Update StatItem from Client</li>
+</ul>
+</li>
+<li>Supported Lobby Service Features
+<ul>
+<li>Ready Consent</li>
+<li>DS Notif</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed-9">Changed</h3>
+<ul>
+<li>Coroutine
+<ul>
+<li>Change from Custom Coroutine to Unity Coroutine</li>
+</ul>
+</li>
+<li>Updated to v2.0.0 for Justice release v2.0.0</li>
+</ul>
+<h2 id="v100-beta1-2019-03-13">v1.0.0-beta.1 (2019-03-13)</h2>
+<h3 id="added-15">Added</h3>
+<ul>
+<li>Supported IAM Service Features:
+<ul>
+<li>Login With Username and Password</li>
+<li>Login With Other Platforms (Google, Facebook, and Steam)</li>
+<li>Login With AccelByte Launcher</li>
+<li>Login With Device ID</li>
+<li>User Registration</li>
+<li>User Verification (via email)</li>
+<li>Upgrade device account and other platform account to proper AccelByte account with username and password</li>
+<li>Update User Data</li>
+</ul>
+</li>
+<li>Supported Basic Service Features
+<ul>
+<li>Create User Profile</li>
+<li>Get User Profile</li>
+<li>Update User Profile</li>
+<li>Delete User Profile</li>
+</ul>
+</li>
+<li>Supported Platform and E-Commerce Service Features:
+<ul>
+<li>Get Wallet Info</li>
+<li>Create Order</li>
+<li>Get Entitlements</li>
+<li>Browse catalog (categories and items)</li>
+</ul>
+</li>
+<li>Supported Lobby Service Features
+<ul>
+<li>Private Chat</li>
+<li>Party</li>
+<li>Friends</li>
+<li>Matchmaking</li>
+<li>Notification</li>
+</ul>
+</li>
+</ul>
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/bjornbyte" target="_blank">bjornbyte</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
